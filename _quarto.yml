@@ -12,13 +12,16 @@ website:
     [LSC Hubs 2023](https://lsc-hubs.org)</footer>
   title: "LSC Hub - core"
   sidebar:
-    contents: ./*
+    style: "docked"
+    search: true
+    contents:
+      - ./*
+
 format:
   html:
     theme: 
       - sandstone
       - custom.scss
-    toc: true
   
 
 
