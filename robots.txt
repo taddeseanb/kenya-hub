@@ -1,0 +1,1 @@
+Sitemap: https://github.com/lsc-hubs/hub-core/sitemap.xml

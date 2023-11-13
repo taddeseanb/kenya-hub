@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "LSC Hubs",
+    "section": "",
+    "text": "documentation"
+  },
+  {
+    "objectID": "docs/index.html#contents",
+    "href": "docs/index.html#contents",
+    "title": "LSC Hubs",
+    "section": "",
+    "text": "documentation"
+  },
+  {
+    "objectID": "docs/docs/index.html",
+    "href": "docs/docs/index.html",
+    "title": "LSC Hubs documentation",
+    "section": "",
+    "text": "User documentation\nAdministrator documentation\nDeveloper documentation"
+  },
+  {
+    "objectID": "docs/docs/index.html#contents",
+    "href": "docs/docs/index.html#contents",
+    "title": "LSC Hubs documentation",
+    "section": "",
+    "text": "User documentation\nAdministrator documentation\nDeveloper documentation"
+  },
+  {
+    "objectID": "docs/docs/admin/index.html",
+    "href": "docs/docs/admin/index.html",
+    "title": "Administration documentation",
+    "section": "",
+    "text": "LSC Hubs 2023"
+  },
+  {
+    "objectID": "docs/docs/developer/index.html",
+    "href": "docs/docs/developer/index.html",
+    "title": "Developer documentation",
+    "section": "",
+    "text": "LSC Hubs 2023"
+  },
+  {
+    "objectID": "docs/docs/user/index.html",
+    "href": "docs/docs/user/index.html",
+    "title": "User documentation LSC Hubs",
+    "section": "",
+    "text": "This document describes the components of a LSC Hub from a user perspective.\nA typical LSC hub consists of 3 components:"
+  },
+  {
+    "objectID": "docs/docs/user/index.html#content-section",
+    "href": "docs/docs/user/index.html#content-section",
+    "title": "User documentation LSC Hubs",
+    "section": "Content section",
+    "text": "Content section\nThe entry point of the hub are some webpages with general information about the project.\nMore content is available in the documentation section.\n\n\n\nLSC hub homepage\n\n\nNotice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a Github login."
+  },
+  {
+    "objectID": "docs/docs/user/index.html#catalogue-section",
+    "href": "docs/docs/user/index.html#catalogue-section",
+    "title": "User documentation LSC Hubs",
+    "section": "Catalogue section",
+    "text": "Catalogue section\nThe central catalogue contains references to all relevant resources in the hub. For each reference a number of metadata properties are provided, such as abstract, keywords, usage constraints, contact information.\n\n\n\nHub catalogue\n\n\nResources are categorised in:\n\nDatasets\nSoftware\nModel\nServices (Web services, API’s, SMS, phone and onsite services)\n\nThe catalogue allows to filter a resultset by relevant filters.\nSome records provide linkage to a preview option of the resource in the map vizualization component.\nRead more about the capabilities of the catalogue component at pycsw."
+  },
+  {
+    "objectID": "docs/docs/user/index.html#map-vizualization",
+    "href": "docs/docs/user/index.html#map-vizualization",
+    "title": "User documentation LSC Hubs",
+    "section": "Map vizualization",
+    "text": "Map vizualization\nSpatial data can be viewed and compared in a webbased map viewer. You can open one of the existing map contexts via the related maps menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.\n\n\n\nHub map vizualisation\n\n\nA listing of available functionalities:\n\nThe Sidebar\n\nExplore map data shows a listing of datasets which can be added to the map, either via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from related maps.\nUpload provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference web data from this panel.\nAs soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data.\n\nThe vertical toolbar on the top right\n\nZoom in and out, and back to a full world zoom\nZoom to your current location\nSplit the map in a left and right, to compare 2 datasets\nMeasure a distance on the map\n\nThe top menu\n\nGet more information about the map viewer\nSelect one of a set of related maps\nMap settings allows to select a different base map\nHelp opens the viewer documentation\nA Story is a series of views on various datasets with comments\nShare generates a link to the current map, which you can share with collegues\n\n\nRead more about the capabilities of the component at terriajs."
+  }
+]
