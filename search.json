@@ -410,7 +410,7 @@
     "href": "docs/docs/developer/tutorial-data-management/index.html",
     "title": "Workshop on effective spatial data flows",
     "section": "",
-    "text": "Introduction\nThis document presents a workshop on effective (spatial) data flows. This workshop is most applicable to organisations which maintain (spatial) datasets as files on a network storage, are familiar with python development, and use GIT as an environment for software development, documentation and/or contiuous integration & deployment. However aspects are also relevant in alternate scenario’s.\nThe workshop focusses on evaluating existing mechanisms to discover and assess data resources in an organisation. And extend these mechanisms to increase findability and usability of these resources within and outside the organisation.\n\n\n\n\n\nLSC Hubs 2023"
+    "text": "Introduction\nThis document presents a workshop on effective (spatial) data flows. This workshop is most applicable to organisations which maintain (spatial) datasets as files on a network storage, are familiar with python development, and use GIT as an environment for software development, documentation and/or contiuous integration & deployment. However aspects are also relevant in alternate scenario’s.\nThe workshop focusses on evaluating existing mechanisms to discover and assess data resources in an organisation. And extend these mechanisms to increase findability and usability of these resources within and outside the organisation.\nYou can also access the slides of the workshop.\n\n\n\n\n\nLSC Hubs 2023"
   },
   {
     "objectID": "docs/docs/user/index.html",
