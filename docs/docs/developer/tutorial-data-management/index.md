@@ -10,5 +10,7 @@ This document presents a workshop on effective (spatial) data flows. This worksh
 
 The workshop focusses on evaluating existing mechanisms to discover and assess data resources in an organisation. And extend these mechanisms to increase findability and usability of these resources within and outside the organisation. 
 
+You can also access the [slides](./slides/) of the workshop.
+
 
 

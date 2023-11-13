@@ -11,14 +11,8 @@ website:
     <footer class="bs-footer mt-5">
     [LSC Hubs 2023](https://lsc-hubs.org)</footer>
   title: "LSC Hub - core"
-  navbar:
-    left:
-      - href: ./docs/user
-        text: User docs
-      - href: ./docs/admin
-        text: Admin docs
-      - href: ./docs/developer
-        text: Developer docs
+  sidebar:
+    contents: ./*
 format:
   html:
     theme: 
