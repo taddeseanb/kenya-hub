@@ -7,6 +7,7 @@ author: Paul van Genuchten
 This document describes the components of a LSC Hub from a user perspective.
 
 A typical LSC hub consists of 3 components:
+
 - A [content section](#content-section) providing a user welcome, project attribution and documentation 
 - A [catalogue section](#catalogue-section) which provides a search interface on the resources relevant to the hub
 - A [map vizualisation](#map-vizualization) section for easy access to data
@@ -28,6 +29,7 @@ The central catalogue contains references to all relevant resources in the hub. 
 ![Hub catalogue](./img/catalogue.png)
 
 Resources are categorised in:
+
 - Datasets
 - Software 
 - Model

@@ -1,0 +1,32 @@
+project:
+  type: website
+  render: 
+    - "*.md"
+
+margin-header: |
+  ![](https://lsc-hubs.org/images/logo-lsc-hubs.svg)
+
+
+website:
+  body-footer: |
+    <footer class="bs-footer mt-5">
+    [LSC Hubs 2023](https://lsc-hubs.org)</footer>
+  title: "LSC Hub - core"
+  navbar:
+    left:
+      - href: ./docs/user
+        text: User docs
+      - href: ./docs/admin
+        text: Admin docs
+      - href: ./docs/developer
+        text: Developer docs
+format:
+  html:
+    theme: 
+      - sandstone
+      - custom.scss
+    toc: true
+  
+
+
+
