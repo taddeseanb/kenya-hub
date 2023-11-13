@@ -1,0 +1,11 @@
+---
+title: "Slides training on data management"
+author: Paul van Genuchten
+date: 2023-10-04
+---
+
+---
+listing:
+  contents: "*.qmd"
+  type: table
+---

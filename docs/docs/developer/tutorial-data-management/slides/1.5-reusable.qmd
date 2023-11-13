@@ -1,0 +1,7 @@
+---
+title: "1.5 Reusable"
+subtitle: "How to make data findable"
+format:
+  revealjs:
+    incremental: true
+---

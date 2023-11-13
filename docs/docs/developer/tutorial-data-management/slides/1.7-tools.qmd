@@ -1,0 +1,78 @@
+---
+title: "1.7 Tools"
+subtitle: "How to make data findable"
+format:
+  revealjs:
+    incremental: true
+---
+
+## Github
+
+Service to facilitate co-creation
+
+- version history of contributions
+- authentication
+- issue management
+- release management
+- Continuous integration
+
+Related software; Git, Gitlab, Bitbucket, Codeberg
+
+## Quarto
+
+A content management system to create websites, documentation, slides, etc.
+
+Related software; [Hugo](gohugo.io), mkdocs, Jekyll, Wordpress, Drupal
+
+## pycsw
+
+A catalogue server application providing support for multiple metadata schemes and metadata exchange standards
+
+Related products; GeoNetwork, CKAN, Dataverse
+
+## Mapserver
+
+A server application providing OGC services (WMS, WFS, WCS) on various data formats
+
+Related products; Geoserver, ArcGIS server, deegree, pygeoapi, QGIS server
+
+## Leaflet
+
+A javascript library to load interactive maps on a webpage.
+
+```{ojs}
+L = require('leaflet@1.9.4')
+html`<link href='${resolve('leaflet@1.9.4/dist/leaflet.css')}' rel='stylesheet' />`
+map = {
+  let container = DOM.element('div', { style: `width:${width}px;height:${width/1.6}px` });
+  yield container;
+  let map = L.map(container).setView([-1.940278,29.873888], 13);
+  let osmLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  let nexrad = L.tileLayer.wms("https://maps.lsc-hubs.org/ows/clay", {
+    layers: 'Clay_mean_0-20cm',
+    format: 'image/png',
+    opacity: 0.5,
+    transparent: 'true'
+}).addTo(map);;
+}
+```
+
+
+Related products; Openlayers, Cesium, Google Maps API, MapLibre 
+
+## TerriaJS
+
+A WebGIS application including Leaflet library
+
+[demo](https://maps.lsc-hubs.org/#rwanda)
+
+Related products; GeoNode, GeoMoose, MapBender, Oskari, [GisQuick](https://gisquick.org/)
+
+## Hale Desktop
+
+Software to run Extract Transform and Load (ETL)
+
+Related Software; FME, GDAL, Apache Hive, 
+

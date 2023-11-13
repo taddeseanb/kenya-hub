@@ -1,0 +1,34 @@
+---
+title: "1.4 Interoperable"
+subtitle: "Workshop on spatial data flows"
+author: "Paul van Genuchten"
+date: 2023-09-15
+format:
+  revealjs:
+    incremental: true
+---
+
+## Universal formats
+
+Facilitates accessing a resource with commonly available tooling, or be refactored if a software is abandoned
+
+- Proprietary vs Open (eg. ecw vs tiff)
+- De facto vs Formalised (eg. YAML vs XML)
+- Binary vs text based (eg. shapefile vs GeoJSON)
+- Cloud optimised vs Cloud native vs traditional (eg. COG vs GeoZarr vs GeoTiff)
+- Embedded metadata
+
+## Adopt common vocabularies
+
+Adopting a standardised model enables aggregation of data.
+
+- Relational models
+- UML/GML models
+- Semantic web ontologies
+
+## Relevant vocabularies
+
+- ISO28258 / INSPIRE / GLOSIS Web Ontology
+- Agrovoc
+- WRB / FAO Soil Classification Guidelines
+

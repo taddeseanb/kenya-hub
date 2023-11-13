@@ -1,0 +1,26 @@
+---
+title: "3.1 OGC data services"
+subtitle: "How to make data findable"
+format:
+  revealjs:
+    incremental: true
+---
+
+
+## What is OGC
+
+- Open Geospatial Consortium defines standards for the geospatial industry
+- Members are software companies, universities and govenment
+- Such as WMS, GML, OGCAPI, EPSG, GeoSPARQL
+- Read more at <https://opengeospatial.org>
+
+
+## OWS vs OGC API
+
+- The GML and OWS standards are defined on 20**
+- Since then the internet moved away from xml
+- in 2017 started `spatial data on the web` experiment with W3C, leading to **OGC API**
+- Currently under development 
+- Basic support in new and existing products
+- The browser as a tool to browse spatial data
+

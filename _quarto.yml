@@ -6,7 +6,6 @@ project:
 margin-header: |
   ![](https://lsc-hubs.org/images/logo-lsc-hubs.svg)
 
-
 website:
   body-footer: |
     <footer class="bs-footer mt-5">

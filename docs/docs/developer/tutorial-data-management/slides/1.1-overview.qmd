@@ -1,0 +1,111 @@
+---
+title: "1.1 Training Overview"
+subtitle: "Workshop on spatial data flows"
+author: "Paul van Genuchten"
+date: 2023-09-15
+format:
+  revealjs:
+    incremental: true
+
+---
+
+## Agenda  
+
+| Day | Topic |
+| --- | --- |
+| Day 1 | FAIR principles<br/>Metadata management |
+| Day 2 | Metadata publication |
+| Day 3 | Data publication<br/>Quality of Service |
+| Day 4 | Cases |
+
+# ![](https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg){width=50%} {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+Findable - Accessible - Interoperable - Reusable
+
+[go-fair.org](https://www.go-fair.org/fair-principles)
+
+## Findable
+
+- (Meta)data are assigned a globally unique and persistent identifier
+- Data are described with rich metadata 
+- Metadata clearly and explicitly include the identifier of the data they describe
+- (Meta)data are registered or indexed in a searchable resource
+
+## Accessible
+
+- (Meta)data are retrievable by their identifier using a standardised communications protocol
+- Metadata are accessible, even when the data are no longer available
+
+## Interoperable
+
+- (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+- (Meta)data use vocabularies that follow FAIR principles
+- (Meta)data include qualified references to other (meta)data
+
+## Reusable
+
+- (Meta)data are richly described with a plurality of accurate and relevant attributes
+
+- (Meta)data are released with a clear and accessible data usage license
+
+- (Meta)data are associated with detailed provenance
+
+- (Meta)data meet domain-relevant community standards
+
+# Relevant standards {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+## Metadata
+
+
+## Services
+
+## Data formats
+
+
+
+## Data models
+
+
+## Codelists
+
+Commonly defined domains for properties (texture classes, 
+grainsize, soil color) 
+
+
+
+# Approach {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+## Metadata workflow
+
+# Tools {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+## Metadata
+
+## Services
+
+## Data models
+
+## Codelists
+
+# Case: Soil profile database {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+## Setting up a database
+
+## Loading legacy data
+
+## Preparing data for Digital Soil Mapping

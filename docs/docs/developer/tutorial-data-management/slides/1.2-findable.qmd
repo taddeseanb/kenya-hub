@@ -1,0 +1,53 @@
+---
+title: "1.2 Findable"
+subtitle: "Workshop on spatial data flows"
+author: "Paul van Genuchten"
+date: 2023-09-15
+format:
+  revealjs:
+    incremental: true
+---
+
+# Findable
+
+- The first step in (re)using data is to find them. 
+- Metadata and data should be easy to find for both humans and computers. 
+- Machine-readable metadata are essential for automatic discovery of datasets and services
+
+## Persistent identification
+
+Persistent identification, for continued findability
+
+- Consider that a proper id can outlive a project (or organisation)
+- Choice of domain and path (owned, authoritative, neutral, prevent names)
+- Set up an identification proxy (doi.org/w3id.org)
+
+## Metadata
+
+- Metadata describes title, abstract, author of a resource
+- Facilitate findability and understand if a resource is relevant
+- Can organize resources in groups by tagging
+
+## Standards for metadata exchange
+
+- Facilitate the exchange of resources between communities
+- Protocols to exchange metadata:
+
+| Community | Standard | Protocol |
+| --- | --- | --- |
+| Open data/Sematic web | DCAT | SPARQL |
+| Science | Datacite | OAI-PMH | 
+| Geospatial | iso19115 | CSW |
+| Search engines | Schema.org | json-ld/microdata |
+
+## Catalogue
+
+- Records are brought into a catalogue, where they can be searched and assessed
+- Catalogues can exchange records to increase discoverability
+- Catalogues can cross borders between communities by transforming metadata to relevant community standards and protocols
+
+## Search engines
+
+- Search engines crawl the content of catalogues 
+- If a catalogue supports schema.org annotations, the content can also be extracted in a structured way
+- Example
