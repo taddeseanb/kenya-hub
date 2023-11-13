@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Paul van Genuchten">
-<meta name="dcterms.date" content="2023-11-13">
+<meta name="dcterms.date" content="2022-11-10">
 
-<title>LSC Hub - core - Administration documentation</title>
+<title>LSC Hub - core - Quality of Service</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,25 +22,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">LSC Hub - core</span>
     </a>
   </div>
@@ -83,15 +117,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/user" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/user" rel="" target="">
  <span class="menu-text">User docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/admin" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/admin" rel="" target="">
  <span class="menu-text">Admin docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/developer" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/developer" rel="" target="">
  <span class="menu-text">Developer docs</span></a>
   </li>  
 </ul>
@@ -112,7 +146,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contents" id="toc-contents" class="nav-link active" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#availability-monitoring-exercise" id="toc-availability-monitoring-exercise" class="nav-link" data-scroll-target="#availability-monitoring-exercise">Availability Monitoring Exercise</a></li>
+  <li><a href="#performance-capacity-testing" id="toc-performance-capacity-testing" class="nav-link" data-scroll-target="#performance-capacity-testing">Performance &amp; Capacity testing</a></li>
+  <li><a href="#usage-monitoring" id="toc-usage-monitoring" class="nav-link" data-scroll-target="#usage-monitoring">Usage monitoring</a>
+  <ul class="collapse">
+  <li><a href="#search-engine-optimisation" id="toc-search-engine-optimisation" class="nav-link" data-scroll-target="#search-engine-optimisation">Search Engine Optimisation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -121,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Administration documentation</h1>
+<h1 class="title">Quality of Service</h1>
 </div>
 
 
@@ -138,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 13, 2023</p>
+      <p class="date">November 10, 2022</p>
     </div>
   </div>
   
@@ -148,14 +188,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Quality of service monitoring practices support data providers to understand strengths and weaknesses of a system. Aspects which are monitored are:</p>
 <ul>
-<li><a href=""></a></li>
-<li><a href="./tutorial-data-management/">Tutorial data management</a></li>
+<li>Availability (% of the time that the service has been available)</li>
+<li>Performance and capacity</li>
+<li>Usage (how much are the services used)</li>
 </ul>
+<p>Quality of service monitoring is a standard activity in IT. Therefore consult your IT department or hosting company if they have tools available to assess these aspects. Confirm with them on how to extend and/or share with you these measurements for the requested parameters. Combine these reports into monthly or quarterly reports to facilitate policy development. Below exersizes</p>
+</section>
+<section id="availability-monitoring-exercise" class="level2">
+<h2 class="anchored" data-anchor-id="availability-monitoring-exercise">Availability Monitoring Exercise</h2>
+<p>To assess the availability of a service, it requires to monitor the availability of the service at intervals. A basic availability-test every 5 minutes is usually sufficient. Many software exists for availability monitoring, such as <a href="https://zabbix.com/">Zabbix</a>, <a href="https://nagios.org/">Nagios</a>, <a href="https://checkmk.com/">CheckMK</a>, <a href="https://www.pingdom.com/">pingdom</a>. A special mention for the Python based <a href="https://geohealthcheck.org/">GeoHealthCheck</a> package, which includes the capability on WMS/WFS services to drill down to the data level starting from the GetCapabilities operation.</p>
+<p>This exersize assumes docker desktop to be installed. Alternatively you can create a personal account at https://demo.geohealthcheck.org (click register in the login page).</p>
+<ul>
+<li>Start by setting up a local GeoHealthCheck container:</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">--name</span> ghc <span class="at">-p</span> 80:80 geopython/geohealthcheck</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Visit http://localhost</li>
+<li>Login as user: admin, password: admin</li>
+<li>Click <code>ADD +</code> on the top bar right, select <code>WMS</code></li>
+<li>Add a WMS url, for example https://maps.isric.org/mapserv?map=/map/wrb.map</li>
+<li>On the next screen add <code>WMS Drilldown</code> (so all layers are validated)</li>
+<li>Click <code>Save and test</code></li>
+<li>When finished, click Details to see the test result</li>
+</ul>
+<p>This test is automatically repeated at intervals (as long the service is running). You can return to the test page to evaluate a diagram of availability over time.</p>
+</section>
+<section id="performance-capacity-testing" class="level2">
+<h2 class="anchored" data-anchor-id="performance-capacity-testing">Performance &amp; Capacity testing</h2>
+<p>To know the capacity and performance of a service you can perform some load tests prior to moving to production. An alternative approach to evaluate performance is to extract the access logs of the service into an aggregation tool like <a href="https://www.elastic.co/kibana">Kibana</a> and evaluate the number of requests exceeding the limits.</p>
+<p>[!NOTE]<br>
+A common challenge to service performance is the provision of a WMS service on a big dataset. When requesting that dataset on a continental or national level, the server runs into problems drawing all the data at once. In such case consider to set up some cache/aggregation mechanism for larger areas. Setting proper min/max scale denominators may be a solution also.</p>
+<p><a href="https://jmeter.apache.org/">jmeter</a> is a utility which can run a series of performance and capacity tests on a webservice. Jmeter is a java program, which can run on most platforms.</p>
+<ul>
+<li>Download the latest version from the <a href="https://jmeter.apache.org/download_jmeter.cgi">apache website</a>.</li>
+<li>Unzip the archive and run <code>jmeter.bat</code> from bin directory.</li>
+<li>Follow the <a href="https://jmeter.apache.org/usermanual/build-web-test-plan.html">build web test plan</a> tutorial.</li>
+<li>Customise the web test plan for your mapserver service</li>
+</ul>
+<p>[!NOTE]<br>
+Do not perform a load test against a production url, it wil severely impact the performance of that service.</p>
+</section>
+<section id="usage-monitoring" class="level2">
+<h2 class="anchored" data-anchor-id="usage-monitoring">Usage monitoring</h2>
+<p>To capture the usage of a service you can extract the usage logs and import them in a tool like <a href="https://www.elastic.co/kibana">Kibana</a>, <a href="https://www.splunk.com/">Splunk</a>, <a href="https://matomo.org/">Matomo</a> or <a href="https://awstats.sourceforge.io/">AW stats</a>. For spatial data, it is interesting to define rules to extract the requested layer name from a WMS request.</p>
+<p><a href="https://awstats.sourceforge.io/">AWStats</a> is a basic utility to report on service usage.</p>
+<ul>
+<li>Navigate to an empty folder, place a <a href="https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs">sample log file</a> in the folder, rename the file to <code>access.log</code>.</li>
+<li>Start a container</li>
+</ul>
+<pre><code>docker run -d --restart always --publish 3000:80 --name awstats --volume $(pwd):/var/local/log:ro pabra/awstats</code></pre>
+<ul>
+<li>Parse the logs:</li>
+</ul>
+<pre><code>docker exec awstats awstats_updateall.pl now</code></pre>
+<ul>
+<li>View the dashboard at http://localhost:3000, navigate to <code>May 2015</code> to see the parsed logs from the sample.</li>
+</ul>
+<section id="search-engine-optimisation" class="level3">
+<h3 class="anchored" data-anchor-id="search-engine-optimisation">Search Engine Optimisation</h3>
+<p>As part of usage monitoring it is also of interest to understand how users find your data via search engines. The popular search engines offer <a href="https://search.google.com/search-console">tooling</a> to report on how the crawlers navigate through your data and how users find your services. You need to <a href="https://support.google.com/webmasters/answer/9008080?hl=en">verify ownership</a> of a domain either via a DNS property or by uploading an identification string to the website.</p>
+<p>You can also use <a href="https://search.google.com/test/rich-results">Google rich result test</a> to extract structured data from a website. Or go to the <a href="https://datasetsearch.research.google.com/">dataset search engine</a> to understand if and how the search engine finds your data.</p>
 
 
+</section>
 </section>
 
 <footer class="bs-footer mt-5">

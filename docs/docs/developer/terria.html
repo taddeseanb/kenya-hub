@@ -9,7 +9,7 @@
 <meta name="author" content="Paul van Genuchten">
 <meta name="dcterms.date" content="2023-11-13">
 
-<title>LSC Hub - core - Administration documentation</title>
+<title>LSC Hub - core - terria js</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,20 +108,14 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="https://lsc-hubs.org/images/logo-lsc-hubs.svg" class="img-fluid"></p>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#contents" id="toc-contents" class="nav-link active" data-scroll-target="#contents">Contents</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Administration documentation</h1>
+<h1 class="title">terria js</h1>
 </div>
 
 
@@ -148,15 +142,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<p><a href="https://terria.io">TerriaJS</a> is a web based vizualisation tool. This document describes how terriajs has been customised and deployed to fit the needs of LSC Hubs.</p>
+<p>TerriaMap is a ready-made web environment for the the terriaJS library.</p>
+<p>A docker container definition for TerriaMap is available at <a href="https://github.com/TerriaJS/TerriaMap/blob/main/Dockerfile">github</a>.</p>
+<p>On the container a number of files need to be overridden with tailored changes (to update titles, logo’s colors).</p>
 <ul>
-<li><a href=""></a></li>
-<li><a href="./tutorial-data-management/">Tutorial data management</a></li>
+<li><a href="https://github.com/TerriaJS/TerriaMap/blob/main/wwwroot/about.html">wwwroot/about.html</a> contains the text of the about page</li>
+<li><a href="https://github.com/TerriaJS/TerriaMap/blob/main/wwwroot/config.json">wwwroot/config.json</a> contains the config of the main application</li>
+<li><a href="https://github.com/TerriaJS/TerriaMap/blob/main/wwwroot/init/simple.json">init/simple.json</a> and other map files in this folder can be used as predefined maps</li>
 </ul>
+<p>You can either override these files as part of the container build process or add the files st container deployment.</p>
 
 
-</section>
 
 <footer class="bs-footer mt-5">
 <a href="https://lsc-hubs.org">LSC Hubs 2023</a>

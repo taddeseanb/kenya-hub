@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Paul van Genuchten">
-<meta name="dcterms.date" content="2023-11-13">
+<meta name="dcterms.date" content="2023-09-23">
 
-<title>LSC Hub - core - Administration documentation</title>
+<title>LSC Hub - core - Data publication</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">LSC Hub - core</span>
     </a>
   </div>
@@ -83,15 +83,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/user" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/user" rel="" target="">
  <span class="menu-text">User docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/admin" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/admin" rel="" target="">
  <span class="menu-text">Admin docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/developer" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/developer" rel="" target="">
  <span class="menu-text">Developer docs</span></a>
   </li>  
 </ul>
@@ -112,7 +112,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contents" id="toc-contents" class="nav-link active" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#place-in-a-shared-environment" id="toc-place-in-a-shared-environment" class="nav-link active" data-scroll-target="#place-in-a-shared-environment">Place in a shared environment</a></li>
+  <li><a href="#persistent-identification" id="toc-persistent-identification" class="nav-link" data-scroll-target="#persistent-identification">Persistent identification</a></li>
+  <li><a href="#include-metadata" id="toc-include-metadata" class="nav-link" data-scroll-target="#include-metadata">Include metadata</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -121,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Administration documentation</h1>
+<h1 class="title">Data publication</h1>
 </div>
 
 
@@ -138,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 13, 2023</p>
+      <p class="date">September 23, 2023</p>
     </div>
   </div>
   
@@ -148,12 +151,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<section id="place-in-a-shared-environment" class="level2">
+<h2 class="anchored" data-anchor-id="place-in-a-shared-environment">Place in a shared environment</h2>
+<p>In order to share a dataset with colleagues, partners or the wider public. The file should be published in a shared environment. Various technologies are available to share a file on a network. To select a relevant location mainly depends on which type of users are going to access the dataset.</p>
+<p>The following options exist:</p>
 <ul>
-<li><a href=""></a></li>
-<li><a href="./tutorial-data-management/">Tutorial data management</a></li>
+<li>A shared folder on a central server on the local intranet. Notice that this location is usually not available by remote partners. Make sure a backup is made of the network folder, in case of incidents.</li>
+<li>A cloud service such as Google Drive, Mirosoft Sharepoint, Dropbox, Amazon Webservices. Such a service can also be setup locally. A minimal solution would be to set up a Webdav service.</li>
+<li>A data repository such as Zenodo, Dataverse, Open Science Foundation. With this option metadata of the resource is automatically collected and made searchable. Some catalogue software, such as CKAN, GeoNode, GeoNetwork offers the capability to publish data files as part of the metadata registration.</li>
 </ul>
+</section>
+<section id="persistent-identification" class="level2">
+<h2 class="anchored" data-anchor-id="persistent-identification">Persistent identification</h2>
+<p>Select the location carefully, prevent to regularly move a file to a new location. Because with every move, users need to be notified of the new location and documentation needs to be updated. When moving is relevant, consider to set up a <a href="https://en.wikipedia.org/forward-rule">forward-rule</a> on the server which redirects users to the new location.</p>
+<p>An interesting aspect of persistent identification is the choice of a domain and path name. A domain should represent enough credibility/authority (is this a trusted resource), and should be persistent for a longer period. A project name, for example, is not a good choice for a domain to publish a resource.</p>
+<p>A mechanism exists which facilitates file moves, without breaking their identification. Identifier providers such as <a href="https://doi.org">DOI</a> and <a href="https://w3id.org">W3ID</a> enable to create a identifier for any resource. In documentation use the provided identifier, in case the location of the resource changes, you can update the link behind the identifier. Some organisations install a identification service themselves, so they have full ownership on the domain and the contents of the service. An example of such a service is the <a href="">identification service of the German Federal Government</a>.</p>
+</section>
+<section id="include-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="include-metadata">Include metadata</h2>
+<p>For optimal discoverability, it is important to combine data publication with metadata. Either via embedded metadata in the file, else with a separate metadata file. In case of a shared folder or cloud service, embed or place the metadata along the data files, so people browsing through the system can easily find it.</p>
+<p>The embedded or sidecar metadata should be duplicated into catalogue software, to make it searchable by the targeted audience. This proces is further described at <a href="../../../../docs/docs/developer/tutorial-data-management/3-catalog-publication.html">catalogue publication</a>.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Various technologies exist to share data on a network. When selecting a mechanism, evaluate if you can facilitate identifier persistence and share metadata along with the files. In the next section we’ll setup <a href="../../../../docs/docs/developer/tutorial-data-management/7-providing-mapservices.html">conveniance API’s</a> on data to facilitate reuse of the data.</p>
 
 
 </section>

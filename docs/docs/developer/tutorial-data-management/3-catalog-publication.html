@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Paul van Genuchten">
-<meta name="dcterms.date" content="2023-11-13">
+<meta name="dcterms.date" content="2023-05-09">
 
-<title>LSC Hub - core - Administration documentation</title>
+<title>LSC Hub - core - Catalog publication</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,25 +22,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">LSC Hub - core</span>
     </a>
   </div>
@@ -83,15 +117,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/user" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/user" rel="" target="">
  <span class="menu-text">User docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/admin" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/admin" rel="" target="">
  <span class="menu-text">Admin docs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././docs/developer" rel="" target="">
+    <a class="nav-link" href="../../../.././docs/developer" rel="" target="">
  <span class="menu-text">Developer docs</span></a>
   </li>  
 </ul>
@@ -112,7 +146,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contents" id="toc-contents" class="nav-link active" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#data-discovery-via-a-catalogue" id="toc-data-discovery-via-a-catalogue" class="nav-link active" data-scroll-target="#data-discovery-via-a-catalogue">Data discovery via a catalogue</a></li>
+  <li><a href="#extract-metadata-from-a-network-location" id="toc-extract-metadata-from-a-network-location" class="nav-link" data-scroll-target="#extract-metadata-from-a-network-location">Extract metadata from a network location</a></li>
+  <li><a href="#catalogue-frontend" id="toc-catalogue-frontend" class="nav-link" data-scroll-target="#catalogue-frontend">Catalogue frontend</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -121,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Administration documentation</h1>
+<h1 class="title">Catalog publication</h1>
 </div>
 
 
@@ -138,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 13, 2023</p>
+      <p class="date">May 9, 2023</p>
     </div>
   </div>
   
@@ -148,12 +185,67 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<section id="data-discovery-via-a-catalogue" class="level2">
+<h2 class="anchored" data-anchor-id="data-discovery-via-a-catalogue">Data discovery via a catalogue</h2>
+<p>Catalogues facilitate data discovery in 3 ways:</p>
 <ul>
-<li><a href=""></a></li>
-<li><a href="./tutorial-data-management/">Tutorial data management</a></li>
+<li>Users can go to the catalogue website and search for data</li>
+<li>Applications such as QGIS and TerriaJS can let users query the catalogue, evaluate the metadata, and directly add the related data to their project</li>
+<li>Search engines crawl public catalogues and include the records in their search results</li>
 </ul>
+<p>[!NOTE] An important aspect is proper setup of autorisations for general public, partners and co-workers to access metadata as well as the actual data files behind the metadata. A general rule-of-thumb is that metadata can usually be anonimously shared, but data services with sensitive content should be properly protected. In some cases organisations even remove the data url from the public metadata, to prevent abuse of those urls. If a resource is not available to all, this can be indicated in the metadata as ‘access-constraints’.</p>
+</section>
+<section id="extract-metadata-from-a-network-location" class="level2">
+<h2 class="anchored" data-anchor-id="extract-metadata-from-a-network-location">Extract metadata from a network location</h2>
+<p>Now that we have a series of datasets with their sidecar metadata file (either in iso19139 or MCF). We can use GeoDataCrawler to extract these files and publish them in a catalogue product.</p>
+<p>Notice that GeoDataCrawler has an advanced inheriting mechanism to find default values for non provided metadata elements. GeoDataCrawler will read <code>index.yml</code> in the current folder and any parent folder to find relevant properties. This enables an option to provide a contact point, license or language property once and use it in all metadata.</p>
+<ul>
+<li>First we run a method to convert all .mcf files to iso19139:2007, these files are generated on a temporary folder.</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">crawl-metadata</span> <span class="at">--mode</span><span class="op">=</span>export <span class="at">--dir</span><span class="op">=</span>./data <span class="at">--dir-out</span><span class="op">=</span>./temp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>In the next section we run an ingest script to load the iso records into a catalogue.</li>
+</ul>
+</section>
+<section id="catalogue-frontend" class="level2">
+<h2 class="anchored" data-anchor-id="catalogue-frontend">Catalogue frontend</h2>
+<p>Various catalogue frontends exist to facilitate dataset search, such as <a href="https://geonetwork-opensource.org">geonetwork</a>, <a href="https://dataverse.org">dataverse</a>, <a href="https://ckan.org">ckan</a>. Selecting a frontend depends on metadata format, target audiendce, types of data, maintenance aspects, personal preference.</p>
+<p>For this workshop we are going to use <a href="https://pycsw.org">pycsw</a>, catalogue software supporting various standardised query api’s, as well as providing a basic html interface.</p>
+<p>For this exersize we assume you have docker-desktop installed on your system and running.</p>
+<p>pycsw is available as docker image, including an embedded SQLite database. In a production situation you would use a dedicated Postgres or MariaDB database for record storage.</p>
+<ul>
+<li>Navigate your shell to the temporary folder containing iso-xml documents. This folder will be mounted into the container, in order to load the records to the pycsw database.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-p</span> 8000:8000 <span class="dt">\</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>   <span class="at">-v</span> <span class="va">$(</span><span class="bu">pwd</span><span class="va">)</span>:/etc/data <span class="dt">\</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>   geopython/pycsw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Visit http://localhost:8000 to</li>
+<li>Much of the configuration of pycsw (title, contact details, database connection, url) is managed in <a href="https://github.com/geopython/pycsw/blob/master/docker/pycsw.cfg">a config file</a>. Download the file to the current folder, adjust the title and restart docker with:</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-p</span> 8000:8000 <span class="dt">\</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>   <span class="at">-d</span> <span class="at">-rm</span> <span class="at">--name</span><span class="op">=</span>pycsw <span class="dt">\</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>   <span class="at">-v</span> <span class="va">$(</span><span class="bu">pwd</span><span class="va">)</span>:/etc/data <span class="dt">\</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>   <span class="at">-v</span> <span class="va">$(</span><span class="bu">pwd</span><span class="va">)</span>/pycsw.cfg:/etc/pycsw/pycsw.cfg <span class="dt">\</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>   geopython/pycsw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[!NOTE] Notice <code>-d</code> starts the docker in the background, so we can interact with the running container. To see which instances are running (in the background) use <code>docker ps</code>. <code>docker logs pycsw</code> shows the logs of a container and <code>docker stop pycsw</code> stops the container. The <code>-rm</code> option removes the container at stop, so we can easily recreate it with additional options at next runs.</p>
+<ul>
+<li>For administering the instance we use a utility called pycsw-admin.py. Notice on the calls below a reference to a relevant config file. First clear the existing database.</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> exec <span class="at">-it</span> pycsw bash <span class="at">-c</span> <span class="st">"pycsw-admin.py delete-records -c /etc/pycsw/pycsw.cfg"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Notice at http://localhost:8000/collections/metadata:main/items that all records are removed.</li>
+<li>Load our records to the database</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> exec <span class="at">-it</span> pycsw bash <span class="at">-c</span> <span class="st">"pycsw-admin.py load-records -p /etc/conf/data -c /etc/pycsw/pycsw.cfg -y -r"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Validate at http://localhost:8000/collections/metadata:main/items if our records are loaded, else check logs to identify a problem.</li>
+<li>docker</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>In this paragraph you noticed how datasets can be published into a catalogue. In the next paragraph, you get introduced to providing mapping api’s on datasets. Or check out the <a href="../../../../docs/docs/developer/tutorial-data-management/9-advanced-options.html">advanced section</a> on how to customise your pycsw frontend.</p>
 
 
 </section>

@@ -2,22 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/lsc-hubs/hub-core/docs/index.html</loc>
-    <lastmod>2023-11-13T15:46:53.569Z</lastmod>
+    <lastmod>2023-11-13T16:17:45.308Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/lsc-hubs/hub-core/docs/docs/index.html</loc>
-    <lastmod>2023-11-13T15:46:52.953Z</lastmod>
+    <lastmod>2023-11-13T16:17:44.712Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/admin/index.html</loc>
-    <lastmod>2023-11-13T15:46:52.153Z</lastmod>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/9-advanced-options.html</loc>
+    <lastmod>2023-11-13T16:17:44.216Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/7-providing-mapservices.html</loc>
+    <lastmod>2023-11-13T16:17:43.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/5-git-cicd.html</loc>
+    <lastmod>2023-11-13T16:17:42.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/3-catalog-publication.html</loc>
+    <lastmod>2023-11-13T16:17:41.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/1-existing-resources.html</loc>
+    <lastmod>2023-11-13T16:17:41.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/quarto.html</loc>
+    <lastmod>2023-11-13T16:17:40.748Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/index.html</loc>
-    <lastmod>2023-11-13T15:46:52.685Z</lastmod>
+    <lastmod>2023-11-13T16:17:40.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/admin/index.html</loc>
+    <lastmod>2023-11-13T16:17:39.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/pycsw.html</loc>
+    <lastmod>2023-11-13T16:17:40.492Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/terria.html</loc>
+    <lastmod>2023-11-13T16:17:41.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/2-describing-resources.html</loc>
+    <lastmod>2023-11-13T16:17:41.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/4-bulk-import.html</loc>
+    <lastmod>2023-11-13T16:17:42.312Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/6-data-publication.html</loc>
+    <lastmod>2023-11-13T16:17:43.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/8-measure-quality.html</loc>
+    <lastmod>2023-11-13T16:17:43.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/lsc-hubs/hub-core/docs/docs/developer/tutorial-data-management/index.html</loc>
+    <lastmod>2023-11-13T16:17:44.468Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/lsc-hubs/hub-core/docs/docs/user/index.html</loc>
-    <lastmod>2023-11-13T15:46:53.321Z</lastmod>
+    <lastmod>2023-11-13T16:17:45.064Z</lastmod>
   </url>
 </urlset>
