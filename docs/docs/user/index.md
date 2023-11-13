@@ -13,27 +13,37 @@ A typical LSC hub consists of 3 components:
 
 ## Content section
 
-A series of web pages is maintained which provides users with generic information about the hub, the organisazions behind it and documentation on how to use the hub.
+The entry point of the hub are some webpages with general information about the project.
 
-The info is presented first as soon as you open the hub. Documentation can be browsed from the [/docs](/docs) folder.
+More content is available in the [documentation section](./docs). 
+
+![LSC hub homepage](./img/home.png)
+
+Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up).
 
 ## Catalogue section
 
-The central catalogue contains references to all relevant resources in the hub. Resources are categorised in:
+The central catalogue contains references to all relevant resources in the hub. For each reference a number of metadata properties are provided, such as abstract, keywords, usage constraints, contact information.
+
+![Hub catalogue](./img/catalogue.png)
+
+Resources are categorised in:
 - Datasets
 - Software 
 - Model
 - Services (Web services, API's, SMS, phone and onsite services)
 
-The catalogue allows to filter a resultset with relevant filters. Some data related records provide linkage for a preview of that resource in the [map vizualization](#map-vizualization) component.
+The catalogue allows to filter a resultset by relevant filters. 
 
-The catalogue component includes a number of API's for automated access to the catalogue. You can for example query the catalogue from the [map vizualization](#map-vizualization) component as well as [QGIS Metasearch](https://docs.qgis.org/3.34/en/docs/user_manual/plugins/core_plugins/plugins_metasearch.html).
+Some records provide linkage to a preview option of the resource in the [map vizualization](#map-vizualization) component.
 
-Read more about the capabilities of the component at [pycsw](https://docs.pycsw.org/en/latest/).
+Read more about the capabilities of the catalogue component at [pycsw](https://docs.pycsw.org/en/latest/).
 
 ## Map vizualization
 
 Spatial data can be viewed and compared in a webbased map viewer. You can open one of the existing map contexts via the `related maps` menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.
+
+![Hub map vizualisation](./img/map.png)
 
 A listing of available functionalities:
 
