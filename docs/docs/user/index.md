@@ -32,7 +32,7 @@ When arriving on the homepage, you can see 6 sections:
 
 ![LSC hub homepage](./img/homeRwanda.PNG)
 
-**Exercise 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
+**Step 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
 
 
 
@@ -61,7 +61,7 @@ The catalogue allows the filtering of keywords. The 3 main keywords are:
 
 Second, any other keyword linked to the resource can be used to search in the catalogue, for example, _land use_ or _crop yield_. This depends on which keywords are given to the resources.
 
-**Exercise 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
+**Step 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
 
 ![Hub catalogue search](./img/cataloguesearch.png)
 
@@ -70,7 +70,7 @@ For each record, a number of metadata properties are provided, such as abstract,
 
 Some records link directly to the [map viewer](#map-viewer) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
 
-**Exercise 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
+**Step 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 
 ![Hub catalogue record](./img/cataloguepHrecord.PNG) 
 
