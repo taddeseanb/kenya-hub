@@ -41,11 +41,11 @@ When arriving on the homepage, you can see 6 sections:
 The central catalogue contains references to all relevant resources in the hub. 
 The catalogue of Rwanda can be reached by https://rwanda.lsc-hubs.org/ 
 
-![Hub catalogue](./img/catalogueRwanda.png)
+![Hub catalogue](./img/catalogueRwanda.PNG)
 
 **Step 2:** Explore the catalogue. Click on submit, and the available records will be shown.
 
-![Hub catalogue overview](./img/cataloguerecords.png)
+![Hub catalogue overview](./img/cataloguerecords.PNG)
 
 Resources are categorised into:
 
@@ -71,7 +71,7 @@ For each record, a number of metadata properties are provided, such as abstract,
 
 Some records link directly to the [map vizualization](#map-vizualization) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the mapviewer.
 
-![Hub catalogue record](./img/cataloguepHrecord.png) 
+![Hub catalogue record](./img/cataloguepHrecord.PNG) 
 
 
 ## Map visualization
