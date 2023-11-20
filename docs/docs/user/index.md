@@ -1,5 +1,5 @@
 ---
-title: User documentation LSC Hubs
+title: User Guideline LSC Hubs
 date: 2023-11-20
 author: Paul van Genuchten, Thaïsa van der Woude
 ---
@@ -30,17 +30,22 @@ When arriving on the homepage, you can see 6 sections:
 - **Use Cases** to explore the [use cases](https://lsc-hubs.org/hubs/rwanda/usecases/) of the LSC hub
 - **Hub community** to find other users in the [stakeholder list](https://lsc-hubs.org/hubs/rwanda/stakeholders/)
 
-![LSC hub homepage](./img/home.png)  add new image
+![LSC hub homepage](./img/homeRwanda.png)
 
-Step 1: explore the different sections of the LSC hub. Click on all the links, and explore which info is in there.
+**Step 1:** Explore the different sections of the LSC hub. Click on the links, and explore which info is in there.
 
 
 
 ## Catalogue section
 
-The central catalogue contains references to all relevant resources in the hub. For each reference, a number of metadata properties are provided, such as abstract, keywords, usage constraints, and contact information.
+The central catalogue contains references to all relevant resources in the hub. 
+The catalogue of Rwanda can be reached by https://rwanda.lsc-hubs.org/ 
 
-![Hub catalogue](./img/catalogue.png)
+![Hub catalogue](./img/catalogueRwanda.png)
+
+**Step 2:** Explore the catalogue. Click on submit, and the available records will be shown.
+
+![Hub catalogue overview](./img/cataloguerecords.png)
 
 Resources are categorised into:
 
@@ -49,11 +54,25 @@ Resources are categorised into:
 - Model
 - Services (Web services, APIs, SMS, phone and onsite services)
 
-The catalogue allows to filtering of a resultset by relevant filters. 
+The catalogue allows the filtering of keywords. The 3 main keywords are: 
+1. category ( _such as soil, crop, etc._),
+2. spatial scope (_such as Global, National, district, etc._ ),
+3. the type (_such as dataset, software, etc_).
 
-Some records link to a resource preview option in the [map vizualization](#map-vizualization) component.
+Second, any other keyword linked to the resource can be used to search in the catalogue, for example, _land use_ or _crop yield_. This depends on which keywords are given to the resources.
 
-Read more about the capabilities of the catalogue component at [pycsw](https://docs.pycsw.org/en/latest/).
+**Step 3:** Try the keywords. Type in the search bar various keywords, such as _soil_ or click on the keywords on the side.
+
+![Hub catalogue search](./img/cataloguesearch.png)
+
+**Step 4:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
+
+For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
+
+Some records link directly to the [map vizualization](#map-vizualization) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the mapviewer.
+
+![Hub catalogue record](./img/cataloguepHrecord.png) 
+
 
 ## Map visualization
 
@@ -64,21 +83,21 @@ Spatial data can be viewed and compared in a web-based map viewer. You can open 
 A listing of available functionalities:
 
 - The Sidebar
-    - `Explore map data` shows a listing of datasets which can be added to the map, either via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
+    - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
     - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
     - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 - The vertical toolbar on the top right
     - Zoom in and out, and back to a full world zoom
     - Zoom to your current location
-    - Split the map in the left and right, to compare 2 datasets
+    - Split the map to the left and right, to compare 2 datasets
     - Measure a distance on the map
 - The top menu
     - Get more information `about` the map viewer
     - Select one of a set of `related maps`
-    - `Map settings` allows to select a different base map
+    - `Map settings` allows you to select a different base map
     - `Help` opens the viewer documentation
     - A `Story` is a series of views on various datasets with comments
-    - `Share` generates a link to the current map, which you can share with collegues  
+    - `Share` generates a link to the current map, which you can share with colleagues  
 
 Read more about the capabilities of the component at [terriajs](https://docs.terria.io/guide/).
 
