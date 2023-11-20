@@ -8,16 +8,16 @@ This document is a guideline for the components of a LSC Hub.
 
 A typical LSC hub consists of 3 components:
 
-- A [content section](#content-section) providing a user welcome, project attribution and documentation; 
-- A [catalogue section](#catalogue-section) which provides a search interface on the resources relevant to the hub;
-- A [map vizualisation](#map-vizualization) section for easy access to data.
+- A [homepage](#homepage) providing a user welcome, project attribution and documentation; 
+- A [catalogue](#catalogue) which provides a search interface on the resources relevant to the hub;
+- A [map viewer](#map-viewer) section for easy access to data.
 
 Moreover, there are 2 services important for the LSC hub:
-- Proving [feedback section](#feedback-section) to improve the LSC-hub
-- Proving [Adding data section](#addingdata-section) to list more relevant information.
+- Providing [feedback](#feedback) to improve the LSC-hub
+- Providing [Additional information](#additionalinformation) to enrich the LSC-hub.
 
 
-## Content section
+## Homepage
 
 The entry point of the hub is a webpage with general information about the project.
 The LSC-hub for Rwanda can be accessed at https://lsc-hubs.org/hubs/rwanda/.
@@ -32,18 +32,18 @@ When arriving on the homepage, you can see 6 sections:
 
 ![LSC hub homepage](./img/homeRwanda.PNG)
 
-**Step 1:** Explore the different sections of the LSC hub. Click on the links, and explore which info is in there.
+**Excercise 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
 
 
 
-## Catalogue section
+## Catalogue
 
 The central catalogue contains references to all relevant resources in the hub. 
-The catalogue of Rwanda can be reached by https://rwanda.lsc-hubs.org/ 
+The catalogue of Rwanda can be reached by clicking under _DATA_ on _Catalogue_ or directly by https://rwanda.lsc-hubs.org/ 
 
 ![Hub catalogue](./img/catalogueRwanda.PNG)
 
-**Step 2:** Explore the catalogue. Click on submit, and the available records will be shown.
+When you click on submit, the available records will appear.
 
 ![Hub catalogue overview](./img/cataloguerecords.PNG)
 
@@ -61,24 +61,30 @@ The catalogue allows the filtering of keywords. The 3 main keywords are:
 
 Second, any other keyword linked to the resource can be used to search in the catalogue, for example, _land use_ or _crop yield_. This depends on which keywords are given to the resources.
 
-**Step 3:** Try the keywords. Type in the search bar various keywords, such as _soil_ or click on the keywords on the side.
+**Excercise 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
 
 ![Hub catalogue search](./img/cataloguesearch.png)
 
-**Step 4:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 
 For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
 
-Some records link directly to the [map vizualization](#map-vizualization) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the mapviewer.
+Some records link directly to the [map vizualization](#map-vizualization) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
+
+**Excercise 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 
 ![Hub catalogue record](./img/cataloguepHrecord.PNG) 
 
 
-## Map visualization
-
-Spatial data can be viewed and compared in a web-based map viewer. You can open one of the existing map contexts via the `related maps` menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.
+## Map viewer
+Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on go the map viewer.
+The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-rwanda 
 
 ![Hub map vizualisation](./img/map.png)
+
+
+You can open one of the existing map contexts via the `related maps` menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.
+
+
 
 A listing of available functionalities:
 
@@ -99,11 +105,11 @@ A listing of available functionalities:
     - A `Story` is a series of views on various datasets with comments
     - `Share` generates a link to the current map, which you can share with colleagues  
 
-Read more about the capabilities of the component at [terriajs](https://docs.terria.io/guide/).
 
-## Feedback section
+
+## Feedback
 
 Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up).
 
 
-## Adding data section
+## Additional information
