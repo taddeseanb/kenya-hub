@@ -452,6 +452,6 @@
     "href": "docs/docs/user/index.html#additional-information",
     "title": "User Guideline LSC Hubs",
     "section": "Additional information",
-    "text": "Additional information"
+    "text": "Additional information\nThe stakeholders keep ownership in the LSC hub. The catalogue can be linked to various information sources, without that the data is stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added, there is a way to add the information by using an ODK form.\nAn Open Data Kit (ODK) form is a form that provides a structured way to collect and provide information. Typically forms are used by data collectors via an online link. The LSC-hub ODK form can accessed by: ODK form LSC-IS"
   }
 ]
