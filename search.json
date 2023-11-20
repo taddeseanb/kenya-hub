@@ -415,42 +415,42 @@
   {
     "objectID": "docs/docs/user/index.html",
     "href": "docs/docs/user/index.html",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "",
     "text": "This document is a guideline for the components of a LSC Hub.\nA typical LSC hub consists of 3 components:\nMoreover, there are 2 services important for the LSC hub: - Proving feedback section to improve the LSC-hub - Proving Adding data section to list more relevant information."
   },
   {
     "objectID": "docs/docs/user/index.html#content-section",
     "href": "docs/docs/user/index.html#content-section",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "Content section",
-    "text": "Content section\nThe entry point of the hub is a webpage with general information about the project. The LSC-hub for Rwanda can be accessed at https://lsc-hubs.org/hubs/rwanda/.\nWhen arriving on the homepage, you can see 6 sections: - Data to find data in the catalogue or go to the mapviewer - Predictive modelling to find modelling software in the hub catalogue. - Policy Which policies are relevant to the hub, and can the hub support policy development? - Information Services to find agricultural knowledge and innovation systems in Rwanda - Use Cases to explore the use cases of the LSC hub - Hub community to find other users in the stakeholder list\n add new image\nStep 1: explore the different sections of the LSC hub. Click on all the links, and explore which info is in there."
+    "text": "Content section\nThe entry point of the hub is a webpage with general information about the project. The LSC-hub for Rwanda can be accessed at https://lsc-hubs.org/hubs/rwanda/.\nWhen arriving on the homepage, you can see 6 sections: - Data to find data in the catalogue or go to the mapviewer - Predictive modelling to find modelling software in the hub catalogue. - Policy Which policies are relevant to the hub, and can the hub support policy development? - Information Services to find agricultural knowledge and innovation systems in Rwanda - Use Cases to explore the use cases of the LSC hub - Hub community to find other users in the stakeholder list\n\n\n\nLSC hub homepage\n\n\nStep 1: Explore the different sections of the LSC hub. Click on the links, and explore which info is in there."
   },
   {
     "objectID": "docs/docs/user/index.html#catalogue-section",
     "href": "docs/docs/user/index.html#catalogue-section",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "Catalogue section",
-    "text": "Catalogue section\nThe central catalogue contains references to all relevant resources in the hub. For each reference, a number of metadata properties are provided, such as abstract, keywords, usage constraints, and contact information.\n\n\n\nHub catalogue\n\n\nResources are categorised into:\n\nDatasets\nSoftware\nModel\nServices (Web services, APIs, SMS, phone and onsite services)\n\nThe catalogue allows to filtering of a resultset by relevant filters.\nSome records link to a resource preview option in the map vizualization component.\nRead more about the capabilities of the catalogue component at pycsw."
+    "text": "Catalogue section\nThe central catalogue contains references to all relevant resources in the hub. The catalogue of Rwanda can be reached by https://rwanda.lsc-hubs.org/\n\n\n\nHub catalogue\n\n\nStep 2: Explore the catalogue. Click on submit, and the available records will be shown.\n\n\n\nHub catalogue overview\n\n\nResources are categorised into:\n\nDatasets\nSoftware\nModel\nServices (Web services, APIs, SMS, phone and onsite services)\n\nThe catalogue allows the filtering of keywords. The 3 main keywords are: 1. category ( such as soil, crop, etc.), 2. spatial scope (such as Global, National, district, etc. ), 3. the type (such as dataset, software, etc).\nSecond, any other keyword linked to the resource can be used to search in the catalogue, for example, land use or crop yield. This depends on which keywords are given to the resources.\nStep 3: Try the keywords. Type in the search bar various keywords, such as soil or click on the keywords on the side.\n\n\n\nHub catalogue search\n\n\nStep 4: Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records\nFor each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.\nSome records link directly to the map vizualization component. Under the image, it will say: Open record in the LSC map and you will be directed to the mapviewer.\n\n\n\nHub catalogue record"
   },
   {
     "objectID": "docs/docs/user/index.html#map-visualization",
     "href": "docs/docs/user/index.html#map-visualization",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "Map visualization",
-    "text": "Map visualization\nSpatial data can be viewed and compared in a web-based map viewer. You can open one of the existing map contexts via the related maps menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.\n\n\n\nHub map vizualisation\n\n\nA listing of available functionalities:\n\nThe Sidebar\n\nExplore map data shows a listing of datasets which can be added to the map, either via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from related maps.\nUpload provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference web data from this panel.\nAs soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data.\n\nThe vertical toolbar on the top right\n\nZoom in and out, and back to a full world zoom\nZoom to your current location\nSplit the map in the left and right, to compare 2 datasets\nMeasure a distance on the map\n\nThe top menu\n\nGet more information about the map viewer\nSelect one of a set of related maps\nMap settings allows to select a different base map\nHelp opens the viewer documentation\nA Story is a series of views on various datasets with comments\nShare generates a link to the current map, which you can share with collegues\n\n\nRead more about the capabilities of the component at terriajs."
+    "text": "Map visualization\nSpatial data can be viewed and compared in a web-based map viewer. You can open one of the existing map contexts via the related maps menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.\n\n\n\nHub map vizualisation\n\n\nA listing of available functionalities:\n\nThe Sidebar\n\nExplore map data shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from related maps.\nUpload provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference web data from this panel.\nAs soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data.\n\nThe vertical toolbar on the top right\n\nZoom in and out, and back to a full world zoom\nZoom to your current location\nSplit the map to the left and right, to compare 2 datasets\nMeasure a distance on the map\n\nThe top menu\n\nGet more information about the map viewer\nSelect one of a set of related maps\nMap settings allows you to select a different base map\nHelp opens the viewer documentation\nA Story is a series of views on various datasets with comments\nShare generates a link to the current map, which you can share with colleagues\n\n\nRead more about the capabilities of the component at terriajs."
   },
   {
     "objectID": "docs/docs/user/index.html#feedback-section",
     "href": "docs/docs/user/index.html#feedback-section",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "Feedback section",
     "text": "Feedback section\nNotice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a Github login."
   },
   {
     "objectID": "docs/docs/user/index.html#adding-data-section",
     "href": "docs/docs/user/index.html#adding-data-section",
-    "title": "User documentation LSC Hubs",
+    "title": "User Guideline LSC Hubs",
     "section": "Adding data section",
     "text": "Adding data section"
   }
