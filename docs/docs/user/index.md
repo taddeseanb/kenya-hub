@@ -68,7 +68,7 @@ Second, any other keyword linked to the resource can be used to search in the ca
 
 For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
 
-Some records link directly to the [map vizualization](#map-vizualization) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
+Some records link directly to the [map viewer](#map-viewer) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
 
 **Exercise 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 
