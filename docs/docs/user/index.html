@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paul van Genuchten">
-<meta name="dcterms.date" content="2023-11-13">
+<meta name="author" content="Paul van Genuchten, Thaïsa van der Woude">
+<meta name="dcterms.date" content="2023-11-20">
 
 <title>LSC Hub - core - User documentation LSC Hubs</title>
 <style>
@@ -252,14 +252,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Paul van Genuchten </p>
+             <p>Paul van Genuchten, Thaïsa van der Woude </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 13, 2023</p>
+      <p class="date">November 20, 2023</p>
     </div>
   </div>
   
@@ -269,48 +269,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This document describes the components of a LSC Hub from a user perspective.</p>
+<p>This document is a guideline for the components of a LSC Hub.</p>
 <p>A typical LSC hub consists of 3 components:</p>
 <ul>
-<li>A <a href="#content-section">content section</a> providing a user welcome, project attribution and documentation</li>
-<li>A <a href="#catalogue-section">catalogue section</a> which provides a search interface on the resources relevant to the hub</li>
-<li>A <a href="#map-vizualization">map vizualisation</a> section for easy access to data</li>
+<li>A <a href="#content-section">content section</a> providing a user welcome, project attribution and documentation;</li>
+<li>A <a href="#catalogue-section">catalogue section</a> which provides a search interface on the resources relevant to the hub;</li>
+<li>A <a href="#map-vizualization">map vizualisation</a> section for easy access to data.</li>
 </ul>
+<p>Moreover, there are 2 services important for the LSC hub: - Proving <a href="#feedback-section">feedback section</a> to improve the LSC-hub - Proving <a href="#addingdata-section">Adding data section</a> to list more relevant information.</p>
 <section id="content-section" class="level2">
 <h2 class="anchored" data-anchor-id="content-section">Content section</h2>
-<p>The entry point of the hub are some webpages with general information about the project.</p>
-<p>More content is available in the <a href="./docs">documentation section</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./img/home.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">LSC hub homepage</figcaption>
-</figure>
-</div>
-<p>Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a <a href="https://github.com/signup?ref_cta=Sign+up">Github login</a>.</p>
+<p>The entry point of the hub is a webpage with general information about the project. The LSC-hub for Rwanda can be accessed at https://lsc-hubs.org/hubs/rwanda/.</p>
+<p>When arriving on the homepage, you can see 6 sections: - <strong>Data</strong> to find data in the <a href="https://rwanda.lsc-hubs.org/">catalogue</a> or go to the <a href="https://maps.lsc-hubs.org/#lsc-rwanda">mapviewer</a> - <strong>Predictive modelling</strong> to find modelling software in the <a href="https://rwanda.lsc-hubs.org/collections/metadata:main/items?type=model">hub catalogue</a>. - <strong>Policy</strong> Which <a href="https://lsc-hubs.org/hubs/rwanda/policy/">policies</a> are relevant to the hub, and can the hub support policy development? - <strong>Information Services</strong> to find <a href="https://lsc-hubs.org/hubs/rwanda/akis/">agricultural knowledge and innovation systems</a> in Rwanda - <strong>Use Cases</strong> to explore the <a href="https://lsc-hubs.org/hubs/rwanda/usecases/">use cases</a> of the LSC hub - <strong>Hub community</strong> to find other users in the <a href="https://lsc-hubs.org/hubs/rwanda/stakeholders/">stakeholder list</a></p>
+<p><img src="./img/home.png" class="img-fluid" alt="LSC hub homepage"> add new image</p>
+<p>Step 1: explore the different sections of the LSC hub. Click on all the links, and explore which info is in there.</p>
 </section>
 <section id="catalogue-section" class="level2">
 <h2 class="anchored" data-anchor-id="catalogue-section">Catalogue section</h2>
-<p>The central catalogue contains references to all relevant resources in the hub. For each reference a number of metadata properties are provided, such as abstract, keywords, usage constraints, contact information.</p>
+<p>The central catalogue contains references to all relevant resources in the hub. For each reference, a number of metadata properties are provided, such as abstract, keywords, usage constraints, and contact information.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="./img/catalogue.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Hub catalogue</figcaption>
 </figure>
 </div>
-<p>Resources are categorised in:</p>
+<p>Resources are categorised into:</p>
 <ul>
 <li>Datasets</li>
 <li>Software</li>
 <li>Model</li>
-<li>Services (Web services, API’s, SMS, phone and onsite services)</li>
+<li>Services (Web services, APIs, SMS, phone and onsite services)</li>
 </ul>
-<p>The catalogue allows to filter a resultset by relevant filters.</p>
-<p>Some records provide linkage to a preview option of the resource in the <a href="#map-vizualization">map vizualization</a> component.</p>
+<p>The catalogue allows to filtering of a resultset by relevant filters.</p>
+<p>Some records link to a resource preview option in the <a href="#map-vizualization">map vizualization</a> component.</p>
 <p>Read more about the capabilities of the catalogue component at <a href="https://docs.pycsw.org/en/latest/">pycsw</a>.</p>
 </section>
-<section id="map-vizualization" class="level2">
-<h2 class="anchored" data-anchor-id="map-vizualization">Map vizualization</h2>
-<p>Spatial data can be viewed and compared in a webbased map viewer. You can open one of the existing map contexts via the <code>related maps</code> menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.</p>
+<section id="map-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="map-visualization">Map visualization</h2>
+<p>Spatial data can be viewed and compared in a web-based map viewer. You can open one of the existing map contexts via the <code>related maps</code> menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="./img/map.png" class="img-fluid figure-img"></p>
@@ -329,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Zoom in and out, and back to a full world zoom</li>
 <li>Zoom to your current location</li>
-<li>Split the map in a left and right, to compare 2 datasets</li>
+<li>Split the map in the left and right, to compare 2 datasets</li>
 <li>Measure a distance on the map</li>
 </ul></li>
 <li>The top menu
@@ -343,6 +339,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 <p>Read more about the capabilities of the component at <a href="https://docs.terria.io/guide/">terriajs</a>.</p>
+</section>
+<section id="feedback-section" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-section">Feedback section</h2>
+<p>Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a <a href="https://github.com/signup?ref_cta=Sign+up">Github login</a>.</p>
+</section>
+<section id="adding-data-section" class="level2">
+<h2 class="anchored" data-anchor-id="adding-data-section">Adding data section</h2>
 
 
 </section>
