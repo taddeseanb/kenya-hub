@@ -30,7 +30,7 @@ When arriving on the homepage, you can see 6 sections:
 - **Use Cases** to explore the [use cases](https://lsc-hubs.org/hubs/rwanda/usecases/) of the LSC hub
 - **Hub community** to find other users in the [stakeholder list](https://lsc-hubs.org/hubs/rwanda/stakeholders/)
 
-![LSC hub homepage](./img/homeRwanda.png)
+![LSC hub homepage](./img/homeRwanda.PNG)
 
 **Step 1:** Explore the different sections of the LSC hub. Click on the links, and explore which info is in there.
 
