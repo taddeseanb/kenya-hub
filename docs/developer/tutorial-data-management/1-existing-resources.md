@@ -2,6 +2,11 @@
 title: Existing resources
 author: Paul van Genuchten
 date: 2023-05-09
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents: auto
 ---
 
 Organisations organise their documents and datasets on various central network storages or databases. These resources are usually clustered in organisational units, projects and/or periods. Many files and database tables contain inherent metadata, such as the name, size, date, author, location etc. For example Excel, ESRI FileGeoDatabase, Geopackage and tiff files. It is important this information is included when exporting the data to an alternative context, such as a remote data repository.

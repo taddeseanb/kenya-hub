@@ -25,7 +25,7 @@ The LSC hub supports improved decision-making for climate-smart agriculture at n
 
 ::::
 
----
+::: {.special-section}
 
 ## Data
 
@@ -46,63 +46,94 @@ Search datasets or browse by category.
 
 ::: {.column width="20%"}
 
-[Land](#)
+![](./img/icon/land.svg) [Land](#)
 
 :::
 
 ::: {.column width="20%"}
 
-[Soil](#)
+![](./img/icon/soil.svg) [Soil](#)
 
 :::
 
 ::: {.column width="20%"}
 
-[Crop](#)
+![](./img/icon/crop.svg) [Crop](#)
 
 :::
 
 ::: {.column width="20%"}
 
-[Climate](#)
+![](./img/icon/climate.svg) [Climate](#)
 
 :::
 
 ::: {.column width="20%"}
 
-[Water](#)
+![](./img/icon/water.svg) [Water](#)
 
 :::
 
 ::::
 
----
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="48%" .rounded .bg-white .border .p-2}
+
+:::: {.columns}
+
+::: {.column width="60%" }
 
 ### Maps
 
 Annual cropland extent map for Central Africa produced by Digital Earth.
 
-<input type=submit value=Search>
-
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%" }
 
-### Documents
-
-Read more about the various API's which are available for this service.
-
-<input type=submit value=Search>
+![](./img/undraw_connected_world_wuay%201.svg){.my-3}
 
 :::
 
 ::::
 
----
+:::{.text-center}
+<a href="https://maps.lsc-hubs.org" class="btn btn-warning rounded-pill">Open mapviewer</a> 
+:::
+
+:::
+
+::: {.column width="47%" .rounded .bg-white .border .mx-3 .p-2}
+
+:::: {.columns}
+
+::: {.column width="60%" }
+
+### Documents
+
+Read more about the various API's which are available for this service.
+
+:::
+
+::: {.column width="40%" }
+
+![](./img/Group%20856.svg){.my-3}
+
+:::
+
+::::
+
+:::{.text-center}
+<a href="docs" class="btn btn-warning rounded-pill">View documents</a> 
+:::
+
+:::
+
+::::
+
+:::
 
 :::: {.columns}
 
@@ -114,8 +145,8 @@ Information services provide dedicated information derived from relevant data to
 
 Processing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.
 
-<input type=submit value="Browse services">
-<input type=submit value="Read more">
+<input type=submit value="Browse services"  class="btn btn-warning rounded-pill">
+<input type=submit value="Read more" class="btn btn-success rounded-pill">
 
 :::
 
@@ -165,12 +196,12 @@ Here you will find data relating to the Inter-Sectoral Impact Model Intercompari
 
 ::::
 
-<input type=submit value="View all popular services">
-
----
+<input type=submit value="View all popular services" class="btn btn-success rounded-pill">
 
 
 
+
+::: {.special-section}
 
 :::: {.columns}
 
@@ -180,8 +211,8 @@ Here you will find data relating to the Inter-Sectoral Impact Model Intercompari
 
 Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.
 
-<input type=submit value="Browse models">
-<input type=submit value="Read more">
+<input type=submit value="Browse models" class="btn btn-warning rounded-pill">
+<input type=submit value="Read more" class="btn btn-success rounded-pill">
 
 :::
 
@@ -197,7 +228,7 @@ Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Cons
 
 :::: {.columns}
 
-::: {.column width="25%"}
+::: {.column width="23%" .p-2 .bg-white .rounded .border}
 
 AGRICA – Climate risk analyses for adaptation planning in sub-Saharan Africa
 
@@ -205,7 +236,7 @@ AGRICA project provides  climate risk analyses for the agricultural sector in su
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="23%" .p-2 .bg-white .mx-2 .rounded .border}
 
 Tiger initiative; Looking after water in Africa
 
@@ -213,7 +244,7 @@ To develop EO services in collaboration with African stakeholders and transfer t
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="23%" .p-2 .bg-white  .rounded .border}
 
 ISDA field-level soil map for Africa
 
@@ -221,7 +252,7 @@ Field-level soil map for Africa, with 20+ soil properties predicted at 30m resol
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="23%" .p-2 .bg-white .mx-2 .rounded .border}
 
 The Inter-Sectoral Impact Model Intercomparison Project
 
@@ -231,9 +262,9 @@ Here you will find data relating to the Inter-Sectoral Impact Model Intercompari
 
 ::::
 
-<input type=submit value="View all popular models">
+<input type=submit value="View all popular models" class="btn btn-success rounded-pill">
 
----
+:::
 
 ## User stories
 
@@ -246,13 +277,13 @@ The two cases below are descriptions of key applications for which the LSC hub c
 
 ![](./img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg)
 
-::: {p-2}
+::: {.p-2}
 
 ### Soil Fertility Management
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
-<input type=submit value="Explore this use case">
+<input type=submit class="btn btn-success rounded-pill" value="Explore this use case">
 
 :::
 
@@ -264,13 +295,13 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 ![](./img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg)
 
-::: {p-2}
+::: {.p-2}
 
 ### Soil Water Conservation
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
-<input type=submit value="Explore this use case">
+<input type=submit class="btn btn-success rounded-pill" value="Explore this use case">
 
 :::
 
@@ -290,7 +321,7 @@ The heart of the knowledge hub. Here, you’ll find like-minded participants who
 
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
-<input type=submit value="Visit community">
+<input type=submit class="btn btn-success rounded-pill" value="Visit community">
 
 :::
 
@@ -302,19 +333,19 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 ::::
 
-
+::: {.special-section}
 
 ::: {.text-light .bg-dark}
 
 :::: {.columns }
 
-::: {.column width="50%" .p-2}
+::: {.column width="50%" .p-2 }
 
-## Join our newsletter
+## Join our newsletter {.text-light}
 
 Subscribe to our newsletter and be the first to receive the latest data updates and community news about the Kenya Land Soil and Crop hub.
 
-<input type=submit value="Subscribe now">
+<input type=submit class="btn btn-success rounded-pill" value="Subscribe now">
 
 ::: 
 
@@ -325,5 +356,7 @@ Subscribe to our newsletter and be the first to receive the latest data updates 
 :::
 
 ::::
+
+:::
 
 :::

@@ -3,25 +3,33 @@ project:
   render: 
     - "*.md"
 
-margin-header: |
-  ![](https://lsc-hubs.org/images/logo-lsc-hubs.svg)
-
 website:
-  body-footer: |
-    <footer class="bs-footer mt-5">
-    [LSC Hubs 2023](https://lsc-hubs.org)</footer>
-  title: "LSC Hub - core"
-  sidebar:
-    style: "docked"
+  page-footer:
+    background: dark 
+    left: 
+    - text: LSC Hubs 2023
+      file: https://www.lsc-hubs.org
+  title: "&nbsp;"
+  navbar:
+    background: white
     search: true
-    contents: auto
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: Catalogue
+        file: "#data"
+      - text: Community
+        file: "#community" 
 
 format:
   html:
     theme: 
-      - sandstone
+      - cosmo
       - custom.scss
   
+
+
+
 
 
 
