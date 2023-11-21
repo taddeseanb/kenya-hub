@@ -93,13 +93,13 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 3. `Map settings` allows you to select a different base map, such as natural earth maps or aerial maps. This depends on which base map you prefer to work with.
  ![mapviewer map settings](./img/mapviewer_mapsettings.PNG)
   
-4. `Help` gives usefull tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and show the main functionalities.
+4. `Help` gives useful tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and shows the main functionalities.
  ![mapviewer help](./img/mapviewer_help.PNG)
   
-5. A `Story` is a function that allow to create and share interactive stories directly from your map. It contains a video with explaination on how to create them.
+5. A `Story` is a function that allows you to create and share interactive stories directly from your map. It contains a video with an explanation of how to create them.
  ![mapviewer story](./img/mapviewer_story.PNG)
   
-6. `Share/Print` generates a link of your created map, which you can share with colleagues. Anything that you have added to the map viewer will be shown in the shareable link.
+6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything that you have added to the map viewer will be shown in the shareable link.
       You can also use this button to download your created map as an image.   
  ![mapviewer share](./img/mapviewer_share.PNG)
 
