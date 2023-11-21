@@ -1,9 +1,12 @@
 ---
-title: LSC Hubs 
+title: LSC Hubs documentation
 date: 2023-11-13
 author: Paul van Genuchten
 ---
 
+
 ## Contents
 
-- [documentation](./docs)
+- [User documentation](./user)
+- [Administrator documentation](./admin)
+- [Developer documentation](./developer)
