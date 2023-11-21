@@ -1,5 +1,31 @@
 /*-- scss:defaults --*/
-$body-bg:            #F5EFE4 !default;
-$navbar-bg:	           #F5EFE4;
+//$body-bg:            #F5EFE4 !default;
+//$navbar-bg:	           #F5EFE4;
 $navbar-fg:	           #000;
 $navbar-hl:             #000; 
+#title-block-header {    
+    display:none;
+}
+.headroom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+body, td, div, li {
+    color: #2C393F;
+font-family: Circular Std, Open Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+font-style: normal;
+line-height: 29px;
+}
+.footer, .footer a {
+    color: white;
+    background: #2C393F;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+}
+.special-section {
+    background-color: #F5EFE4;
+    margin:25px -500px 25px -500px;
+    padding:25px 500px 25px 500px
+}
+h1 {
+    color: #10AC59;
+}
