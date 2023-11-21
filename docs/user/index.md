@@ -107,25 +107,33 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 
 **The vertical toolbar on the top right**
+ ![mapviewer rightbar](./img/mapviewer_rightbar.png)
 
 1. Zoom in and out, and back to a full world zoom
 2. Zoom to your current location
-3. Split the map to the left and right, to compare 2 datasets
-4. Measure a distance on the map
-5. Provide feedback on the map viewer
+3. Compare two map data side-by-side. We will go into detail within the next section on _explore map data_.
+ ![mapviewer compare](./img/mapviewer_compare.png)
 
-
-- The Sidebar
-    - Search for locations
-    - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
-    - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
-    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
-
+4. Measure the distance on the map between two locations.
+ ![mapviewer measure](./img/mapviewer_measure.png)
+  
+5. Provide feedback on the map viewer. Feedback is essential to improve the map viewer and to ensure that the map viewer fits the user's needs. If you have any feedback on the map viewer, you can give it by this button.
+ ![mapviewer feedback](./img/mapviewer_feedback.png)
 
 
 
+**The Sidebar**
 
-## Feedback
+   - Search for locations
+   - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
+   - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
+   - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
+
+
+
+
+
+## Feedback to LSC hub
 
 Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up).
 
