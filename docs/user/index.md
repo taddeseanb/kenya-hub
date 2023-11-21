@@ -88,20 +88,20 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
 2. the `related maps` show other available maps, such as the LSC Ethiopia, LSC Keny and LSC Rwanda. If you click on one of these maps, it will zoom to those locations.
- ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG))
+ ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG)
 
 3. `Map settings` allows you to select a different base map, such as natural earth maps or aerial maps. This depends on which base map you prefer to work with.
- ![mapviewer map settings](./img/mapviewer_mapsettings.PNG))
+ ![mapviewer map settings](./img/mapviewer_mapsettings.PNG)
   
 4. `Help` gives usefull tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and show the main functionalities.
- ![mapviewer help](./img/mapviewer_help.PNG))
+ ![mapviewer help](./img/mapviewer_help.PNG)
   
 5. A `Story` is a function that allow to create and share interactive stories directly from your map. It contains a video with explaination on how to create them.
- ![mapviewer story](./img/mapviewer_story.PNG))
+ ![mapviewer story](./img/mapviewer_story.PNG)
   
 6. `Share/Print` generates a link of your created map, which you can share with colleagues. Anything that you have added to the map viewer will be shown in the shareable link.
       You can also use this button to download your created map as an image.   
- ![mapviewer share](./img/mapviewer_share.PNG))
+ ![mapviewer share](./img/mapviewer_share.PNG)
 
 **Step 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button and download your current map.
 
