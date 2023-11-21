@@ -107,7 +107,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 
 **The vertical toolbar on the top right**
- ![mapviewer rightbar](./img/mapviewer_rightbar.png)
+ ![mapviewer rightbar](./img/mapviewer_rightbar.png) 
 
 1. Zoom in and out, and back to a full world zoom
 2. Zoom to your current location
