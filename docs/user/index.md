@@ -142,7 +142,7 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
 ![mapviewer add2](./img/mapviewer_add2.png)
 
    If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
-![mapviewer compare2](./img/mapviewer_acompare2.png)
+![mapviewer compare2](./img/mapviewer_compare2.png)
 
    `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
    
