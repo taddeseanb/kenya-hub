@@ -103,7 +103,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
       You can also use this button to download your created map as an image.   
  ![mapviewer share](./img/mapviewer_share.PNG)
 
-**Step 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button and download your current map.
+
 
 
 **The vertical toolbar on the top right**
@@ -121,12 +121,43 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
  ![mapviewer feedback](./img/mapviewer_feedback.png)
 
 
+**Step 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
+
 
 **The Sidebar**
+The sidebar is the main location for adding maps to the map viewer and visualising your own data or any other web data.
 
-   - Search for locations
-   - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
-   - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
+   - `Search for locations` allows you to search for a specific location and go to your area of interest.
+ ![mapviewer location](./img/mapviewer_location.png)
+     
+   - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from available maps. If the panel is empty, select an alternative map from `related maps`.
+      ![mapviewer explore](./img/mapviewer_explore.png)
+
+     Under the available maps, you can click on a property map to which you would like to add the viewer. It shows, for example, for the property pH, 4 maps: the 5% prediction value, the 95% prediction value, the median of predictions and the pH map.
+     The values are given for pH*10 for better visualisation. Under the data preview, the metadata of the map is given. You can add the map to the map viewer by clicking on `Add to the map`. 
+
+![mapviewer add](./img/mapviewer_add.png)
+    
+   You can add as many maps to the Mapviewer as you want. For example, you add another map of Organic Carbon.
+![mapviewer add2](./img/mapviewer_add2.png)
+
+   If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
+![mapviewer compare2](./img/mapviewer_acompare2.png)
+
+   `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
+   
+   - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with anyone else. You can also add `web data` from this panel to the map viewer.
+![mapviewer localweb](./img/mapviewer_localweb.png)
+
+     For local files, you first need to select a file type. The file should have a spatial component and/or coordinates in order to add it to the map viewer. In step 2, you browse your file on your local computer.
+![mapviewer local](./img/mapviewer_local.PNG)
+
+     For web data, you first need to select the file or web service type. In step 2, you will add the URL in order to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is: https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
+
+     You can compare these maps with other added maps, through the compare button.
+ ![mapviewer web](./img/mapviewer_web.PNG)  
+
+    
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
 
