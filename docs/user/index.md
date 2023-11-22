@@ -32,7 +32,7 @@ When arriving on the homepage, you can see 6 sections:
 
 ![LSC hub homepage](./img/homeRwanda.PNG)
 
-**Exercise 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
+**Exercise 1:** Explore the homepage of the LSC hub. Click on the links and explore which info is in there.
 
 
 
@@ -81,9 +81,9 @@ The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-r
 
 ![Hub map vizualisation](./img/map.png)
 
-The map viewer can used for the visualisation of existing maps listed in the LSC catalogue, your own data and web data. In this guideline, we will take you through the available functionalities of the map viewer.
+The map viewer can used for the visualisation of existing maps listed in the LSC catalogue, your data and web data. In this guideline, we will take you through the available functionalities of the map viewer.
 
-**The top menu**
+### **The top menu**
 ![mapviewer top bar](./img/mapviewer_topbar.PNG)
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
@@ -99,7 +99,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 5. A `Story` is a function that allows you to create and share interactive stories directly from your map. It contains a video with an explanation of how to create them.
  ![mapviewer story](./img/mapviewer_story.PNG)
   
-6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything that you have added to the map viewer will be shown in the shareable link.
+6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything you have added to the map viewer will be shown in the shareable link.
       You can also use this button to download your created map as an image.   
  ![mapviewer share](./img/mapviewer_share.PNG)
 
@@ -107,11 +107,14 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 
 **The vertical toolbar on the top right**
+
+The vertical toolbar allows you to zoom on the map or location, compare maps, measure distance and provide feedback. Each of the buttons will be explained below.
+
  ![mapviewer rightbar](./img/mapviewer_rightbar.png) 
 
 1. Zoom in and out, and back to a full world zoom
 2. Zoom to your current location
-3. Compare two map data side-by-side. We will go into detail within the next section on _explore map data_.
+3. Compare two map data side-by-side. In the next section on _explore map data_.
  ![mapviewer compare](./img/mapviewer_compare.png)
 
 4. Measure the distance on the map between two locations.
@@ -125,7 +128,8 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 
 **The Sidebar**
-The sidebar is the main location for adding maps to the map viewer and visualising your own data or any other web data.
+
+The sidebar is the main location for adding maps to the map viewer and visualising your data or any other web data.
 
    - `Search for locations` allows you to search for a specific location and go to your area of interest.
      ![mapviewer location](./img/mapviewer_location.png)
@@ -148,10 +152,10 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
    - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with anyone else. You can also add `web data` from this panel to the map viewer.
      ![mapviewer localweb](./img/mapviewer_localweb.png)
 
-     For local files, you first need to select a file type. The file should have a spatial component and/or coordinates in order to add it to the map viewer. In step 2, you browse your file on your local computer.
+     For local files, you first need to select a file type. The file should have a spatial component and/or coordinates to add it to the map viewer. In step 2, you browse your file on your local computer.
      ![mapviewer local](./img/mapviewer_local.PNG)
 
-     For web data, you first need to select the file or web service type. In step 2, you will add the URL in order to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is:
+     For web data, you first need to select the file or web service type. In step 2, you will add the URL to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is:
      https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
 
      You can compare these maps with other added maps, through the compare button.
