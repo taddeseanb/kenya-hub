@@ -5,6 +5,10 @@ project:
     - "*.qmd"
 
 website:
+  repo-url: "https://github.com/lsc-hubs/hub-core"
+  repo-actions: 
+    - edit
+    - issue
   page-footer:
     background: dark 
     left: 
@@ -21,8 +25,25 @@ website:
         file: "/#data"
       - text: Community
         file: "/#hub-community" 
-      - text: Docs
+      - text: "Docs"
         file: "./docs" 
+  sidebar:
+    - title: "Docs"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        - section: User
+          contents: docs/user/*
+        - section: Administrator
+          contents: docs/admin/*
+        - section: Developer
+          contents: 
+            - section: Hub components
+              contents: docs/developer/*
+            - section: Workshop Data
+              contents: docs/developer/tutorial-data-management/*
+
 format:
   html:
     theme: 

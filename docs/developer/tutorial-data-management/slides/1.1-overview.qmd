@@ -6,7 +6,8 @@ date: 2023-09-15
 format:
   revealjs:
     incremental: true
-
+    logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
+    footer: "Workshop on spatial data flows"
 ---
 
 ## Agenda  

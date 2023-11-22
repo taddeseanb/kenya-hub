@@ -1,6 +1,7 @@
 ---
 title: 'Kenya Integrated Soil Fertility Management description​'
 date: 2023-07-05
+sidebar: false
 ---
 
 # Kenya Integrated Soil Fertility Management description

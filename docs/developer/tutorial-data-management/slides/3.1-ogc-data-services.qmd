@@ -1,9 +1,13 @@
 ---
 title: "3.1 OGC data services"
-subtitle: "How to make data findable"
+subtitle: "Provide data via conveniance API's"
+author: Paul van Genuchten
+date: 2023-05-09
 format:
   revealjs:
     incremental: true
+    logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
+    footer: "Workshop on spatial data flows"
 ---
 
 

@@ -6,6 +6,8 @@ date: 2023-09-15
 format:
   revealjs:
     incremental: true
+    logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
+    footer: "Workshop on spatial data flows"
 ---
 
 # Findable
@@ -51,3 +53,63 @@ Persistent identification, for continued findability
 - Search engines crawl the content of catalogues 
 - If a catalogue supports schema.org annotations, the content can also be extracted in a structured way
 - Example
+
+
+
+# Accessibility
+
+## Persistence
+
+- Move the resource to a shared environment (backup)
+- Consider a URL strategy
+- Use a facade identifier (DOI) 
+
+## Data lifecycle
+
+- Consider upfront when to remove a resource (10 yrs?)
+- What happens to the URI of a resource which is archived?
+- Metadata should stay available, even if the data are no longer
+
+# Tools
+
+## Repository software
+
+- Webdav (or webserver software)
+- Zenodo, Dataverse
+- Document Management Systems (DMS)
+- Cloud storage (google drive, dropbox, Amazon, Sharepoint)
+
+## testing tools
+
+- Automated link checking
+- Usage logs filter on status 404 & referer
+- Google Search Console notifies broken links 
+
+
+## Universal formats
+
+Facilitates accessing a resource with commonly available tooling, or be refactored if a software is abandoned
+
+- Proprietary vs Open (eg. ecw vs tiff)
+- De facto vs Formalised (eg. YAML vs XML)
+- Binary vs text based (eg. shapefile vs GeoJSON)
+- Cloud optimised vs Cloud native vs traditional (eg. COG vs GeoZarr vs GeoTiff)
+- Embedded metadata
+
+## Adopt common vocabularies
+
+Adopting a standardised model enables aggregation of data.
+
+- Relational models
+- UML/GML models
+- Semantic web ontologies
+
+## Relevant vocabularies
+
+- ISO28258 / INSPIRE / GLOSIS Web Ontology
+- Agrovoc
+- WRB / FAO Soil Classification Guidelines
+
+# Reusable
+
+## aspect 1

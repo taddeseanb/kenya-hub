@@ -1,5 +1,6 @@
 ---
 title: "Land Soil Crop Hub"
+sidebar: false
 include-in-header:
   text: <script type="text/javascript" src="./js/index.js"></script>
 ---

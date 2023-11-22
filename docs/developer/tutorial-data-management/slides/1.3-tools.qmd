@@ -1,9 +1,13 @@
 ---
-title: "1.7 Tools"
-subtitle: "How to make data findable"
+title: "1.3 Tools"
+subtitle: "Tools used in the training"
+author: Paul van Genuchten
+date: 2023-05-09
 format:
   revealjs:
     incremental: true
+    logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
+    footer: "Workshop on spatial data flows"
 ---
 
 ## Github

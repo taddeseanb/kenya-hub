@@ -1,7 +1,11 @@
 ---
 title: "3.2 Service Quality"
-subtitle: "How to make data findable"
+subtitle: Evaluate and improve service quality"
+author: Paul van Genuchten
+date: 2023-05-09
 format:
   revealjs:
     incremental: true
+    logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
+    footer: "Workshop on spatial data flows"
 ---

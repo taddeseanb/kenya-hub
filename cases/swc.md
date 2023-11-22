@@ -1,7 +1,7 @@
 ---
 title: 'Kenya Soil Water Conservation'
 date: 2023-07-05
-
+sidebar: false
 ---
 
 # Kenya Soil Water Conservation
