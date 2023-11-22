@@ -114,7 +114,7 @@ The vertical toolbar allows you to zoom on the map or location, compare maps, me
 
 1. Zoom in and out, and back to a full world zoom
 2. Zoom to your current location
-3. Compare two map data side-by-side. In the next section on _explore map data_.
+3. Compare two map data side-by-side. In the next section on _explore map data_, we go into more detail on this function.
  ![mapviewer compare](./img/mapviewer_compare.png)
 
 4. Measure the distance on the map between two locations.
