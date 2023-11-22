@@ -176,10 +176,36 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
 
 ## Feedback to LSC hub
 
-Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up).
+Getting feedback from various stakeholders is crucial for several reasons. 
+  1. Firstly, incorporating diverse perspectives from stakeholders involved in working with and benefiting from land, soil, and crop information ensures that the LSC hub caters to the actual needs and demands of its users (Data providers/Users). This feedback allows for the fine-tuning of the hub's functionalities, making it more user-friendly and effective in serving the specific requirements of different user groups.
+  
+  3. Secondly, gathering feedback facilitates continuous improvement. It provides an opportunity to identify potential shortcomings or areas needing enhancement within the LSC hubs. Insights from stakeholders enable the developers and administrators of the hub to address any challenges faced by users, thereby refining the system to better align with the expectations and requirements of its intended beneficiaries.
+  
+  4. Moreover, involving stakeholders in providing feedback fosters a sense of ownership and collaboration. When users feel heard and their inputs valued, it encourages their active participation and engagement with the LSC hub. This collaborative approach promotes a sense of ownership among stakeholders, leading to increased utilization and sustained support for the system in the long term.
+  
+  5. Ultimately, the feedback obtained from diverse stakeholders during the Rwanda WP4 workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in Rwanda's agricultural landscape.
+
+Every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. In these sections, you can provide feedback about the page and what you would like to be adjusted.
+![feedback page](./img/feedback_section2.png)  
+
+Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up). A GIThub account is easily made by pressing on _sign in with GIThub_, then click on _New to GIThub? Create an account_. 
+You only need to decide on a username, and password and enter your email address. 
+![feedback github](./img/feedback_github.png)  
+
+Once logged in, you can now comment below the pages. If you have an account, You can provide feedback by contributing to hub discussions at the [github repository](https://github.com/lsc-hubs/rwanda-hub/discussions). To get started, you can create a new discussion.
+![feedback discussion](./img/feedback_discussion.PNG)  
+
+
+**Exercise 5:** Create a GIThub account and start a discussion at the GIThub repository.
 
 
 ## Additional information
-The stakeholders keep ownership in the LSC hub. The catalogue can be linked to various information sources, without that the data is stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added, there is a way to add the information by using an ODK form.
+The catalogue can be linked to various information sources, without the data being stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added, there is a way to add the information by using an ODK form.
 
 An Open Data Kit (ODK) form is a form that provides a structured way to collect and provide information. Typically forms are used by data collectors via an online link. The LSC-hub ODK form can accessed by: [ODK form LSC-IS](https://odk.isric.org/-/single/n2Sosp1gxbXLUcOelRBWsMru72DSLFb?st=pi9NCIyCBZIeYuVU0lb812NtQfOucM34dS04qF6GFaao2FB!c3DJDl10TTRTeOUJ)
+
+![ODK](./img/ODK.PNG)  
+
+The questions in the ODK form are a guideline to provide details (metadata) on your data/information/website/etc. that you would like to add to the LSC hub. Proving metadata is essential to avoid ambiguity. 
+
+**Exercise 6:** Go through the ODK form, see if all questions are clear and try to fill in the ODK form for a website or data portal that is supplementary to the LSC hub.
