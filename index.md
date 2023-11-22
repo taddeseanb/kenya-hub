@@ -81,7 +81,7 @@ Search datasets or browse by category.
 
 :::: {.columns}
 
-::: {.column width="48%" .rounded .bg-white .border .p-2}
+::: {.column width="48%" .rounded .bg-white .border .px-3}
 
 :::: {.columns}
 
@@ -107,7 +107,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 :::
 
-::: {.column width="47%" .rounded .bg-white .border .mx-3 .p-2}
+::: {.column width="47%" .rounded .bg-white .border .mx-3 .px-3}
 
 :::: {.columns}
 
@@ -164,7 +164,7 @@ Processing raw data in many cases requires expert knowledge. To bring the value 
 
 :::: {.columns}
 
-::: {.column width="20%" .p-2 .m-2 .rounded .text-light .bg-dark}
+::: {.column width="23%" .p-2 .m-2 .rounded .text-light .bg-dark}
 
 Loading... 
 
@@ -230,7 +230,7 @@ The two cases below are descriptions of key applications for which the LSC hub c
 
 ![](./img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg)
 
-::: {.p-2}
+::: {.px-3}
 
 ### Soil Fertility Management
 
@@ -250,7 +250,7 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 ![](./img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg)
 
-::: {.p-2}
+::: {.px-3}
 
 ### Soil Water Conservation
 
@@ -298,7 +298,7 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 :::: {.columns }
 
-::: {.column width="50%" .p-2 }
+::: {.column width="50%" .px-3 }
 
 ## Join our newsletter {.text-light}
 
@@ -310,7 +310,7 @@ Subscribe to our newsletter and be the first to receive the latest data updates 
 
 ::: 
 
-::: {.column width="50%" .p-2}
+::: {.column width="50%" .px-3}
 
 ![](./img/undraw_content_creator_re_pt5b%201.svg)
 
