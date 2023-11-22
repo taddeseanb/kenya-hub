@@ -157,9 +157,11 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
 
      For web data, you first need to select the file or web service type. In step 2, you will add the URL to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is:
      https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
+     ![mapviewer web](./img/mapviewer_web.png)  
+
 
      You can compare these maps with other added maps, through the compare button.
-     ![mapviewer web](./img/mapviewer_web.png)  
+     ![mapviewer compare2](./img/mapviewer_compare2.png)  
 
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
