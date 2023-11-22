@@ -2,6 +2,7 @@ project:
   type: website
   render: 
     - "*.md"
+    - "*.qmd"
 
 website:
   page-footer:
@@ -9,18 +10,19 @@ website:
     left: 
     - text: LSC Hubs 2023
       file: https://www.lsc-hubs.org
-  title: "&nbsp;"
+  title: "Land Soil Crop Hub"
   navbar:
     background: white
     search: true
     left:
       - text: "Home"
-        file: index.qmd
+        file: "/"
       - text: Catalogue
-        file: "#data"
+        file: "/#data"
       - text: Community
-        file: "#community" 
-
+        file: "/#hub-community" 
+      - text: Docs
+        file: "./docs" 
 format:
   html:
     theme: 
