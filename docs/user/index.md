@@ -83,7 +83,7 @@ The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-r
 
 The map viewer can used for the visualisation of existing maps listed in the LSC catalogue, your data and web data. In this guideline, we will take you through the available functionalities of the map viewer.
 
-### **The top menu**
+### Top menu
 ![mapviewer top bar](./img/mapviewer_topbar.PNG)
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
@@ -106,7 +106,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 
 
-**The vertical toolbar on the top right**
+### Vertical toolbar on the top right
 
 The vertical toolbar allows you to zoom on the map or location, compare maps, measure distance and provide feedback. Each of the buttons will be explained below.
 
@@ -127,7 +127,7 @@ The vertical toolbar allows you to zoom on the map or location, compare maps, me
 **Exercise 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
 
 
-**The Sidebar**
+### The Sidebar
 
 The sidebar is the main location for adding maps to the map viewer and visualising your data or any other web data.
 
