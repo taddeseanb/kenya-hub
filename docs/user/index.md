@@ -134,33 +134,39 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
       ![mapviewer explore](./img/mapviewer_explore.png)
 
      Under the available maps, you can click on a property map to which you would like to add the viewer. It shows, for example, for the property pH, 4 maps: the 5% prediction value, the 95% prediction value, the median of predictions and the pH map.
-     The values are given for pH*10 for better visualisation. Under the data preview, the metadata of the map is given. You can add the map to the map viewer by clicking on `Add to the map`. 
+     The values are given for pH*10 for better visualisation. Under the data preview, the metadata of the map is given. You can add the map to the map viewer by clicking on `Add to the map`.
+     ![mapviewer add](./img/mapviewer_add.png)
 
-![mapviewer add](./img/mapviewer_add.png)
-    
-   You can add as many maps to the Mapviewer as you want. For example, you add another map of Organic Carbon.
-![mapviewer add2](./img/mapviewer_add2.png)
+     You can add as many maps to the Mapviewer as you want. For example, you add another map of Organic Carbon.
+     ![mapviewer add2](./img/mapviewer_add2.png)
 
-   If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
-![mapviewer compare2](./img/mapviewer_compare2.png)
+     If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
+     ![mapviewer compare2](./img/mapviewer_compare2.png)
 
-   `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
+     `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
    
    - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with anyone else. You can also add `web data` from this panel to the map viewer.
-![mapviewer localweb](./img/mapviewer_localweb.png)
+     ![mapviewer localweb](./img/mapviewer_localweb.png)
 
      For local files, you first need to select a file type. The file should have a spatial component and/or coordinates in order to add it to the map viewer. In step 2, you browse your file on your local computer.
-![mapviewer local](./img/mapviewer_local.PNG)
+     ![mapviewer local](./img/mapviewer_local.PNG)
 
-     For web data, you first need to select the file or web service type. In step 2, you will add the URL in order to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is: https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
+     For web data, you first need to select the file or web service type. In step 2, you will add the URL in order to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is:
+     https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
 
      You can compare these maps with other added maps, through the compare button.
- ![mapviewer web](./img/mapviewer_web.png)  
+     ![mapviewer web](./img/mapviewer_web.png)  
 
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
-**Exercise 5:** 
+**Exercise 5:** The steps of this exercise are written down under the `help` button. By clicking on `Take the tour`, it will guide you through the steps.
+   1. Search for a location to quickly find an area of interest
+   2. Use 'Explore map data' to view the catalogue of available data sets and add at least two to the map
+   3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench, compare the maps by using the compare button
+   4. Click on the data on the map to view more detailed data, including the raw data
+   5. Change your base map using options in 'Map Settings' to help make some data sets more visible
+   6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen
 
 
 
