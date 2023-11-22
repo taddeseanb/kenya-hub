@@ -32,7 +32,7 @@ When arriving on the homepage, you can see 6 sections:
 
 ![LSC hub homepage](./img/homeRwanda.PNG)
 
-**Step 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
+**Exercise 1:** Explore the homepage of the LSC hub. Click on the links, and explore which info is in there.
 
 
 
@@ -61,7 +61,7 @@ The catalogue allows the filtering of keywords. The 3 main keywords are:
 
 Second, any other keyword linked to the resource can be used to search in the catalogue, for example, _land use_ or _crop yield_. This depends on which keywords are given to the resources.
 
-**Step 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
+**Exercise 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
 
 ![Hub catalogue search](./img/cataloguesearch.png)
 
@@ -70,7 +70,7 @@ For each record, a number of metadata properties are provided, such as abstract,
 
 Some records link directly to the [map viewer](#map-viewer) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
 
-**Step 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
+**Exercise 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 
 ![Hub catalogue record](./img/cataloguepHrecord.PNG) 
 
@@ -121,7 +121,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
  ![mapviewer feedback](./img/mapviewer_feedback.png)
 
 
-**Step 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
+**Exercise 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
 
 
 **The Sidebar**
@@ -160,7 +160,7 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
-
+**Exercise 5:** 
 
 
 
