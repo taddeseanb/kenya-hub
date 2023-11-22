@@ -76,38 +76,64 @@ Some records link directly to the [map viewer](#map-viewer) component. Under the
 
 
 ## Map viewer
-Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on go the map viewer.
+Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on _Go the map viewer_.
 The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-rwanda 
 
 ![Hub map vizualisation](./img/map.png)
 
+The map viewer can used for the visualisation of existing maps listed in the LSC catalogue, your own data and web data. In this guideline, we will take you through the available functionalities of the map viewer.
 
-You can open one of the existing map contexts via the `related maps` menu. Or create a map from scratch by combining datasets found in the catalogue or from other sources.
+**The top menu**
+![mapviewer top bar](./img/mapviewer_topbar.PNG)
+
+1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
+2. the `related maps` show other available maps, such as the LSC Ethiopia, LSC Keny and LSC Rwanda. If you click on one of these maps, it will zoom to those locations.
+ ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG)
+
+3. `Map settings` allows you to select a different base map, such as natural earth maps or aerial maps. This depends on which base map you prefer to work with.
+ ![mapviewer map settings](./img/mapviewer_mapsettings.PNG)
+  
+4. `Help` gives useful tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and shows the main functionalities.
+ ![mapviewer help](./img/mapviewer_help.PNG)
+  
+5. A `Story` is a function that allows you to create and share interactive stories directly from your map. It contains a video with an explanation of how to create them.
+ ![mapviewer story](./img/mapviewer_story.PNG)
+  
+6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything that you have added to the map viewer will be shown in the shareable link.
+      You can also use this button to download your created map as an image.   
+ ![mapviewer share](./img/mapviewer_share.PNG)
+
+**Step 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button and download your current map.
+
+
+**The vertical toolbar on the top right**
+ ![mapviewer rightbar](./img/mapviewer_rightbar.png) 
+
+1. Zoom in and out, and back to a full world zoom
+2. Zoom to your current location
+3. Compare two map data side-by-side. We will go into detail within the next section on _explore map data_.
+ ![mapviewer compare](./img/mapviewer_compare.png)
+
+4. Measure the distance on the map between two locations.
+ ![mapviewer measure](./img/mapviewer_measure.png)
+  
+5. Provide feedback on the map viewer. Feedback is essential to improve the map viewer and to ensure that the map viewer fits the user's needs. If you have any feedback on the map viewer, you can give it by this button.
+ ![mapviewer feedback](./img/mapviewer_feedback.png)
 
 
 
-A listing of available functionalities:
+**The Sidebar**
 
-- The Sidebar
-    - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
-    - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
-    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
-- The vertical toolbar on the top right
-    - Zoom in and out, and back to a full world zoom
-    - Zoom to your current location
-    - Split the map to the left and right, to compare 2 datasets
-    - Measure a distance on the map
-- The top menu
-    - Get more information `about` the map viewer
-    - Select one of a set of `related maps`
-    - `Map settings` allows you to select a different base map
-    - `Help` opens the viewer documentation
-    - A `Story` is a series of views on various datasets with comments
-    - `Share` generates a link to the current map, which you can share with colleagues  
+   - Search for locations
+   - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from a configured map service. If the panel is empty, select an alternative map from `related maps`.
+   - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with colleagues. You can also reference `web data` from this panel.
+   - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
 
 
-## Feedback
+
+
+## Feedback to LSC hub
 
 Notice that every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up).
 
