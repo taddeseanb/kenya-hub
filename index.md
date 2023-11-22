@@ -1,6 +1,7 @@
 ---
 title: "Land Soil Crop Hub"
-
+include-in-header:
+  text: <script type="text/javascript" src="./js/index.js"></script>
 ---
 
 
@@ -35,10 +36,11 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 
 Search datasets or browse by category.
 
-<form class="pb-2">
+<form class="pb-2" action="https://kenya.lsc-hubs.org/collections/metadata:main/items" method=get>
 <div class="input-group mb-3">
-  <input type="text" class="form-control" >
-  <div><button class="btn btn-success" type="button">Search</button></div>
+  <input type="text" name="q" class="form-control" >
+  <div><input type=submit class="btn btn-success" type="button" value=Search>
+  </div>
 </div>
 </form>
 
@@ -46,31 +48,31 @@ Search datasets or browse by category.
 
 ::: {.column width="20%"}
 
-![](./img/icon/land.svg) [Land](#)
+![](./img/icon/land.svg) [Land](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Land)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/soil.svg) [Soil](#)
+![](./img/icon/soil.svg) [Soil](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Soil)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/crop.svg) [Crop](#)
+![](./img/icon/crop.svg) [Crop](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Crop)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/climate.svg) [Climate](#)
+![](./img/icon/climate.svg) [Climate](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Climate)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/water.svg) [Water](#)
+![](./img/icon/water.svg) [Water](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Water)
 
 :::
 
@@ -99,7 +101,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 ::::
 
-:::{.text-center}
+::: {.text-center .pt-2}
 <a href="https://maps.lsc-hubs.org" class="btn btn-warning rounded-pill">Open mapviewer</a> 
 :::
 
@@ -125,7 +127,7 @@ Read more about the various API's which are available for this service.
 
 ::::
 
-:::{.text-center}
+::: {.text-center .pt-2}
 <a href="docs" class="btn btn-warning rounded-pill">View documents</a> 
 :::
 
@@ -164,40 +166,15 @@ Processing raw data in many cases requires expert knowledge. To bring the value 
 
 ::: {.column width="20%" .p-2 .m-2 .rounded .text-light .bg-dark}
 
-AGRICA – Climate risk analyses for adaptation planning in sub-Saharan Africa
-
-AGRICA project provides  climate risk analyses for the agricultural sector in sub-Saharan Africa.
-
-:::
-
-::: {.column width="20%" .p-2 .m-2 .rounded .text-light .bg-dark}
-
-Tiger initiative; Looking after water in Africa
-
-To develop EO services in collaboration with African stakeholders and transfer them to mandated national and trans-boundary water authorities.
-
-:::
-
-::: {.column width="20%" .p-2 .m-2 .rounded .text-light .bg-dark}
-
-ISDA field-level soil map for Africa
-
-Field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent.
-
-:::
-
-::: {.column width="20%" .p-2 .m-2 .rounded .text-light .bg-dark}
-
-The Inter-Sectoral Impact Model Intercomparison Project
-
-Here you will find data relating to the Inter-Sectoral Impact Model Intercomparison Project (ISIMIP).
+Loading... 
 
 :::
 
 ::::
 
+::: {.text-center .pt-2}
 <input type=submit value="View all popular services" class="btn btn-success rounded-pill">
-
+:::
 
 
 
@@ -230,39 +207,15 @@ Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Cons
 
 ::: {.column width="23%" .p-2 .bg-white .rounded .border}
 
-AGRICA – Climate risk analyses for adaptation planning in sub-Saharan Africa
-
-AGRICA project provides  climate risk analyses for the agricultural sector in sub-Saharan Africa.
-
-:::
-
-::: {.column width="23%" .p-2 .bg-white .mx-2 .rounded .border}
-
-Tiger initiative; Looking after water in Africa
-
-To develop EO services in collaboration with African stakeholders and transfer them to mandated national and trans-boundary water authorities.
-
-:::
-
-::: {.column width="23%" .p-2 .bg-white  .rounded .border}
-
-ISDA field-level soil map for Africa
-
-Field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent.
-
-:::
-
-::: {.column width="23%" .p-2 .bg-white .mx-2 .rounded .border}
-
-The Inter-Sectoral Impact Model Intercomparison Project
-
-Here you will find data relating to the Inter-Sectoral Impact Model Intercomparison Project (ISIMIP).
+Loading... 
 
 :::
 
 ::::
 
+::: {.text-center .pt-2}
 <input type=submit value="View all popular models" class="btn btn-success rounded-pill">
+:::
 
 :::
 
@@ -283,7 +236,9 @@ The two cases below are descriptions of key applications for which the LSC hub c
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
+::: {.text-center .pt-2}
 <input type=submit class="btn btn-success rounded-pill" value="Explore this use case">
+:::
 
 :::
 
@@ -301,7 +256,9 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
+::: {.text-center .pt-2}
 <input type=submit class="btn btn-success rounded-pill" value="Explore this use case">
+:::
 
 :::
 
@@ -321,7 +278,9 @@ The heart of the knowledge hub. Here, you’ll find like-minded participants who
 
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
+::: {.text-center .pt-2}
 <input type=submit class="btn btn-success rounded-pill" value="Visit community">
+:::
 
 :::
 
@@ -335,7 +294,7 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 ::: {.special-section}
 
-::: {.text-light .bg-dark}
+::: {.text-light .bg-dark .px-3}
 
 :::: {.columns }
 
@@ -345,7 +304,9 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 Subscribe to our newsletter and be the first to receive the latest data updates and community news about the Kenya Land Soil and Crop hub.
 
+::: {.text-center .pt-2}
 <input type=submit class="btn btn-success rounded-pill" value="Subscribe now">
+:::
 
 ::: 
 
