@@ -208,4 +208,4 @@ An Open Data Kit (ODK) form is a form that provides a structured way to collect 
 
 The questions in the ODK form are a guideline to provide details (metadata) on your data/information/website/etc. that you would like to add to the LSC hub. Proving metadata is essential to avoid ambiguity. 
 
-**Exercise 6:** Go through the ODK form, see if all questions are clear and try to fill in the ODK form for a website or data portal that is an additional for the LSC hub.
+**Exercise 6:** Go through the ODK form, see if all questions are clear and try to fill in the ODK form for a website or data portal that is supplementary to the LSC hub.
