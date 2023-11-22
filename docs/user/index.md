@@ -128,7 +128,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 The sidebar is the main location for adding maps to the map viewer and visualising your own data or any other web data.
 
    - `Search for locations` allows you to search for a specific location and go to your area of interest.
- ![mapviewer location](./img/mapviewer_location.png)
+     ![mapviewer location](./img/mapviewer_location.png)
      
    - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from available maps. If the panel is empty, select an alternative map from `related maps`.
       ![mapviewer explore](./img/mapviewer_explore.png)
@@ -161,12 +161,12 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
 **Exercise 5:** The steps of this exercise are written down under the `help` button. By clicking on `Take the tour`, it will guide you through the steps.
-   1. Search for a location to quickly find an area of interest
-   2. Use 'Explore map data' to view the catalogue of available data sets and add at least two to the map
-   3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench, compare the maps by using the compare button
-   4. Click on the data on the map to view more detailed data, including the raw data
-   5. Change your base map using options in 'Map Settings' to help make some data sets more visible
-   6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen
+1. Search for a location to quickly find an area of interest
+2. Use 'Explore map data' to view the catalogue of available data sets and add at least two to the map
+3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench, compare the maps by using the compare button
+4. Click on the data on the map to view more detailed data, including the raw data
+5. Change your base map using options in 'Map Settings' to help make some data sets more visible
+6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen
 
 
 
