@@ -4,55 +4,54 @@ date: 2023-11-20
 author: Paul van Genuchten, Thaïsa van der Woude
 ---
 
-This document is a guideline for the components of a LSC Hub.
+# User Guideline LSC Hubs
 
-A typical LSC hub consists of 3 components:
+This document is a guideline for usage of the Land Soil Crop hub.
 
-- A [homepage](#homepage) providing a user welcome, project attribution and documentation; 
-- A [catalogue](#catalogue) which provides a search interface on the resources relevant to the hub;
-- A [map viewer](#map-viewer) section for easy access to data.
+## What is a Land Soil Crop hub?
 
-Moreover, there are 2 services important for the LSC hub:
-- Providing [feedback](#feedback) to improve the LSC-hub
-- Providing [Additional information](#additionalinformation) to enrich the LSC-hub.
+Decision support tools in agronomy heavily depend on acurate environmental and crop data. 
+Many data are available, but often disperse and hard to locate. Land Soil Crop hubs aim to faciliate findability and accessibility of relevant data. Hubs facilitate data and knowledge to be stored, described, processed and visualized.
+
+The hubs describe a number of different resources relevant to the Land Soil Cop community.
+
+### Datasets
+
+Datasets are either a source for predictions, as well as can be the result of a prediction.
+
+### Services
+
+Services are offered by organizations to facilitate access to data and knowlegde. Services can vary from web services (API's), SMS services, brochures, up to on site visits.
+
+### Models
+
+Predictions on distribution of environmental parameters in time and space, as well as yield predictions based on these distribution, are calculated using statistical, rule based, or machine learning models. Commonly available models are described as resources in the hub. 
+
+### Software
+
+In the hub various software components can be described which either enable you or your stakeholders to visualise and analyse relevant data and knowledge sources
+
+### Approaches
+
+Approaches descrive commonly known mechanisms to improve agronomy to overcome challenges such as erosion, limited fertility, salinisation, and climate change.
+
+### Policies
+
+The hub describes relevant policies to the Land Soil Crop community. Policy drives the collection of data, but data can also support policy development. 
 
 
-## Homepage
+## Find data
 
-The entry point of the hub is a webpage with general information about the project.
-The LSC-hub for Rwanda can be accessed at https://lsc-hubs.org/hubs/rwanda/.
+You can search for data and knowledge in the hub in various ways.
 
-When arriving on the homepage, you can see 6 sections:
-- **Data** to find data in the [catalogue](https://rwanda.lsc-hubs.org/) or go to the [mapviewer](https://maps.lsc-hubs.org/#lsc-rwanda)
-- **Predictive modelling** to find modelling software in the [hub catalogue](https://rwanda.lsc-hubs.org/collections/metadata:main/items?type=model).
-- **Policy** Which [policies](https://lsc-hubs.org/hubs/rwanda/policy/) are relevant to the hub, and can the hub support policy development?
-- **Information Services** to find [agricultural knowledge and innovation systems](https://lsc-hubs.org/hubs/rwanda/akis/) in Rwanda
-- **Use Cases** to explore the [use cases](https://lsc-hubs.org/hubs/rwanda/usecases/) of the LSC hub
-- **Hub community** to find other users in the [stakeholder list](https://lsc-hubs.org/hubs/rwanda/stakeholders/)
-
-![LSC hub homepage](./img/homeRwanda.PNG)
-
-**Exercise 1:** Explore the homepage of the LSC hub. Click on the links and explore which info is in there.
-
-
-
-## Catalogue
-
-The central catalogue contains references to all relevant resources in the hub. 
-The catalogue of Rwanda can be reached by clicking under _DATA_ on _Catalogue_ or directly by https://rwanda.lsc-hubs.org/ 
+- Search by keyword
+- On a search result, further limit the results by filters in the sidebar
 
 ![Hub catalogue](./img/catalogueRwanda.PNG)
 
 When you click on submit, the available records will appear.
 
-![Hub catalogue overview](./img/cataloguerecords.PNG)
-
-Resources are categorised into:
-
-- Datasets
-- Software 
-- Model
-- Services (Web services, APIs, SMS, phone and onsite services)
+![Hub catalogue overview](./img/cataloguerecords.PNG){.w-50}
 
 The catalogue allows the filtering of keywords. The 3 main keywords are: 
 1. category ( _such as soil, crop, etc._),
@@ -61,44 +60,46 @@ The catalogue allows the filtering of keywords. The 3 main keywords are:
 
 Second, any other keyword linked to the resource can be used to search in the catalogue, for example, _land use_ or _crop yield_. This depends on which keywords are given to the resources.
 
-**Exercise 2:** Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
+::: {.callout-tip}
+Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
+:::
 
-![Hub catalogue search](./img/cataloguesearch.png)
+![Hub catalogue search](./img/cataloguesearch.png){.w-50}
 
 
 For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
 
 Some records link directly to the [map viewer](#map-viewer) component. Under the image, it will say: Open _record_ in the LSC map and you will be directed to the map viewer.
 
-**Exercise 3:** Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
+::: {.callout-tip} 
+Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
+:::
 
-![Hub catalogue record](./img/cataloguepHrecord.PNG) 
+![Hub catalogue record](./img/cataloguepHrecord.PNG){.w-50} 
 
 
 ## Map viewer
+
 Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on _Go the map viewer_.
 The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-rwanda 
 
-![Hub map vizualisation](./img/map.png)
+![Hub map vizualisation](./img/map.png){.w-50}
 
 The map viewer can used for the visualisation of existing maps listed in the LSC catalogue, your data and web data. In this guideline, we will take you through the available functionalities of the map viewer.
 
 ### Top menu
-![mapviewer top bar](./img/mapviewer_topbar.PNG)
+
+![mapviewer top bar](./img/mapviewer_topbar.PNG){.w-50}
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
 2. the `related maps` show other available maps, such as the LSC Ethiopia, LSC Keny and LSC Rwanda. If you click on one of these maps, it will zoom to those locations.
- ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG)
-
+ ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG){.w-50}
 3. `Map settings` allows you to select a different base map, such as natural earth maps or aerial maps. This depends on which base map you prefer to work with.
- ![mapviewer map settings](./img/mapviewer_mapsettings.PNG)
-  
+ ![mapviewer map settings](./img/mapviewer_mapsettings.PNG){.w-50}
 4. `Help` gives useful tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and shows the main functionalities.
- ![mapviewer help](./img/mapviewer_help.PNG)
-  
+ ![mapviewer help](./img/mapviewer_help.PNG){.w-50}
 5. A `Story` is a function that allows you to create and share interactive stories directly from your map. It contains a video with an explanation of how to create them.
- ![mapviewer story](./img/mapviewer_story.PNG)
-  
+ ![mapviewer story](./img/mapviewer_story.PNG){.w-50}
 6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything you have added to the map viewer will be shown in the shareable link.
       You can also use this button to download your created map as an image.   
  ![mapviewer share](./img/mapviewer_share.PNG)
@@ -124,8 +125,9 @@ The vertical toolbar allows you to zoom on the map or location, compare maps, me
  ![mapviewer feedback](./img/mapviewer_feedback.png)
 
 
-**Exercise 4:** Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
-
+::: {.callout-tip}
+Explore the basic settings of the mapviewer. Change the map settings, take the tour at the help button, download your current map, measure distances and go to your location.
+:::
 
 ### The Sidebar
 
@@ -164,7 +166,10 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
-**Exercise 5:** The steps of this exercise are written down under the `help` button. By clicking on `Take the tour`, it will guide you through the steps.
+::: {.callout-tip}  
+The steps of this exercise are written down under the `help` button. By clicking on `Take the tour`, it will guide you through the steps.
+:::
+
 1. Search for a location to quickly find an area of interest
 2. Use 'Explore map data' to view the catalogue of available data sets and add at least two to the map
 3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench, compare the maps by using the compare button
@@ -174,38 +179,35 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
 
 
 
-## Feedback to LSC hub
+## Hub community
 
-Getting feedback from various stakeholders is crucial for several reasons. 
-  1. Firstly, incorporating diverse perspectives from stakeholders involved in working with and benefiting from land, soil, and crop information ensures that the LSC hub caters to the actual needs and demands of its users (Data providers/Users). This feedback allows for the fine-tuning of the hub's functionalities, making it more user-friendly and effective in serving the specific requirements of different user groups.
+You are very much invited to contribute to the development of the hub. The contents of the hub is maintained via a co-creation platform called [github.com](https://github.com/lsc-hubs/hub-core/). You can either directly contribute via the github platform, but a feed back mechanism is also provided on each of the hub resources. 
+
+Providing your feedback is crucial for several reasons: 
+
+1. Firstly, incorporating diverse perspectives from stakeholders involved in working with and benefiting from land, soil, and crop information ensures that the LSC hub caters to the actual needs and demands of its users (Data providers/Users). This feedback allows for the fine-tuning of the hub's functionalities, making it more user-friendly and effective in serving the specific requirements of different user groups.
   
-  3. Secondly, gathering feedback facilitates continuous improvement. It provides an opportunity to identify potential shortcomings or areas needing enhancement within the LSC hubs. Insights from stakeholders enable the developers and administrators of the hub to address any challenges faced by users, thereby refining the system to better align with the expectations and requirements of its intended beneficiaries.
+2. Secondly, gathering feedback facilitates continuous improvement. It provides an opportunity to identify potential shortcomings or areas needing enhancement within the LSC hubs. Insights from stakeholders enable the developers and administrators of the hub to address any challenges faced by users, thereby refining the system to better align with the expectations and requirements of its intended beneficiaries.
   
-  4. Moreover, involving stakeholders in providing feedback fosters a sense of ownership and collaboration. When users feel heard and their inputs valued, it encourages their active participation and engagement with the LSC hub. This collaborative approach promotes a sense of ownership among stakeholders, leading to increased utilization and sustained support for the system in the long term.
+3. Moreover, involving stakeholders in providing feedback fosters a sense of ownership and collaboration. When users feel heard and their inputs valued, it encourages their active participation and engagement with the LSC hub. This collaborative approach promotes a sense of ownership among stakeholders, leading to increased utilization and sustained support for the system in the long term.
   
-  5. Ultimately, the feedback obtained from diverse stakeholders during the Rwanda WP4 workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in Rwanda's agricultural landscape.
+4. Ultimately, the feedback obtained from diverse stakeholders during the Rwanda WP4 workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in Rwanda's agricultural landscape.
 
 Every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. In these sections, you can provide feedback about the page and what you would like to be adjusted.
-![feedback page](./img/feedback_section2.png)  
+
+![feedback page](./img/feedback_section2.png){.w-50}  
 
 Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up). A GIThub account is easily made by pressing on _sign in with GIThub_, then click on _New to GIThub? Create an account_. 
+
 You only need to decide on a username, and password and enter your email address. 
-![feedback github](./img/feedback_github.png)  
+
+![feedback github](./img/feedback_github.png){.w-50}  
 
 Once logged in, you can now comment below the pages. If you have an account, You can provide feedback by contributing to hub discussions at the [github repository](https://github.com/lsc-hubs/rwanda-hub/discussions). To get started, you can create a new discussion.
-![feedback discussion](./img/feedback_discussion.PNG)  
+
+![feedback discussion](./img/feedback_discussion.PNG){.w-50}  
 
 
 **Exercise 5:** Create a GIThub account and start a discussion at the GIThub repository.
 
 
-## Additional information
-The catalogue can be linked to various information sources, without the data being stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added, there is a way to add the information by using an ODK form.
-
-An Open Data Kit (ODK) form is a form that provides a structured way to collect and provide information. Typically forms are used by data collectors via an online link. The LSC-hub ODK form can accessed by: [ODK form LSC-IS](https://odk.isric.org/-/single/n2Sosp1gxbXLUcOelRBWsMru72DSLFb?st=pi9NCIyCBZIeYuVU0lb812NtQfOucM34dS04qF6GFaao2FB!c3DJDl10TTRTeOUJ)
-
-![ODK](./img/ODK.PNG)  
-
-The questions in the ODK form are a guideline to provide details (metadata) on your data/information/website/etc. that you would like to add to the LSC hub. Proving metadata is essential to avoid ambiguity. 
-
-**Exercise 6:** Go through the ODK form, see if all questions are clear and try to fill in the ODK form for a website or data portal that is supplementary to the LSC hub.

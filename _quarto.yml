@@ -34,7 +34,9 @@ website:
       collapse-level: 2
       contents: 
         - section: User
-          contents: docs/user/*
+          contents: 
+            - section: Docs
+              contents: docs/user/*
         - section: Administrator
           contents: docs/admin/*
         - section: Developer

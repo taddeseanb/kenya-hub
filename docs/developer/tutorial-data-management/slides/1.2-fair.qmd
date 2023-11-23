@@ -10,7 +10,16 @@ format:
     footer: "Workshop on spatial data flows"
 ---
 
-# Findable
+# ![](https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg){width=50%} {data-background-image=./isric-style/images/background_title_bottom.png
+data-background-position="top 5px right 0px" 
+data-background-size=100%
+data-background-repeat=repeat-x}
+
+Findable - Accessible - Interoperable - Reusable
+
+[go-fair.org](https://www.go-fair.org/fair-principles)
+
+## Findable
 
 - The first step in (re)using data is to find them. 
 - Metadata and data should be easy to find for both humans and computers. 
@@ -40,7 +49,9 @@ Persistent identification, for continued findability
 | Open data/Sematic web | DCAT | SPARQL |
 | Science | Datacite | OAI-PMH | 
 | Geospatial | iso19115 | CSW |
+| Earth observation | STAC | STAC |
 | Search engines | Schema.org | json-ld/microdata |
+| Ecology | EML | |
 
 ## Catalogue
 
@@ -58,6 +69,9 @@ Persistent identification, for continued findability
 
 # Accessibility
 
+- (Meta)data are retrievable by their identifier using a standardised communications protocol
+- Metadata are accessible, even when the data are no longer available
+
 ## Persistence
 
 - Move the resource to a shared environment (backup)
@@ -69,8 +83,6 @@ Persistent identification, for continued findability
 - Consider upfront when to remove a resource (10 yrs?)
 - What happens to the URI of a resource which is archived?
 - Metadata should stay available, even if the data are no longer
-
-# Tools
 
 ## Repository software
 
@@ -84,6 +96,15 @@ Persistent identification, for continued findability
 - Automated link checking
 - Usage logs filter on status 404 & referer
 - Google Search Console notifies broken links 
+
+
+# Interoperable
+
+
+- (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+- (Meta)data use vocabularies that follow FAIR principles
+- (Meta)data include qualified references to other (meta)data
+
 
 
 ## Universal formats
@@ -110,6 +131,14 @@ Adopting a standardised model enables aggregation of data.
 - Agrovoc
 - WRB / FAO Soil Classification Guidelines
 
+
+
 # Reusable
 
-## aspect 1
+- (Meta)data are richly described with a plurality of accurate and relevant attributes
+
+- (Meta)data are released with a clear and accessible data usage license
+
+- (Meta)data are associated with detailed provenance
+
+- (Meta)data meet domain-relevant community standards
