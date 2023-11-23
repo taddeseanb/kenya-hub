@@ -4,12 +4,33 @@ date: 2023-11-13
 author: Paul van Genuchten
 ---
 
-# LSC Hub administration
+# Administration
+
+## Github
+
+The current hub is published via [Github](https://github.com/lsc-hubs). Github is a commercial service provider offering GIT services plus a number of add-ons to facilitate co-creation. Alternative GIT providers could be considered, such as gitlab, bitbucket. Notice that it is also possible to install gitlab on premise.
+
+As an LSC hub administrator it is relevant to familiarise yourself with Github. Notice that some tools exist to facilitate you on the use of Git, such as [Github desktop](https://desktop.github.com/), [smartgit](https://www.syntevo.com/smartgit/) and [git kraken](https://www.gitkraken.com/). Some prefer the [Github plugin](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio) of [Visual Studio](https://visualstudio.microsoft.com/).
 
 ## LSC Hub
 
+A number of content pages is made available to guide the user within the hub. These pages are maintained in [github](https://github.com/lsc-hubs/hub-core) as markdown. Notice the `edit link` in the footer of each page. The pages are rendered to html using the [quarto](https://quarto.org/docs/websites/) tool. Editing of quarto documents is facilitated by a [quarto plugin](https://quarto.org/docs/tools/vscode.html) in [visual studio](https://visualstudio.microsoft.com/).
+
+The quarto tool is configured as a [ci-cd](https://en.wikipedia.org/wiki/CI/CD) action in github. You can follow the progress of an action in the actions tab. In some cases an action may fail and human interaction is needed to fix the problem and/or restart the action. 
+
+## Discussions
+
+Discussions are managed within [github](https://github.com/lsc-hubs/kenya-hub/discussions). A widget is added to every resource page, so users can provide feedback or ask questions about the resource. These questions are stored as github discussion. Discussions can be answered from the resource page (a github login is required) or from github discussions. Users should be invited to the github project to be able to administer github discussions.
 
 ## Maps
+
+The TerriaJS framework enables users to share maps and map stories with stakeholders (share button top-right). Notice that you can also use this functionality to link from a description of a resource to a map, which displays some data in a certain context.
+
+```markdown
+[A nice map](https://maps.lsc-hubs.org/#start=%7B%22version%22%...)
+```
+
+Another option is to store the map definition (urldecoded) on a folder of TerriaJS. The map is then available by its filename. You can now add a link to this map for example in the `related maps` section of TerriaJS (config.json). 
 
 
 ## Catalogue 

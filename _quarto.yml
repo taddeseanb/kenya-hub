@@ -12,7 +12,7 @@ website:
   page-footer:
     background: dark 
     left: 
-    - text: LSC Hubs 2023
+    - text: <br/>LSC Hubs 2023
       file: https://www.lsc-hubs.org
   title: "Land Soil Crop Hub"
   navbar:
@@ -33,12 +33,10 @@ website:
       background: light
       collapse-level: 2
       contents: 
-        - section: User
-          contents: 
-            - section: Docs
-              contents: docs/user/*
-        - section: Administrator
-          contents: docs/admin/*
+        - text: User
+          file: docs/user
+        - text: Administrator
+          file: docs/admin
         - section: Developer
           contents: 
             - section: Hub components
