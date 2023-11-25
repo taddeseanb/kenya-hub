@@ -1,8 +1,10 @@
 ---
-title: Extension options
+title: Advanced options
 author: Paul van Genuchten
 date: 2023-05-09
 ---
+
+# Advanced options
 
 Various extensions are possible to tailor the system to your organisation needs.
 
@@ -27,7 +29,7 @@ docker run -p 3001:3001 local/terria
 
 Visit http://localhost:3001 to see TerriaJS in action. 
 
-## tailored metadata schema in mcf / pygeometa
+## Tailored metadata schema in mcf / pygeometa
 
 When using pygeometa to render a iso19139 document, you can use a [tailered output schema](https://geopython.github.io/pygeometa/tutorial/#adding-a-metadata-schema-to-the-core), to match organisation needs (for example use a hardcoded publisher section).
 
