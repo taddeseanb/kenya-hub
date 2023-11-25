@@ -104,7 +104,18 @@ A metadata model often is a combination of a schema and a format. Compare the fo
 
 #### Data
 
+Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. However in the spatial and earth observation domain we tend to work with large files and the use of data api's which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these API's, so the API's itself are interoperable. The table below shows some of the common API's. In the first column the older API's, developed in the 90's, in the second column their updated representative, recently adopted or still in development. 
 
+| Service | OGC API | Description |
+| --- | --- | --- |
+| Web Map Service ([WMS](https://www.ogc.org/standard/wms/)) | [Maps](https://ogcapi.ogc.org/maps/) | Provides a visualisation of a subset of the data |
+| Web Feature Service ([WFS](https://www.ogc.org/standard/wfs/)) | [Features](https://ogcapi.ogc.org/features/) | API to request a subset of the vector features |
+| Web Coverage Service ([WCS](https://www.ogc.org/standard/wcs/)) | [Coverages](https://ogcapi.ogc.org/coverages/) | API to interact with grid sources |
+| Sensor Observation Service ([SOS](https://www.ogc.org/standard/sos)) | [Sensorthings](https://www.ogc.org/standard/sensorthings/) | Retrieve subsets of sensor observations |
+
+From the Earth Observation domain, an alternative mechanism is increasingly getting adopted. Complete files are stored on a public file repository, but by creating an index on the file and enabling range requests, users are able to fetch subsets from the file directly.
+
+This mechanism is enabled by new formats such as [Cloud Optimised GeoTiff](https://www.cogeo.org/), [GeoZarr](https://github.com/zarr-developers/geozarr-spec), and [GeoParquet](https://geoparquet.org/).
 
 ### The protocol allows for an authentication and authorisation procedure, where necessary
 
@@ -183,7 +194,7 @@ The context of a dataset gets more clear if you link it to datasets which were u
 
 ## Reusable
 
-Reuse of data is the main goal of FAIR, facilitates by documentation of the data, for different audiences.
+Reuse of data is the main goal of FAIR, facilitated by documentation of the data, for different audiences.
 
 ### Use a clear and accessible data usage license
 
