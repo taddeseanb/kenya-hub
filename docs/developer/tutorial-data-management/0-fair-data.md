@@ -135,14 +135,14 @@ Data typically are integrated with other data, as well as interoperate with appl
 
 The soil community has a long history of interoperability efforts for soil profile data. Such as:
 
-- [Globalsoilmap](https://www.isric.org/projects/globalsoilmapnet), 
-- [e-Soter](#e-soter), 
+- [Globalsoilmap](https://www.isric.org/projects/globalsoilmapnet) 
+- [e-Soter](#e-soter)
 - [iso28258:2013](#iso282582013) 
 
 
 #### e-Soter
 
-The ESoter model has been developed in the [e-Soter Research project](https://esoter.net), based on principles of previous Soil Terrain (SOTER) initiatives. e-Soter is a relational database model, usually implemented as a [Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) database. Some examples of eSoter implementations:
+The e-Soter model has been developed in the [e-Soter Research project](https://esoter.net), based on principles of previous SOil TERrain (SOTER) initiatives. e-Soter is a relational database model, usually implemented as a [Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) database. Some examples of eSoter implementations:
 
 - [Malawi](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/60803da0-a15f-4cc5-9cb5-172fa2460af3)
 - [Kenya](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467)
@@ -183,7 +183,7 @@ Examine the concept [Durisols](
 http://aims.fao.org/aos/agrovoc/c_51ec138f) in agrovoc.
 
 - Notice that the agrovoc page on [Durisols](https://agrovoc.fao.org/browse/agrovoc/en/page/c_51ec138f?clang=nb) looks much nicer, still it is important to use the persistent identifier when linking to the concept, why?
-- Notice that Agrovoc contains many translations for each concept and linkage to wider and smaller terms. These are some of the benefits of linking to a keyword from a common thesaurus.
+- Notice that Agrovoc contains many translations for each concept and linkage to wider and narrower terms. These are some of the benefits of linking to a keyword from a common thesaurus.
 :::
 
 ### Metadata include qualified references to other metadata
