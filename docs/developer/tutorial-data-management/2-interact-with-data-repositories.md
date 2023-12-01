@@ -6,9 +6,7 @@ date: 2023-05-09
 
 # Interact with data repositories
 
-In this section a crawler tool is introduced which let's you interact wit the metadata in a file based data repository. 
-
-For this exersice we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. 
+In this section a crawler tool is introduced which let's you interact with the metadata in a file based data repository. For this exersice we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. 
 
 Notice a index.yml in the root folder. The tool we use is able to inherit metadata properties from index.yml files through the file hierarchy. Open index.yml and customise the contact details. Later you will notice that these details will be applied to all datasets which themselves do not provide contact details. Consider to add additional index.yml files in other folders to override the values of index.yml at top level.
 
