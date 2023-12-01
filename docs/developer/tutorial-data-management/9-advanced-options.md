@@ -8,12 +8,6 @@ date: 2023-05-09
 
 Various extensions are possible to tailor the system to your organisation needs.
 
-## pycsw
-
-The pycsw [configuration file](https://github.com/geopython/pycsw/blob/45f6c5ca4b19e6e2be4dfc7237b5d834500054ae/default-sample.cfg#L55-L76) has a number of configuration options to tailer the title, abstract, etc, of the application. But you can also tailor the [jinja2 templates](https://github.com/geopython/pycsw/tree/master/pycsw/ogc/api/templates). We published a tailored set of templates as a [pycsw skin on github](https://github.com/pvgenuchten/pycsw-skin).
-
-pycsw allows to extend the internal metadata schema [via mapping configuration](https://github.com/geopython/pycsw/blob/master/etc/mappings.py) or map its model to an existing database. This configuration can facilitate additional queryables or extra elements on metadata records, etc.
-
 ## TerriaJS
 
 [TerriaJS](https://terria.io) is a modern web gis application, which includes a widget to query a catalogue. From the catalogue search results the data can be added to the TerriaJS map.

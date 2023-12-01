@@ -13,7 +13,7 @@ website:
 
 The FAIR principles are designed with the academic community in mind. Researchers sharing information between universities. However the FAIR principles can also be applied within an origanisation to improve data management, even on your personal computer. You will notice even you yourself will benefit, if you return for example to an archived project 2 years later to recover some data sources.
 
-Many organisations organise their documents and datasets on a central network storage or databases. These resources are usually clustered in organisational units, projects and/or periods. Some files and database tables in that central storage contain inherent metadata, such as the name, size, date, author, location etc. This information supports users in understanding the context of the data source. Especcially if that data at some point is migrated from its original context.
+Many organisations organise their documents and datasets on a central network storage or database. These resources are usually clustered in organisational units, projects and/or years. Some files and database tables in that central storage contain embedded metadata, such as the name, size, date, author, location etc. This information supports users in understanding the context of the data source. Especcially if that data at some point is migrated from its original context.
 
 For those formats which do not have embedded metadata, or in order to capture additional metadata aspects. We endorse the creation of a `sidecar` metadata file for every resource, a dedicated metadata file sharing the name of the datasource. This approach is for example common in the ESRI community, where a `.shp.xml` is created alongside any `.shp` or `.tiff` file, which captures some metadata elements.
 
@@ -21,13 +21,14 @@ For those formats which do not have embedded metadata, or in order to capture ad
 Locate on your local computer or network drive a random shapefile. Does the file have a .shp.xml sidecar file? Else find another shape of tiff file (look for `*.shp.xml`). The xml file may be very limited, but in most cases at least some processing steps and the data model of the shapefile are mentioned. 
 :::
 
-Through the embedded or sidecar concept, we endorse data scientists to document their data at the source. Since they know best how the data is produced and how it should be used. In this workshop, we are going to use the sidecar convention, to build up a discovery service for datasets within an organisation, with minimal effort for data scientists.  
+Through the embedded or sidecar concept, we endorse data scientists to document their data at the source. Since they know best how the data is produced and how it should be used. 
+
 ## Standardised metadata models
 
-For optimal interoperability, it is important to agree within your group on the metadata standard to use in sidecar files. ESRI software for example provides an option to [select the output model](https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) of the metadata. QGIS has various plugins, such as [GeoCat Bridge](https://plugins.qgis.org/plugins/geocatbridge/), to work with various metadata models.
+For optimal interoperability, it is important to agree within your group on the metadata standard(s) to use in sidecar files. ESRI software for example provides an option to [select the output model](https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) of the metadata. QGIS has various plugins, such as [GeoCat Bridge](https://plugins.qgis.org/plugins/geocatbridge/), to work with various metadata models.
 
 :::{.callout-tip}
-Does your organisation (or regulation relevant to your role) endorse a metadata model to describe data sources?
+Does your organisation endorse a metadata model to describe data sources?
 Are your aware of tooling which can support you in creation of metadata in this model?
 :::
 
@@ -67,7 +68,9 @@ MCF documents can best be written in a text editor like [Visual Studio Code](htt
 Another option to create and update mcf files is via [MDME](https://github.com/osgeo/mdme). MDME is a webbased software package providing a dynamic metadata edit form. An operational package is available at [osgeo.github.io](https://osgeo.github.io/mdme). Notice that if you install the package locally, you can customize the application to your organisational needs.
 
 :::{.callout-tip}
-Imagine a dataset you have recently worked with. Then open [mdme](https://osgeo.github.io/mdme) and populate the form, now save the MCF file and place it in your sample data repository. Notice that MDME also offers capabilities to export directly as iso19139, it uses a webservice based on pygeometa to facilitate this workflow.
+Imagine a dataset you have recently worked with. Then open [mdme](https://osgeo.github.io/mdme) and populate the form, describing that dataset. Now save the MCF file so we can later place it in a sample data repository. 
+
+Notice that MDME also offers capabilities to export directly as iso19139, it uses a webservice based on the tools used in this workshop.
 :::
 
 ## Summary

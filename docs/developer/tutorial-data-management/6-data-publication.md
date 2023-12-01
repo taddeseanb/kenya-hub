@@ -34,6 +34,6 @@ The embedded or sidecar metadata should be duplicated into catalogue software, t
 
 ---
 
-## Conclusion
+## Summary
 
 Various technologies exist to share data on a network. When selecting a mechanism, evaluate if you can facilitate identifier persistence and share metadata along with the files. In the next section we'll setup [conveniance API's](./7-providing-mapservices.md) on data to facilitate reuse of the data.

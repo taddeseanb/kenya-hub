@@ -213,4 +213,5 @@ While users are browsing the catalogue (or this page), they may find irregularit
 
 ## Summary
 
-In this section you learned about using actions in Github (CI/CD). In the next section we are diving into OGC Map Services using mapserver. Notice that you can use these CI/CD mechanisms to deploy or evaluate metadata and data services.
+In this section you learned about using actions in Github (CI/CD). In the next section we are diving into data publication. Notice that you can also use GIT CI/CD mechanisms to deploy or evaluate metadata and data services.
+

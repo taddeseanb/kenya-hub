@@ -18,29 +18,15 @@ An important aspect is proper setup of autorisations for general public, partner
 
 ---
 
-## Extract metadata from a network location
-
-Now that we have a series of datasets with their sidecar metadata file (either in iso19139 or MCF). We can use GeoDataCrawler to extract these files and publish them in a catalogue product. 
-
-Notice that GeoDataCrawler has an advanced inheriting mechanism to find default values for non provided metadata elements. GeoDataCrawler will read `index.yml` in the current folder and any parent folder to find relevant properties. This enables an option to provide a contact point, license or language property once and use it in all metadata.
-
-- First we run a method to convert all .mcf files to iso19139:2007, these files are generated on a temporary folder.
-
-```bash
-crawl-metadata --mode=export --dir=./data --dir-out=./temp
-```
-
----
-
 ## Catalogue frontend
 
-Various catalogue frontends exist to facilitate dataset search, such as [geonetwork](https://geonetwork-opensource.org), [dataverse](https://dataverse.org), [ckan](https://ckan.org). Selecting a frontend depends on metadata format, target audience, types of data, maintenance aspects, personal preference.
+Various catalogue frontends exist to facilitate dataset search, such as [geonetwork](https://geonetwork-opensource.org), [dataverse](https://dataverse.org), [ckan](https://ckan.org). Selecting a frontend depends on metadata format, target audience, types of data, maintenance aspects, and personal preference.
 
 For this workshop we are going to use [pycsw](https://pycsw.org). It is a catalogue software supporting various standardised query api's, as well as providing a basic easy-to-adjust html web interface. 
 
-For this exersize we assume you have docker-desktop installed on your system and running.
+For this exercise we assume you have docker-desktop installed on your system and running.
 
-pycsw is available as docker image, including an embedded SQLite database. In a production situation you would use a dedicated Postgres or MariaDB database for record storage. 
+pycsw is available as docker image, including an embedded SQLite database. In a production situation you will instead use a dedicated Postgres or MariaDB database for record storage. 
 
 - Navigate your shell to the temporary folder containing iso-xml documents. This folder will be mounted into the container, in order to load the records to the pycsw database.
 
@@ -50,7 +36,7 @@ docker run -p 8000:8000 \
    geopython/pycsw
 ```
 
-- Visit http://localhost:8000 
+- Visit <http://localhost:8000> 
 - Much of the configuration of pycsw (title, contact details, database connection, url) is managed in [a config file](https://github.com/geopython/pycsw/blob/master/docker/pycsw.cfg). Download the file to the current folder, adjust the title and restart docker with:
 
 ```bash
@@ -71,8 +57,8 @@ Notice `-d` starts the docker in the background, so we can interact with the run
 ```bash
 docker exec -it pycsw bash -c "pycsw-admin.py delete-records -c /etc/pycsw/pycsw.cfg"
 ```
-- Notice at http://localhost:8000/collections/metadata:main/items that all records are removed.
-- Load our records to the database:
+- Notice at <http://localhost:8000/collections/metadata:main/items> that all records are removed.
+- Load the records, which we exported as iso19139 in the [previous section](./2-interact-with-data-repositories.md), to the database:
 
 ```bash
 docker exec -it pycsw bash -c "pycsw-admin.py load-records -p /etc/conf/data -c /etc/pycsw/pycsw.cfg -y -r"
@@ -82,6 +68,43 @@ docker exec -it pycsw bash -c "pycsw-admin.py load-records -p /etc/conf/data -c 
 
 ---
 
+
+## Customise the catalogue skin
+
+pycsw uses [jinja templates](https://jinja.palletsprojects.com/en/3.1.x/) to build the web frontend. These are html documents including template language to substitute parts of the page.
+
+- Save the template below as a file 'landing_page.html' in the current directory
+
+```html
+{% extends "_base.html" %}
+{% block title %}{{ super() }} Home {% endblock %}
+{% block body %}
+<h1>Welcome to my catalogue!</h1>
+<p>{{ config['metadata:main']['identification_abstract'] }}</p>
+Continue to the records in this catalogue
+<a title="Items" 
+    href="{{ config['server']['url'] }}/collections/metadata:main/items">
+    Collections</a>, or have a look at the  
+<a title="OpenAPI" 
+      href="{{ config['server']['url'] }}/openapi?f=html">Open API Document</a>
+{% endblock %}
+```
+
+- We will now replace the default template in the docker image with our template.
+
+```bash
+docker run -p 8000:8000 \
+   -d -rm --name=pycsw \
+   -v $(pwd):/etc/data \
+   -v $(pwd)/pycsw.cfg:/etc/pycsw/pycsw.cfg \
+   -v $(pwd)/landing_page.html:/etc/pycsw/ogc/api/templates/landing_page.html \
+   geopython/pycsw
+```
+- View the result at <http://localhost:8000> 
+- Have a look at [the other templates](https://github.com/geopython/pycsw/tree/master/pycsw/ogc/api/templates) in pycsw
+- We published a tailored set of templates as a [pycsw skin on github](https://github.com/pvgenuchten/pycsw-skin). This skin has been used as a starting point for the lsc-hubs catalogue skin.
+
+
 ## Summary
 
-In this paragraph you learned how datasets can be published into a catalogue. In the next paragraph, you'll get introduced to providing mapping api's on datasets. Or check out the [advanced section](./9-advanced-options.md) on how to customise your pycsw frontend.
+In this paragraph you learned how datasets can be published into a catalogue. In the next paragraph, we'll look at importing metadata from external sources.

@@ -52,3 +52,8 @@ crawl-metadata --mode=update --dir="./isric"
 
 - Notice the changes before and after running the script. If needed, you can remove all the MCF files and run import-csv again to restore the originals.
 
+---
+
+## Summary
+
+We've seen a number of options to import metadata from external sources. In the next section we'll have a look at Git, a versioning system.

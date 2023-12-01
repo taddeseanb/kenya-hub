@@ -6,9 +6,17 @@ date: 2023-05-09
 
 # Interact with data repositories
 
-In this section a crawler tool is introduced which let's you interact with the metadata in a file based data repository. For this exersice we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. 
+In this section a crawler tool is introduced which let's you interact with the metadata in a file based data repository. For this exercise we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. 
 
-Notice a index.yml in the root folder. The tool we use is able to inherit metadata properties from index.yml files through the file hierarchy. Open index.yml and customise the contact details. Later you will notice that these details will be applied to all datasets which themselves do not provide contact details. Consider to add additional index.yml files in other folders to override the values of index.yml at top level.
+In the root folder of the repository already exists a minimal mcf file, `index.yml`. This file contains some generic metadata properties which are used if a file within the repository does not include them. The tool we use is able to inherit metadata properties from this index.yml file through the file hierarchy. 
+
+:::{.callout-tip}
+Open index.yml and customise the contact details. Later you will notice that these details will be applied to all datasets which themselves do not provide contact details. 
+:::
+
+Consider to add additional index.yml files in other folders to override the values of index.yml at top level.
+
+### Setup environment
 
 The tool we will use is based on python. It has some specific dependencies which are best installed via [Conda](https://conda.io). Conda creates a virtual python environment, so any activity will not interfere with the base python environment of your machine.
 
@@ -24,7 +32,7 @@ cd {path-where-you-unzipped-zipfile}
 We will create a virtual environment `pgdc` (using Python 3.9) for our project and activate it.
 
 ```bash
-conda create --name pgdc python=3.9 
+conda create --name pgdc python=3.11 
 conda activate pgdc
 ```
 
@@ -33,11 +41,12 @@ Notice that you can deactivate this environment with: `conda deactivate` and you
 Install the dependencies for the tool:
 
 ```
-conda install -c conda-forge gdal==3.3.2
-conda install -c conda-forge pysqlite3==0.4.6
+conda install -c conda-forge gdal
+conda install -c conda-forge pysqlite3
+conda install -c conda-forge pandas
 ```
 
-Now install the crawler tool, [GeoDataCrawler](https://pypi.org/project/geodatacrawler/). The tool is under active development at ISRIC and facilitates many of our data workflows. It is powered by some popular metadata and transformation libraries; [OWSLib](https://github.com/geopython/OWSLib), [pygeometa](https://github.com/geopython/pygeometa) and [GDAL](https://gdal.org).
+Now we will install the crawler tool, [GeoDataCrawler](https://pypi.org/project/geodatacrawler/). The tool is under active development at ISRIC and facilitates many of our data workflows. It is powered by some popular metadata and transformation libraries; [OWSLib](https://github.com/geopython/OWSLib), [pygeometa](https://github.com/geopython/pygeometa) and [GDAL](https://gdal.org).
 
 ```
 pip install geodatacrawler
@@ -49,13 +58,17 @@ Verify the different crawling options by typing:
 crawl-metadata --help
 ```
 
+### Initial MCF files 
+
 The initial task for the tool is to create for every data file in our repository a sidecar file based on embedded metadata from the resource.
 
 ```
 crawl-metadata --mode=init --dir=data
 ```
 
-Notice that for each resource a {dataset}.yml file has been created. Open a .yml file in a text editor and review its content.
+Notice that for each resource a {dataset}.yml file has been created. Open a .yml file in a text editor and review the content.
+
+### Update MCF
 
 The `update` mode is meant to be run at intervals, it will update the mcf files if changes have been made on a resource. 
 
@@ -64,6 +77,8 @@ crawl-metadata --mode=update --dir=data
 ```
 
 In certain cases the update mode will also import metadata from remote url's. This happens for example if the dataset-uri is a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/). The update mode will ten fetch metadata of the DOI and push it into the MCF. 
+
+### Export MCF
 
 Finally we want to export the MCF's to actual iso19139 metadata to be loaded into a catalogue like pycsw, GeoNetwork, CKAN etc.
 
@@ -75,4 +90,4 @@ Open one of the xml files and evaluate if the contact information from step 1 is
 
 ## Summary
 
-In this paragraph you are introduced to the MDME MCF editor and pygeometa library. In the [next section]() we are looking at bulk metadata imports.
+In this paragraph you have been introduced to the geodatacrawler library. In the [next section](./3-catalog-publication.md) we are looking at catalogue publication.
