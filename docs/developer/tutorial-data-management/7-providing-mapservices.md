@@ -4,11 +4,13 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-## Introduction
+# Providing conveniance API's
 
 For spatial datasets it is of interest to share them via conveniance API's, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These API's can give direct access to subsets or map vizualisations of a dataset. 
  
 In this paragraph you are introduced to various standardised API's, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
+
+---
 
 ## Standardised data API's 
 
@@ -27,6 +29,8 @@ An overview of both generations:
 
 Notice that most of the mapping software supports the standards of both generations. However, due to the recent
 introduction, expect incidental glitches in the implementations of recent OGC API's. 
+
+---
 
 ## Setting up an API
 
@@ -55,6 +59,8 @@ so it includes a link to the mapserver service endpoint. This step enables a typ
 - Then opens the dataset via the linked service
 
 As well as vice versa; from a mapping application, access the metadata describing a dataset.
+
+---
 
 ## Mapfile creation exersize
 
@@ -102,6 +108,8 @@ Mapserver includes a [map2img](https://mapserver.org/utilities/map2img.html) uti
 map2img -m=./mymap.map -o=test.png
 ```
 
+---
+
 ## Setup mapserver via Docker Exersize
 
 For this exersize we're using a [mapserver image](https://hub.docker.com/r/camptocamp/mapserver) available from Docker hub (we're using master awaiting the 8.2 release).
@@ -145,9 +153,11 @@ Notice the links to metadata when you open GetCapabilities in a browser.
 [!NOTE]
 In recent years browsers have become more strict, to prevent abuse. For that reason it is important to carefully consider common connectivity aspects, when setting up a new service. Websites running at https can only embed content from other https services, so using https is relevant. [CORS](https://en.wikipedia.org/cors) and [CORB](https://en.wikipedia.org/corb) can limit access to embedded resources from remote servers. Using proper CORS headers and Content type identification is relevant to prevent CORS and CORB errors. 
 
-## Conclusion
+---
 
-In this paragraph the standards of Open Geospatial Consortium have been introduced and how you can publish your data according to these standards using Mapserver. In the [next section]() we'll look at measuring service quality.
+## Summary
+
+In this paragraph the standards of Open Geospatial Consortium have been introduced and how you can publish your data according to these standards using Mapserver. In the [next section](./8-measure-quality.md) we'll look at measuring service quality.
 
 
 

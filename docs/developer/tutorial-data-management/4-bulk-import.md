@@ -4,9 +4,11 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-## Introduction
+# Bulk import
 
-This paragraph describes approaches to import metadata from existing repositories. Including an option to import metadata from a spreadsheet.
+This paragraph describes approaches to import metadata from existing repositories. Including an option to import metadata from records of a spreadsheet.
+
+---
 
 ## Bulk import from spreadsheet
 
@@ -28,6 +30,8 @@ crawl-metadata --mode=import-csv --dir="./csv"
 ```
 crawl-metadata --mode=import-csv --dir="./csv" --sep=';'
 ```
+
+---
 
 ## Bulk import from an online location
 

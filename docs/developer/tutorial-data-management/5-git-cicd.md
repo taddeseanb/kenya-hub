@@ -4,9 +4,11 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-## Introduction
+# Git CI/CD
 
 This page introduces a number of generic Git functionalities and vendor add ons. Which can support communities in efficient co-creation of content. The page mainly focusses on the Continuous Integration & Deployment functionality, but contains many external links to introduce other aspects of Git. Considering the previous materials, a relevant ci-cd case is a set of tasks to run after a change to some of the mcf documents in a data repository, to validate the mcf's and convert them to iso19139 and push them to a catalogue.
+
+---
 
 ## GIT content versioning
 
@@ -14,9 +16,13 @@ In its core [GIT](https://git-scm.com/) is a version management system tradition
 
 These days GIT based coding communities like Github, Gitlab, Bitbucket offer various services on top of Git to facilitate in co-creation of digital assets. Those services include authentication, issue management, release management, forks, pull requests and CI/CD. The types of digital assets maintained via GIT vary from software, deployment scripts, configuration files, documents, website content, metadata records up to actual datasets. Git is most effective with text based formats, which explains the popularity of formats like CSV, YAML, Markdown.
 
+---
+
 ## CI/CD
 
 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) & [Deployment](https://en.wikipedia.org/wiki/Continuous_deployment) describes a proces in which changes in software or configuration are automatically tested and deployed to a relevant environment. These processes are commonly facilited by GIT environments. With every commit to the Git repository an action is triggered which runs some tasks. 
+
+---
 
 ## Github Pages Exersize
 
@@ -110,6 +116,8 @@ Notice that the syntax to define workflows is different for every CI-CD platform
 
 The above setup is optimal for co-creating a documentation repository for your community. Users can visit the source code via the `edit on github` link and suggest improvements via issues of pull requests. Notice that this tutorial is also maintained as markdown in Git.
 
+---
+
 ## Update catalogue from GIT CI-CD
 
 For this scenario we need a database in the cloud to host our records (which is reachable by github workflows). For the training we suggest to use a trial account at [elephantsql.com](https://customer.elephantsql.com/login). 
@@ -195,6 +203,14 @@ jobs:
 
 Normally, one would **not** add a connection string to a database in a config file posted on Github. Instead Github offers [secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) to capture this type of information. 
 
+---
+
 ## Cross linking catalogue and GIT
 
 While users are browsing the catalogue (or this page), they may find irregularities in the content. They can flag this as an issue in the relevant Git repository. A nice feature is to add a link in the catalogue page which brings them back to the relevant mcf in the git repository. With proper authorisations they can instantly improve the record, or suggest an improvement via an issue or [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+---
+
+## Summary
+
+In this section you learned about using actions in Github (CI/CD). In the next section we are diving into OGC Map Services using mapserver. Notice that you can use these CI/CD mechanisms to deploy or evaluate metadata and data services.
