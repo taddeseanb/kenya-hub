@@ -40,71 +40,20 @@ identification:
 
 In the next exercises, we are going to use a combination of MCF and [iso19139:2007](https://www.iso.org/standard/32557.html) to describe datasets (and alternate resources). iso19139:2007 is a standardised metadata format, commonly used in the spatial data community. Notice  that MCF can also be combined with alternate metadata models, such as [DCAT](https://www.w3.org/TR/vocab-dcat-3/) and [STAC](https://stacspec.org/en).
 
-## Discovering an existing data repository
 
-For this exersice we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. Notice a index.yml in the root folder. The tool we use is able to inherit metadata properties from index.yml files through the file hierarchy. Open index.yml and customise the contact details. Later you will notice that these details will be applied to all datasets which themselves do not provide contact details. Consider to add additional index.yml files in other folders to override the values of index.yml at top level.
 
-The tool we will use is based on python. It has some specific dependencies which are best installed via [Conda](https://conda.io). Conda creates a virtual python environment, so any activity will not interfere with the base python environment of your machine.
+When describing a resource, consider which user groups are expected to read the information. This analyses will likely impact the style of writing in the metadata. The UK Geospatial Commission has published some [practical recommendations](https://www.gov.uk/government/publications/search-engine-optimisation-for-publishers-best-practice-guide) on this topic.
 
-If you don't have Conda, you can install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html#installing) and consider to read the [getting started](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
+When tagging the dataset with keywords, preferably use keywords from controlled vocabularies like Agrovoc, Wikipedia, etc. Benefit of controlled vocabularies is that the term is not ambigue and it can be made available in multiple languages. 
 
-Now start a commandline or powershell with conda enabled (or add conda to your PATH). First we will navigate to the folder in which we unzipped the sample data repository. Make sure you are not in the `data` directory but one above.
+## MCF editing
 
-```
-cd {path-where-you-unzipped-zipfile}
-```
+MCF documents can best be written in a text editor like [Visual Studio Code](https://code.visualstudio.com). Consider to install the [YAML plugin](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) for instant YAML validation. 
 
-We will create a virtual environment (using Python 3.9) for our project and activate it.
+Another option to create and update mcf files is via [MDME](https://github.com/osgeo/mdme). MDME is a webbased software package providing a dynamic metadata edit form. An operational package is available at [osgeo.github.io](https://osgeo.github.io/mdme). Notice that if you install the package locally, you can customize the metadata schema and initial template to your organisational needs.
 
-```
-conda create --name pgdc python=3.9 
-conda activate pgdc
-```
+Open mdme and populate the form, now save the MCF file and place it in your sample data repository. Notice that MDME also offers capabilities to export directly as iso19139, it uses a webservice based on pygeometa to facilitate this workflow.
 
-Notice that you can deactivate this environment with: `conda deactivate` and you will return to the main Python environment. The tools we will install below, will not be available in the main environment.
-
-Install the dependencies for the tool:
-
-```
-conda install -c conda-forge gdal==3.3.2
-conda install -c conda-forge pysqlite3==0.4.6
-```
-
-Now install the crawler tool, [GeoDataCrawler](https://pypi.org/project/geodatacrawler/). The tool is under active development at ISRIC and facilitates many of our data workflows. It is powered by some popular metadata and transformation libraries; [OWSLib](https://github.com/geopython/OWSLib), [pygeometa](https://github.com/geopython/pygeometa) and [GDAL](https://gdal.org).
-
-```
-pip install geodatacrawler
-```
-
-Verify the different crawling options by typing:
-
-```
-crawl-metadata --help
-```
-
-The initial task for the tool is to create for every data file in our repository a sidecar file based on embedded metadata from the resource.
-
-```
-crawl-metadata --mode=init --dir=data
-```
-
-Notice that for each resource a {dataset}.yml file has been created. Open a .yml file in a text editor and review its content.
-
-The `update` mode is meant to be run at intervals, it will update the mcf files if changes have been made on a resource. 
-
-```
-crawl-metadata --mode=update --dir=data
-```
-
-In certain cases the update mode will also import metadata from remote url's. This happens for example if the dataset-uri is a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/). The update mode will ten fetch metadata of the DOI and push it into the MCF. 
-
-Finally we want to export the MCF's to actual iso19139 metadata to be loaded into a catalogue like pycsw, GeoNetwork, CKAN etc.
-
-```
-crawl-metadata --mode=export --dir=data --dir-out=export --dir-out-mode=flat
-```
-
-Open one of the xml files and evaluate if the contact information from step 1 is available.
 
 ## Summary
 
