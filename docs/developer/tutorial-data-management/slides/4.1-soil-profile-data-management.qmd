@@ -1,6 +1,6 @@
 ---
 title: "4.1 Soil Profile Datamanagement"
-subtitle: "Data management of soil profiles"
+subtitle: "Standards and approaches in data management on observations on land and soil"
 author: Paul van Genuchten
 date: 2023-05-09
 format:
@@ -14,36 +14,72 @@ format:
 
 Various efforts have been made to harmonise Soil Profile data
 
-- eSOTER
 - GlobalSoilMap
+- eSOTER
 - ISO28258
-- OGC Interoperability experiment
 - GLOSIS Web ontology
-- AnzSoil
+
+
+## e-SOTER
+
+- Relational database model, usually in Microsoft Access
+
+- [Kenya](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467)
+- [Southern Africa](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3571c1f3-159d-442c-b324-0af53d03f12e)
+- [Senegal and Gambia](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/a6320590-0899-4b60-bf4d-f80282bbb72c)
+
+## KEN-SOTER
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![KEN SOTER map](../img/soter-map.jpg)
+:::
+
+::: {.column width="40%"}
+![KEN SOTER model](../img/soter.jpg)
+:::
+::::
 
 ## ISO28258
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 - ISO28258 is based on Observations and measurements
 - every field observation and laboratory analysis as a sensor observation
 :::
 
-::: {.column width="40%"}
-![O&M model](./img/om2.png)
+::: {.column width="60%"}
+![O&M model](../img/om2.png)
 :::
 
 ::::
+
+## ISO28258 in GML
+
+- Serialisation of ISO28258 in GML (app schema)
+- Quite complex implementation and low support in tooling
+
+- [INSPIRE Soil](https://inspire.ec.europa.eu/Themes/127/2892) (Europe)  
+- [ANZSoilML](https://github.com/ANZSoilData/ANZSoilML) (Australia) 
+
+- Alternative is a serialisation in JSON using Sensorthings API.
+
+## ISO28258 as relational database
+
+- A relational model is available according to ISO28258
+- Either as PostGreSQL or GeoPackage (SQLite)
+- Read more at <https://iso28258.isric.org>
 
 ## GLOSIS Web Ontology
 
 - ISO28258 expressed using common web ontologys (SOSA, VCARD)
 - Includes codelists for soil properties and procedures
 
-## ISO28258
+## Harmonisation of field, lab and archived data
 
-- A relational model is available according to ISO28258
-- Either as PostGreSQL or geopackage (sqlite)
-- Read more at <https://iso28258.isric.org>
-
+- Use common codelists to identify properties, methods, units
+- Hale Studio and FME are tools for data harmonisation
+- Also SQL scripts are often used to harmonise data
+- Semantic web community offers harmonisation tools (rml.io, tarql, csv-ld)

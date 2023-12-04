@@ -1,6 +1,6 @@
 ---
-title: "1.2 Findable"
-subtitle: "Workshop on spatial data flows"
+title: "1.2 FAIR data"
+subtitle: "The FAIR data principles applied to Soil data"
 author: "Paul van Genuchten"
 date: 2023-09-15
 format:

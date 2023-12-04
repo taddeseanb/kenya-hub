@@ -25,29 +25,30 @@ Services are offered by organizations to facilitate access to data and knowlegde
 
 ### Models
 
-Predictions on distribution of environmental parameters in time and space, as well as yield predictions based on these distribution, are calculated using statistical, rule based, or machine learning models. Commonly available models are described as resources in the hub. 
+Predictions on distribution of environmental parameters in time and space, as well as yield predictions, are calculated using statistical, rule based, and/or machine learning models. Commonly available models are described as resources in the hub. 
 
 ### Software
 
-In the hub various software components can be described which either enable you or your stakeholders to visualise and analyse relevant data and knowledge sources
+In the hub various software components are described which enable visualisation and/or analysis of relevant data and knowledge sources
 
 ### Approaches
 
-Approaches descrive commonly known mechanisms to improve agronomy to overcome challenges such as erosion, limited fertility, salinisation, and climate change.
+Approaches descrive commonly known mechanisms to improve land management to overcome challenges such as erosion, limited fertility, salinisation, and climate change.
 
 ### Policies
 
 The hub describes relevant policies to the Land Soil Crop community. Policy drives the collection of data, but data can also support policy development. 
 
+---
 
 ## Find data
 
-You can search for data and knowledge in the hub in various ways.
+Search for data and knowledge in the hub in various ways:
 
-- Search by keyword
+- Search by keyword or organisation
 - On a search result, further limit the results by filters in the sidebar
 
-![Hub catalogue](./img/catalogueRwanda.PNG)
+![Hub catalogue](./img/catalogueRwanda.PNG){.w-50} 
 
 When you click on submit, the available records will appear.
 
@@ -77,6 +78,7 @@ Explore the records. Click, after searching on keywords, on one of the appeared 
 
 ![Hub catalogue record](./img/cataloguepHrecord.PNG){.w-50} 
 
+---
 
 ## Map viewer
 
@@ -93,16 +95,24 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
 2. the `related maps` show other available maps, such as the LSC Ethiopia, LSC Keny and LSC Rwanda. If you click on one of these maps, it will zoom to those locations.
- ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG){.w-50}
+
+![mapviewer related maps](./img/mapviewer_relatedmaps.PNG){.w-50}
+
 3. `Map settings` allows you to select a different base map, such as natural earth maps or aerial maps. This depends on which base map you prefer to work with.
- ![mapviewer map settings](./img/mapviewer_mapsettings.PNG){.w-50}
+
+![mapviewer map settings](./img/mapviewer_mapsettings.PNG){.w-50}
+
 4. `Help` gives useful tips on how to use the map viewer. It provides a tour through the map viewer and a step-by-step guide. This is an interactive guideline and shows the main functionalities.
- ![mapviewer help](./img/mapviewer_help.PNG){.w-50}
+
+![mapviewer help](./img/mapviewer_help.PNG){.w-50}
+ 
 5. A `Story` is a function that allows you to create and share interactive stories directly from your map. It contains a video with an explanation of how to create them.
- ![mapviewer story](./img/mapviewer_story.PNG){.w-50}
-6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything you have added to the map viewer will be shown in the shareable link.
-      You can also use this button to download your created map as an image.   
- ![mapviewer share](./img/mapviewer_share.PNG)
+
+![mapviewer story](./img/mapviewer_story.PNG){.w-50}
+
+6. `Share/Print` generates a link to your created map, which you can share with colleagues. Anything you have added to the map viewer will be shown in the shareable link. You can also use this button to download your created map as an image.   
+
+![mapviewer share](./img/mapviewer_share.PNG){.w-50} 
 
 
 
@@ -111,18 +121,21 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 
 The vertical toolbar allows you to zoom on the map or location, compare maps, measure distance and provide feedback. Each of the buttons will be explained below.
 
- ![mapviewer rightbar](./img/mapviewer_rightbar.png) 
+![mapviewer rightbar](./img/mapviewer_rightbar.png){.w-50}  
 
 1. Zoom in and out, and back to a full world zoom
 2. Zoom to your current location
 3. Compare two map data side-by-side. In the next section on _explore map data_, we go into more detail on this function.
- ![mapviewer compare](./img/mapviewer_compare.png)
+
+![mapviewer compare](./img/mapviewer_compare.png){.w-50} 
 
 4. Measure the distance on the map between two locations.
- ![mapviewer measure](./img/mapviewer_measure.png)
+
+![mapviewer measure](./img/mapviewer_measure.png){.w-50} 
   
 5. Provide feedback on the map viewer. Feedback is essential to improve the map viewer and to ensure that the map viewer fits the user's needs. If you have any feedback on the map viewer, you can give it by this button.
- ![mapviewer feedback](./img/mapviewer_feedback.png)
+
+![mapviewer feedback](./img/mapviewer_feedback.png){.w-50} 
 
 
 ::: {.callout-tip}
@@ -134,36 +147,46 @@ Explore the basic settings of the mapviewer. Change the map settings, take the t
 The sidebar is the main location for adding maps to the map viewer and visualising your data or any other web data.
 
    - `Search for locations` allows you to search for a specific location and go to your area of interest.
-     ![mapviewer location](./img/mapviewer_location.png)
+  
+   ![mapviewer location](./img/mapviewer_location.png){.w-50} 
      
    - `Explore map data` shows a listing of datasets that can be added to the map via a catalogue search or directly from available maps. If the panel is empty, select an alternative map from `related maps`.
-      ![mapviewer explore](./img/mapviewer_explore.png)
 
-     Under the available maps, you can click on a property map to which you would like to add the viewer. It shows, for example, for the property pH, 4 maps: the 5% prediction value, the 95% prediction value, the median of predictions and the pH map.
-     The values are given for pH*10 for better visualisation. Under the data preview, the metadata of the map is given. You can add the map to the map viewer by clicking on `Add to the map`.
-     ![mapviewer add](./img/mapviewer_add.png)
+  
+   ![mapviewer explore](./img/mapviewer_explore.png){.w-50} 
 
-     You can add as many maps to the Mapviewer as you want. For example, you add another map of Organic Carbon.
-     ![mapviewer add2](./img/mapviewer_add2.png)
+   Under the available maps, you can click on a property map to which you would like to add the viewer. It shows, for example, for the property pH, 4 maps: the 5% prediction value, the 95% prediction value, the median of predictions and the pH map.
 
-     If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
-     ![mapviewer compare2](./img/mapviewer_compare2.png)
+   The values are given for pH*10 for better visualisation. Under the data preview, the metadata of the map is given. You can add the map to the map viewer by clicking on `Add to the map`.
 
-     `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
+   ![mapviewer add](./img/mapviewer_add.png){.w-50} 
+
+   You can add as many maps to the Mapviewer as you want. For example, you add another map of Organic Carbon.
+
+   ![mapviewer add2](./img/mapviewer_add2.png){.w-50} 
+
+   If you now click on the `compare` button as described in the previous section, and put one layer to the left and the other to the right, you can compare the layers side-by-side.
+
+   ![mapviewer compare2](./img/mapviewer_compare2.png){.w-50} 
+
+   `About data` brings you back to the Explore map Data, and shows you the metadata describing the map. The description gives in addition which datasets are used to generate the maps.
    
    - `Upload` provides the option to open a dataset from the local computer. Note that this data is not uploaded to a server, so this data is not shared with anyone else. You can also add `web data` from this panel to the map viewer.
-     ![mapviewer localweb](./img/mapviewer_localweb.png)
+     
+   ![mapviewer localweb](./img/mapviewer_localweb.png){.w-50} 
 
-     For local files, you first need to select a file type. The file should have a spatial component and/or coordinates to add it to the map viewer. In step 2, you browse your file on your local computer.
-     ![mapviewer local](./img/mapviewer_local.PNG)
+   For local files, you first need to select a file type. The file should have a spatial component and/or coordinates to add it to the map viewer. In step 2, you browse your file on your local computer.
+     
+   ![mapviewer local](./img/mapviewer_local.PNG){.w-50} 
 
-     For web data, you first need to select the file or web service type. In step 2, you will add the URL to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is:
-     https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
-     ![mapviewer web](./img/mapviewer_web.png)  
+   For web data, you first need to select the file or web service type. In step 2, you will add the URL to add the web data. For example, you can add the ESA land cover map as a WMS layer. The URL is: <https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1>
+
+   ![mapviewer web](./img/mapviewer_web.png){.w-50}   
 
 
-     You can compare these maps with other added maps, through the compare button.
-     ![mapviewer compare2](./img/mapviewer_compare2.png)  
+   You can compare these maps with other added maps, through the compare button.
+     
+   ![mapviewer compare2](./img/mapviewer_compare2.png){.w-50}   
 
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
@@ -179,7 +202,7 @@ The steps of this exercise are written down under the `help` button. By clicking
 5. Change your base map using options in 'Map Settings' to help make some data sets more visible
 6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen
 
-
+---
 
 ## Hub community
 
@@ -210,6 +233,8 @@ Once logged in, you can now comment below the pages. If you have an account, You
 ![feedback discussion](./img/feedback_discussion.PNG){.w-50}  
 
 
-**Exercise 5:** Create a GIThub account and start a discussion at the GIThub repository.
+::: {.callout-tip}  
+Login to Github or create a Github account and start a discussion about an aspect of the LSC-hub you are surprised about.
+:::
 
 
