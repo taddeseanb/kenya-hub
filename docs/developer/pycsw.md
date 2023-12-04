@@ -10,3 +10,7 @@ author: Paul van Genuchten
 
 - Website: <https://pycsw.org>
 - Github: <https://github.com/geopython/pycsw>
+
+## pycsw in LSC-Hubs
+
+[pycsw](https://kenya.lsc-hubs.org) has been set up with a PostGres backend. Every time records are updated on the [git repository](https://github.com/lsc-hubs/kenya-catalogue) a CI/CD action updates the records in the database. The skin is based on a tailored skin, available on [github](https://github.com/pvgenuchten/pycsw-skin).

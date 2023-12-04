@@ -23,6 +23,8 @@ docker run -p 3001:3001 local/terria
 
 Visit http://localhost:3001 to see TerriaJS in action. 
 
+---
+
 ## Tailored metadata schema in mcf / pygeometa
 
 When using pygeometa to render a iso19139 document, you can use a [tailered output schema](https://geopython.github.io/pygeometa/tutorial/#adding-a-metadata-schema-to-the-core), to match organisation needs (for example use a hardcoded publisher section).
@@ -44,3 +46,10 @@ The SKOS ontology is a commonly accepted mechanism to create vocabularies. It al
 The Glosis web ontology contains [a transformer script](https://github.com/glosis-ld/glosis/tree/master/utils/transformer_tool) which convert a csv (exported from Excel) file to a skos document, alternatively you can use a tool such as [skos play](https://labs.sparna.fr/skos-play/). The skos file can best be hosted on a git repository. Anybody can access it, and provide improvement suggestions.
 
 The python [vocview library](https://github.com/ternaustralia/vocview) is able to render a skos file to a nice web layout which is easy to browse and search through by humans. See a live [implementation at tern](https://linkeddata.tern.org.au/viewer/tern/).
+
+
+--- 
+
+## Summary
+
+With this topic we conclude our training on data management. We hope you enjoyed the materials. Notice that the training can act as a starting point to a number of other resources. Let us know via [Git issues](https://github.com/lsc-hubs/hub-core/issues) if you have improvement suggestions for the materials.
