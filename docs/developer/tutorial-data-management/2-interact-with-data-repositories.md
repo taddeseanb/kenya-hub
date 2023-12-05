@@ -16,7 +16,7 @@ Open index.yml and customise the contact details. Later you will notice that the
 
 Consider to add additional index.yml files in other folders to override the values of index.yml at top level.
 
-### Setup environment
+## Setup environment
 
 The tool we will use is based on python. It has some specific dependencies which are best installed via [Conda](https://conda.io). Conda creates a virtual python environment, so any activity will not interfere with the base python environment of your machine.
 
@@ -58,7 +58,7 @@ Verify the different crawling options by typing:
 crawl-metadata --help
 ```
 
-### Initial MCF files 
+## Initial MCF files 
 
 The initial task for the tool is to create for every data file in our repository a sidecar file based on embedded metadata from the resource.
 
@@ -68,7 +68,7 @@ crawl-metadata --mode=init --dir=data
 
 Notice that for each resource a {dataset}.yml file has been created. Open a .yml file in a text editor and review the content.
 
-### Update MCF
+## Update MCF
 
 The `update` mode is meant to be run at intervals, it will update the mcf files if changes have been made on a resource. 
 
@@ -78,7 +78,7 @@ crawl-metadata --mode=update --dir=data
 
 In certain cases the update mode will also import metadata from remote url's. This happens for example if the dataset-uri is a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/). The update mode will ten fetch metadata of the DOI and push it into the MCF. 
 
-### Export MCF
+## Export MCF
 
 Finally we want to export the MCF's to actual iso19139 metadata to be loaded into a catalogue like pycsw, GeoNetwork, CKAN etc.
 

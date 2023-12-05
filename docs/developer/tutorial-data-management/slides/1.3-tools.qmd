@@ -35,7 +35,7 @@ Scripting libraries which support data management of a file repository
 - Generate metadata from existing data
 - Import remote metadata
 - Ingest metadata from a file repository
-- Create mapservices (API's) for existing data
+- Create mapservices (APIs) for existing data
 
 ## pycsw
 

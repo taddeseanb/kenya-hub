@@ -21,7 +21,7 @@ Datasets are either a source for predictions, as well as can be the result of a 
 
 ### Services
 
-Services are offered by organizations to facilitate access to data and knowlegde. Services can vary from web services (API's), SMS services, brochures, up to on site visits.
+Services are offered by organizations to facilitate access to data and knowlegde. Services can vary from web services (APIs), SMS services, brochures, up to on site visits.
 
 ### Models
 

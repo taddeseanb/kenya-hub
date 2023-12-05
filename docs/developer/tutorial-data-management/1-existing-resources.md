@@ -11,17 +11,17 @@ website:
 
 # Metadata at the source
 
-The FAIR principles are designed with the academic community in mind. Researchers sharing information between universities. However the FAIR principles can also be applied within an origanisation to improve data management, even on your personal computer. You will notice even you yourself will benefit, if you return for example to an archived project 2 years later to recover some data sources.
+The FAIR principles are designed with the academic community in mind. Researchers sharing information. However the FAIR principles can also be applied within an origanisation to improve data management, even on your personal computer. If you return for example to an archived project 2 years later to recover some data sources.
 
 Many organisations organise their documents and datasets on a central network storage or database. These resources are usually clustered in organisational units, projects and/or years. Some files and database tables in that central storage contain embedded metadata, such as the name, size, date, author, location etc. This information supports users in understanding the context of the data source. Especcially if that data at some point is migrated from its original context.
 
-For those formats which do not have embedded metadata, or in order to capture additional metadata aspects. We endorse the creation of a `sidecar` metadata file for every resource, a dedicated metadata file sharing the name of the datasource. This approach is for example common in the ESRI community, where a `.shp.xml` is created alongside any `.shp` or `.tiff` file, which captures some metadata elements.
+For those formats which do not have embedded metadata, or in order to capture additional metadata aspects. We endorse the creation of a `sidecar` metadata file for every resource, a dedicated metadata file sharing the name of the datasource. This approach is for example common in the ESRI community, where a `.shp.xml` is created alongside any `.shp` file, which captures some metadata elements.
 
 :::{.callout-tip}
 Locate on your local computer or network drive a random shapefile. Does the file have a .shp.xml sidecar file? Else find another shape of tiff file (look for `*.shp.xml`). The xml file may be very limited, but in most cases at least some processing steps and the data model of the shapefile are mentioned. 
 :::
 
-Through the embedded or sidecar concept, we endorse data scientists to document their data at the source. Since they know best how the data is produced and how it should be used. 
+**Through the embedded metadata and sidecar concept, we endorse data scientists to document their data at the source. Since they know best how the data is produced and how it should be used.** 
 
 ## Standardised metadata models
 

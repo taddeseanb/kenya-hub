@@ -1,20 +1,20 @@
 ---
-title: Providing conveniance API's
+title: Providing conveniance APIs
 author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Providing conveniance API's
+# Providing conveniance APIs
 
-For spatial datasets it is of interest to share them via conveniance API's, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These API's can give direct access to subsets or map vizualisations of a dataset. 
+For spatial datasets it is of interest to share them via conveniance APIs, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These APIs can give direct access to subsets or map vizualisations of a dataset. 
  
-In this paragraph you are introduced to various standardised API's, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
+In this paragraph you are introduced to various standardised APIs, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
 
 ---
 
-## Standardised data API's 
+## Standardised data APIs 
 
-Open Geospatial Consortium has a long history of standardisation efforts. Standardised mapping api's, such as Web Map Service (WMS), Web Feature service (WFS) and Web Coverage Service (WCS), originate from the beginning of this century. In recent years several challenges have been identified around these standards, which led to a series of [Spatial data on the web best practices](https://www.w3.org/TR/sdw-bp/). OGC then initiated a new generation of standards based on these best practices.
+Open Geospatial Consortium has a long history of standardisation efforts. Standardised mapping APIs, such as Web Map Service (WMS), Web Feature service (WFS) and Web Coverage Service (WCS), originate from the beginning of this century. In recent years several challenges have been identified around these standards, which led to a series of [Spatial data on the web best practices](https://www.w3.org/TR/sdw-bp/). OGC then initiated a new generation of standards based on these best practices.
 
 An overview of both generations:
 
@@ -28,13 +28,13 @@ An overview of both generations:
 | Catalogues | Catalogue Service for the web (CSW) | OGCAPI:Records |
 
 Notice that most of the mapping software supports the standards of both generations. However, due to the recent
-introduction, expect incidental glitches in the implementations of recent OGC API's. 
+introduction, expect incidental glitches in the implementations of recent OGC APIs. 
 
 ---
 
 ## Setting up an API
 
-[Mapserver](https://mapserver.org) is server software which is able to expose datasets through various API's. 
+[Mapserver](https://mapserver.org) is server software which is able to expose datasets through various APIs. 
 Examples of similar software are [QGIS server](https://docs.qgis.org/3.28/en/docs/server_manual/introduction.html), 
 [ArcGIS Server](https://enterprise.arcgis.com/en/server/), [Geoserver](https://geoserver.org) and 
 [pygeoapi](https://pygeoapi.io).

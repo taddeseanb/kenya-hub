@@ -116,7 +116,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 ### Documents
 
-Read more about the various API's which are available for this service.
+Read more about the various APIs which are available for this service.
 
 :::
 

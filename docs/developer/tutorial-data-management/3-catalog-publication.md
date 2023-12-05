@@ -22,7 +22,7 @@ An important aspect is proper setup of autorisations for general public, partner
 
 Various catalogue frontends exist to facilitate dataset search, such as [geonetwork](https://geonetwork-opensource.org), [dataverse](https://dataverse.org), [ckan](https://ckan.org). Selecting a frontend depends on metadata format, target audience, types of data, maintenance aspects, and personal preference.
 
-For this workshop we are going to use [pycsw](https://pycsw.org). It is a catalogue software supporting various standardised query api's, as well as providing a basic easy-to-adjust html web interface. 
+For this workshop we are going to use [pycsw](https://pycsw.org). It is a catalogue software supporting various standardised query APIs, as well as providing a basic easy-to-adjust html web interface. 
 
 For this exercise we assume you have docker-desktop installed on your system and running.
 

@@ -11,7 +11,8 @@ The [FAIR principles](https://www.go-fair.org/fair-principles/) are a good pract
 :::{.border .p-2 .mb-3 .bg-light .border-rounded}
 Outside academia there have been similar initiatives to improve data management, which may be more relevant for dedicated communities or scenarios:
 
-- [W3C Data on the web best practices](https://www.w3.org/TR/dwbp/)
+- [5 star open data](https://5stardata.info)
+- [W3C Data on the web best practices](https://www.w3.org/TR/dwbp/) 
 - [Open government data principles](https://public.resource.org/8_principles.html)
 - [European INSPIRE Directive](https://inspire.ec.europa.eu/inspire-directive/2)
 :::
@@ -31,19 +32,20 @@ Metadata and data should be easy to find for both humans and computers.
 
 ### Data and metadata have a unique persistent identifier
 
-- A local identifier is usually combined with a namespace, to create a globally unique identifier (URI). 
-- Do not use product names, project names, group names in uri's, it is difficult to maintain persistence.
-- Frameworks such as [DOI](https://doi.org) and [W3ID](https://w3id.org/) offer a persistent identification layer for online resources.
+- A minimal approach to create a unique identifier ([URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)) is to combine a local identifier with a domain. For example: <https://data.kalro.org/profiles/aa1-49bc-d11e>
+- In theory, uri's do not need to `resolve` to an actual website, but it is a good practice to provide meaningfull content at each uri.
+- Do not use product names and project names in uri's, it is difficult to maintain persistence. 
+- Frameworks such as [DOI](https://doi.org) and [ePIC](http://www.pidconsortium.net) offer a identification layer for online resources.
 
 :::{.callout-tip}
-For the following 2 types of datasets, review the uniqueness and persistence of their identifier as well as of their metadata. 
+For the following datasets, review the uniqueness and persistence of their identifier and the identifier of the data. 
 
-- Locate some datasets on your local machine or organisation network.
-- Locate some datasets on the web. If you don't know where to start your search, consider to read the [catalogue](#metadata-are-searchable-in-a-catalogue) section first.
+- [05b1e57a-8e31-4cdb-aca4-61ae3f21559d](https://www.geoportal.org/community/guest/geoss-resources?p_p_id=geossresources_WAR_geossportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&controlPanelCategory=current_site.configuration&p_p_resource_id=META_DATA&_geossresources_WAR_geossportlet_targetId=05b1e57a-8e31-4cdb-aca4-61ae3f21559d)
+- [10.1016/j.rse.2019.111260](https://doi.org/10.1016/j.rse.2019.111260)
+- [d5bb6b02-0979-5112-8dd6-9aef6638fb73](https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily/items/d5bb6b02-0979-5112-8dd6-9aef6638fb73)
+- [select-nutrition-indicators-data-for-kenya-2022](https://kenya.opendataforafrica.org/lrysdue/select-nutrition-indicators-data-for-kenya-2022)
 
-| Dataset | Identifier | Your review |
-| --- | --- | --- |
-| Sample |  a432-bcd-4ab55 | No namespace |
+Perform the same analyses for some datasets on your local machine or organisation network.
 :::
 
 ### Describe the data source with rich metadata
@@ -83,13 +85,13 @@ Various communities adopted a range of standards for metadata exchange:
 
 #### Metadata
 
-| Community | Standard | Protocol |
+| Community | Standard | Format/Protocol |
 | --- | --- | --- |
-| Open data/Sematic web | DCAT | SPARQL |
-| Science | Datacite | OAI-PMH | 
-| Geospatial | iso19115 | CSW/OGC API - Records |
-| Earth observation | STAC | STAC |
-| Search engines | Schema.org | json-ld/microdata |
+| Open data/Sematic web | [DCAT](https://www.w3.org/TR/vocab-dcat-2/) | SPARQL |
+| Science | Datacite | [OAI-PMH](http://www.openarchives.org/OAI/openarchivesprotocol.html) | 
+| Geospatial | iso19115 | [CSW](https://www.ogc.org/standard/cat/)/OGC API - Records |
+| Earth observation | [STAC Catalog](https://stacspec.org/) | STAC API |
+| Search engines | [Schema.org](https://schema.org/Dataset) | json-ld/microdata |
 | Ecology | EML | [KNB](https://knb.ecoinformatics.org/)/[GBIF](https://gbif.org)|
 
 :::{.callout-tip}
@@ -104,7 +106,7 @@ A metadata model often is a combination of a schema and a format. Compare the fo
 
 #### Data
 
-Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. However in the spatial and earth observation domain we tend to work with large files and the use of data api's which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these API's, so the API's itself are interoperable. The table below shows some of the common API's. In the first column the older API's, developed in the 90's, in the second column their updated representative, recently adopted or still in development. 
+Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. However in the spatial and earth observation domain we tend to work with large files and the use of data APIs which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these APIs, so the APIs themselves are interoperable. The table below shows some of the common APIs. In the first column the older APIs, developed in the 90's, in the second column their updated representative, recently adopted or still in development. 
 
 | Service | OGC API | Description |
 | --- | --- | --- |
@@ -113,7 +115,7 @@ Most common in data science is to provide a packaged version of a dataset and de
 | Web Coverage Service ([WCS](https://www.ogc.org/standard/wcs/)) | [Coverages](https://ogcapi.ogc.org/coverages/) | API to interact with grid sources |
 | Sensor Observation Service ([SOS](https://www.ogc.org/standard/sos)) | [Sensorthings](https://www.ogc.org/standard/sensorthings/) | Retrieve subsets of sensor observations |
 
-From the Earth Observation domain, an alternative mechanism is increasingly getting adopted. Complete files are stored on a public file repository, but by creating an index on the file and enabling range requests, users are able to fetch subsets from the file directly.
+From the Earth Observation domain, an alternative mechanism is increasingly getting adopted. Complete files are stored on a public file repository, by creating an index on the file and enabling range requests, users are able to fetch subsets from the file directly (for which previously, you would have needed a WFS or WCS service).
 
 This mechanism is enabled by new formats such as [Cloud Optimised GeoTiff](https://www.cogeo.org/), [GeoZarr](https://github.com/zarr-developers/geozarr-spec), and [GeoParquet](https://geoparquet.org/).
 
@@ -152,7 +154,7 @@ The e-Soter model has been developed in the [e-Soter Research project](https://e
 #### iso28258:2013
 
 In 2012 various experts in the soil domain grouped around the development of the first formally standardised domain model on soil data, published as [ISO28258](https://www.iso.org/standard/44595.html). 
-ISO28258 adopted the [Observations & Measurements](https://www.ogc.org/standard/om/) conventions of OGC. Each observation on a site, profile, horizon or soil sample is considered as an observation. For each observation on a specimen, the measured property and the procedure are captured. 
+ISO28258 adopted the [Observations & Measurements](https://www.ogc.org/standard/om/) conventions of OGC. Each observation on a site, profile, horizon or soil sample is considered an observation. For each observation on a specimen, the measured property and the procedure are captured. 
 
 ![Observations and measurements overview](./img/om2.png){.w-50}
 
@@ -176,13 +178,13 @@ Download a Soil GML file and try to open it in [QGIS](https://qgis.org). QGIS us
 
 A number of common vocabularies are relevant to the soil domain.
 
-The [World Reference Base for soil resources](https://github.com/iuss-wrb/wrb/releases/download/v4.0-2022/WRB_fourth_edition_2022-12-18.pdf) provides a framework of soil vocabularies. These lists are partially published in [Agrovoc](https://agrovoc.fao.org/browse/agrovoc/en/page/?clang=nb&uri=c_89f35c33) and partially in the [Glosis web ontology](https://vocab.isric.org/glosis_cl).
+The [World Reference Base for soil resources](https://github.com/iuss-wrb/wrb/releases/download/v4.0-2022/WRB_fourth_edition_2022-12-18.pdf) provides a framework of code lists on soil and soil classification. These lists are partially published in [Agrovoc](https://agrovoc.fao.org/browse/agrovoc/en/page/?clang=nb&uri=c_89f35c33) and partially in [Glosis web ontology](https://vocab.isric.org/glosis_cl).
 
 :::{.callout-tip}
 Examine the concept [Durisols](
 http://aims.fao.org/aos/agrovoc/c_51ec138f) in agrovoc.
 
-- Notice that the agrovoc page on [Durisols](https://agrovoc.fao.org/browse/agrovoc/en/page/c_51ec138f?clang=nb) looks much nicer, still it is important to use the persistent identifier when linking to the concept, why?
+- Notice that the agrovoc page on [Durisols](https://agrovoc.fao.org/browse/agrovoc/en/page/c_51ec138f?clang=nb) looks nicer then the [representation linked to its uri](http://aims.fao.org/aos/agrovoc/c_51ec138f). Still it is important to use the persistent identifier when linking to the concept, why?
 - Notice that Agrovoc contains many translations for each concept and linkage to wider and narrower terms. These are some of the benefits of linking to a keyword from a common thesaurus.
 :::
 
@@ -210,7 +212,7 @@ Provenance is the process of creation and curation of a data source. Which data 
 
 This information is very relevant to potential users of the data, because they can understand if the data has been produced according to their expectations. 
 
-In academia provenance is usually described in scientific articles, but note that you can also capture it (with much more detail) in a metadata record of a data source. Some tools (for example ArcGIS and SPSS) create a processing log automatically.
+In academia provenance and processing are usually described in scientific articles. One can also capture these aspects in a linked metadata record. Some tools (for example ArcGIS and SPSS) create a processing log automatically.
 
 ---
 

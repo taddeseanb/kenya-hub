@@ -74,12 +74,12 @@ Various efforts have been made to harmonise Soil Profile data
 
 ## GLOSIS Web Ontology
 
-- ISO28258 expressed using common web ontologys (SOSA, VCARD)
-- Includes codelists for soil properties and procedures
+- [GLOSIS Web Ontology](https://github.com/glosis-ld/glosis) has expressed ISO28258 using common web ontologys ([SOSA](https://www.w3.org/TR/vocab-ssn/), VCARD)
+- Includes codelists for [soil properties and procedures](https://vocab.isric.org)
 
-## Harmonisation of field, lab and archived data
+## Harmonisation of field, lab and legacy data
 
 - Use common codelists to identify properties, methods, units
-- Hale Studio and FME are tools for data harmonisation
+- [Hale Studio](https://wetransform.to/halestudio/) and FME are tools for data harmonisation
 - Also SQL scripts are often used to harmonise data
-- Semantic web community offers harmonisation tools (rml.io, tarql, csv-ld)
+- Semantic web community offers harmonisation tools ([rml](https://rml.io/), [tarql](https://tarql.github.io/), [csv-ld](https://www.w3.org/2013/csvw/wiki/CSV-LD))

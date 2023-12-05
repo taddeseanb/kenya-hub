@@ -1,16 +1,30 @@
 ---
-title: Workshop on effective spatial data flows
+title: Workshop on effective spatial data management
 author: Paul van Genuchten
 date: 2023-05-09
 ---
 
 # Introduction
 
-This document presents a workshop on effective (spatial) data flows. This workshop is most applicable to organisations which maintain (spatial) datasets as files on a network storage, are familiar with python development, and use [GIT](https://en.wikipedia.org/wiki/Git) as an environment for software development, documentation and/or [contiuous integration & deployment](https://en.wikipedia.org/wiki/CI/CD). However aspects are also relevant in alternate scenario's.
+This docututorial presents a workshop on effective (spatial) data maintenance. The tutorial is under active development, we welcome you to leave [your feedback](https://github.com/lsc-hubs/hub-core).
 
-The workshop focusses on evaluating existing mechanisms to discover and assess data resources in an organisation. And extend these mechanisms to increase findability and usability of these resources within and outside the organisation. 
+The first section introduces the [FAIR data principles](./0-fair-data.md), focussing on the soil domain, which form a basis of the data management approach suggested in the next sections.
+
+On the tutorial some tools are introduced, which are selected considering:
+
+- Open source license
+- Vivid community (persistence) 
+- Support of standards (prevent [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in))
+
+Incidentally alternative options are indicated, because other tools may fit better with existing practices in your organisation.
+
+Git has a central role in the training, it is for example suggested to facilitate software development and deployment, content co-creation and management as well as cummunity feedback.
 
 You can also access the [slides](./slides/) of the workshop.
+
+We hope you enjoy the materials, 
+
+Thaïsa, Paul, Giulio and Luis.
 
 
 
