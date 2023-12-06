@@ -1,10 +1,10 @@
 ---
-title: Providing conveniance APIs
+title: Providing convenience APIs
 author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-For spatial datasets it is of interest to share them via conveniance APIs, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These APIs can give direct access to subsets or map vizualisations of a dataset. 
+For spatial datasets it is of interest to share them via convenience APIs, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These APIs can give direct access to subsets or map visualisations of a dataset. 
  
 In this paragraph you are introduced to various standardised APIs, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
 
@@ -39,7 +39,7 @@ Examples of similar software are [QGIS server](https://docs.qgis.org/3.28/en/doc
  
 We've selected mapserver for this training, because of its robustness and low resource consumption.
 Mapserver is configured using a configuration file, a [mapfile](https://www.mapserver.org/mapfile/). 
-The mapfile defines metadata for the dataset and how users interact with the dataset, mainly the color 
+The mapfile defines metadata for the dataset and how users interact with the dataset, mainly the colour 
 scheme (legend) to draw a map of the dataset.  
 
 Various tools exist to write these configuration files, such as [Mapserver studio](https://mapserverstudio.net/), 
@@ -50,7 +50,7 @@ The [GeoDataCrawler](https://pypi.org/project/geodatacrawler/), introduced in a
 [previous paragraph](./1-existing-resources.md#discovering-an-existing-data-repository), also has an option to generate mapfiles. 
 A big advantage of this approach is the integration with existing metadata. Many publication workflows require to add 
 similar metadata at various locations, a risk for disambiguity. 
-GeoDataCrawler will, during mapfile generation, use the existing metaddata, but also update the metadata 
+GeoDataCrawler will, during mapfile generation, use the existing metadata , but also update the metadata 
 so it includes a link to the mapserver service endpoint. This step enables a typical workflow of: 
 
 - User finds a dataset in a catalogue 
@@ -60,7 +60,7 @@ As well as vice versa; from a mapping application, access the metadata describin
 
 ---
 
-## Mapfile creation exersize
+## Mapfile creation exercise
 
 - Navigate with shell to a folder with data files.
 - Verify if mcf's are available for the files, if not, create initial metadata with `crawl-metadata --mode=init --dir=.`
@@ -108,9 +108,9 @@ map2img -m=./mymap.map -o=test.png
 
 ---
 
-## Setup mapserver via Docker Exersize
+## Setup mapserver via Docker exercise
 
-For this exersize we're using a [mapserver image](https://hub.docker.com/r/camptocamp/mapserver) available from Docker hub (we're using master awaiting the 8.2 release).
+For this exercise we're using a [mapserver image](https://hub.docker.com/r/camptocamp/mapserver) available from Docker hub (we're using master awaiting the 8.2 release).
 
 ```bash
 docker pull camptocamp/mapserver:master  
@@ -148,8 +148,9 @@ If not, check the container logs to evaluate any errors.
 You can also try the url in QGIS. Add a WMS layer, of service http://localhost/data?request=GetCapabilities&service=WMS.
 Notice the links to metadata when you open GetCapabilities in a browser.
 
-[!NOTE]
+:::{.callout-note}
 In recent years browsers have become more strict, to prevent abuse. For that reason it is important to carefully consider common connectivity aspects, when setting up a new service. Websites running at https can only embed content from other https services, so using https is relevant. [CORS](https://en.wikipedia.org/cors) and [CORB](https://en.wikipedia.org/corb) can limit access to embedded resources from remote servers. Using proper CORS headers and Content type identification is relevant to prevent CORS and CORB errors. 
+:::
 
 ---
 

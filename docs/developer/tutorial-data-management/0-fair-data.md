@@ -31,8 +31,8 @@ Metadata and data should be easy to find for both humans and computers.
 ### Data and metadata have a unique persistent identifier
 
 - A minimal approach to create a unique identifier ([URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)) is to combine a local identifier with a domain. For example: <https://data.kalro.org/profiles/aa1-49bc-d11e>
-- In theory, uri's do not need to `resolve` to an actual website, but it is a good practice to provide meaningfull content at each uri.
-- Do not use product names and project names in uri's, it is difficult to maintain persistence. 
+- In theory, URIs do not need to `resolve` to an actual website, but it is a good practice to provide meaningfulcontent at each uri.
+- Do not use product names and project names inURIs, it is difficult to maintain persistence. 
 - Frameworks such as [DOI](https://doi.org) and [ePIC](http://www.pidconsortium.net) offer a identification layer for online resources.
 
 :::{.callout-tip}
@@ -90,8 +90,9 @@ Various communities adopted a range of standards for metadata exchange:
 | Geospatial | iso19115 | [CSW](https://www.ogc.org/standard/cat/)/OGC API - Records |
 | Earth observation | [STAC Catalog](https://stacspec.org/) | STAC API |
 | Search engines | [Schema.org](https://schema.org/Dataset) | json-ld/microdata |
-| Ecology | EML | [KNB](https://knb.ecoinformatics.org/)/[GBIF](https://gbif.org)|
+| Ecology | EML | [KNB](https://knb.ecoinformatics.org/)/[GBIF](https://gbif.org) |
 
+---
 
 :::{.callout-tip}
 A metadata model often is a combination of a schema and a format. Compare the following metadata records, identify which model is used in the record, what differences and communalities do you notice? 
@@ -122,7 +123,7 @@ This mechanism is enabled by new formats such as [Cloud Optimised GeoTiff](https
 
 ### The protocol allows for an authentication and authorisation procedure, where necessary
 
-FAIR endorses open access, however in some cases it is not possible to share some data to the global audiance (privacy, economic, or safety concerns). It is still relevant to publish the data, so those authorised can access it. This requires a proper level of autorisation and authentication being set up.
+FAIR endorses open access, however in some cases it is not possible to share some data to the global audience (privacy, economic, or safety concerns). It is still relevant to publish the data, so those authorised can access it. This requires a proper level of authorisation and authentication being set up.
 
 ### Metadata are accessible, even when the data are no longer available
 
@@ -161,7 +162,7 @@ ISO28258 adopted the [Observations & Measurements](https://www.ogc.org/standard/
 
 :::{.callout-tip}
 For this exercise we are considering a dataset on observations on soil properties (either field or lab). 
-If you are aware of such a dataset in your oranisation or region, use that one, else you can use the [KENSOTER](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467) dataset. Then answer the following questions:
+If you are aware of such a dataset in your organisation or region, use that one, else you can use the [KENSOTER](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467) dataset. Then answer the following questions:
 
 - Describe the dataset; by region, format, organisation, date, ...
 - In which column/property are the observed result values stored?

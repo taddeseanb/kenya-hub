@@ -11,7 +11,7 @@ Quality of service monitoring practices support data providers to understand str
 - Performance and capacity 
 - Usage (how much are the services used)
 
-Quality of service monitoring is a standard activity in IT. Therefore consult your IT department or hosting company if they have tools available to assess these aspects. Confirm with them on how to extend and/or share with you these measurements for the requested parameters. Combine these reports into monthly or quarterly reports to facilitate policy development. Below exersizes
+Quality of service monitoring is a standard activity in IT. Therefore consult your IT department or hosting company if they have tools available to assess these aspects. Confirm with them on how to extend and/or share with you these measurements for the requested parameters. Combine these reports into monthly or quarterly reports to facilitate policy development. Below exercises
 
 ---
 
@@ -19,7 +19,7 @@ Quality of service monitoring is a standard activity in IT. Therefore consult yo
 
 To assess the availability of a service, it requires to monitor the availability of the service at intervals. A basic availability-test every 5 minutes is usually sufficient. Many software exists for availability monitoring, such as [Zabbix](https://zabbix.com/), [Nagios](https://nagios.org/), [CheckMK](https://checkmk.com/), [pingdom](https://www.pingdom.com/). A special mention for the Python based [GeoHealthCheck](https://geohealthcheck.org/) package, which includes the capability on WMS/WFS services to drill down to the data level starting from the GetCapabilities operation.
 
-This exersize assumes docker desktop to be installed. Alternatively you can create a personal account at https://demo.geohealthcheck.org (click register in the login page). 
+This exercise assumes docker desktop to be installed. Alternatively you can create a personal account at https://demo.geohealthcheck.org (click register in the login page). 
 
 - Start by setting up a local GeoHealthCheck container:
 
@@ -42,8 +42,9 @@ This test is automatically repeated at intervals (as long the service is running
 
 To know the capacity and performance of a service you can perform some load tests prior to moving to production. An alternative approach to evaluate performance is to extract the access logs of the service into an aggregation tool like [Kibana](https://www.elastic.co/kibana) and evaluate the number of requests exceeding the limits.
 
-[!NOTE]  
+:::{.callout-note}
 A common challenge to service performance is the provision of a WMS service on a big dataset. When requesting that dataset on a continental or national level, the server runs into problems drawing all the data at once. In such case consider to set up some cache/aggregation mechanism for larger areas. Setting proper min/max scale denominators may be a solution also.
+:::
 
 [jmeter](https://jmeter.apache.org/) is a utility which can run a series of performance and capacity tests on a webservice.
 Jmeter is a java program, which can run on most platforms. 
@@ -53,8 +54,9 @@ Jmeter is a java program, which can run on most platforms.
 - Follow the [build web test plan](https://jmeter.apache.org/usermanual/build-web-test-plan.html) tutorial. 
 - Customise the web test plan for your mapserver service
 
-[!NOTE]  
+:::{.callout-note}
 Do not perform a load test against a production url, it wil severely impact the performance of that service. 
+:::
 
 ---
 

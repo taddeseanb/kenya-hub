@@ -26,7 +26,7 @@ Related software; Git, Gitlab, Bitbucket, Codeberg
 
 A content management system to create websites, documentation, slides, etc.
 
-Related software; [Hugo](gohugo.io), mkdocs, Jekyll, Wordpress, Drupal
+Related software; [Hugo](gohugo.io), [mkdocs](https://mkdocs.org), Jekyll, [Wordpress](https://wordpress.org), [Drupal](https://drupal.org)
 
 ## pygeometa / geodatacrawler
 

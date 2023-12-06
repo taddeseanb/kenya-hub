@@ -9,7 +9,7 @@ In order to share a dataset with colleagues, partners or the wider public. The f
 The following options exist:
 
 - A shared folder on a central server on the local intranet. Notice that this location is usually not available by remote partners. Make sure a backup is made of the network folder, in case of incidents. 
-- A cloud service such as Google Drive, Mirosoft Sharepoint, Dropbox, Amazon Webservices, Github. Such a service can also be setup locally. A minimal solution would be to set up a Webdav service.
+- A cloud service such as Google Drive, Microsoft Sharepoint, Dropbox, Amazon Webservices, Github. Such a service can also be setup locally. A minimal solution would be to set up a Webdav service.
 - A data repository such as [Zenodo](https://zenodo.org/), [Dataverse](https://dataverse.org), [Open Science Foundation](https://osf.io). With this option metadata of the resource is automatically collected and made searchable. Some catalogue software, such as CKAN, GeoNode, GeoNetwork offer the capability to publish data files as part of the metadata registration.
 
 ---
@@ -28,10 +28,10 @@ A mechanism exists which facilitates file moves, without breaking their identifi
 
 For optimal discoverability, it is important to combine data publication with metadata. Either via embedded metadata in the file, else with a separate metadata file. In case of a shared folder or cloud service, embed or place the metadata along the data files, so people browsing through the system can easily find it.
 
-The embedded or sidecar metadata should be duplicated into catalogue software, to make it searchable by the targeted audience. This proces is further described at [catalogue publication](./3-catalog-publication.md).
+The embedded or sidecar metadata should be duplicated into catalogue software, to make it searchable by the targeted audience. This process is further described at [catalogue publication](./3-catalog-publication.md).
 
 ---
 
 ## Summary
 
-Various technologies exist to share data on a network. When selecting a mechanism, evaluate if you can facilitate identifier persistence and share metadata along with the files. In the next section we'll setup [conveniance APIs](./7-providing-mapservices.md) on data to facilitate reuse of the data.
+Various technologies exist to share data on a network. When selecting a mechanism, evaluate if you can facilitate identifier persistence and share metadata along with the files. In the next section we'll setup [convenience APIs](./7-providing-mapservices.md) on data to facilitate reuse of the data.

@@ -4,9 +4,9 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-The FAIR principles are designed with the academic community in mind. Researchers sharing information. However the FAIR principles can also be applied within an origanisation to improve data management, even on your personal computer. If you return for example to an archived project 2 years later to recover some data sources.
+The FAIR principles are designed with the academic community in mind. Researchers sharing information. However the FAIR principles can also be applied within an organisation to improve data management, even on your personal computer. If you return for example to an archived project 2 years later to recover some data sources.
 
-Many organisations organise their documents and datasets on a central network storage or database. These resources are usually clustered in organisational units, projects and/or years. Some files and database tables in that central storage contain embedded metadata, such as the name, size, date, author, location etc. This information supports users in understanding the context of the data source. Especcially if that data at some point is migrated from its original context.
+Many organisations organise their documents and datasets on a central network storage or database. These resources are usually clustered in organisational units, projects and/or years. Some files and database tables in that central storage contain embedded metadata, such as the name, size, date, author, location etc. This information supports users in understanding the context of the data source. Especially if that data at some point is migrated from its original context.
 
 For those formats which do not have embedded metadata, or in order to capture additional metadata aspects. We endorse the creation of a `sidecar` metadata file for every resource, a dedicated metadata file sharing the name of the datasource. This approach is for example common in the ESRI community, where a `.shp.xml` is created alongside any `.shp` file, which captures some metadata elements.
 
@@ -29,7 +29,7 @@ Are your aware of tooling which can support you in creation of metadata in this 
 
 ## The MCF format
 
-Within the geopython community a metadata format is used called the [metadata control file](https://geopython.github.io/pygeometa/reference/mcf/) (MCF). Aim of the format is ease of use, while providing export options to various metadata models. Many metadate models are based on XML, which makes them quite hard to read by humans. MCF is based on [YAML](https://www.yaml.io/spec/), a textbased format using indents to cluster elements. In this workshop we are using the MCF format due to its simplicity and natural fit with the use cases. A minimal sample of MCF is:
+Within the geopython community a metadata format is used called the [metadata control file](https://geopython.github.io/pygeometa/reference/mcf/) (MCF). Aim of the format is ease of use, while providing export options to various metadata models. Many metadate models are based on XML, which makes them quite hard to read by humans. MCF is based on [YAML](https://www.yaml.io/spec/), a text based format using indents to cluster elements. In this workshop we are using the MCF format due to its simplicity and natural fit with the use cases. A minimal sample of MCF is:
 
 ```yaml
 mcf:
@@ -58,7 +58,7 @@ When tagging the dataset with keywords, preferably use keywords from controlled 
 
 MCF documents can best be written in a text editor like [Visual Studio Code](https://code.visualstudio.com). Consider to install the [YAML plugin](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) for instant YAML validation. 
 
-Another option to create and update mcf files is via [MDME](https://github.com/osgeo/mdme). MDME is a webbased software package providing a dynamic metadata edit form. An operational package is available at [osgeo.github.io](https://osgeo.github.io/mdme). Notice that if you install the package locally, you can customize the application to your organisational needs.
+Another option to create and update mcf files is via [MDME](https://github.com/osgeo/mdme). MDME is a web based software package providing a dynamic metadata edit form. An operational package is available at [osgeo.github.io](https://osgeo.github.io/mdme). Notice that if you install the package locally, you can customize the application to your organisational needs.
 
 :::{.callout-tip}
 Imagine a dataset you have recently worked with. Then open [mdme](https://osgeo.github.io/mdme) and populate the form, describing that dataset. Now save the MCF file so we can later place it in a sample data repository. 

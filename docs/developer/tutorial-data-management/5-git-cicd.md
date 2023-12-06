@@ -18,13 +18,13 @@ These days GIT based coding communities like Github, Gitlab, Bitbucket offer var
 
 ## CI/CD
 
-[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) & [Deployment](https://en.wikipedia.org/wiki/Continuous_deployment) describes a proces in which changes in software or configuration are automatically tested and deployed to a relevant environment. These processes are commonly facilited by GIT environments. With every commit to the Git repository an action is triggered which runs some tasks. 
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) & [Deployment](https://en.wikipedia.org/wiki/Continuous_deployment) describes a process in which changes in software or configuration are automatically tested and deployed to a relevant environment. These processes are commonly facilitated by GIT environments. With every commit to the Git repository an action is triggered which runs some tasks. 
 
 ---
 
-## Github Pages Exersize
+## Github Pages exercise
 
-This exersize introduces the CI-CD topic by setting up a basic markdown website in [Github Pages](https://pages.github.com/), maintained through Git. [Markdown](https://en.wikipedia.org/wiki/Markdown) is a popular format to store text with annotations on Git.The site will be based on [Quarto](https://quarto.org). Quarto is one of many platforms to generate a website from a markdown repository.
+This exercise introduces the CI-CD topic by setting up a basic markdown website in [Github Pages](https://pages.github.com/), maintained through Git. [Markdown](https://en.wikipedia.org/wiki/Markdown) is a popular format to store text with annotations on Git.The site will be based on [Quarto](https://quarto.org). Quarto is one of many platforms to generate a website from a markdown repository.
 
 - Create a [new repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) in your github account, for example 'My first CMS'. Tick the ''
 - Before we add any content [create a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) 'gh-pages' on the repository, this branch will later contain the generated html sources of the website. 
@@ -104,7 +104,7 @@ jobs:
 ```
 
 - Save the file, via `actions` you can follow the progress of the workflow at every push to the repository.
-- On the logs notice how a container is initialised, the source code is checked out, the mkdocs dependency is installed, the build is made and pushed to the gh-pages branch.
+- On the logs notice how a container is initialised, the source code is checked out, the quarto dependency is installed, the build is made and pushed to the gh-pages branch.
 
 Notice that the syntax to define workflows is different for every CI-CD platform, however they generally follow a similar pattern. For Github identify in the file above: 
 

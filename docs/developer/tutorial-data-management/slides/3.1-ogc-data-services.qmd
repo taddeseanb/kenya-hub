@@ -1,6 +1,6 @@
 ---
 title: "3.1 Data services"
-subtitle: "Provide data via standardised conveniance APIs"
+subtitle: "Provide data via standardised convenience APIs"
 author: Paul van Genuchten
 date: 2023-05-09
 format:
