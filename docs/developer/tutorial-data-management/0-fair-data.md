@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-11-23
 ---
 
-# FAIR principles
-
 The [FAIR principles](https://www.go-fair.org/fair-principles/) are a good practice on data sharing in academic communities and beyond. A good starting point for our workshop on data management. 
 
 :::{.border .p-2 .mb-3 .bg-light .border-rounded}

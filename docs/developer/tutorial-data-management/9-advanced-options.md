@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Advanced options
-
 Various extensions are possible to tailor the system to your organisation needs.
 
 ## TerriaJS

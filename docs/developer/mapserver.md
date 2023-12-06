@@ -4,8 +4,6 @@ date: 2023-12-04
 author: Paul van Genuchten
 ---
 
-# Mapserver
-
 MapServer is a platform for publishing spatial data to the web. Originally developed in the mid-1990’s at the University of Minnesota, MapServer is released under an MIT-style license, and runs on all major platforms (Windows, Linux, Mac OS X). MapServer is not a full-featured GIS system, nor does it aspire to be. 
 
 - Website: <https://mapserver.org>

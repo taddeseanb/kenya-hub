@@ -1,10 +1,8 @@
 ---
-title: terria js
+title: Terria JS
 date: 2023-11-13
 author: Paul van Genuchten
 ---
-
-# TerriaJS
 
 [TerriaJS](https://terria.io) is a web based map vizualisation tool. It can connect to a variety of file formats and online resources. You can share maps and map stories with partners and compare map views. For time enabled services you can create diagrams.
 

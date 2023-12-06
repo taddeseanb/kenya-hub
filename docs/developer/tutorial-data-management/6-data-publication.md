@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-09-23
 ---
 
-# Data publication
-
 In order to share a dataset with colleagues, partners or the wider public. The file should be published in a shared environment. Various technologies are available to share a file on a network. To select a relevant location mainly depends on which type of users are going to access the dataset.
 
 The following options exist:

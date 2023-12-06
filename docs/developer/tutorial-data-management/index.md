@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Introduction
-
 This docututorial presents a workshop on effective (spatial) data maintenance. The tutorial is under active development, we welcome you to leave [your feedback](https://github.com/lsc-hubs/hub-core).
 
 The first section introduces the [FAIR data principles](./0-fair-data.md), focussing on the soil domain, which form a basis of the data management approach suggested in the next sections.

@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Interact with data repositories
-
 In this section a crawler tool is introduced which let's you interact with the metadata in a file based data repository. For this exercise we've prepared a minimal data repository containing a number of Excel-, Shape- and Tiff-files. Unzip the repository to a location on disk. 
 
 In the root folder of the repository already exists a minimal mcf file, `index.yml`. This file contains some generic metadata properties which are used if a file within the repository does not include them. The tool we use is able to inherit metadata properties from this index.yml file through the file hierarchy. 

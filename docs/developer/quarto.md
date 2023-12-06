@@ -4,8 +4,6 @@ date: 2023-11-13
 author: Paul van Genuchten
 ---
 
-# Quarto
-
 [Quarto](https://quarto.org) is a content management framework. Content is maintained as markdown files. Python or R scripts can be included within markdown to create diagrams or maps. A [visual studio plugin](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) is available, which enables html previews within Visual Studio. You can also render the content to .docx, .pdf, .pptx and .revealjs.
 
 - Website: <https://quarto.org>

@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Catalogue publication
-
 Catalogues facilitate data discovery in 3 ways:
 
 - Users can go to the catalogue website and search for data

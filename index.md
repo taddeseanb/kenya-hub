@@ -318,3 +318,7 @@ Subscribe to our newsletter and be the first to receive the latest data updates 
 :::
 
 :::
+
+<style>
+#title-block-header { display:none; }
+</style>

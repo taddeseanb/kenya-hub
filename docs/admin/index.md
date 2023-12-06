@@ -4,13 +4,12 @@ date: 2023-11-13
 author: Paul van Genuchten
 ---
 
-# Administration
 
 ## Github
 
-The current hub is published via [Github](https://github.com/lsc-hubs). Github is a commercial service provider offering GIT services plus a number of add-ons to facilitate co-creation. Alternative GIT providers could be considered, such as gitlab, bitbucket. Notice that it is also possible to install gitlab on premise.
+The current hub is published via [Github](https://github.com/lsc-hubs). Github is a commercial service provider offering GIT services plus a number of add-ons to facilitate co-creation. Alternative GIT providers can be considered, such as [gitlab](https://gitlab.com), [bitbucket](https://bitbucket.org/). Notice that it is also possible to install gitlab on premise.
 
-As an LSC hub administrator it is relevant to familiarise yourself with Github. Notice that some tools exist to facilitate you on the use of Git, such as [Github desktop](https://desktop.github.com/), [smartgit](https://www.syntevo.com/smartgit/) and [git kraken](https://www.gitkraken.com/). Some prefer the [Github plugin](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio) of [Visual Studio](https://visualstudio.microsoft.com/).
+As an LSC hub administrator it is relevant to familiarise yourself with Github. Notice that some tools exist to facilitate the use of Git, such as [Github desktop](https://desktop.github.com/), [Smartgit](https://www.syntevo.com/smartgit/) and [Git Kraken](https://www.gitkraken.com/). Some prefer the [Github plugin](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio) of [Visual Studio](https://visualstudio.microsoft.com/).
 
 ## LSC Hub
 
@@ -20,7 +19,7 @@ The quarto tool is configured as a [ci-cd](https://en.wikipedia.org/wiki/CI/CD) 
 
 ## Discussions
 
-Discussions are managed within [github](https://github.com/lsc-hubs/kenya-hub/discussions). A widget is added to every resource page, so users can provide feedback or ask questions about the resource. These questions are stored as github discussion. Discussions can be answered from the resource page (a github login is required) or from github discussions. Users should be invited to the github project to be able to administer github discussions.
+Discussions are managed within [github](https://github.com/lsc-hubs/kenya-hub/discussions). A [giscus widget](https://giscus.app/) is added to every resource page, so users can provide feedback or ask questions about the resource. These questions are stored as github discussions. Discussions can be answered from the resource page (a github login is required) or from github discussions. Users should be invited to the github project to be able to administer github discussions.
 
 ## Maps
 
@@ -32,6 +31,11 @@ The TerriaJS framework enables users to share maps and map stories with stakehol
 
 Another option is to store the map definition (urldecoded) on a folder of TerriaJS. The map is then available by its filename. You can now add a link to this map for example in the `related maps` section of TerriaJS (config.json). 
 
+## Map services
+
+Map services on source data are configured using [mapserver mapfiles](https://mapserver.org/mapfile/). The configuration is generated from the metadata of the source data using the [geodatacrawler](https://pypi.org/project/geodatacrawler/) tool. Mapfiles are stored on a NFS (accessible via webdav) or in the mapserver  (docker) container. Source of the mapfiles is preferably stored on Git.
+
+Every new mapfile is registered in the mapserver config file as an [alias](https://mapserver.org/mapfile/config.html)
 
 ## Catalogue 
 

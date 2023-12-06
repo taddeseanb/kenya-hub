@@ -4,10 +4,6 @@ date: 2023-11-13
 author: Paul van Genuchten
 ---
 
-# Developer documentation
-
-## Contents
-
 - [Content management with Quarto](./quarto.md)
 - [pycsw catalogue](./pycsw.md)
 - [mapserver](./mapserver.md)

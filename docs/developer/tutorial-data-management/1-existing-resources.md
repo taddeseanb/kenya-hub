@@ -2,14 +2,7 @@
 title: Metadata at the source
 author: Paul van Genuchten
 date: 2023-05-09
-website:
-  sidebar:
-    style: "docked"
-    search: true
-    contents: auto
 ---
-
-# Metadata at the source
 
 The FAIR principles are designed with the academic community in mind. Researchers sharing information. However the FAIR principles can also be applied within an origanisation to improve data management, even on your personal computer. If you return for example to an archived project 2 years later to recover some data sources.
 

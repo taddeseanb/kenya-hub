@@ -5,8 +5,6 @@ author: Paul van Genuchten
 date: 2022-11-10
 ---
  
-# Quality of service
-
 Quality of service monitoring practices support data providers to understand strengths and weaknesses of a system. Aspects which are monitored are:
 
 - Availability (% of the time that the service has been available)

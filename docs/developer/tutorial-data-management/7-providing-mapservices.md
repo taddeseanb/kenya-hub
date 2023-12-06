@@ -4,8 +4,6 @@ author: Paul van Genuchten
 date: 2023-05-09
 ---
 
-# Providing conveniance APIs
-
 For spatial datasets it is of interest to share them via conveniance APIs, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards of the [Open Geospatial Consortium](https://www.ogc.org/) are most relevant. These APIs can give direct access to subsets or map vizualisations of a dataset. 
  
 In this paragraph you are introduced to various standardised APIs, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
