@@ -92,6 +92,7 @@ Various communities adopted a range of standards for metadata exchange:
 | Search engines | [Schema.org](https://schema.org/Dataset) | json-ld/microdata |
 | Ecology | EML | [KNB](https://knb.ecoinformatics.org/)/[GBIF](https://gbif.org)|
 
+
 :::{.callout-tip}
 A metadata model often is a combination of a schema and a format. Compare the following metadata records, identify which model is used in the record, what differences and communalities do you notice? 
 
@@ -104,7 +105,9 @@ A metadata model often is a combination of a schema and a format. Compare the fo
 
 #### Data
 
-Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. However in the spatial and earth observation domain we tend to work with large files and the use of data APIs which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these APIs, so the APIs themselves are interoperable. The table below shows some of the common APIs. In the first column the older APIs, developed in the 90's, in the second column their updated representative, recently adopted or still in development. 
+Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. Zenodo supports Findability and Accessibility of FAIR.
+
+In the spatial and earth observation domain we tend to work with large files and the use of data APIs which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these APIs, so the APIs themselves are interoperable. The table below shows some of the common APIs. In the first column the older APIs, developed in the 90's, in the second column their updated representative, recently adopted or still in development. 
 
 | Service | OGC API | Description |
 | --- | --- | --- |
@@ -156,13 +159,26 @@ ISO28258 adopted the [Observations & Measurements](https://www.ogc.org/standard/
 
 ![Observations and measurements overview](./img/om2.png){.w-50}
 
+:::{.callout-tip}
+For this exercise we are considering a dataset on observations on soil properties (either field or lab). 
+If you are aware of such a dataset in your oranisation or region, use that one, else you can use the [KENSOTER](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467) dataset. Then answer the following questions:
+
+- Describe the dataset; by region, format, organisation, date, ...
+- In which column/property are the observed result values stored?
+- How is the observation linked to the location and depth of the sample?
+- Where is documented the unit used for the value?
+- How is documented which soil property is measured
+- Where is described which procedure/method has been used for this observation?
+- Are metadata about the measurement available, when was the sample analysed, who made the sample, which lab?
+:::
+
 Various initiatives adopted ISO28258, and serialised and specialised the model for their community:
 
-- [INSPIRE Soil](https://inspire.ec.europa.eu/Themes/127/2892) (Europe) and [ANZSoilML](https://github.com/ANZSoilData/ANZSoilML) (Australia) are implementations of iso28258 serialised as GML. 
+- [INSPIRE Soil](https://inspire.ec.europa.eu/Themes/127/2892) (Europe) and [ANZSoilML](https://github.com/ANZSoilData/ANZSoilML) (Australia) are domain models based on Observations and Measurements, inspired by ISO28258, serialised in GML. 
 - [ISO28258-relational](https://git.wur.nl/isric/databases/iso28258-public) is an implementation of ISO28258 modelled as a relational database.
-- [Glosis Web Ontology](https://github.com/glosis-ld/glosis) is an iso28258 implementation, using common ontologies from the web, such as [semantic sensor network](https://www.w3.org/TR/vocab-ssn/).
+- [Glosis Web Ontology](https://github.com/glosis-ld/glosis) is an evolution of iso28258, using common ontologies from the web, such as [semantic sensor network](https://www.w3.org/TR/vocab-ssn/).
 
-Some examples of iso28258 implementations:
+Some examples of datasets modelled as INSPIRE Soil:
 
 - [Soil Berlin](https://fbinter.stadt-berlin.de/fb/atom/SO/SO_BoKw2015.zip)
 - [Soil chemistry Flanders](https://www.dov.vlaanderen.be/geoserver-inspire/wfs?typeNames=so:chemicalParameter&service=wfs&version=2.0.1&request=getfeature&count=10)
