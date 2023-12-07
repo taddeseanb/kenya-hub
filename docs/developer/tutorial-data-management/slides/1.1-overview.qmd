@@ -1,13 +1,13 @@
 ---
 title: "1.1 Training Overview"
-subtitle: "Workshop on spatial data flows"
+subtitle: "Workshop on effective spatial data management"
 author: "Paul van Genuchten"
 date: 2023-09-15
 format:
   revealjs:
     incremental: true
     logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
-    footer: "Workshop on spatial data flows"
+    footer: "Workshop on effective spatial data management"
 ---
 
 ## Agenda  

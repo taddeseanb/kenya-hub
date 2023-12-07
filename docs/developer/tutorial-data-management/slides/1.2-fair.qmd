@@ -7,7 +7,7 @@ format:
   revealjs:
     incremental: true
     logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
-    footer: "Workshop on spatial data flows"
+    footer: "Workshop on effective spatial data management"
 ---
 
 # ![](https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg){width=50%} {data-background-image=./isric-style/images/background_title_bottom.png
@@ -19,11 +19,12 @@ Findable - Accessible - Interoperable - Reusable
 
 [go-fair.org](https://www.go-fair.org/fair-principles)
 
-## Findable
+# Findable
 
 - The first step in (re)using data is to find them. 
 - Metadata and data should be easy to find for both humans and computers. 
-- Machine-readable metadata are essential for automatic discovery of datasets and services
+- Machine-readable metadata are essential for automatic discovery of datasets and services.
+- Persistent identification
 
 ## Persistent identification
 

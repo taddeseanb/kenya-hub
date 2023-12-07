@@ -7,7 +7,7 @@ format:
   revealjs:
     incremental: true
     logo: https://lsc-hubs.org/images/logo-lsc-hubs.svg
-    footer: "Workshop on spatial data flows"
+    footer: "Workshop on effective spatial data management"
 ---
 
 ## History
@@ -15,7 +15,7 @@ format:
 Various efforts have been made to harmonise Soil Profile data
 
 - GlobalSoilMap
-- eSOTER
+- e-SOTER
 - ISO28258
 - GLOSIS Web ontology
 
@@ -32,11 +32,11 @@ Various efforts have been made to harmonise Soil Profile data
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 ![KEN SOTER map](../img/soter-map.jpg)
 :::
 
-::: {.column width="40%"}
+::: {.column width="60%"}
 ![KEN SOTER model](../img/soter.jpg)
 :::
 ::::
@@ -45,12 +45,12 @@ Various efforts have been made to harmonise Soil Profile data
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="60%"}
 - ISO28258 is based on Observations and measurements
 - every field observation and laboratory analysis as a sensor observation
 :::
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 ![O&M model](../img/om2.png)
 :::
 

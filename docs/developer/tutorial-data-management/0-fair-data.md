@@ -146,7 +146,7 @@ The soil community has a long history of interoperability efforts for soil profi
 
 #### e-Soter
 
-The e-Soter model has been developed in the [e-Soter Research project](https://esoter.net), based on principles of previous SOil TERrain (SOTER) initiatives. e-Soter is a relational database model, usually implemented as a [Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) database. Some examples of eSoter implementations:
+The e-Soter model has been developed in the [e-Soter Research project](https://esoter.net), based on principles of previous SOil TERrain (SOTER) initiatives. e-Soter is a relational database model, usually implemented as a [Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) database. Some examples of e-Soter implementations:
 
 - [Malawi](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/60803da0-a15f-4cc5-9cb5-172fa2460af3)
 - [Kenya](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467)
