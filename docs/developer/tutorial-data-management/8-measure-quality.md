@@ -5,22 +5,28 @@ author: Paul van Genuchten
 date: 2022-11-10
 ---
  
-Quality of service monitoring practices support data providers to understand strengths and weaknesses of a system. Aspects which are monitored are:
+Quality of service monitoring supports data providers to understand strengths and weaknesses of a system. Aspects which are monitored are:
 
-- Availability (% of the time that the service has been available)
-- Performance and capacity 
-- Usage (how much are the services used)
+- [Availability](#availability-monitoring) (% of the time that the service has been available)
+- [Performance and capacity](#performance--capacity) 
+- [Usage](#usage-monitoring) (how (much) are services used)
+- [Search engine optimisation](#search-engine-optimisation) (SEO)
 
-Quality of service monitoring is a standard activity in IT. Therefore consult your IT department or hosting company if they have tools available to assess these aspects. Confirm with them on how to extend and/or share with you these measurements for the requested parameters. Combine these reports into monthly or quarterly reports to facilitate policy development. Below exercises
+Quality of service monitoring is a standard activity in IT. Therefore consult your IT department or hosting company if they have tools available to assess these aspects. Confirm with them on how to extend and/or share with you the registrations for the requested parameters. Combine these reports into monthly or quarterly reports to facilitate system maintenance and roadmap. 
+
 
 ---
 
-## Availability Monitoring Exercise
+## Availability Monitoring
 
-To assess the availability of a service, it requires to monitor the availability of the service at intervals. A basic availability-test every 5 minutes is usually sufficient. Many software exists for availability monitoring, such as [Zabbix](https://zabbix.com/), [Nagios](https://nagios.org/), [CheckMK](https://checkmk.com/), [pingdom](https://www.pingdom.com/). A special mention for the Python based [GeoHealthCheck](https://geohealthcheck.org/) package, which includes the capability on WMS/WFS services to drill down to the data level starting from the GetCapabilities operation.
+To assess the availability of a service, it requires to monitor the availability of the service at intervals. A basic availability-test every 5 minutes is usually sufficient. Many software exists for availability monitoring, such as [Zabbix](https://zabbix.com/), [Nagios](https://nagios.org/), [CheckMK](https://checkmk.com/), [pingdom](https://www.pingdom.com/). 
 
-This exercise assumes docker desktop to be installed. Alternatively you can create a personal account at https://demo.geohealthcheck.org (click register in the login page). 
+In this workshop we're introducting the a Python based monitoring solution, called [GeoHealthCheck](https://geohealthcheck.org/). Geohealthcheck is designed to monitor spatial data services specifically.
 
+The following exercise assumes docker desktop to be installed. Alternatively you can create a personal account at https://demo.geohealthcheck.org (click register in the login page). 
+
+
+:::{.callout-tip}
 - Start by setting up a local GeoHealthCheck container:
 
 ```bash
@@ -33,17 +39,28 @@ docker run --name ghc -p 80:80 geopython/geohealthcheck
 - On the next screen add `WMS Drilldown` (so all layers are validated)
 - Click `Save and test`
 - When finished, click Details to see the test result
+:::
 
-This test is automatically repeated at intervals (as long the service is running). You can return to the test page to evaluate a diagram of availability over time.
+This test is automatically repeated at intervals (as long the service is running). You can return to the test page to view a diagram of the availability over time. You can also configure a e-mail address to recieve notifications if a service is not available.
+
+Read more at the [GeoHealthCheck website](https://docs.geohealthcheck.org/en/latest/),
+
+An advanced aspect of availability is identifying broken links on your content. Many tools exist which can monitor wensites on broken links at intervals, for example [W3C linkcheck](https://validator.w3.org/checklink). Also [google search console](https://search.google.com/search-console/about) can be used to identify broken links. Another option is to verify in your website access logs if there are any requests which returned a 404 status, if such a request has a [referer url](https://en.wikipedia.org/wiki/HTTP_referer), you are able to identify which website incorrectly linked to one of your resources.
+
+:::{.callout-tip}
+Visit <https://validator.w3.org/checklink> and fill in a website you maintain or frequently visit. The `check` button starts a process to evaluate broken links.
+:::
+
+Sometimes a machine is not able to identify if a link is broken, for example if the target does not return a typical `404 Not found` message.
 
 ---
 
-## Performance & Capacity testing
+## Performance & Capacity
 
-To know the capacity and performance of a service you can perform some load tests prior to moving to production. An alternative approach to evaluate performance is to extract the access logs of the service into an aggregation tool like [Kibana](https://www.elastic.co/kibana) and evaluate the number of requests exceeding the limits.
+To know the capacity and performance of a service you can perform some load tests prior to moving to production. An alternative approach to evaluate performance is to extract the access logs of the service into an aggregation tool like [AWStats](https://awstats.sourceforge.io) or [Kibana](https://www.elastic.co/kibana) and evaluate the number of requests exceeding the limits.
 
 :::{.callout-note}
-A common challenge to service performance is the provision of a WMS service on a big dataset. When requesting that dataset on a continental or national level, the server runs into problems drawing all the data at once. In such case consider to set up some cache/aggregation mechanism for larger areas. Setting proper min/max scale denominators may be a solution also.
+A common challenge to service performance in spatial data is the provision of a WMS service on a big dataset. When requesting that dataset on a continental or national level, the server runs into problems drawing all the data at once. In such case consider to set up some cache/aggregation mechanism for larger areas. Setting proper min/max scale denominators can be a solution also.
 :::
 
 [jmeter](https://jmeter.apache.org/) is a utility which can run a series of performance and capacity tests on a webservice.
