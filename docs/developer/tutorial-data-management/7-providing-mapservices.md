@@ -6,7 +6,7 @@ date: 2023-05-09
 
 For spatial datasets it is of interest to share them via convenience APIs, so the datasets can be downloaded in parts or easily be visualised in common tools such as [QGIS](https://qgis.org), [OpenLayers](https://openlayers.org) & [Leaflet](https://leaflet.org). The standards on data services of the [Open Geospatial Consortium](https://www.ogc.org/) are designed with this purpose. These APIs give direct access to subsets or map visualisations of a dataset. 
  
-In this paragraph you are introduced to various standardised APIs, after which we introduce you to an approach to publish your datasets, which builds on the data management approach introduced in the previous paragraphs.  
+In this paragraph you will be introduced to various standardised APIs, after which we introduce an approach to publish datasets, which builds on the data management approach introduced in the previous paragraphs.  
 
 ---
 

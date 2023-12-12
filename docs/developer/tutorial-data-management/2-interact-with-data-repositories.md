@@ -16,9 +16,9 @@ Consider to add additional index.yml files in other folders to override the valu
 
 ## Setup environment
 
-The tool we will use is based on python. It has some specific dependencies which are best installed via [Conda](https://conda.io). Conda creates a virtual python environment, so any activity will not interfere with the base python environment of your machine.
+The tool we will use is based on python. It has some specific dependencies which are best installed via [Conda](https://conda.io). Conda creates a virtual python environment, so any activity will not interfere with the base python environment of your machine. Notice that the [next paragraph](#pythongdal-via-docker) describes an alternative approach without installing python locally.
 
-If you don't have Conda, you can install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html#installing) and consider to read the [getting started](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
+If you don't have Conda, you can install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html#installing) and consider to read the [getting started](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html). 
 
 Now start a commandline or powershell with conda enabled (or add conda to your PATH). On windows look for the `Anaconda prompt` in start menu.
 First we will navigate to the folder in which we unzipped the sample data repository. Make sure you are not in the `data` directory but one above.
@@ -55,6 +55,51 @@ Verify the different crawling options by typing:
 ```
 crawl-metadata --help
 ```
+
+## Python/GDAL via Docker
+
+In case you have difficulties setting up python with gdal on your local machine (or just want to try out), an alternative approach is available, using python via Docker. [Docker](https://www.docker.com) is a virtualisation technology which runs isolated containers within your computer. 
+
+- First [install docker](https://docs.docker.com/desktop/install/windows-install/). 
+- Then in a blank folder create 2 files: `Dockerfile`
+
+```
+FROM mambaorg/micromamba:1.5.3
+COPY --chown=$MAMBA_USER:$MAMBA_USER env.yaml /tmp/env.yaml
+RUN micromamba install --yes --file /tmp/env.yaml
+RUN micromamba install -y -n base -c conda-forge gdal pandas pysqlite3
+RUN micromamba clean --all --yes
+ARG MAMBA_DOCKERFILE_ACTIVATE=1
+RUN pip install geodatacrawler
+```
+
+- and `env.yml`
+
+```
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - pyopenssl=20.0.1
+  - python=3.9.1
+  - requests=2.25.1
+```
+
+- Build the geodatacrawler image (an image is a blueprint to create containers). Navigate with powershell or commandline to the folder you have just created.
+
+```bash
+cd ../../{my-docker-folder}
+docker build -t org/metatraining .
+```
+
+- Now navigate to the folder where you unzipped the data repository and use the docker image to run the crawler:
+
+```bash
+cd ../../{my-dummy-repository}
+docker run -it --rm org/metatraining crawl-metadata --dir=.
+```
+
+If you use this approach, prepend `docker run -it --rm org/metatraining` to any of the statements below
 
 ## Initial MCF files 
 

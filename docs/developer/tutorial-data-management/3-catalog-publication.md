@@ -22,9 +22,9 @@ Various catalogue frontends exist to facilitate dataset search, such as [geonetw
 
 For this workshop we are going to use [pycsw](https://pycsw.org). It is a catalogue software supporting various standardised query APIs, as well as providing a basic easy-to-adjust html web interface. 
 
-For this exercise we assume you have docker-desktop installed on your system and running.
+For this exercise we assume you have [docker-desktop](https://www.docker.com/get-started/) installed on your system and running.
 
-pycsw is available as docker image, including an embedded SQLite database. In a production situation you will instead use a dedicated Postgres or MariaDB database for record storage. 
+pycsw is available as docker image at docker hub, including an embedded SQLite database. In a production situation you will instead use a dedicated Postgres or MariaDB database for record storage. 
 
 - Navigate your shell to the temporary folder containing iso-xml documents. This folder will be mounted into the container, in order to load the records to the pycsw database.
 
