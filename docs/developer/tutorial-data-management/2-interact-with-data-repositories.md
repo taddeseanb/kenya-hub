@@ -73,7 +73,7 @@ ARG MAMBA_DOCKERFILE_ACTIVATE=1
 RUN pip install geodatacrawler
 ```
 
-- and `env.yml`
+- and `env.yaml`
 
 ```
 name: base
