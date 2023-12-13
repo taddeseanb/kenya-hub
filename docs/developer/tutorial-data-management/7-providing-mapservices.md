@@ -78,11 +78,41 @@ contact:
     url: https://www.isric.org
 ```
 
+- Set some environment variables
+
+::: {.panel-tabset}
+# Linux
+```bash
+export pgdc_md_url="https://kenya.lsc-hubs.org/collections/metadata:main/items/{0}"
+export pgdc_ms_url="http://localhost"
+export pgdc_webdav_url="https://example.com/data"
+```
+# Powershell
+```bash
+$pgdc_md_url="https://kenya.lsc-hubs.org/collections/metadata:main/items/{0}"
+$pgdc_ms_url="http://localhost"
+$pgdc_webdav_url="https://example.com/data"
+```
+:::
+
 - Generate the mapfile
 
+::: {.panel-tabset}
+# Local
 ```bash
-crawl-maps --dir=./
+crawl-maps --dir=.
 ```
+# Docker & Linux
+```bash
+docker run -it --rm -v$(pwd):/tmp \
+  org/metatraining crawl-maps --dir=/tmp 
+```
+# Docker & Powershell
+```bash
+docker run -it --rm -v "${PWD}:/tmp" `
+  org/metatraining crawl-maps --dir=/tmp 
+```
+:::
 
 - Index.yml may include a "robot" property, to guide the crawler in how to process the folder. This section can be used to add specific crawling behaviour.
 
@@ -107,7 +137,7 @@ map2img -m=./mymap.map -o=test.png
 
 ---
 
-## Setup mapserver via Docker exercise
+## Setup mapserver via Docker 
 
 For this exercise we're using a [mapserver image](https://hub.docker.com/r/camptocamp/mapserver) available from Docker hub.
 
@@ -129,19 +159,24 @@ Also unescape the OGCAPI templates section
 OGCAPI_HTML_TEMPLATE_DIRECTORY "/usr/local/share/mapserver/ogcapi/templates/html-bootstrap4/"
 ```
 
-
-
 In the next statement we mount the data folder, including the config file and indicate on which port and with which config file the container will run:
 
+::: {.panel-tabset}
+# Linux
 ```bash
-docker run \
-    -p 80:80 \
+docker run -p 80:80 \
     -e MAPSERVER_CONFIG_FILE=/srv/data/mapserver.conf \
     -v $(pwd):/srv/data  \
     camptocamp/mapserver:master 
 ```
-
-Notice the current path, $(pwd), being mounted as `/srv/data`, /srv/data is the folder we use within the container (mounted).
+# Powershell
+```bash
+docker run -p 80:80 `
+    -e MAPSERVER_CONFIG_FILE=/srv/data/mapserver.conf `
+    -v "${PWD}:/srv/data" `
+    camptocamp/mapserver:master 
+```
+:::
 
 Check http://localhost/data/ogcapi in your browser. If all has been set up fine it should show the OGCAPI homepage of the service. 
 If not, check the container logs to evaluate any errors. 

@@ -17,9 +17,25 @@ Since every metadata initiative tends to have dedicated columns. A templating ap
 - For this exercise we'll use the [LSC-hubs spreadsheet](https://github.com/lsc-hubs/kenya-catalogue/blob/main/portals/KE/LSC/index.csv) in combination with the [LSC-hubs template](https://github.com/lsc-hubs/kenya-catalogue/blob/main/portals/KE/LSC/index.j2). Notice that the template has the same filename, but with extension `.j2`. Download both files to a new folder, called `csv`, in your working directory.
 - From your shell environment run this command:
 
-```
+::: {.panel-tabset}
+# Local
+```bash
 crawl-metadata --mode=import-csv --dir="./csv"
 ```
+# Dckr & Linux
+```bash
+docker run -it --rm -v$(pwd):/tmp \
+  org/metatraining crawl-metadata \
+  --mode=import-csv --dir="/tmp/csv"
+```
+# Dckr & Powershell
+```bash
+docker run -it --rm -v "${PWD}:/tmp" `
+  org/metatraining crawl-metadata `
+  --mode=import-csv --dir="/tmp/csv"
+```
+:::
+
 
 - If there are errors, check the paths and consider to open the CSV in Google Sheets and export it again or open it in a text editor to look for special cases. A known issue with this approach is that the crawler tool can not manage `newline` characters in text fields.
 - Open one of the generated MCF files to evaluate its content.
@@ -28,6 +44,8 @@ crawl-metadata --mode=import-csv --dir="./csv"
 ```
 crawl-metadata --mode=import-csv --dir="./csv" --sep=';'
 ```
+
+
 
 ---
 

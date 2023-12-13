@@ -30,7 +30,7 @@ The following exercise assumes docker desktop to be installed. Alternatively you
 - Start by setting up a local GeoHealthCheck container:
 
 ```bash
-docker run --name ghc -p 80:80 geopython/geohealthcheck
+docker run -p80:80 geopython/geohealthcheck
 ```
 - Visit http://localhost
 - Login as user: admin, password: admin
@@ -86,9 +86,20 @@ To capture the usage of a service you can extract the usage logs and import them
 - Navigate to an empty folder, place a [sample log file](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs) in the folder, rename the file to `access.log`.
 - Start a container
 
+::: {.panel-tabset}
+# Linux
+```bash
+docker run -d --restart always --publish 3000:80 \
+ --name awstats --volume $(pwd):/var/local/log:ro \
+ pabra/awstats
 ```
-docker run -d --restart always --publish 3000:80 --name awstats --volume $(pwd):/var/local/log:ro pabra/awstats
+# Powershell
+```bash
+docker run -d --restart always --publish 3000:80 `
+ --name awstats -v "${PWD}:/var/local/log:ro" `
+ pabra/awstats
 ```
+:::
 
 - Parse the logs:
 

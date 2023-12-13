@@ -88,26 +88,40 @@ dependencies:
 - Build the geodatacrawler image (an image is a blueprint to create containers). Navigate with powershell or commandline to the folder you have just created.
 
 ```bash
-cd ../../{my-docker-folder}
 docker build -t org/metatraining .
 ```
 
 - Now navigate to the folder where you unzipped the data repository and use the docker image to run the crawler:
 
 ```bash
-cd ../../{my-dummy-repository}
-docker run -it --rm org/metatraining -v$(pwd):/tmp crawl-metadata --dir=/tmp
+docker run -it --rm org/metatraining crawl-metadata --help
 ```
 
-If you use this approach, prepend `docker run -it --rm org/metatraining` to any of the statements below
+For advanced docker statements there are some differences between Windows commandline, Windows powershell and Linux. Use the relevant syntax for your system. 
 
 ## Initial MCF files 
 
 The initial task for the tool is to create for every data file in our repository a sidecar file based on embedded metadata from the resource.
 
-```
+::: {.panel-tabset}
+# Local
+```bash
 crawl-metadata --mode=init --dir=data
 ```
+# Dckr & Linux
+```bash
+docker run -it --rm -v$(pwd):/tmp \
+ org/metatraining crawl-metadata \
+ --mode=init --dir=tmp/data
+```
+# Dckr & Powershell
+```bash
+docker run -it --rm -v "${PWD}:/tmp" `
+  org/metatraining crawl-metadata `
+  --mode=init --dir=/tmp/data
+```
+:::
+
 
 Notice that for each resource a {dataset}.yml file has been created. Open a .yml file in a text editor and review the content.
 
@@ -115,9 +129,24 @@ Notice that for each resource a {dataset}.yml file has been created. Open a .yml
 
 The `update` mode is meant to be run at intervals, it will update the mcf files if changes have been made on a resource. 
 
-```
+::: {.panel-tabset}
+# Local
+```bash
 crawl-metadata --mode=update --dir=data
 ```
+# Dckr & Linux
+```bash
+docker run -it --rm -v$(pwd):/tmp \
+ org/metatraining crawl-metadata \
+ --mode=update --dir=tmp/data
+```
+# Dckr & Powershell
+```bash
+docker run -it --rm -v "${PWD}:/tmp" `
+  org/metatraining crawl-metadata `
+  --mode=update --dir=/tmp/data
+```
+:::
 
 In certain cases the update mode will also import metadata from remote url's. This happens for example if the dataset-uri is a [DOI](https://www.doi.org/the-identifier/what-is-a-doi/). The update mode will ten fetch metadata of the DOI and push it into the MCF. 
 
@@ -125,9 +154,26 @@ In certain cases the update mode will also import metadata from remote url's. Th
 
 Finally we want to export the MCF's to actual iso19139 metadata to be loaded into a catalogue like pycsw, GeoNetwork, CKAN etc.
 
-```
+::: {.panel-tabset}
+# Local
+```bash
 crawl-metadata --mode=export --dir=data --dir-out=export --dir-out-mode=flat
 ```
+# Dckr & Linux
+```bash
+docker run -it --rm -v$(pwd):/tmp \
+ org/metatraining crawl-metadata \
+ --mode=export --dir=tmp/data \
+ --dir-out=export --dir-out-mode=flat
+```
+# Dckr & Powershell
+```bash
+docker run -it --rm -v "${PWD}:/tmp" `
+  org/metatraining crawl-metadata `
+  --mode=export --dir=/tmp/data `
+  --dir-out=/tmp/export --dir-out-mode=flat
+```
+:::
 
 Open one of the xml files and evaluate if the contact information from step 1 is available.
 
