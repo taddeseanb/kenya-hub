@@ -96,7 +96,7 @@ docker build -t org/metatraining .
 
 ```bash
 cd ../../{my-dummy-repository}
-docker run -it --rm org/metatraining crawl-metadata --dir=.
+docker run -it --rm org/metatraining -v$(pwd):/tmp crawl-metadata --dir=/tmp
 ```
 
 If you use this approach, prepend `docker run -it --rm org/metatraining` to any of the statements below
