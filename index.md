@@ -276,7 +276,7 @@ The heart of the knowledge hub. Here, you’ll find like-minded participants who
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
 ::: {.text-center .pt-2}
-<a href="" class="btn btn-success rounded-pill">Visit community</a>
+<a href=https://github.com/lsc-hubs/kenya-hub" class="btn btn-success rounded-pill" target="_blank">Visit community</a>
 :::
 
 :::

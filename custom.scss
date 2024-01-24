@@ -21,8 +21,12 @@ line-height: 29px;
 }
 .special-section {
     background-color: #F5EFE4;
-    margin:25px -500px 25px -500px;
-    padding:25px 500px 25px 500px
+    margin: 25px -500px 25px -500px;
+    padding: 150px 500px 150px 500px;
+    mask: radial-gradient(194.54px at 50% 261.00px,#000 99%,#0000 101%) calc(50% - 174px) 0/348px 51% repeat-x,    
+    radial-gradient(194.54px at 50% -174px,#0000 99%,#000 101%) 50% 87px/348px calc(51% - 87px) repeat-x,    
+    radial-gradient(194.54px at 50% calc(100% - 261.00px),#000 99%,#0000 101%) calc(50% - 174px) 100%/348px 51% repeat-x,
+    radial-gradient(194.54px at 50% calc(100% + 174.00px),#0000 99%,#000 101%) 50% calc(100% - 87px)/348px calc(51% - 87px) repeat-x;
 }
 h1 {
     color: #10AC59;
