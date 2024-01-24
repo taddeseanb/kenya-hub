@@ -82,7 +82,7 @@ Search datasets or browse by category.
 
 :::: {.columns .pt-3}
 
-::: {.column width="48%" .rounded .bg-white .border .px-3}
+::: {.column width="48%" .rounded .bg-white .border .px-3 .border-secondary .shadow}
 
 :::: {.columns}
 
@@ -108,7 +108,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 :::
 
-::: {.column width="47%" .rounded .bg-white .border .mx-3 .px-3}
+::: {.column width="47%" .rounded .bg-white .mx-3 .px-3 .border .border-secondary .shadow}
 
 :::: {.columns}
 
@@ -129,7 +129,7 @@ Read more about the various APIs which are available for this service.
 ::::
 
 ::: {.text-center .pt-2}
-<a href="./docs" class="btn btn-warning rounded-pill">View documents</a> 
+[View documents](./docs){.btn .btn-warning .rounded-pill} 
 :::
 
 :::

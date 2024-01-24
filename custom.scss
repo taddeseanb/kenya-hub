@@ -3,13 +3,24 @@
 //$navbar-bg:	           #F5EFE4;
 $navbar-fg:	           #000;
 $navbar-hl:             #000; 
+$orange: #D26949;
+$warning: #D26949;
+$green: #6DBE93;
+$font-family-sans-serif:      "Circular Std", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$link-color: #2C393F;
+
+.btn:hover, .btn:focus, .btn:active, .btn.active {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #285e8e; /*set the color you want here*/
+}
 
 .headroom {
     border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 }
 body, td, div, li {
     color: #2C393F;
-font-family: Circular Std, Open Verdana, Geneva, Tahoma, sans-serif;
+font-family: "Circular Std", "Open Verdana", Geneva, Tahoma, sans-serif;
 font-size: 18px;
 font-style: normal;
 line-height: 29px;
@@ -23,8 +34,8 @@ line-height: 29px;
     background-color: #F5EFE4;
     margin: 25px -500px 25px -500px;
     padding: 150px 500px 150px 500px;
-    mask: radial-gradient(194.54px at 50% 261.00px,#000 99%,#0000 101%) calc(50% - 174px) 0/348px 51% repeat-x,    
-    radial-gradient(194.54px at 50% -174px,#0000 99%,#000 101%) 50% 87px/348px calc(51% - 87px) repeat-x,    
+    mask: radial-gradient(194.54px at 50% 261.00px,#000 99%,#0000 101%) calc(50% - 174px) 0/348px 51% repeat-x,
+    radial-gradient(194.54px at 50% -174px,#0000 99%,#000 101%) 50% 87px/348px calc(51% - 87px) repeat-x,
     radial-gradient(194.54px at 50% calc(100% - 261.00px),#000 99%,#0000 101%) calc(50% - 174px) 100%/348px 51% repeat-x,
     radial-gradient(194.54px at 50% calc(100% + 174.00px),#0000 99%,#000 101%) 50% calc(100% - 87px)/348px calc(51% - 87px) repeat-x;
 }
