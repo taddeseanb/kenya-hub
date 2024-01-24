@@ -4,11 +4,11 @@ date: 2023-07-05
 sidebar: false
 ---
 
-# Kenya Integrated Soil Fertility Management description
-
 ## Setting
 
 Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. Integrated Soil Fertility Management (ISFM) has the potential to improve effectivity and efficiency of agronomic practices including both fertilizer recommendations and organic matter management and thereby boost crop production and farm income. Also, ISFM has the potential to deliver multiple co-benefits including climate adaptation (through improved water holding capacity and soil cover) as well as climate mitigation (through carbon sequestration).​
+
+::: {.special-section}
 
 ## Goal
 
@@ -18,6 +18,7 @@ Improved agronomic management advisories including crop type and soil fertility 
 
 Land users and their intermediaries can use the system to obtain information on the soil fertility and alternatives to improve soil fertility. It is based on existing data (soil, terrain, crop, climate), apps (decision support tools, etc.) and models (WOFOST, DSSAT etc) accessible in the LSC-hub. These will include risk assessment of weather and other external factors.​
 
+:::
 
 ## Scale 
 
