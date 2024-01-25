@@ -80,13 +80,13 @@ Search datasets or browse by category.
 ::::
 
 
-:::: {.columns .pt-3}
+:::: {.grid}
 
-::: {.column width="48%" .rounded .bg-white .border .px-3 .border-secondary .shadow}
+::: {.g-col-md-6 .g-col-12 .rounded .bg-white .border .px-3 .border-secondary .shadow .mt-3}
 
-:::: {.columns}
+:::: {.grid .mx-3}
 
-::: {.column width="60%" }
+::: {.g-col-8}
 
 ### Maps
 
@@ -94,7 +94,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 :::
 
-::: {.column width="40%" }
+::: {.g-col-4}
 
 ![](./img/undraw_connected_world_wuay%201.svg){.my-3}
 
@@ -102,17 +102,17 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 ::::
 
-::: {.text-center .pt-2}
+::: {.text-center .pt-3}
 <a href="https://maps.lsc-hubs.org" class="btn btn-warning rounded-pill">Open mapviewer</a> 
 :::
 
 :::
 
-::: {.column width="47%" .rounded .bg-white .mx-3 .px-3 .border .border-secondary .shadow}
+::: {.g-col-md-6 .g-col-12 .rounded .bg-white .mx-3 .px-3 .border .border-secondary .shadow .mt-3}
 
-:::: {.columns}
+:::: {.grid .mx-3}
 
-::: {.column width="60%" }
+::: {.g-col-8  }
 
 ### Documents
 
@@ -120,7 +120,7 @@ Read more about the various APIs which are available for this service.
 
 :::
 
-::: {.column width="40%" }
+::: {.g-col-4}
 
 ![](./img/Group%20856.svg){.my-3}
 
@@ -128,19 +128,19 @@ Read more about the various APIs which are available for this service.
 
 ::::
 
-::: {.text-center .pt-2}
+::: {.text-center .pt-3}
 [View documents](./docs){.btn .btn-warning .rounded-pill} 
-:::
-
 :::
 
 ::::
 
 :::
 
-:::: {.columns}
+:::
 
-::: {.column width="50%"}
+:::: {.grid}
+
+::: {.g-col-6 .mt-3}
 
 ## Information services
 
@@ -148,12 +148,12 @@ Information services provide dedicated information derived from relevant data to
 
 Processing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.
 
-[Browse services](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&type=service){.btn .btn-warning .rounded-pill}
+[Browse services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=service){.btn .btn-warning .rounded-pill}
 [Read more](./cases/services.md){.btn .btn-success .rounded-pill}
 
 :::
 
-::: {.column width="50%"}
+::: {.g-col-6 .mt-3}
 
 ![](./img/Land%20soil%20crop%20information%20services%201mobile.svg)
 
@@ -161,11 +161,11 @@ Processing raw data in many cases requires expert knowledge. To bring the value 
 
 ::::
 
-### Popular services
+### Popular services {.py-3}
 
-:::: {.columns}
+:::: {.grid .text-left}
 
-::: {.column width="23%" .p-2 .m-2 .rounded .text-light .bg-dark}
+::: {.g-col .rounded .text-light .bg-dark}
 
 Loading... 
 
@@ -173,28 +173,28 @@ Loading...
 
 ::::
 
-::: {.text-center .pt-2}
-<a href="https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&type=model" class="btn btn-success rounded-pill">View all popular services</a>
+::: {.text-center .mt-5}
+<a href="https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model" class="btn btn-success rounded-pill">View all popular services</a>
 :::
 
 
 
 ::: {.special-section}
 
-:::: {.columns}
+:::: {.grid}
 
-::: {.column width="50%"}
+::: {.g-col-md-6 .g-col-12 .mt-3}
 
-## Predictive modeling
+## Predictive modeling 
 
 Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.
 
-[Browse models](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill}
+[Browse models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill}
 [Read more](./cases/models.md){.btn .btn-success .rounded-pill}
 
 :::
 
-::: {.column width="50%"}
+::: {.g-col-md-6 .g-col-12 .mt-3}
 
 ![](./img/undraw_detailed_examination_re_ieui%201modelling.svg)
 
@@ -202,11 +202,11 @@ Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Cons
 
 ::::
 
-### Popular Models
+### Popular Models {.py-3}
 
-:::: {.columns}
+:::: {.grid}
 
-::: {.column width="23%" .p-2 .bg-white .rounded .border}
+::: {.g-col .p-2 .bg-white .rounded .border}
 
 Loading... 
 
@@ -214,8 +214,8 @@ Loading...
 
 ::::
 
-::: {.text-center .pt-2}
-<input type=submit value="View all popular models" class="btn btn-success rounded-pill">
+::: {.text-center .mt-5}
+[View all popular models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?sortby=-recordUpdated&type=model){.btn .btn-success .rounded-pill}
 :::
 
 :::
@@ -225,13 +225,15 @@ Loading...
 The two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.
 
 
-:::: {.columns}
+:::: {.grid}
 
-::: {.column width="46%" .m-2 .rounded .text-light .bg-dark}
+::: {.g-col-md-6 .g-col-12 .rounded .text-light .bg-dark .mt-3}
 
-![](./img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg)
+![](./img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg){.w-100}
 
-::: {.px-3}
+::: {.px-3 .text-light}
+
+<div class="border rounded w-25 text-light text-center">USE CASE</div>
 
 ### Soil Fertility Management
 
@@ -245,11 +247,13 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 :::
 
-::: {.column width="46%" .m-2 .rounded .text-light .bg-dark}
+::: {.g-col-md-6 .g-col-12 .rounded .text-light .bg-dark .mt-3}
 
-![](./img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg)
+![](./img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg){.w-100}
 
-::: {.px-3}
+::: {.px-3 .text-light}
+
+<div class="border rounded w-25 text-light text-center">USE CASE</div>
 
 ### Soil Water Conservation
 
@@ -265,9 +269,13 @@ Soil erosion threatens sustainability, climate, and food security in hilly regio
 
 ::::
 
-:::: {.columns .pt-3}
+---
 
-::: {.column width="50%"}
+:::: {.grid }
+
+::: {.g-col-md-6 .g-col-12 .mt-3}
+
+
 
 ## Hub community
 
@@ -275,13 +283,13 @@ The heart of the knowledge hub. Here, you’ll find like-minded participants who
 
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
-::: {.text-center .pt-2}
-<a href=https://github.com/lsc-hubs/kenya-hub" class="btn btn-success rounded-pill" target="_blank">Visit community</a>
+::: {.text-center .mt-2}
+[Visit community](https://github.com/lsc-hubs/kenya-hub){.btn .btn-success .rounded-pill}
 :::
 
 :::
 
-::: {.column width="50%"}
+::: {.g-col-md-6 .g-col-12 .mt-3}
 
 ![](./img/land%20soil%20crop%20hub%20community%201.svg)
 
@@ -291,23 +299,24 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 ::: {.special-section}
 
-::: {.text-light .bg-dark .px-3}
+::: {.text-light .bg-dark .px-3 .rounded}
 
-:::: {.columns }
+:::: {.grid }
 
-::: {.column width="50%" .px-3 }
+::: {.g-col-md-6 .g-col-12 .px-3 }
+
 
 ## Join our newsletter {.text-light}
 
 Subscribe to our newsletter and be the first to receive the latest data updates and community news about the Kenya Land Soil and Crop hub.
 
-::: {.text-center .pt-2}
+::: {.text-center .mt-2}
 [Subscribe now](https://capacity4dev.europa.eu/join-community_en){.btn .btn-success .rounded-pill}
 :::
 
 ::: 
 
-::: {.column width="50%" .px-3}
+::: {.g-col-md-6 .g-col-12 .mt-2}
 
 ![](./img/undraw_content_creator_re_pt5b%201.svg)
 

@@ -18,11 +18,10 @@ setDiv = function(qs,content){
 
 boxIt = function(res,style) {
     cnt = "";
-    console.log(res,style);
     res.forEach(r => {
         /* ${r.links.filter(l=>l.rel=='self').pop().href */ 
-        cnt += `<div class="column p-3 m-2 rounded ${style}" style="width:20%;">
-            <p><a href="https://kenya.lsc-hubs.org/collections/metadata:main/items/${r.id}">${(r.properties.title||'').substring(0,60)}</a></p>
+        cnt += `<div class="g-col-6 g-col-lg-3 p-2 rounded ${style}">
+            <p><a href="https://kenya.lsc-hubs.org/collections/metadata:main/items/${r.id}" class="text-success fw-bold text-decoration-none">${(r.properties.title||'').substring(0,60)}</a></p>
             <p class="fs-6">${(r.properties.description||'').substring(0,150)}</p>
             </div>`})
     return cnt;
@@ -30,9 +29,6 @@ boxIt = function(res,style) {
 
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    getRecords('#popular-services .columns','service','bg-dark text-light');
-    getRecords('#popular-models .columns','model','bg-white');
-    
-
-
+    getRecords('#popular-services .grid','service','bg-dark text-light');
+    getRecords('#popular-models .grid','model','bg-white border border-secondary shadow');
   });
