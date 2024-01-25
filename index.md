@@ -7,9 +7,9 @@ include-in-header:
 
 
 
-:::: {.columns}
+:::: {.grid}
 
-::: {.column width="55%"}
+::: {.g-col-12 .g-col-md-8 .mt-3}
 
 # Land, Soil and Crop Information Hub
 
@@ -19,7 +19,7 @@ The LSC hub supports improved decision-making for climate-smart agriculture at n
 
 :::
 
-::: {.column width="45%"}
+::: {.g-col-12 .g-col-md-4 .mt-3}
 
 ![](./img/Kenya%20land%20soil%20crop%20data%201.svg)
 
@@ -108,7 +108,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 :::
 
-::: {.g-col-md-6 .g-col-12 .rounded .bg-white .mx-3 .px-3 .border .border-secondary .shadow .mt-3}
+::: {.g-col-md-6 .g-col-12 .rounded .bg-white .px-3 .border .border-secondary .shadow .mt-3}
 
 :::: {.grid .mx-3}
 
@@ -140,7 +140,7 @@ Read more about the various APIs which are available for this service.
 
 :::: {.grid}
 
-::: {.g-col-6 .mt-3}
+::: {.g-col-md-6 .g-col-12  .mt-3}
 
 ## Information services
 
@@ -153,7 +153,7 @@ Processing raw data in many cases requires expert knowledge. To bring the value 
 
 :::
 
-::: {.g-col-6 .mt-3}
+::: {.g-col-12 .g-col-md-6 .mt-3}
 
 ![](./img/Land%20soil%20crop%20information%20services%201mobile.svg)
 
@@ -174,7 +174,7 @@ Loading...
 ::::
 
 ::: {.text-center .mt-5}
-<a href="https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model" class="btn btn-success rounded-pill">View all popular services</a>
+[View all popular services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-success .rounded-pill .shadow}
 :::
 
 
@@ -189,8 +189,8 @@ Loading...
 
 Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.
 
-[Browse models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill}
-[Read more](./cases/models.md){.btn .btn-success .rounded-pill}
+[Browse models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill .shadow}
+[Read more](./cases/models.md){.btn .btn-success .rounded-pill .shadow}
 
 :::
 
