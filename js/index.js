@@ -9,7 +9,7 @@ async function getRecords(qs, type, style){
            console.log(response.status);
         }
      }
-
+   
 setDiv = function(qs,content){
   dv = document.querySelector(qs);
   console.log(qs,dv);
