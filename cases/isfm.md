@@ -8,7 +8,7 @@ sidebar: false
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
-# Kenya Integrated Soil Fertility Management description
+# Kenya Integrated Soil Fertility Management
 
 Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. 
 Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks.
@@ -63,44 +63,38 @@ These will include risk assessment of weather and other external factors.​
 
 ---
 
-:::: {.grid}
+<div class="grid">
 
-::: {.rounded .text-light .bg-dark .g-col-6 .g-col-lg-3 .p-2}
+<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
 
 ## Primary actors
 
-- national: Extension staff, agricultural planner, agro-input provider 
-- district: District extension officer, District Agric & Livestock officers and planners
-- local: Local extension officer, local agro-input provider, lead farmer​
+national: Extension staff, agricultural planner, agro-input provider 
 
-​:::
+district: District extension officer, District Agric & Livestock officers and planners
 
-::: {.rounded .text-light .bg-dark .g-col-6 .g-col-lg-3 .p-2}
+local: Local extension officer, local agro-input provider, lead farmer​
+
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
 
 ## Secondary actors
 
-- Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
+Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
 
-​::: 
-
-::: {.rounded .text-light .bg-dark .g-col-6 .g-col-lg-3 .p-2}
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
 
 ## Beneficiary
 
-- Farmers.​
+Farmers.​
 
-​::: 
-
-::: {.rounded .text-light .bg-dark .g-col-6 .g-col-lg-3 .p-2}
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
 
 ## Scenario ​
 
 The intermediary user accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. 
 The intermediary actor – extension agent / lead farmer / agricultural input provider - converts this information into an agronomic and fertilizer recommendation and provides advise to end users, in particular farmers.​
 
-​::: 
-
-::::
+</div></div>
 
 <style>
 #title-block-header { display:none; }
