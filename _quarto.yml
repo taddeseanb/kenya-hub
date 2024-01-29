@@ -20,11 +20,11 @@ website:
     search: true
     left:
       - text: "Home"
-        file: "/"
+        file: "/hub-core"
       - text: Catalogue
-        file: "/#data"
+        file: https://kenya.lsc-hubs.org
       - text: Community
-        file: "/#hub-community" 
+        file: https://github.com/lsc-hubs/kenya-hub 
       - text: "Docs"
         file: "./docs" 
   sidebar:
