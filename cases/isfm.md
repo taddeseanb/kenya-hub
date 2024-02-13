@@ -1,5 +1,5 @@
 ---
-title: 'Kenya Integrated Soil Fertility Management description​'
+title: 'Kenya Integrated Soil Fertility Management'
 date: 2023-07-05
 sidebar: false
 ---
