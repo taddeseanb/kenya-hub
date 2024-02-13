@@ -1,5 +1,5 @@
 country: Kenya
-home: /hub-core
+homepage: "/hub-core"
 catalog: https://kenya.lsc-hubs.org
 maps: https://maps.lsc-hubs.org
 github: https://github.com/lsc-hubs/kenya-hub

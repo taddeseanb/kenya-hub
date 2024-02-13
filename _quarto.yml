@@ -19,18 +19,16 @@ website:
     background: white
     search: true
     left:
-      - text: "Home"
-        file: "/hub-core"
       - text: Data
-        file: {{< var home >}}#data 
+        file: "{{< var homepage >}}#data" 
       - text: Maps
-        file: {{< var home >}}#maps 
+        file: "{{< var homepage >}}#maps" 
       - text: Use cases
-        file: {{< var home >}}#use-cases 
+        file: "{{< var homepage >}}#use-cases"
       - text: Community
-        file: {{< var home >}}#hub-community 
+        file: "{{< var homepage >}}#hub-community" 
       - text: "Docs"
-        file: {{< var home >}}#documentation  
+        file: "{{< var homepage >}}#documentation"  
   sidebar:
     - title: "Docs"
       style: "docked"
