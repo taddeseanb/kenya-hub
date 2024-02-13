@@ -5,7 +5,7 @@ project:
     - "*.qmd"
 
 website:
-  repo-url: "https://github.com/lsc-hubs/hub-core"
+  repo-url: "https://github.com/lsc-hubs/kenya-hub"
   repo-actions: 
     - edit
     - issue
