@@ -1,5 +1,5 @@
 ---
-title: 'Kenya Integrated Soil Fertility Management'
+title: '{{< var country >}} Integrated Soil Fertility Management'
 date: 2023-07-05
 sidebar: false
 ---
@@ -8,7 +8,7 @@ sidebar: false
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
-# Kenya Integrated Soil Fertility Management
+# {{< var country >}} Integrated Soil Fertility Management
 
 Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. 
 Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks.

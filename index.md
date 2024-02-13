@@ -37,7 +37,7 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 
 Search datasets or browse by category.
 
-<form class="pb-2" action="https://kenya.lsc-hubs.org/collections/metadata:main/items" method=get>
+<form class="pb-2" action="https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items" method=get>
 <div class="input-group mb-3">
   <input type="text" name="q" class="form-control" >
   <div><input type=submit class="btn btn-success" type="button" value=Search>
@@ -49,31 +49,31 @@ Search datasets or browse by category.
 
 ::: {.column width="20%"}
 
-![](./img/icon/land.svg) [Land](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Land)
+![](./img/icon/land.svg) [Land](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Land)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/soil.svg) [Soil](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Soil)
+![](./img/icon/soil.svg) [Soil](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Soil)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/crop.svg) [Crop](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Crop)
+![](./img/icon/crop.svg) [Crop](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Crop)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/climate.svg) [Climate](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Climate)
+![](./img/icon/climate.svg) [Climate](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Climate)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/water.svg) [Water](https://kenya.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Water)
+![](./img/icon/water.svg) [Water](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Water)
 
 :::
 
@@ -284,7 +284,7 @@ The heart of the knowledge hub. Here, you’ll find like-minded participants who
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
 ::: {.text-center .mt-2}
-[Visit community](https://github.com/lsc-hubs/kenya-hub){.btn .btn-success .rounded-pill}
+[Visit community](https://github.com/lsc-hubs/{{< var country >}}-hub){.btn .btn-success .rounded-pill}
 :::
 
 :::
@@ -308,7 +308,7 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 ## Join our newsletter {.text-light}
 
-Subscribe to our newsletter and be the first to receive the latest data updates and community news about the Kenya Land Soil and Crop hub.
+Subscribe to our newsletter and be the first to receive the latest data updates and community news about the {{< var country >}} Land Soil and Crop hub.
 
 ::: {.text-center .mt-2}
 [Subscribe now](https://capacity4dev.europa.eu/join-community_en){.btn .btn-success .rounded-pill}

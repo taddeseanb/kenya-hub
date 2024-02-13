@@ -1,5 +1,5 @@
 ---
-title: 'Kenya Soil Water Conservation'
+title: '{{< var country >}} Soil Water Conservation'
 date: 2023-07-05
 sidebar: false
 ---
@@ -8,7 +8,7 @@ sidebar: false
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
-# Kenya Soil Water Conservation
+# {{< var country >}} Soil Water Conservation
 
 Soil erosion is a major threat to sustainability and productivity with knock-on effects on the climate crisis and food security. It decreases soil fertility negatively affecting crop yields on fields, while eroded sediments from upstream clog downstream, dams, rivers and canals causing sedimentation and flooding.
 
