@@ -21,12 +21,16 @@ website:
     left:
       - text: "Home"
         file: "/hub-core"
-      - text: Catalogue
-        file: https://{{< var country >}}.lsc-hubs.org
+      - text: Data
+        file: {{< var home >}}#data 
+      - text: Maps
+        file: {{< var home >}}#maps 
+      - text: Use cases
+        file: {{< var home >}}#use-cases 
       - text: Community
-        file: https://github.com/lsc-hubs/{{< var country >}}-hub 
+        file: {{< var home >}}#hub-community 
       - text: "Docs"
-        file: "./docs" 
+        file: {{< var home >}}#documentation  
   sidebar:
     - title: "Docs"
       style: "docked"
