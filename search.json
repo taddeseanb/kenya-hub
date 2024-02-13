@@ -193,7 +193,7 @@
     "href": "index.html#data",
     "title": "Land Soil Crop Hub",
     "section": "Data",
-    "text": "Data\nThe LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.\n\nDatasets\nSearch datasets or browse by category.\n\n\n  \n  \n  \n\n\n\n\n Land\n\n Soil\n\n Crop\n\n Climate\n\n Water\n\n\n\n\n\n\n\nMaps\nAnnual cropland extent map for Central Africa produced by Digital Earth.\n\n\n\n\n\n\nOpen mapviewer\n\n\n\n\n\nDocuments\nRead more about the various APIs which are available for this service.\n\n\n\n\n\n\nView documents"
+    "text": "Data\nThe LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.\n\nDatasets\nSearch datasets or browse by category.\n\n\n  \n  \n  \n\n\n\n\n Land\n\n Soil\n\n Crop\n\n Climate\n\n Water\n\n\n\n\n\n\n\nMaps\nThe interactive mapviewer enables direct interaction with data. View existing, reference remote or upload local data.\n\n\n\n\n\n\n&lt;a href=“https://maps.lsc-hubs.org” class=“btn btn-warning rounded-pill”&gt;Open mapviewer\n\n\n\n\n\nDocumentation\nDocumentation on how to use the hub, the data api’s and other resources.\n\n\n\n\n\n\nView documents"
   },
   {
     "objectID": "index.html#information-services",
@@ -210,11 +210,11 @@
     "text": "Predictive modeling\nPredictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.\nBrowse models Read more"
   },
   {
-    "objectID": "index.html#user-stories",
-    "href": "index.html#user-stories",
+    "objectID": "index.html#use-cases",
+    "href": "index.html#use-cases",
     "title": "Land Soil Crop Hub",
-    "section": "User stories",
-    "text": "User stories\nThe two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.\n\n\n\n\n\nUSE CASE\n\n\nSoil Fertility Management\nCurrent fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.\n\nExplore this use case\n\n\n\n\n\n\n\n\nUSE CASE\n\n\nSoil Water Conservation\nSoil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.\n\nExplore this use case"
+    "section": "Use cases",
+    "text": "Use cases\nThe two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.\n\n\n\n\n\nUSE CASE\n\n\nSoil Fertility Management\nCurrent fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.\n\nExplore this use case\n\n\n\n\n\n\n\n\nUSE CASE\n\n\nSoil Water Conservation\nSoil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.\n\nExplore this use case"
   },
   {
     "objectID": "index.html#hub-community",
@@ -737,7 +737,7 @@
     "href": "cases/models.html",
     "title": "models",
     "section": "",
-    "text": "Distribution of environmental phenomena in time and space as well as future yields at various scenario’s can be obtained using predictive modelling.\nFind models in the LSC catalogue"
+    "text": "Kenya modelling and mapping\nDistribution of environmental phenomena in time and space as well as future yields at various scenario’s can be obtained using predictive modelling.\n\n\n\n\n\n\n\n\nFind models in the LSC catalogue"
   },
   {
     "objectID": "cases/isfm.html",
@@ -772,7 +772,7 @@
     "href": "cases/isfm.html#scale",
     "title": "Kenya Integrated Soil Fertility Management",
     "section": "Scale",
-    "text": "Scale\n\nField/farm,\nSub-national (county/district/woreda)\nNational levels​"
+    "text": "Scale\n\nField/farm\nSub-national (county/district/woreda)\nNational levels​"
   },
   {
     "objectID": "cases/isfm.html#primary-actors",
