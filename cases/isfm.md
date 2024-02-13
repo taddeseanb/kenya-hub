@@ -53,7 +53,7 @@ These will include risk assessment of weather and other external factors.​
 
 ## Scale 
 
-- Field/farm, 
+- Field/farm
 - Sub-national (county/district/woreda)
 - National levels​
 

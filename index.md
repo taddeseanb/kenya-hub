@@ -90,7 +90,8 @@ Search datasets or browse by category.
 
 ### Maps
 
-Annual cropland extent map for Central Africa produced by Digital Earth.
+The interactive mapviewer enables direct interaction with data. 
+View existing, reference remote or upload local data.
 
 :::
 
@@ -103,7 +104,7 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 ::::
 
 ::: {.text-center .pt-3}
-<a href="https://maps.lsc-hubs.org" class="btn btn-warning rounded-pill">Open mapviewer</a> 
+<a href="{{< var maps >}}" class="btn btn-warning rounded-pill">Open mapviewer</a> 
 :::
 
 :::
@@ -114,9 +115,9 @@ Annual cropland extent map for Central Africa produced by Digital Earth.
 
 ::: {.g-col-8  }
 
-### Documents
+### Documentation
 
-Read more about the various APIs which are available for this service.
+Documentation on how to use the hub, the data api's and other resources.
 
 :::
 
@@ -129,7 +130,7 @@ Read more about the various APIs which are available for this service.
 ::::
 
 ::: {.text-center .pt-3}
-[View documents](./docs){.btn .btn-warning .rounded-pill} 
+[View documents](/docs){.btn .btn-warning .rounded-pill} 
 :::
 
 ::::
@@ -174,7 +175,7 @@ Loading...
 ::::
 
 ::: {.text-center .mt-5}
-[View all popular services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-success .rounded-pill .shadow}
+[View all popular services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=service){.btn .btn-success .rounded-pill .shadow}
 :::
 
 
@@ -220,7 +221,7 @@ Loading...
 
 :::
 
-## User stories
+## Use cases
 
 The two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.
 
