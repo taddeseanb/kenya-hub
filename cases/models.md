@@ -1,13 +1,11 @@
 ---
-title: models
+title: Modelling and mapping
 sidebar: false
 ---
 
 :::: {.grid}
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
-
-# {{< var country >}} modelling and mapping
 
 Distribution of environmental phenomena in time and space as well as future yields at various scenario’s can be obtained using predictive modelling.
 
@@ -27,10 +25,11 @@ Distribution of environmental phenomena in time and space as well as future yiel
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
+The LSC Catalogue includes a range of modelling resources, both modelling software as well as guides on how to use the software.
 
-
-[Find models in the LSC catalogue]({{< var catalog >}}/collections/metadata:main/items?type=service){.btn .btn-success .rounded-pill}
+[Find models in the LSC catalogue]({{< var catalog >}}/collections/metadata:main/items?type=model){.btn .btn-success .rounded-pill}
 
 :::
 
 ::::
+
