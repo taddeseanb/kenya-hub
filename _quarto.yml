@@ -22,9 +22,9 @@ website:
       - text: "Home"
         file: "/hub-core"
       - text: Catalogue
-        file: https://kenya.lsc-hubs.org
+        file: https://{{< var country >}}.lsc-hubs.org
       - text: Community
-        file: https://github.com/lsc-hubs/kenya-hub 
+        file: https://github.com/lsc-hubs/{{< var country >}}-hub 
       - text: "Docs"
         file: "./docs" 
   sidebar:
