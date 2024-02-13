@@ -40,7 +40,7 @@ Search datasets or browse by category.
 <form class="pb-2" action="https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items" method=get>
 <div class="input-group mb-3">
   <input type="text" name="q" class="form-control" >
-  <div><input type=submit class="btn btn-success" type="button" value=Search>
+  <div><input type=submit class="btn btn-success form-control" type="button" value=Search>
   </div>
 </div>
 </form>
@@ -104,7 +104,7 @@ View existing, reference remote or upload local data.
 ::::
 
 ::: {.text-center .pt-3}
-<a href="{{< var maps >}}" class="btn btn-warning rounded-pill">Open mapviewer</a> 
+[Open mapviewer]({{< var maps >}}){.btn .btn-warning .rounded-pill} 
 :::
 
 :::
