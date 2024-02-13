@@ -11,7 +11,7 @@ include-in-header:
 
 ::: {.g-col-12 .g-col-md-8 .mt-3}
 
-# Land, Soil and Crop Information Hub
+# Land, Soil and Crop Hub {{< var country  >}}
 
 This hub facilitates effective access to Land Soil and Crop information data, making existing resources better findable, accessible, interoperable and reusable (FAIR).
 
