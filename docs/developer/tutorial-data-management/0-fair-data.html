@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Paul van Genuchten">
+<meta name="dcterms.date" content="2023-11-23">
+
+<title>Land Soil Crop Hub - FAIR principles</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Land Soil Crop Hub</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../hub-core"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://kenya.lsc-hubs.org"> 
+<span class="menu-text">Catalogue</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/lsc-hubs/kenya-hub"> 
+<span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../.././docs"> 
+<span class="menu-text">Docs</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/developer/index.html">Developer</a></li><li class="breadcrumb-item"><a href="../../../docs/developer/tutorial-data-management/index.html">Workshop Data</a></li><li class="breadcrumb-item"><a href="../../../docs/developer/tutorial-data-management/0-fair-data.html">FAIR principles</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/user" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">User</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/admin" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Administrator</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Developer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../docs/developer/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hub components</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/mapserver.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mapserver</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/pycsw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">pycsw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/quarto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">quarto</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/terria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Terria JS</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../docs/developer/tutorial-data-management/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/0-fair-data.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">FAIR principles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/1-existing-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata at the source</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/2-interact-with-data-repositories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interact with data repositories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/3-catalog-publication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Catalogue publication</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/4-bulk-import.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bulk import</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/5-git-cicd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GIT and CI/CD</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/6-data-publication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data publication</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/7-providing-mapservices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Providing convenience APIs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/8-measure-quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quality of Service</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/developer/tutorial-data-management/9-advanced-options.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Advanced options</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/developer/index.html">Developer</a></li><li class="breadcrumb-item"><a href="../../../docs/developer/tutorial-data-management/index.html">Workshop Data</a></li><li class="breadcrumb-item"><a href="../../../docs/developer/tutorial-data-management/0-fair-data.html">FAIR principles</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">FAIR principles</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Paul van Genuchten </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 23, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a> are a good practice on data sharing in academic communities and beyond. A good starting point for our workshop on data management.</p>
+<div class="border p-2 mb-3 bg-light border-rounded">
+<p>Outside academia there have been similar initiatives to improve data management, which may be more relevant for dedicated communities or scenarios:</p>
+<ul>
+<li><a href="https://5stardata.info">5 star open data</a></li>
+<li><a href="https://www.w3.org/TR/dwbp/">W3C Data on the web best practices</a></li>
+<li><a href="https://public.resource.org/8_principles.html">Open government data principles</a></li>
+<li><a href="https://inspire.ec.europa.eu/inspire-directive/2">European INSPIRE Directive</a></li>
+</ul>
+</div>
+<p>In this paragraph we present a number of exercises around the FAIR principles. And we’ll see how the principles work out in the soil domain specifically. FAIR Data is:</p>
+<ul>
+<li><a href="#findable">Findable</a></li>
+<li><a href="#accessible">Accessible</a></li>
+<li><a href="#interoperable">Interoperable</a></li>
+<li><a href="#reusable">Reusable</a></li>
+</ul>
+<hr>
+<section id="findable" class="level2">
+<h2 class="anchored" data-anchor-id="findable">Findable</h2>
+<p>Metadata and data should be easy to find for both humans and computers.</p>
+<section id="data-and-metadata-have-a-unique-persistent-identifier" class="level3">
+<h3 class="anchored" data-anchor-id="data-and-metadata-have-a-unique-persistent-identifier">Data and metadata have a unique persistent identifier</h3>
+<ul>
+<li>A minimal approach to create a unique identifier (<a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a>) is to combine a local identifier with a domain. For example: <a href="https://data.kalro.org/profiles/aa1-49bc-d11e" class="uri">https://data.kalro.org/profiles/aa1-49bc-d11e</a></li>
+<li>In theory, URIs do not need to <code>resolve</code> to an actual website, but it is a good practice to provide meaningfulcontent at each uri.</li>
+<li>Do not use product names and project names inURIs, it is difficult to maintain persistence.</li>
+<li>Frameworks such as <a href="https://doi.org">DOI</a> and <a href="http://www.pidconsortium.net">ePIC</a> offer a identification layer for online resources.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For the following datasets, review the uniqueness and persistence of their identifier and the identifier of the data.</p>
+<ul>
+<li><a href="https://www.geoportal.org/community/guest/geoss-resources?p_p_id=geossresources_WAR_geossportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;controlPanelCategory=current_site.configuration&amp;p_p_resource_id=META_DATA&amp;_geossresources_WAR_geossportlet_targetId=05b1e57a-8e31-4cdb-aca4-61ae3f21559d">05b1e57a-8e31-4cdb-aca4-61ae3f21559d</a></li>
+<li><a href="https://doi.org/10.1016/j.rse.2019.111260">10.1016/j.rse.2019.111260</a></li>
+<li><a href="https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily/items/d5bb6b02-0979-5112-8dd6-9aef6638fb73">d5bb6b02-0979-5112-8dd6-9aef6638fb73</a></li>
+<li><a href="https://kenya.opendataforafrica.org/lrysdue/select-nutrition-indicators-data-for-kenya-2022">select-nutrition-indicators-data-for-kenya-2022</a></li>
+</ul>
+<p>Perform the same analyses for some datasets on your local machine or organisation network.</p>
+</div>
+</div>
+</section>
+<section id="describe-the-data-source-with-rich-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="describe-the-data-source-with-rich-metadata">Describe the data source with rich metadata</h3>
+<p>Rich metadata includes aspects such as, title, abstract, keywords, who is the author/owner of the resource, when was the resource created, are there any usage constraints, how does the resource relate to other resources.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To evaluate if a tiff-dataset containing <code>texture-clay</code> is relevant to answer your question on soil water availability, which aspects would you expect a metadata description of that dataset to include?</p>
+</div>
+</div>
+</section>
+<section id="metadata-are-searchable-in-a-catalogue" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-are-searchable-in-a-catalogue">Metadata are searchable in a catalogue</h3>
+<p>In order to find metadata efficiently, metadata records should be listed in a intuitive search interface</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Navigate to the following data portals and search for a dataset on for example <code>soil texture</code> in your area. Note down which aspects you would like to see improved to locate a dataset, or to know when to stop searching, because you assume you have located the best match in the catalogue.</p>
+<ul>
+<li><a href="https://www.geoportal.org">Geoportal.org</a></li>
+<li><a href="https://datasetsearch.research.google.com">Google dataset search</a></li>
+<li><a href="https://data.isric.org">Data.isric.org</a></li>
+<li><a href="https://radiantearth.github.io/stac-browser/#/external/explorer.digitalearth.africa/stac/">Digitalearth.africa</a></li>
+<li><a href="https://data.apps.fao.org/catalog/">FAO catalogue</a></li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="accessible" class="level2">
+<h2 class="anchored" data-anchor-id="accessible">Accessible</h2>
+<p>Once a user finds the data, it should be clear how they can be accessed.</p>
+<section id="metadata-and-data-are-retrievable-using-a-standardised-communications-protocol" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-and-data-are-retrievable-using-a-standardised-communications-protocol">Metadata and data are retrievable using a standardised communications protocol</h3>
+<p>Various communities adopted a range of standards for metadata exchange:</p>
+<section id="metadata" class="level4">
+<h4 class="anchored" data-anchor-id="metadata">Metadata</h4>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Community</th>
+<th>Standard</th>
+<th>Format/Protocol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Open data/Sematic web</td>
+<td><a href="https://www.w3.org/TR/vocab-dcat-2/">DCAT</a></td>
+<td>SPARQL</td>
+</tr>
+<tr class="even">
+<td>Science</td>
+<td>Datacite</td>
+<td><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></td>
+</tr>
+<tr class="odd">
+<td>Geospatial</td>
+<td>iso19115</td>
+<td><a href="https://www.ogc.org/standard/cat/">CSW</a>/OGC API - Records</td>
+</tr>
+<tr class="even">
+<td>Earth observation</td>
+<td><a href="https://stacspec.org/">STAC Catalog</a></td>
+<td>STAC API</td>
+</tr>
+<tr class="odd">
+<td>Search engines</td>
+<td><a href="https://schema.org/Dataset">Schema.org</a></td>
+<td>json-ld/microdata</td>
+</tr>
+<tr class="even">
+<td>Ecology</td>
+<td>EML</td>
+<td><a href="https://knb.ecoinformatics.org/">KNB</a>/<a href="https://gbif.org">GBIF</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A metadata model often is a combination of a schema and a format. Compare the following metadata records, identify which model is used in the record, what differences and communalities do you notice?</p>
+<ul>
+<li><a href="https://api.datacite.org/dois/10.17605/OSF.IO/A69R5">African open soil data</a></li>
+<li><a href="https://data.isric.org/geonetwork/srv/metadata/2f99e10f-183c-11e9-aba8-a0481ca9e724/formatters/xml">Wosis latest</a></li>
+<li><a href="https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily/items/d5bb6b02-0979-5112-8dd6-9aef6638fb73">Rainfall Chirps</a></li>
+<li><a href="https://data.europa.eu/api/hub/repo/datasets/dataset-bodem-ontgravingskaart-bovengrond-assen.ttl">Soil excavation Assen</a></li>
+<li><a href="https://demo.pygeoapi.io/master/collections/dutch-metadata/items/ffffffaa-4087-59ec-9ea7-8416f58e99dd?f=jsonld">Keileem Drenthe</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="data" class="level4">
+<h4 class="anchored" data-anchor-id="data">Data</h4>
+<p>Most common in data science is to provide a packaged version of a dataset and deploy it on a repository like Zenodo or Dataverse where it can be downloaded. Zenodo supports Findability and Accessibility of FAIR.</p>
+<p>In the spatial and earth observation domain we tend to work with large files and the use of data APIs which allow to request subsets of the data are very common. The Open Geospatial Consortium has defined a number of standards for these APIs, so the APIs themselves are interoperable. The table below shows some of the common APIs. In the first column the older APIs, developed in the 90’s, in the second column their updated representative, recently adopted or still in development.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>OGC API</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Web Map Service (<a href="https://www.ogc.org/standard/wms/">WMS</a>)</td>
+<td><a href="https://ogcapi.ogc.org/maps/">Maps</a></td>
+<td>Provides a visualisation of a subset of the data</td>
+</tr>
+<tr class="even">
+<td>Web Feature Service (<a href="https://www.ogc.org/standard/wfs/">WFS</a>)</td>
+<td><a href="https://ogcapi.ogc.org/features/">Features</a></td>
+<td>API to request a subset of the vector features</td>
+</tr>
+<tr class="odd">
+<td>Web Coverage Service (<a href="https://www.ogc.org/standard/wcs/">WCS</a>)</td>
+<td><a href="https://ogcapi.ogc.org/coverages/">Coverages</a></td>
+<td>API to interact with grid sources</td>
+</tr>
+<tr class="even">
+<td>Sensor Observation Service (<a href="https://www.ogc.org/standard/sos">SOS</a>)</td>
+<td><a href="https://www.ogc.org/standard/sensorthings/">Sensorthings</a></td>
+<td>Retrieve subsets of sensor observations</td>
+</tr>
+</tbody>
+</table>
+<p>From the Earth Observation domain, an alternative mechanism is increasingly getting adopted. Complete files are stored on a public file repository, by creating an index on the file and enabling range requests, users are able to fetch subsets from the file directly (for which previously, you would have needed a WFS or WCS service).</p>
+<p>This mechanism is enabled by new formats such as <a href="https://www.cogeo.org/">Cloud Optimised GeoTiff</a>, <a href="https://github.com/zarr-developers/geozarr-spec">GeoZarr</a>, and <a href="https://geoparquet.org/">GeoParquet</a>.</p>
+</section>
+</section>
+<section id="the-protocol-allows-for-an-authentication-and-authorisation-procedure-where-necessary" class="level3">
+<h3 class="anchored" data-anchor-id="the-protocol-allows-for-an-authentication-and-authorisation-procedure-where-necessary">The protocol allows for an authentication and authorisation procedure, where necessary</h3>
+<p>FAIR endorses open access, however in some cases it is not possible to share some data to the global audience (privacy, economic, or safety concerns). It is still relevant to publish the data, so those authorised can access it. This requires a proper level of authorisation and authentication being set up.</p>
+</section>
+<section id="metadata-are-accessible-even-when-the-data-are-no-longer-available" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-are-accessible-even-when-the-data-are-no-longer-available">Metadata are accessible, even when the data are no longer available</h3>
+<p>Metadata models usually have a status field, which enables you to indicate that a resource has been archived. The metadata would still be available, so users are aware it once existed.</p>
+<hr>
+</section>
+</section>
+<section id="interoperable" class="level2">
+<h2 class="anchored" data-anchor-id="interoperable">Interoperable</h2>
+<p>Data typically are integrated with other data, as well as interoperate with applications or workflows for analysis, storage, and processing.</p>
+<section id="metadata-use-a-formal-accessible-shared-and-broadly-applicable-language-for-knowledge-representation." class="level3">
+<h3 class="anchored" data-anchor-id="metadata-use-a-formal-accessible-shared-and-broadly-applicable-language-for-knowledge-representation.">(Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</h3>
+<p>The soil community has a long history of interoperability efforts for soil profile data. Such as:</p>
+<ul>
+<li><a href="https://www.isric.org/projects/globalsoilmapnet">Globalsoilmap</a></li>
+<li><a href="#e-soter">e-Soter</a></li>
+<li><a href="#iso282582013">iso28258:2013</a></li>
+</ul>
+<section id="e-soter" class="level4">
+<h4 class="anchored" data-anchor-id="e-soter">e-Soter</h4>
+<p>The e-Soter model has been developed in the <a href="https://esoter.net">e-Soter Research project</a>, based on principles of previous SOil TERrain (SOTER) initiatives. e-Soter is a relational database model, usually implemented as a <a href="https://www.microsoft.com/en-us/microsoft-365/access">Microsoft Access</a> database. Some examples of e-Soter implementations:</p>
+<ul>
+<li><a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/60803da0-a15f-4cc5-9cb5-172fa2460af3">Malawi</a></li>
+<li><a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467">Kenya</a></li>
+<li><a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3571c1f3-159d-442c-b324-0af53d03f12e">Southern Africa</a></li>
+<li><a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/a6320590-0899-4b60-bf4d-f80282bbb72c">Senegal and Gambia</a></li>
+</ul>
+</section>
+<section id="iso282582013" class="level4">
+<h4 class="anchored" data-anchor-id="iso282582013">iso28258:2013</h4>
+<p>In 2012 various experts in the soil domain grouped around the development of the first formally standardised domain model on soil data, published as <a href="https://www.iso.org/standard/44595.html">ISO28258</a>. ISO28258 adopted the <a href="https://www.ogc.org/standard/om/">Observations &amp; Measurements</a> conventions of OGC. Each observation on a site, profile, horizon or soil sample is considered an observation. For each observation on a specimen, the measured property and the procedure are captured.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/om2.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Observations and measurements overview</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For this exercise we are considering a dataset on observations on soil properties (either field or lab). If you are aware of such a dataset in your organisation or region, use that one, else you can use the <a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/73e27136-9efe-49e4-af35-fd98b841d467">KENSOTER</a> dataset. Then answer the following questions:</p>
+<ul>
+<li>Describe the dataset; by region, format, organisation, date, …</li>
+<li>In which column/property are the observed result values stored?</li>
+<li>How is the observation linked to the location and depth of the sample?</li>
+<li>Where is documented the unit used for the value?</li>
+<li>How is documented which soil property is measured</li>
+<li>Where is described which procedure/method has been used for this observation?</li>
+<li>Are metadata about the measurement available, when was the sample analysed, who made the sample, which lab?</li>
+</ul>
+</div>
+</div>
+<p>Various initiatives adopted ISO28258, and serialised and specialised the model for their community:</p>
+<ul>
+<li><a href="https://inspire.ec.europa.eu/Themes/127/2892">INSPIRE Soil</a> (Europe) and <a href="https://github.com/ANZSoilData/ANZSoilML">ANZSoilML</a> (Australia) are domain models based on Observations and Measurements, inspired by ISO28258, serialised in GML.</li>
+<li><a href="https://git.wur.nl/isric/databases/iso28258-public">ISO28258-relational</a> is an implementation of ISO28258 modelled as a relational database.</li>
+<li><a href="https://github.com/glosis-ld/glosis">Glosis Web Ontology</a> is an evolution of iso28258, using common ontologies from the web, such as <a href="https://www.w3.org/TR/vocab-ssn/">semantic sensor network</a>.</li>
+</ul>
+<p>Some examples of datasets modelled as INSPIRE Soil:</p>
+<ul>
+<li><a href="https://fbinter.stadt-berlin.de/fb/atom/SO/SO_BoKw2015.zip">Soil Berlin</a></li>
+<li><a href="https://www.dov.vlaanderen.be/geoserver-inspire/wfs?typeNames=so:chemicalParameter&amp;service=wfs&amp;version=2.0.1&amp;request=getfeature&amp;count=10">Soil chemistry Flanders</a></li>
+<li><a href="http://mapy.geoportal.gov.pl/wss/service/ATOM/httpauth/download/?fileId=07dc98d25569532b4de0d85b84f52a08&amp;name=pomorskie_5k.zip">Soil Poland</a></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Download a Soil GML file and try to open it in <a href="https://qgis.org">QGIS</a>. QGIS usually is able to display the profile locations. Alternatively you can use the <a href="https://gdal.org/drivers/vector/gmlas.html">GML Appschema format in OGR</a> to generate first a SQLite database of the file, before opening it in QGIS.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="metadata-use-vocabularies-that-follow-fair-principles" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-use-vocabularies-that-follow-fair-principles">(Meta)data use vocabularies that follow FAIR principles</h3>
+<p>A number of common vocabularies are relevant to the soil domain.</p>
+<p>The <a href="https://github.com/iuss-wrb/wrb/releases/download/v4.0-2022/WRB_fourth_edition_2022-12-18.pdf">World Reference Base for soil resources</a> provides a framework of code lists on soil and soil classification. These lists are partially published in <a href="https://agrovoc.fao.org/browse/agrovoc/en/page/?clang=nb&amp;uri=c_89f35c33">Agrovoc</a> and partially in <a href="https://vocab.isric.org/glosis_cl">Glosis web ontology</a>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Examine the concept <a href="http://aims.fao.org/aos/agrovoc/c_51ec138f">Durisols</a> in agrovoc.</p>
+<ul>
+<li>Notice that the agrovoc page on <a href="https://agrovoc.fao.org/browse/agrovoc/en/page/c_51ec138f?clang=nb">Durisols</a> looks nicer then the <a href="http://aims.fao.org/aos/agrovoc/c_51ec138f">representation linked to its uri</a>. Still it is important to use the persistent identifier when linking to the concept, why?</li>
+<li>Notice that Agrovoc contains many translations for each concept and linkage to wider and narrower terms. These are some of the benefits of linking to a keyword from a common thesaurus.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="metadata-include-qualified-references-to-other-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-include-qualified-references-to-other-metadata">Metadata include qualified references to other metadata</h3>
+<p>The context of a dataset gets more clear if you link it to datasets which were used as a source, documents in which it is described, tools with which it has been produced or which tool can be used to view/process it, policies for which it has been created, etc. Consider that users also may traverse the link, to find datasets relevant to a certain policy or tool.</p>
+<hr>
+</section>
+</section>
+<section id="reusable" class="level2">
+<h2 class="anchored" data-anchor-id="reusable">Reusable</h2>
+<p>Reuse of data is the main goal of FAIR, facilitated by documentation of the data, for different audiences.</p>
+<section id="use-a-clear-and-accessible-data-usage-license" class="level3">
+<h3 class="anchored" data-anchor-id="use-a-clear-and-accessible-data-usage-license">Use a clear and accessible data usage license</h3>
+<p>Users are very interested to know if and how they can use the data. This process is facilitated by adoption of a commonly available license, such as <a href="https://opendatacommons.org/licenses/odbl/">odbl</a> or <a href="https://creativecommons.org/licenses/by/4.0/deed.en">cc-by</a>, so users (and machines) can identify the applicable license without reading a full document.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Does your organisation provide guidance on which license to use on various data sources? Is it clear when, and when <strong>not</strong> to use an open license? Are you aware of any data sources which currently do not yet have an assigned data license?</p>
+</div>
+</div>
+</section>
+<section id="data-are-associated-with-detailed-provenance" class="level3">
+<h3 class="anchored" data-anchor-id="data-are-associated-with-detailed-provenance">Data are associated with detailed provenance</h3>
+<p>Provenance is the process of creation and curation of a data source. Which data sources or procedures were used to create the data source. Which processing steps have been applied to the data. What is the lifecycle of the dataset (when will it be archived).</p>
+<p>This information is very relevant to potential users of the data, because they can understand if the data has been produced according to their expectations.</p>
+<p>In academia provenance and processing are usually described in scientific articles. One can also capture these aspects in a linked metadata record. Some tools (for example ArcGIS and SPSS) create a processing log automatically.</p>
+<hr>
+</section>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>In this section you learned about the FAIR principles and how this applies to the soil data community. In the next sections we will introduce a data management strategy we use on some of our projects. We expect some of the presented tools may be worthwile to have a closer look at, to see if it can support you in your daily tasks.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.lsc-hubs.org">
+<p><br>LSC Hubs 2023</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><ul><li><a href="https://github.com/lsc-hubs/hub-core/edit/main/docs/developer/tutorial-data-management/0-fair-data.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/lsc-hubs/hub-core/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
