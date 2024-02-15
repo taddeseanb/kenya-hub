@@ -2,10 +2,8 @@
 title: "Land Soil Crop Hub"
 sidebar: false
 include-in-header:
-  text: <script type="text/javascript" src="./js/index.js"></script>
+  text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script><style>#title-block-header { display:none; }</style>
 ---
-
-
 
 :::: {.grid}
 
@@ -329,6 +327,3 @@ Subscribe to our newsletter and be the first to receive the latest data updates 
 
 :::
 
-<style>
-#title-block-header { display:none; }
-</style>

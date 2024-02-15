@@ -1,7 +1,10 @@
-/* get records by type */ 
+/* 
+get records by type 
+catalog var is set in header index.md
+*/ 
 
 async function getRecords(qs, type, style){
-        let response = await fetch("https://kenya.lsc-hubs.org/collections/metadata:main/items?f=json&limit=4&sortby=-updated&type="+type);
+        let response = await fetch(catalog+"/collections/metadata:main/items?f=json&limit=4&sortby=-updated&type="+type);
         if (response.ok) {
            let res = await response.json();  
            setDiv(qs, boxIt(res.features,style));
