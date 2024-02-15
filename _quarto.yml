@@ -5,7 +5,7 @@ project:
     - "*.qmd"
 
 website:
-  repo-url: "https://github.com/lsc-hubs/hub-core"
+  repo-url: "{{< var github >}}"
   repo-actions: 
     - edit
     - issue
@@ -14,21 +14,21 @@ website:
     left: 
     - text: <br/>LSC Hubs 2023
       file: https://www.lsc-hubs.org
-  title: "Land Soil Crop Hub"
+  title: "Land Soil Crop Hub {{< var country >}}"
   navbar:
     background: white
     search: true
     left:
       - text: Data
-        file: "{{< var homepage >}}#data" 
+        file: "/#data" 
       - text: Maps
-        file: "{{< var homepage >}}#maps" 
+        file: "/#maps" 
       - text: Use cases
-        file: "{{< var homepage >}}#use-cases"
+        file: "/#use-cases"
       - text: Community
-        file: "{{< var homepage >}}#hub-community" 
+        file: "/#hub-community" 
       - text: "Docs"
-        file: "{{< var homepage >}}#documentation"  
+        file: "/#documentation"  
   sidebar:
     - title: "Docs"
       style: "docked"
