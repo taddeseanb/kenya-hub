@@ -5,7 +5,7 @@ project:
     - "*.qmd"
 
 website:
-  repo-url: "{{< var github >}}"
+  repo-url: "https://github.com/lsc-hubs/hub-core"
   repo-actions: 
     - edit
     - issue
