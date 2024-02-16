@@ -33,6 +33,8 @@ The LSC Catalogue includes a range of modelling resources, both modelling softwa
 
 ::::
 
+---
+
 <script src="https://giscus.app/client.js"
       data-repo="lsc-hubs/kenya-catalogue"
       data-repo-id="R_kgDOJxw-OQ"

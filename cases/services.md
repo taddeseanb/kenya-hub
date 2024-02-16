@@ -38,6 +38,9 @@ The LSC Catalogue includes a range of information services.
 
 ::::
 
+
+---
+
 <script src="https://giscus.app/client.js"
       data-repo="lsc-hubs/kenya-catalogue"
       data-repo-id="R_kgDOJxw-OQ"

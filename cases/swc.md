@@ -94,6 +94,8 @@ The intermediary actor accesses the LSC-Hub’s web-based data system or portal,
 
 </div></div>
 
+---
+
 <script src="https://giscus.app/client.js"
       data-repo="lsc-hubs/kenya-catalogue"
       data-repo-id="R_kgDOJxw-OQ"

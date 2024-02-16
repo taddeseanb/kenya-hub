@@ -96,6 +96,8 @@ The intermediary actor – extension agent / lead farmer / agricultural input pr
 
 </div></div>
 
+---
+
 <script src="https://giscus.app/client.js"
       data-repo="lsc-hubs/kenya-catalogue"
       data-repo-id="R_kgDOJxw-OQ"
