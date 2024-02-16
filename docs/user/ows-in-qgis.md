@@ -18,7 +18,7 @@ First we are adding a new service. Select the `New` button.
 
 With the service selected, click the connect button and the layers available in the service are displayed
 
-![Select a layer](./img/qgis/add-layer.png){.w-50 .border .shadow}
+![Select a layer](./img/qgis/add-layer2.png){.w-50 .border .shadow}
 
 Select the relevant layer and click `Add` at the bottom of the panel. The Layer is now displayed on the map. If you don't see it yet, right click the layer on the table of content and select `Zoom to layer`.
 
@@ -36,7 +36,7 @@ Notice the `build query` button in the footer of the panel. This allows you to f
 
 With the layer added to the view, notice that the data has no styling, it acts as any other vector dataset. You can select features and even open the attribute table. 
 
-To extract a subset of the data, zoom to the area of interes, then right click the layer in the table of contents and select `Export > Save Features As`. 
+To extract a subset of the data, zoom to the area of interest, then right click the layer in the table of contents and select `Export > Save Features As`. 
 
 ![Export WFS data](./img/qgis/export-features.png){.w-50 .border .shadow}
 
