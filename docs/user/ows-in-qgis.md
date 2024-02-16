@@ -4,7 +4,9 @@ date: 2024-02-16
 author: Paul van Genuchten
 ---
 
-[QGIS](https://qgis.org) is an open source desktop GIS application available for Windows, MacOX, Linux and Android. It supports a wide variety of spatial formats, spatial data services, digitisation tools and spatial processing tools. If you are not familiar with QGIS, follow the [getting started tutorial](https://qgis.org/en/site/forusers/) first.  
+In case you find a relevant spatial dataset in the LSC Catalog you will notice in the link section of the record if a downloadable file or a web service to the data is available and of which type it is. Various tools can be used to open these formats and web services. On this page we list methods on how to open a data service in QGIS.
+
+[QGIS](https://qgis.org) is an open source desktop GIS application available for Windows, MacOX, Linux and Android. It supports a wide variety of spatial formats, spatial data services, digitisation tools and spatial processing tools. If you are not familiar with QGIS, follow the [getting started tutorial](https://qgis.org/en/site/forusers/) first.
 
 ## Visualize data using OGC:WMS
 
