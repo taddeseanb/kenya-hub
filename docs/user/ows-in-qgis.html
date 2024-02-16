@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Paul van Genuchten">
-<meta name="dcterms.date" content="2023-10-04">
+<meta name="dcterms.date" content="2024-02-16">
 
-<title>Land Soil Crop Hub Kenya - Slides training on spatial data flows</title>
+<title>Land Soil Crop Hub Kenya - Interact with Spatial data services using QGIS Desktop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -139,7 +79,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Land Soil Crop Hub Kenya</span>
     </a>
   </div>
@@ -150,23 +90,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../#data"> 
+    <a class="nav-link" href="../../#data"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../#maps"> 
+    <a class="nav-link" href="../../#maps"> 
 <span class="menu-text">Maps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../#use-cases"> 
+    <a class="nav-link" href="../../#use-cases"> 
 <span class="menu-text">Use cases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../#hub-community"> 
+    <a class="nav-link" href="../../#hub-community"> 
 <span class="menu-text">Community</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../#documentation"> 
+    <a class="nav-link" href="../../#documentation"> 
 <span class="menu-text">Docs</span></a>
   </li>  
 </ul>
@@ -186,7 +126,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slides training on spatial data flows</h1>
+<h1 class="title">Interact with Spatial data services using QGIS Desktop</h1>
 </div>
 
 
@@ -203,7 +143,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 4, 2023</p>
+      <p class="date">February 16, 2024</p>
     </div>
   </div>
   
@@ -215,134 +155,80 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<p><a href="https://qgis.org">QGIS</a> is a open source desktop GIS application available for Windows, MacOX, Linux and Android. It supports a wide variety of spatial formats, spatial data services, digitisation tools and spatial processing tools. If you are not familiar with QGIS, follow the <a href="https://qgis.org/en/site/forusers/">getting started tutorial</a> first.</p>
+<section id="visualize-data-using-ogcwms" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-data-using-ogcwms">Visualize data using OGC:WMS</h2>
+<p><a href="https://www.ogc.org/standard/wms/">OGC:WMS</a> visualizes data in a mapviewer. To display a WMS in QGIS, Select from the menu <code>Layer &gt; Add Layer &gt; Add WMS/WMTS Layer</code>. This opens the Add layer panel.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/add-layer.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Add WMS Layer</figcaption>
+</figure>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="1.1 Training Overview" data-listing-filename-sort="1.1-overview.qmd">
-<td>
-<span class="listing-date">Sep 15, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/1.1-overview.html" class="title listing-title">1.1 Training Overview</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="503" data-listing-title-sort="1.2 FAIR data" data-listing-filename-sort="1.2-fair.qmd">
-<td>
-<span class="listing-date">Sep 15, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/1.2-fair.html" class="title listing-title">1.2 FAIR data</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119" data-listing-title-sort="1.3 Tools" data-listing-filename-sort="1.3-tools.qmd">
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/1.3-tools.html" class="title listing-title">1.3 Tools</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154" data-listing-title-sort="2.1 Collect and Publish metadata" data-listing-filename-sort="2.1-collect-publish-metadata.qmd">
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html" class="title listing-title">2.1 Collect and Publish metadata</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="362" data-listing-title-sort="3.1 Data services" data-listing-filename-sort="3.1-ogc-data-services.qmd">
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html" class="title listing-title">3.1 Data services</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151" data-listing-title-sort="3.2 Service Quality" data-listing-filename-sort="3.2-service-quality.qmd">
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/3.2-service-quality.html" class="title listing-title">3.2 Service Quality</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1708118266165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185" data-listing-title-sort="4.1 Soil Profile Datamanagement" data-listing-filename-sort="4.1-soil-profile-data-management.qmd">
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-<td>
-<a href="../../../../docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html" class="title listing-title">4.1 Soil Profile Datamanagement</a>
-</td>
-<td>
-<span class="listing-author">Paul van Genuchten</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>First we are adding a new service. Select the <code>New</code> button.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/add-service.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Add WMS service</figcaption>
+</figure>
 </div>
-</div></main> <!-- /main -->
+<p>With the service selected, click the connect button and the layers available in the service are displayed</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/add-layer.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Select a layer</figcaption>
+</figure>
+</div>
+<p>Select the relevant layer and click <code>Add</code> at the bottom of the panel. The Layer is now displayed on the map. If you don’t see it yet, right click the layer on the table of content and select <code>Zoom to layer</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/zoom-to-layer.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Zoom to layer</figcaption>
+</figure>
+</div>
+<p>Understand that you can not select features, because the interaction with the service is based on images. You can however use the <code>i</code> tool to retrieve attribute information from pixels. A dedicated method on the service, called ‘getFeatureInfo’ is used.</p>
+</section>
+<section id="visualize-and-download-vector-data-using-ogcwfs-or-ogcapi-features" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-and-download-vector-data-using-ogcwfs-or-ogcapi-features">Visualize and download vector data using OGC:WFS or OGCAPI-Features</h2>
+<p><a href="https://www.ogc.org/standard/wfs">OGC:WFS</a> retrieves vector features from a dataset. <a href="https://ogcapi.ogc.org/features/">OGCAPI:Features</a> is a modern alternative to WFS, supported by some servers. Adding a WFS or Features layer to QGIS uses a similar procedure as adding a WMS layer. Select <code>Layer &gt; Add layer &gt; Add WFS layer</code> from the menu. Notice that only vector layers are shown, grid layers use the WCS protocol (see next paragraph).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/add-wfs-layer.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Add WFS Layer</figcaption>
+</figure>
+</div>
+<p>Notice the <code>build query</code> button in the footer of the panel. This allows you to filter features on attribute value, for example <code>pH &lt; 5</code>. Substantially less data will be retrieved, improving the performance.</p>
+<p>With the layer added to the view, notice that the data has no styling, it acts as any other vector dataset. You can select features and even open the attribute table.</p>
+<p>To extract a subset of the data, zoom to the area of interes, then right click the layer in the table of contents and select <code>Export &gt; Save Features As</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/export-features.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Export WFS data</figcaption>
+</figure>
+</div>
+<p>On the export panel, set the format, a file location and set the extent (current). Then select <code>OK</code>.</p>
+</section>
+<section id="visualize-and-download-grid-data-using-ogcwcs" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-and-download-grid-data-using-ogcwcs">Visualize and download grid data using OGC:WCS</h2>
+<p><a href="https://www.ogc.org/standard/wcs">OGC:WCS</a> retrieves subsets from a grid dataset. Adding a WCS layer to QGIS uses a similar procedure as adding a WFS layer. Select <code>Layer &gt; Add layer &gt; Add WCS layer</code> from the menu.</p>
+<p>The WCS layer acts like any grid layer, you can retrieve the pixel value and run grid processes on the layer.</p>
+<p>Exporting a grid for a region of interest works similar as WFS.</p>
+</section>
+<section id="visualize-and-download-observation-data-using-sensorthings-api" class="level2">
+<h2 class="anchored" data-anchor-id="visualize-and-download-observation-data-using-sensorthings-api">Visualize and download observation data using Sensorthings API</h2>
+<p>Soil observation data is best made available through <a href="https://www.ogc.org/standard/sensorthings/">Sensorthings API</a>. Sensorthings API is not a default supported format of QGIS. You need to install the <a href="https://github.com/AirBreak-UIA/SensorThingsAPI_QGIS-plugin">Sensorthings Plugin</a>.</p>
+<p>With the plugin installed, you can add a layer of type Sensortings via <code>Layer &gt; Add layer &gt; Upload layer from remote server</code>. Use for example the <a href="https://iot.comune.fe.it/FROST-Server/v1.1/Locations">service of Comune di Ferrara, Italy</a>. As soon as the sensor locations show on the map, you can select ‘Show location information’ tool from the plugin menu and select a sensor. And view or download the observations at that location.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/qgis/sensor-observations.png" class="w-50 img-fluid figure-img"></p>
+<figcaption>Sensor observations</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -744,7 +630,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="{{< var github >}}/edit/main/docs/developer/tutorial-data-management/slides/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="{{< var github >}}/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="{{< var github >}}/edit/main/docs/user/ows-in-qgis.md" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="{{< var github >}}/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
