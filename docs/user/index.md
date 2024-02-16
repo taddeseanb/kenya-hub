@@ -4,7 +4,6 @@ date: 2023-11-20
 author: Paul van Genuchten, Thaïsa van der Woude
 ---
 
-# User Guideline LSC Hubs
 
 This document is a guideline for usage of the Land Soil Crop hub.
 
@@ -15,29 +14,12 @@ Many data are available, but often disperse and hard to locate. Land Soil Crop h
 
 The hubs describe a number of different resources relevant to the Land Soil Cop community.
 
-### Datasets
-
-Datasets are either a source for predictions, as well as can be the result of a prediction.
-
-### Services
-
-Services are offered by organizations to facilitate access to data and knowlegde. Services can vary from web services (APIs), SMS services, brochures, up to on site visits.
-
-### Models
-
-Predictions on distribution of environmental parameters in time and space, as well as yield predictions, are calculated using statistical, rule based, and/or machine learning models. Commonly available models are described as resources in the hub. 
-
-### Software
-
-In the hub various software components are described which enable visualisation and/or analysis of relevant data and knowledge sources
-
-### Approaches
-
-Approaches descrive commonly known mechanisms to improve land management to overcome challenges such as erosion, limited fertility, salinisation, and climate change.
-
-### Policies
-
-The hub describes relevant policies to the Land Soil Crop community. Policy drives the collection of data, but data can also support policy development. 
+- **Datasets** are either a source for predictions, as well as can be the result of a prediction.
+- **Services** are offered by organizations to facilitate access to data and knowlegde. Services can vary from web services (APIs), SMS services, brochures, up to on site visits.
+- Predictions on distribution of environmental parameters in time and space, as well as yield predictions, are calculated using statistical, rule based, and/or machine learning **models**. Commonly available models are described as resources in the hub. 
+- In the hub various **software** components are described which enable visualisation and/or analysis of relevant data and knowledge sources
+- **Approaches** descrive commonly known mechanisms to improve land management to overcome challenges such as erosion, limited fertility, salinisation, and climate change.
+- The hub describes relevant **policies** to the Land Soil Crop community. Policy drives the collection of data, but data can also support policy development. 
 
 ---
 
@@ -115,8 +97,6 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 ![mapviewer share](./img/mapviewer_share.PNG){.w-50} 
 
 
-
-
 ### Vertical toolbar on the top right
 
 The vertical toolbar allows you to zoom on the map or location, compare maps, measure distance and provide feedback. Each of the buttons will be explained below.
@@ -191,6 +171,7 @@ The sidebar is the main location for adding maps to the map viewer and visualisi
     
    - As soon as layers are loaded on the map, you can set the order of the layers, view a legend of the layer, zoom to its extent, set its opacity and view the metadata of the data. 
 
+
 ::: {.callout-tip}  
 The steps of this exercise are written down under the `help` button. By clicking on `Take the tour`, it will guide you through the steps.
 :::
@@ -206,7 +187,7 @@ The steps of this exercise are written down under the `help` button. By clicking
 
 ## Hub community
 
-You are very much invited to contribute to the development of the hub. The contents of the hub is maintained via a co-creation platform called [github.com](https://github.com/lsc-hubs/hub-core/). You can either directly contribute via the github platform, but a feed back mechanism is also provided on each of the hub resources. 
+We welcome you to contribute to the development of the hub. The contents of the hub is maintained via a co-creation platform called [github.com](https://github.com/lsc-hubs/hub-core/). You can either directly contribute via the github platform, but a feed back mechanism is also provided on each of the hub resources. 
 
 Providing your feedback is crucial for several reasons: 
 
