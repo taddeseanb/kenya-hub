@@ -1269,7 +1269,7 @@
     "href": "docs/user/ows-in-qgis.html",
     "title": "Interact with Spatial data services using QGIS Desktop",
     "section": "",
-    "text": "QGIS is an open source desktop GIS application available for Windows, MacOX, Linux and Android. It supports a wide variety of spatial formats, spatial data services, digitisation tools and spatial processing tools. If you are not familiar with QGIS, follow the getting started tutorial first."
+    "text": "In case you find a relevant spatial dataset in the LSC Catalog you will notice in the link section of the record if a downloadable file or a web service to the data is available and of which type it is. Various tools can be used to open these formats and web services. On this page we list methods on how to open a data service in QGIS.\nQGIS is an open source desktop GIS application available for Windows, MacOX, Linux and Android. It supports a wide variety of spatial formats, spatial data services, digitisation tools and spatial processing tools. If you are not familiar with QGIS, follow the getting started tutorial first."
   },
   {
     "objectID": "docs/user/ows-in-qgis.html#visualize-data-using-ogcwms",
