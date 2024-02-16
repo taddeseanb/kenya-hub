@@ -35,7 +35,7 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 
 Search datasets or browse by category.
 
-<form class="pb-2" action="https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items" method=get>
+<form class="pb-2" action="{{< var catalog >}}/collections/metadata:main/items" method=get>
 <div class="input-group mb-3">
   <input type="text" name="q" class="form-control" >
   <div><input type=submit class="btn btn-success form-control" type="button" value=Search>
@@ -47,31 +47,31 @@ Search datasets or browse by category.
 
 ::: {.column width="20%"}
 
-![](./img/icon/land.svg) [Land](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Land)
+![](./img/icon/land.svg) [Land]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/soil.svg) [Soil](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Soil)
+![](./img/icon/soil.svg) [Soil]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/crop.svg) [Crop](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Crop)
+![](./img/icon/crop.svg) [Crop]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/climate.svg) [Climate](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Climate)
+![](./img/icon/climate.svg) [Climate]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate)
 
 :::
 
 ::: {.column width="20%"}
 
-![](./img/icon/water.svg) [Water](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&keywords=Water)
+![](./img/icon/water.svg) [Water]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water)
 
 :::
 
@@ -147,7 +147,7 @@ Information services provide dedicated information derived from relevant data to
 
 Processing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.
 
-[Browse services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=service){.btn .btn-warning .rounded-pill}
+[Browse services]({{< var catalog >}}/collections/metadata:main/items?q=&type=service){.btn .btn-warning .rounded-pill}
 [Read more](./cases/services.md){.btn .btn-success .rounded-pill}
 
 :::
@@ -173,7 +173,7 @@ Loading...
 ::::
 
 ::: {.text-center .mt-5}
-[View all popular services](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=service){.btn .btn-success .rounded-pill .shadow}
+[View all popular services]({{< var catalog >}}/collections/metadata:main/items?q=&type=service){.btn .btn-success .rounded-pill .shadow}
 :::
 
 
@@ -188,7 +188,7 @@ Loading...
 
 Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.
 
-[Browse models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill .shadow}
+[Browse models]({{< var catalog >}}/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill .shadow}
 [Read more](./cases/models.md){.btn .btn-success .rounded-pill .shadow}
 
 :::
@@ -214,7 +214,7 @@ Loading...
 ::::
 
 ::: {.text-center .mt-5}
-[View all popular models](https://{{< var country >}}.lsc-hubs.org/collections/metadata:main/items?sortby=-recordUpdated&type=model){.btn .btn-success .rounded-pill}
+[View all popular models]({{< var catalog >}}/collections/metadata:main/items?sortby=-recordUpdated&type=model){.btn .btn-success .rounded-pill}
 :::
 
 :::
