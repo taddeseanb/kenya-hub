@@ -66,7 +66,7 @@ If a mapping link is available on the record, a button will appear under the map
 ## Map viewer
 
 Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on _Go the map viewer_.
-The map viewer can also directly be accessed at https://{{< var country>}}.lsc-hubs.org/map/ 
+The map viewer can also directly be accessed at https://{{< var country >}}.lsc-hubs.org/map/ 
 
 ![Hub map vizualisation](./img/map.png){.w-50 .border .shadow}
 
