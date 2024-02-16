@@ -1,6 +1,10 @@
 
 country: Kenya
-homepage: https://lsc-hubs.github.io/kenya-hub
+homepage: https://kenya.lsc-hubs.org
 catalog: https://kenya.lsc-hubs.org/cat
-maps: https://maps.lsc-hubs.org
+maps: https://kenya.lsc-hubs.org/map
 github: https://github.com/lsc-hubs/kenya-hub
+giscus-repo: lsc-hubs/kenya-catalogue
+giscus-repo-id: R_kgDOJxw-OQ
+giscus-cat: "Q&A"
+giscus-cat-id: DIC_kwDOJxw-Oc4CXVp8

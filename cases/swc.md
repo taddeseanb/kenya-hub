@@ -97,10 +97,10 @@ The intermediary actor accesses the LSC-Hub’s web-based data system or portal,
 ---
 
 <script src="https://giscus.app/client.js"
-      data-repo="lsc-hubs/kenya-catalogue"
-      data-repo-id="R_kgDOJxw-OQ"
-      data-category="Q&A"
-      data-category-id="DIC_kwDOJxw-Oc4CXVp8"
+      data-repo="{{< var giscus-repo >}}"
+      data-repo-id="{{< var giscus-repo-id >}}"
+      data-category="{{< giscus-cat >}}"
+      data-category-id="{{< giscus-cat-id >}}"
       data-mapping="title"
       data-strict="0"
       data-reactions-enabled="0"
