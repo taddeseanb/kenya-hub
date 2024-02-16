@@ -65,9 +65,9 @@ These will include risk assessment of weather and other external factors.​
 
 <div class="grid">
 
-<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Primary actors
+## Primary actors {.text-light}
 
 national: Extension staff, agricultural planner, agro-input provider 
 
@@ -75,21 +75,21 @@ district: District extension officer, District Agric & Livestock officers and pl
 
 local: Local extension officer, local agro-input provider, lead farmer​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Secondary actors
+## Secondary actors {.text-light}
 
 Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Beneficiary
+## Beneficiary {.text-light}
 
 Farmers.​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Scenario ​
+## Scenario 
 
 The intermediary user accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. 
 The intermediary actor – extension agent / lead farmer / agricultural input provider - converts this information into an agronomic and fertilizer recommendation and provides advise to end users, in particular farmers.​

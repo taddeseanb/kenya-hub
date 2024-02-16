@@ -66,29 +66,29 @@ LSC-IS hub, land suitability applications, Soil erosion and AEZ models and data 
 
 <div class="grid">
 
-<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Primary actors
+## Primary actors{.text-light}
 
 National: national and regional agriculture and forestry/natural resource management authorities, planners and project managers, UNCCD focal points.​
 
 Local: catchment management, agricultural extension staff, farmer’s and other community-based organisations and authorities.​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Secondary actors
+## Secondary actors{.text-light}
 
 Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Beneficiary
+## Beneficiary{.text-light}
 
 Farmers and communities.​
 
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-2">
+</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
 
-## Scenario​
+## Scenario{.text-light}
 
 The intermediary actor accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. The intermediary actor converts this information into land use and land management recommendations and advise to ultimate end users, in particular farmers.​
 
