@@ -28,15 +28,14 @@ The hubs describe a number of different resources relevant to the Land Soil Cop 
 Search for data and knowledge in the hub in various ways:
 
 - Search by keyword or organisation
+- When you click on submit, the available records will appear.
 - On a search result, further limit the results by filters in the sidebar
 
-![Hub catalogue](./img/catalogueRwanda.PNG){.w-50 .border .shadow} 
+![Hub catalogue overview](./img/cataloguerecords.PNG){.w-50}
 
-When you click on submit, the available records will appear.
-
-![Hub catalogue overview](./img/cataloguerecords.PNG){.w-50 .border .shadow}
 
 The catalogue allows the filtering of keywords. The 3 main keywords are: 
+
 1. category ( _such as soil, crop, etc._),
 2. spatial scope (_such as Global, National, district, etc._ ),
 3. the type (_such as dataset, software, etc_).
@@ -47,7 +46,7 @@ Second, any other keyword linked to the resource can be used to search in the ca
 Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
 :::
 
-![Hub catalogue search](./img/cataloguesearch.png){.w-50 .border .shadow}
+![Filter by keyword](./img/cataloguesearch.png){.w-50}
 
 
 For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
@@ -60,12 +59,14 @@ Explore the records. Click, after searching on keywords, on one of the appeared 
 
 ![Hub catalogue record](./img/cataloguepHrecord.PNG){.w-50 .border .shadow} 
 
+If a mapping link is available on the record, a button will appear under the map to preview the data in a map viewer.
+
 ---
 
 ## Map viewer
 
 Spatial data can be viewed and compared in a web-based map viewer. The map viewer can be accessed on the homepage of the LSC hub, under _DATA_ and then click on _Go the map viewer_.
-The map viewer can also directly be accessed at https://maps.lsc-hubs.org/#lsc-rwanda 
+The map viewer can also directly be accessed at https://{{< var country>}}.lsc-hubs.org/map/ 
 
 ![Hub map vizualisation](./img/map.png){.w-50 .border .shadow}
 
@@ -76,7 +77,7 @@ The map viewer can used for the visualisation of existing maps listed in the LSC
 ![mapviewer top bar](./img/mapviewer_topbar.PNG){.w-50 .border .shadow}
 
 1. Get more information `about` the map viewer. The introduction, disclaimer and data attributes are described.
-2. the `related maps` show other available maps, such as the LSC Ethiopia, LSC Keny and LSC Rwanda. If you click on one of these maps, it will zoom to those locations.
+2. the `related maps` show other available maps, such as GAEZ and WAPOR. If you click on one of these maps, it will make that data available in the Table of Contents.
 
 ![mapviewer related maps](./img/mapviewer_relatedmaps.PNG){.w-50 .border .shadow}
 
@@ -202,6 +203,7 @@ Various software is available to interect with these data formats and data servi
 
 We welcome you to contribute to the development of the hub. The contents of the hub is maintained via a co-creation platform called [github.com](https://github.com/lsc-hubs/hub-core/). You can either directly contribute via the github platform, but a feed back mechanism is also provided on each of the hub resources. 
 
+
 Providing your feedback is crucial for several reasons: 
 
 1. Firstly, incorporating diverse perspectives from stakeholders involved in working with and benefiting from land, soil, and crop information ensures that the LSC hub caters to the actual needs and demands of its users (Data providers/Users). This feedback allows for the fine-tuning of the hub's functionalities, making it more user-friendly and effective in serving the specific requirements of different user groups.
@@ -210,11 +212,11 @@ Providing your feedback is crucial for several reasons:
   
 3. Moreover, involving stakeholders in providing feedback fosters a sense of ownership and collaboration. When users feel heard and their inputs valued, it encourages their active participation and engagement with the LSC hub. This collaborative approach promotes a sense of ownership among stakeholders, leading to increased utilization and sustained support for the system in the long term.
   
-4. Ultimately, the feedback obtained from diverse stakeholders during the Rwanda WP4 workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in Rwanda's agricultural landscape.
+4. Ultimately, the feedback obtained from diverse stakeholders during the workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in the agricultural landscape.
 
 Every page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. In these sections, you can provide feedback about the page and what you would like to be adjusted.
 
-![feedback page](./img/feedback_section2.png){.w-50 .border .shadow}  
+![feedback discussion](./img/feedback_discussion.PNG){.w-50 .border .shadow} 
 
 Contributions to the hub require a [Github login](https://github.com/signup?ref_cta=Sign+up). A GIThub account is easily made by pressing on _sign in with GIThub_, then click on _New to GIThub? Create an account_. 
 
@@ -222,10 +224,7 @@ You only need to decide on a username, and password and enter your email address
 
 ![feedback github](./img/feedback_github.png){.w-50 .border .shadow}  
 
-Once logged in, you can now comment below the pages. If you have an account, You can provide feedback by contributing to hub discussions at the [github repository](https://github.com/lsc-hubs/rwanda-hub/discussions). To get started, you can create a new discussion.
-
-![feedback discussion](./img/feedback_discussion.PNG){.w-50 .border .shadow}  
-
+Once logged in, you can now comment below the pages. If you have an account, You can provide feedback by contributing to hub discussions at the [github repository](https://github.com/lsc-hubs/{{< var country >}}-hub/discussions). To get started, you can create a new discussion. 
 
 ::: {.callout-tip}  
 Login to Github or create a Github account and start a discussion about an aspect of the LSC-hub you are surprised about.
