@@ -183,6 +183,19 @@ The steps of this exercise are written down under the `help` button. By clicking
 5. Change your base map using options in 'Map Settings' to help make some data sets more visible
 6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen
 
+### Download data as files or from web services
+
+Data is made available in various formats by the providers of the data. Common are file downloads in Excel, Shape or GeoTiff format. Some organisations provide data access via web services. Web services enable partial downloads of a dataset, filtered by attribute, temporal or spatial extent. Common web services are:
+
+- **OGC:WMS** visualises spatial data in map viewers
+- **OGC:WFS** downloads subsets of a vector dataset
+- **OGC:WCS** downloads subsets of a grid dataset
+- **Sensorthings API** downloads subsets of observation data
+- **Open API** and **GraphQL** download subsets of non geographical data
+- **SPARQL** downloads subsets of a semantic web knowledge graph
+
+Various software is available to interect with various data formats and data services. In [this article](./ows-in-qgis.md) we explain how you can use [QGIS Desktop](https://www.qgis.org) to interact with web services for spatial data.
+
 ---
 
 ## Hub community
