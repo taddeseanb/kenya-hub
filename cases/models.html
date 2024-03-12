@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -153,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="grid">
 <div class="g-col-md-6 g-col-12 mt-3">
 <p>The LSC Catalogue includes a range of modelling resources, both modelling software as well as guides on how to use the software.</p>
-<p><a href="https://kenya.lsc-hubs.org/cat//collections/metadata:main/items?type=model" class="btn btn-success rounded-pill">Find models in the LSC catalogue</a></p>
+<p><a href="https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?type=model" class="btn btn-success rounded-pill">Find models in the LSC catalogue</a></p>
 </div>
 </div>
 <hr>
-<script src="https://giscus.app/client.js" data-repo="lsc-hubs/kenya-catalogue" data-repo-id="R_kgDOJxw-OQ" data-category="Q&amp;A" data-category-id="DIC_kwDOJxw-Oc4CXVp8" data-mapping="title" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="noborder_light" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""></script>
+<script src="https://giscus.app/client.js" data-repo="lsc-hubs/kenya-catalogue" data-repo-id="R_kgDOJxw-OQ" data-category="{{< giscus-cat  >}}" data-category-id="{{< giscus-cat-id  >}}" data-mapping="title" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="noborder_light" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""></script>
 
 
 
@@ -241,6 +241,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/lsc-hubs\.github\.io\/kenya-hub\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -275,7 +293,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
