@@ -94,6 +94,24 @@ The intermediary actor accesses the LSC-Hub’s web-based data system or portal,
 
 </div></div>
 
+---
+
+<script src="https://giscus.app/client.js"
+      data-repo="{{< var giscus-repo >}}"
+      data-repo-id="{{< var giscus-repo-id >}}"
+      data-category="{{< giscus-cat >}}"
+      data-category-id="{{< giscus-cat-id >}}"
+      data-mapping="title"
+      data-strict="0"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="noborder_light"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async></script>
+
 <style>
 #title-block-header { display:none; }
 </style>

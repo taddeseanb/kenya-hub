@@ -37,3 +37,21 @@ The LSC Catalogue includes a range of information services.
 :::
 
 ::::
+
+---
+
+<script src="https://giscus.app/client.js"
+      data-repo="{{< var giscus-repo >}}"
+      data-repo-id="{{< var giscus-repo-id >}}"
+      data-category="{{< giscus-cat >}}"
+      data-category-id="{{< giscus-cat-id >}}"
+      data-mapping="title"
+      data-strict="0"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="noborder_light"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async></script>
