@@ -9,11 +9,15 @@ include-in-header:
 
 ::: {.g-col-12 .g-col-md-8 .mt-3}
 
-# Land, Soil and Crop Hub {{< var country  >}}
+# {{< var country  >}} Land, Soil and Crop Hub 
 
-This hub facilitates effective access to Land Soil and Crop information data, making existing resources better findable, accessible, interoperable and reusable (FAIR).
+The Land, Soil and Crop (LSC) hub facilitates effective access to land soil and crop information data by making existing resources better findable, accessible, interoperable and reusable.
 
-The LSC hub supports improved decision-making for climate-smart agriculture at national, regional and local levels. The focus is on two use cases: soil fertility management and soil water conservation.
+The LSC hub promotes improved decision-making for climate-smart agriculture at national, regional and local levels. It can be utilised, for example, for 
+[soil fertility management]{(https://kenya.lsc-hubs.org/cases/isfm.html) and [soil water conservation](https://kenya.lsc-hubs.org/cases/swc.html)
+
+The LSC hub is being developed as part of the Land, Soil and Crop Information Services (LSC-IS) to support Climate-Smart Agriculture (DeSIRA) project in East Africa. 
+[Read more about the project](https://lsc-hubs.org/).
 
 :::
 
