@@ -10,7 +10,7 @@ sidebar: false
 
 # {{< var country >}} Soil Water Conservation
 
-Soil erosion is a major threat to sustainability and productivity with knock-on effects on the climate crisis and food security. It decreases soil fertility negatively affecting crop yields on fields, while eroded sediments from upstream clog downstream, dams, rivers and canals causing sedimentation and flooding.
+Soil and water conservation (SWC) efforts should be geared towards equal distribution of water during wet and dry seasons and soil erosion control for enhanced maintenance of soil organic matter and soil physical properties.
 
 :::
 
@@ -26,73 +26,74 @@ Soil erosion is a major threat to sustainability and productivity with knock-on 
 
 :::: {.grid}
 
-::: {.g-col-md-6 .g-col-12 .mt-3}
+::: {.g-col-12 .mt-3}
 
-## Problem
+## Soil threats
 
-Soil erosion is a major threat to sustainability and productivity with knock-on effects on the climate crisis and food security. It decreases soil fertility negatively affecting crop yields on fields, while eroded sediments from upstream clog downstream, dams, rivers and canals causing sedimentation and flooding. This is particularly true for hilly areas in Ethiopia, Kenya and Rwanda with high erosion risk. Soil erosion can be prevented and arrested through soil and water conservation (SWC) or sustainable land management (SLM) practices. Current land use and land management practices including crop cultivation as well as grazing do not sufficiently consider local potential, limitations and climate and soil erosion risks.  While general information on improved land management may exist, context-based information on land resources, and climate and information on feasible SLM alternatives is not widely available or applied by land managers. ​
-​
-::: {.special-section}
+source: [FAO](http://www.fao.org/3/i5126e/i5126e.pdf)
 
-## Goal
+### [Soil erosion](./threats/erosion.md)
+Serious water erosion occurs in regions with dry and wet seasons covering
+South Asia to East Asia, particularly in the hilly and mountainous landscapes.
+However, it is of little concern for well-established forests and paddy fields.
+Wind erosion is concentrated mainly in the most western and northern arid
+and semi-arid regions of Afghanistan, Pakistan, India, and China. [Read more](./threats/erosion.md)
 
-Stakeholders informed of status of soil erosion risks and motivated to apply and promote more sustainable land use and land management practices through improved policies, plans and agricultural extension services, including contributions to Land Degradation Neutrality (LDN) monitoring and reporting.​
-​
+## Organic carbon change
+Increase in crop yield retains soil organic carbon (SOC) in croplands of East
+and Southeast Asia. Whereas, SOC is decreasing in South Asia, because crop
+residues are widely used as fuel and fodder, and not returned to the soil.
+The degradation of grassland has caused great losses of SOC stock.
+
+## Salinisation and sodification
+The threat of salinisation/sodification in the Asia region is widespread but
+variable. In semiarid and arid zones of central Asia, salt-affected soils are widely
+distributed. On the other hand, salt- affected soils are developed in certain
+coastal areas in monsoon zones, mainly by salt water intrusion in South and
+Southeast Asia.
+
+## Nutrient imbalance
+Negative soil nutrients balances have been reported for N, P, K and
+micronutrients in many…” South Asian countries. Whereas, large excess of
+nutrients, in particular N, causes serious environmental problems in other
+countries.
+
+## Contamination
+Rapid urbanization, industrialization, and intensive farming causes
+contamination of heavy metals (Cd, Ni, As, Pb, Zn, etc.) and pesticides in
+various parts of Asia, which, in turn, poses a serious risk to human health.
+
+## Soil sealing and land take
+Rapid urbanization and development of mega-cites significantly increased the
+rate of impervious surface area (ISA). Asia region has the largest ISA within the
+global regions.
+
+## Soil acidification
+There is substantial area of acid soils distributed in tropical and subtropical
+regions of Asia, mainly in Southeast Asia, parts of East and South Asia.
+This is mainly caused by unbalanced and unsuitable application of chemical
+fertilizers. Distribution of acid sulphate soils in tropical Asia also limits crop
+production.
+
+## Compaction
+Mechanization of land management has increased compaction of surface soil
+and/or subsoil in cropland, grassland and timber forests. Increase in livestock
+trampling is also a major cause of surface soil compaction in grassland and hilly
+region.
+
+## Waterlogging 
+Anthropogenic activates such as poor drainage system and deforestation in the
+upstream areas increase the threat to waterlogging in the flood prone areas.
+
+## Loss of soil biodiversity
+Limited information is available for soil biodiversity in Asia. Some reports show
+high microbial biodiversity in the soils of organic farming lands.
+
 :::
-
-::: {.g-col-md-6 .g-col-12 .mt-3}
-
-![](../img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg){.w-100}
-
-## Scope
-
-Catchment managers, authorities and farmer organisations can use the system to obtain information on the suitability of various sustainable land uses and land management practices for agricultural production and land restoration. These is based on existing data (soil, terrain, crop, climate), apps (decision support tools, etc.) and GIS based land suitability and soil erosion models, accessible in the LSC-hub.​
-
-## System 
-
-LSC-IS hub, land suitability applications, Soil erosion and AEZ models and data used in national LDN monitoring and plans for County development, catchment management and farm management.​
-
-## Scale: 
-
-- National
-- sub-national, landscape or catchment
-- local level​
-
-:::
-
 ::::
 
----
 
-<div class="grid">
 
-<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Primary actors{.text-light}
-
-National: national and regional agriculture and forestry/natural resource management authorities, planners and project managers, UNCCD focal points.​
-
-Local: catchment management, agricultural extension staff, farmer’s and other community-based organisations and authorities.​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Secondary actors{.text-light}
-
-Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Beneficiary{.text-light}
-
-Farmers and communities.​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Scenario{.text-light}
-
-The intermediary actor accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. The intermediary actor converts this information into land use and land management recommendations and advise to ultimate end users, in particular farmers.​
-
-</div></div>
 
 ---
 
