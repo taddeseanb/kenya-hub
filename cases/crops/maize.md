@@ -1,5 +1,5 @@
 ---
-title: '{{< var country >}} Integrated Soil Fertility Management'
+title: 'Maize'
 date: 2023-07-05
 sidebar: false
 ---
