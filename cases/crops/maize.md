@@ -34,6 +34,30 @@ Maize is the most important cereal crop in Kenya. It is the staple food for most
 
 Relevant resources about maize in the LSC hub
 
+<div id="recent" class="pt-3"></div>
+
+<script>
+const url = "https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?f=json&limit=10&q=maize&keywords=Crop&"; 
+fetch(url).then(response => response.text()).then(data => {
+html = "<div>";
+data =  JSON.parse(data);
+
+data.features.forEach(r => {
+  try {
+  p = r.properties;
+  html +=           "<div class='card bg-opacity-10 bg-success h-100'>"+
+                    "<div class='card-header rounded-top bg-success'><a href='https://kenya.lsc-hubs.org/cat/collections/metadata:main/items/" +
+                    encodeURIComponent(r.id) + "'>" +
+                    (p.title ? p.title.substring(0, 60) : r.id) + "</a> "+(p.updated?'<br/>'+p.updated.split('T')[0]:'none')+"</div>"+
+                    "<div class='card-body rounded-bottom'>"+
+                    (p.description ? p.description.substring(0, 120) : "") + "</div></div>";
+  } catch (e) {console.log(e)}
+})
+document.getElementById('recent').innerHTML = html;
+})
+</script>
+
+
 :::
 
 ::: {.g-col-md-4 .g-col-12 .mt-3}
