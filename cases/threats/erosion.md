@@ -43,6 +43,7 @@ Relevant resources about erosion in the LSC hub
 ::: {.g-col-md-4 .g-col-12 .mt-3}
 ## Other resources
 
+- [Management approaches](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=erosion&filter__qg_location__country=country_KEN) (Wocat)
 
 :::
 
