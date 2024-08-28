@@ -697,63 +697,28 @@
     "href": "cases/isfm.html",
     "title": "Kenya Integrated Soil Fertility Management",
     "section": "",
-    "text": "Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks."
+    "text": "Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. The LSC-hub aims to incease availability of up-to-date and localised information related to Soil Fertility.\nThis page presents a number of scenario’s in which accurate data plays a role."
   },
   {
-    "objectID": "cases/isfm.html#problem",
-    "href": "cases/isfm.html#problem",
+    "objectID": "cases/isfm.html#crops",
+    "href": "cases/isfm.html#crops",
     "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Problem",
-    "text": "Problem\nCurrent fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. Integrated Soil Fertility Management (ISFM) has the potential to improve effectivity and efficiency of agronomic practices including both fertilizer recommendations and organic matter management and thereby boost crop production and farm income. Also, ISFM has the potential to deliver multiple co-benefits including climate adaptation (through improved water holding capacity and soil cover) as well as climate mitigation (through carbon sequestration).​"
+    "section": "Crops",
+    "text": "Crops\nThe scenario’s are organised by crop."
   },
   {
-    "objectID": "cases/isfm.html#goal",
-    "href": "cases/isfm.html#goal",
+    "objectID": "cases/isfm.html#maize",
+    "href": "cases/isfm.html#maize",
     "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Goal",
-    "text": "Goal\nImproved agronomic management advisories including crop type and soil fertility management to farmers via agricultural extension staff or directly.​"
+    "section": "Maize",
+    "text": "Maize\nMaize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management\n\nRead more about the maize value chain\nRelevant resources in the LSC hub for maize fertility\nSpatial view on aspects related to fertility for maize\nMaize approaches and techniques in Kenya from Wocat"
   },
   {
-    "objectID": "cases/isfm.html#scope",
-    "href": "cases/isfm.html#scope",
+    "objectID": "cases/isfm.html#sorghum",
+    "href": "cases/isfm.html#sorghum",
     "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Scope",
-    "text": "Scope\nLand users and their intermediaries can use the system to obtain information on the soil fertility and alternatives to improve soil fertility. It is based on existing data (soil, terrain, crop, climate), apps (decision support tools, etc.) and models (WOFOST, DSSAT etc) accessible in the LSC-hub. These will include risk assessment of weather and other external factors.​"
-  },
-  {
-    "objectID": "cases/isfm.html#scale",
-    "href": "cases/isfm.html#scale",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Scale",
-    "text": "Scale\n\nField/farm\nSub-national (county/district/woreda)\nNational levels​"
-  },
-  {
-    "objectID": "cases/isfm.html#primary-actors",
-    "href": "cases/isfm.html#primary-actors",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Primary actors",
-    "text": "Primary actors\nnational: Extension staff, agricultural planner, agro-input provider\ndistrict: District extension officer, District Agric & Livestock officers and planners\nlocal: Local extension officer, local agro-input provider, lead farmer​"
-  },
-  {
-    "objectID": "cases/isfm.html#secondary-actors",
-    "href": "cases/isfm.html#secondary-actors",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Secondary actors",
-    "text": "Secondary actors\nHub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​"
-  },
-  {
-    "objectID": "cases/isfm.html#beneficiary",
-    "href": "cases/isfm.html#beneficiary",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Beneficiary",
-    "text": "Beneficiary\nFarmers.​"
-  },
-  {
-    "objectID": "cases/isfm.html#scenario",
-    "href": "cases/isfm.html#scenario",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Scenario",
-    "text": "Scenario\nThe intermediary user accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. The intermediary actor – extension agent / lead farmer / agricultural input provider - converts this information into an agronomic and fertilizer recommendation and provides advise to end users, in particular farmers.​"
+    "section": "Sorghum",
+    "text": "Sorghum\nSorghum is the firth most important cereal grown in the world. It is an indigenous crop to Kenya and is a basic staple food crop for many rural communities in the country, especially in more drought-prone areas. It is important for food, animal fodder, bio-fuel and production of alcohol and beverages. The crop is adapted to a wide range of environments, able to perform better than most crops under extreme climatic conditions, from excessive dry spells to excessively moist conditions, and under varied temperatures and soil types\n\nRead more about the sorghum value chain\nRelevant resources in the LSC hub for sorghum fertility\nSpatial view on aspects related to fertility for sorghum\nMaize approaches and techniques in Kenya from Wocat"
   },
   {
     "objectID": "cases/models.html",
