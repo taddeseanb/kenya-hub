@@ -12,6 +12,9 @@ sidebar: false
 
 Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. 
 Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks.
+The LSC-hub aims to incease availability of up-to-date and localised information related to Soil Fertility. 
+
+This page presents a number of scenario's in which accurate data plays a role.
 
 :::
 
@@ -26,75 +29,38 @@ Too general information may lead to declining soil fertility and soil health, lo
 ---
 
 :::: {.grid}
-
+::: {.g-col-md-6 .g-col-12 .mt-3}
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
-## Problem
+## Crops
 
-Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. 
-Integrated Soil Fertility Management (ISFM) has the potential to improve effectivity and efficiency of agronomic practices including both fertilizer recommendations and organic matter management and thereby boost crop production and farm income. 
-Also, ISFM has the potential to deliver multiple co-benefits including climate adaptation (through improved water holding capacity and soil cover) as well as climate mitigation (through carbon sequestration).​
-
-## Goal
-
-Improved agronomic management advisories including crop type and soil fertility management to farmers via agricultural extension staff or directly.​
-
+The scenario's are organised by crop.
 :::
-
 ::: {.g-col-md-6 .g-col-12 .mt-3}
 
-![](../img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg){.w-100}
+## Maize
 
-## Scope
+Maize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management
 
-Land users and their intermediaries can use the system to obtain information on the soil fertility and alternatives to improve soil fertility. 
-It is based on existing data (soil, terrain, crop, climate), apps (decision support tools, etc.) and models (WOFOST, DSSAT etc) accessible in the LSC-hub. 
-These will include risk assessment of weather and other external factors.​
-
-## Scale 
-
-- Field/farm
-- Sub-national (county/district/woreda)
-- National levels​
+- [Read more about the maize value chain](https://keep.kalro.org/good-agricultural-practices/Maize)
+- [Relevant resources in the LSC hub for maize fertility](https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?q=maize&keywords=Crop&)
+- [Spatial view on aspects related to fertility for maize](#)
+- [Maize approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=maize&filter__qg_location__country=country_KEN)
 
 :::
+::: {.g-col-md-6 .g-col-12 .mt-3}
 
+## Sorghum
+
+Sorghum is the firth most important cereal grown in the world. It is an indigenous crop to Kenya and is a basic staple food crop for many rural communities in the country, especially in more drought-prone areas. It is important for food, animal fodder, bio-fuel and production of alcohol and beverages. The crop is adapted to a wide range of environments, able to perform better than most crops under extreme climatic conditions, from excessive dry spells to excessively moist conditions, and under varied temperatures and soil types
+
+- [Read more about the sorghum value chain](https://keep.kalro.org/good-agricultural-practices/Sorghum)
+- [Relevant resources in the LSC hub for sorghum fertility](https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?q=sorghum&keywords=Crop&)
+- [Spatial view on aspects related to fertility for sorghum](#)
+- [Maize approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=sorghum&filter__qg_location__country=country_KEN)
+
+:::
 ::::
-
----
-
-<div class="grid">
-
-<div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Primary actors {.text-light}
-
-national: Extension staff, agricultural planner, agro-input provider 
-
-district: District extension officer, District Agric & Livestock officers and planners
-
-local: Local extension officer, local agro-input provider, lead farmer​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Secondary actors {.text-light}
-
-Hub-hosts and administrator: EIAR, KALRO, RAB; related data providers.​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Beneficiary {.text-light}
-
-Farmers.​
-
-</div><div class="text-light rounded bg-dark g-col-6 g-col-lg-3 px-3">
-
-## Scenario 
-
-The intermediary user accesses the LSC-Hub’s web-based data system or portal, and finds existing information on Land, Soil and crops. 
-The intermediary actor – extension agent / lead farmer / agricultural input provider - converts this information into an agronomic and fertilizer recommendation and provides advise to end users, in particular farmers.​
-
-</div></div>
 
 ---
 
