@@ -43,7 +43,7 @@ Maize is the most important cereal crop in Kenya. It is the staple food for most
 - [Read more about the maize value chain](https://keep.kalro.org/good-agricultural-practices/Maize)
 - [Relevant resources in the LSC hub for maize fertility](https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?q=maize&keywords=Crop&)
 - [Spatial view on aspects related to fertility for maize](#)
-- [Maize approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=maize&filter__qg_location__country=country_KEN)
+- [Maize management approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=maize&filter__qg_location__country=country_KEN)
 :::
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
@@ -54,7 +54,7 @@ Sorghum is the firth most important cereal grown in the world. It is an indigeno
 - [Read more about the sorghum value chain](https://keep.kalro.org/good-agricultural-practices/Sorghum)
 - [Relevant resources in the LSC hub for sorghum fertility](https://kenya.lsc-hubs.org/cat/collections/metadata:main/items?q=sorghum&keywords=Crop&)
 - [Spatial view on aspects related to fertility for sorghum](#)
-- [Maize approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=sorghum&filter__qg_location__country=country_KEN)
+- [Sorghum management approaches and techniques in Kenya from Wocat](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=sorghum&filter__qg_location__country=country_KEN)
 :::
 ::::
 
