@@ -686,6 +686,104 @@
     "text": "Catalogue\nThe catalogue can be linked to various information sources, without the data being stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added. Proving metadata is essential for findability and to avoid ambiguity.\nSource of catalogue records is maintained at github. Records are organised in Global, Continental, and country. Within country they are organised by portal/initiative.\nMetadata records are stored in the mcf format, a subset of iso19115 in a conveniant yaml encoding. But you can also add them as iso19115 xml format.\nA number of mechanisms is available to load records into the catalogue.\n\nImport records from external sources, such as data portals (zenodo, dataverse, CSW, STAC, OSF)\nMcf records can be created using mdme\nA Excel template is available, on which resources can be described. A single resource per record.\nAn ODK form is available on which users can describe resources\n\n\n\n\nODK"
   },
   {
+    "objectID": "cases/threats/erosion.html",
+    "href": "cases/threats/erosion.html",
+    "title": "Soil erosion",
+    "section": "",
+    "text": "Soil erosion is a major threat to sustainability and productivity with knock-on effects on the climate crisis and food security. It decreases soil fertility negatively affecting crop yields on fields, while eroded sediments from upstream clog downstream, dams, rivers and canals causing sedimentation and flooding. This is particularly true for hilly areas in Ethiopia, Kenya and Rwanda with high erosion risk. Soil erosion can be prevented and arrested through soil and water conservation (SWC) or sustainable land management (SLM) practices. Current land use and land management practices including crop cultivation as well as grazing do not sufficiently consider local potential, limitations and climate and soil erosion risks. While general information on improved land management may exist, context-based information on land resources, and climate and information on feasible SLM alternatives is not widely available or applied by land managers. ​"
+  },
+  {
+    "objectID": "cases/threats/erosion.html#lsc-resources",
+    "href": "cases/threats/erosion.html#lsc-resources",
+    "title": "Soil erosion",
+    "section": "LSC resources",
+    "text": "LSC resources\nRelevant resources about erosion in the LSC hub"
+  },
+  {
+    "objectID": "cases/threats/erosion.html#soil-and-landscape-in-your-area",
+    "href": "cases/threats/erosion.html#soil-and-landscape-in-your-area",
+    "title": "Soil erosion",
+    "section": "Soil and landscape in your area",
+    "text": "Soil and landscape in your area"
+  },
+  {
+    "objectID": "cases/threats/erosion.html#other-resources",
+    "href": "cases/threats/erosion.html#other-resources",
+    "title": "Soil erosion",
+    "section": "Other resources",
+    "text": "Other resources\n\nManagement approaches (Wocat)"
+  },
+  {
+    "objectID": "cases/services.html",
+    "href": "cases/services.html",
+    "title": "Information services",
+    "section": "",
+    "text": "Information services provide dedicated information derived from relevant data to a targeted audience.\nProcessing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.\n\n\n\n\n\n\n\n\nThe LSC Catalogue includes a range of information services.\nFind services in the LSC catalogue"
+  },
+  {
+    "objectID": "cases/isfm.html",
+    "href": "cases/isfm.html",
+    "title": "Kenya Integrated Soil Fertility Management",
+    "section": "",
+    "text": "Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. The LSC-hub aims to incease availability of up-to-date and localised information related to Soil Fertility.\nThese pages presents a number of scenario’s in which accurate location data plays an important role."
+  },
+  {
+    "objectID": "cases/isfm.html#crops",
+    "href": "cases/isfm.html#crops",
+    "title": "Kenya Integrated Soil Fertility Management",
+    "section": "Crops",
+    "text": "Crops\nThe scenario’s are organised by crop.\n\nMaize"
+  },
+  {
+    "objectID": "cases/crops/maize.html",
+    "href": "cases/crops/maize.html",
+    "title": "Maize",
+    "section": "",
+    "text": "Maize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management\n\nRead more at keep.kalro.org\n\n\n\n![](../../img/crops/maize.jpg)"
+  },
+  {
+    "objectID": "cases/crops/maize.html#lsc-resources",
+    "href": "cases/crops/maize.html#lsc-resources",
+    "title": "Maize",
+    "section": "LSC resources",
+    "text": "LSC resources\nRelevant resources about maize in the LSC hub"
+  },
+  {
+    "objectID": "cases/crops/maize.html#soil-and-landscape-in-your-area",
+    "href": "cases/crops/maize.html#soil-and-landscape-in-your-area",
+    "title": "Maize",
+    "section": "Soil and landscape in your area",
+    "text": "Soil and landscape in your area"
+  },
+  {
+    "objectID": "cases/crops/maize.html#other-resources",
+    "href": "cases/crops/maize.html#other-resources",
+    "title": "Maize",
+    "section": "Other resources",
+    "text": "Other resources\n\nMaize Crop Calendar (FAO)\nManagement practices (Wocat)\nHigher maize yields, a guide to good agronomic practices in smallholder systems (APNI)\nMaize crop nutrient input requirements for food security in sub-Saharan Africa (Wageningen University)"
+  },
+  {
+    "objectID": "cases/crops/index.html",
+    "href": "cases/crops/index.html",
+    "title": "Crops",
+    "section": "",
+    "text": "Crops\n\nMaize"
+  },
+  {
+    "objectID": "cases/index.html",
+    "href": "cases/index.html",
+    "title": "Cases",
+    "section": "",
+    "text": "Cases\n\nisfm\nswc"
+  },
+  {
+    "objectID": "cases/models.html",
+    "href": "cases/models.html",
+    "title": "Modelling and mapping",
+    "section": "",
+    "text": "Distribution of environmental phenomena in time and space as well as future yields at various scenario’s can be obtained using predictive modelling.\n\n\n\n\n\n\n\n\nThe LSC Catalogue includes a range of modelling resources, both modelling software as well as guides on how to use the software.\nFind models in the LSC catalogue"
+  },
+  {
     "objectID": "cases/swc.html",
     "href": "cases/swc.html",
     "title": "Kenya Soil Water Conservation",
@@ -763,88 +861,11 @@
     "text": "Loss of soil biodiversity\nLimited information is available for soil biodiversity in Asia. Some reports show high microbial biodiversity in the soils of organic farming lands."
   },
   {
-    "objectID": "cases/models.html",
-    "href": "cases/models.html",
-    "title": "Modelling and mapping",
+    "objectID": "cases/threats/index.html",
+    "href": "cases/threats/index.html",
+    "title": "Threats",
     "section": "",
-    "text": "Distribution of environmental phenomena in time and space as well as future yields at various scenario’s can be obtained using predictive modelling.\n\n\n\n\n\n\n\n\nThe LSC Catalogue includes a range of modelling resources, both modelling software as well as guides on how to use the software.\nFind models in the LSC catalogue"
-  },
-  {
-    "objectID": "cases/crops/maize.html",
-    "href": "cases/crops/maize.html",
-    "title": "Maize",
-    "section": "",
-    "text": "Maize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management\n\nRead more at keep.kalro.org\n\n\n\n![](../../img/crops/maize.jpg)"
-  },
-  {
-    "objectID": "cases/crops/maize.html#lsc-resources",
-    "href": "cases/crops/maize.html#lsc-resources",
-    "title": "Maize",
-    "section": "LSC resources",
-    "text": "LSC resources\nRelevant resources about maize in the LSC hub"
-  },
-  {
-    "objectID": "cases/crops/maize.html#soil-and-landscape-in-your-area",
-    "href": "cases/crops/maize.html#soil-and-landscape-in-your-area",
-    "title": "Maize",
-    "section": "Soil and landscape in your area",
-    "text": "Soil and landscape in your area"
-  },
-  {
-    "objectID": "cases/crops/maize.html#other-resources",
-    "href": "cases/crops/maize.html#other-resources",
-    "title": "Maize",
-    "section": "Other resources",
-    "text": "Other resources\n\nMaize Crop Calendar (FAO)\nManagement practices (Wocat)\nHigher maize yields, a guide to good agronomic practices in smallholder systems (APNI)\nMaize crop nutrient input requirements for food security in sub-Saharan Africa (Wageningen University)"
-  },
-  {
-    "objectID": "cases/isfm.html",
-    "href": "cases/isfm.html",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "",
-    "text": "Current fertilizer and soil fertility recommendations are not linked to local context, conditions and climate risks. Too general information may lead to declining soil fertility and soil health, low and uncertain productivity, fertilizer wastage, loss of organic matter, and environmental risks. The LSC-hub aims to incease availability of up-to-date and localised information related to Soil Fertility.\nThese pages presents a number of scenario’s in which accurate location data plays an important role."
-  },
-  {
-    "objectID": "cases/isfm.html#crops",
-    "href": "cases/isfm.html#crops",
-    "title": "Kenya Integrated Soil Fertility Management",
-    "section": "Crops",
-    "text": "Crops\nThe scenario’s are organised by crop.\n\nMaize"
-  },
-  {
-    "objectID": "cases/services.html",
-    "href": "cases/services.html",
-    "title": "Information services",
-    "section": "",
-    "text": "Information services provide dedicated information derived from relevant data to a targeted audience.\nProcessing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.\n\n\n\n\n\n\n\n\nThe LSC Catalogue includes a range of information services.\nFind services in the LSC catalogue"
-  },
-  {
-    "objectID": "cases/threats/erosion.html",
-    "href": "cases/threats/erosion.html",
-    "title": "Soil erosion",
-    "section": "",
-    "text": "Soil erosion is a major threat to sustainability and productivity with knock-on effects on the climate crisis and food security. It decreases soil fertility negatively affecting crop yields on fields, while eroded sediments from upstream clog downstream, dams, rivers and canals causing sedimentation and flooding. This is particularly true for hilly areas in Ethiopia, Kenya and Rwanda with high erosion risk. Soil erosion can be prevented and arrested through soil and water conservation (SWC) or sustainable land management (SLM) practices. Current land use and land management practices including crop cultivation as well as grazing do not sufficiently consider local potential, limitations and climate and soil erosion risks. While general information on improved land management may exist, context-based information on land resources, and climate and information on feasible SLM alternatives is not widely available or applied by land managers. ​"
-  },
-  {
-    "objectID": "cases/threats/erosion.html#lsc-resources",
-    "href": "cases/threats/erosion.html#lsc-resources",
-    "title": "Soil erosion",
-    "section": "LSC resources",
-    "text": "LSC resources\nRelevant resources about erosion in the LSC hub"
-  },
-  {
-    "objectID": "cases/threats/erosion.html#soil-and-landscape-in-your-area",
-    "href": "cases/threats/erosion.html#soil-and-landscape-in-your-area",
-    "title": "Soil erosion",
-    "section": "Soil and landscape in your area",
-    "text": "Soil and landscape in your area"
-  },
-  {
-    "objectID": "cases/threats/erosion.html#other-resources",
-    "href": "cases/threats/erosion.html#other-resources",
-    "title": "Soil erosion",
-    "section": "Other resources",
-    "text": "Other resources\n\nManagement approaches (Wocat)"
+    "text": "Threats\n\nerosion"
   },
   {
     "objectID": "docs/developer/index.html",
