@@ -1,3 +1,3 @@
 # Crops
 
-- [Maize](./maize.md)
+- [Maize](./maize.qmd)

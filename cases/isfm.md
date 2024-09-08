@@ -34,7 +34,7 @@ These pages presents a number of scenario's in which accurate location data play
 
 The scenario's are organised by crop.
 
-- [Maize](./crops/maize.md)
+- [Maize](./crops/maize.qmd)
 :::
 
 ::::
