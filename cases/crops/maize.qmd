@@ -2,9 +2,6 @@
 title: 'Maize'
 date: 2023-07-05
 sidebar: false
-execute:
-  echo: false
-jupyter: python3
 ---
 
 :::: {.grid}
