@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -186,8 +186,104 @@ document.getElementById('list-res').innerHTML = html;
 })
 </script>
 </section>
-<section id="soil-and-landscape-in-your-area" class="level2 g-col-md-4 g-col-12 mt-3">
-<h2 class="anchored" data-anchor-id="soil-and-landscape-in-your-area">Soil and landscape in your area</h2>
+<section id="textural-class" class="level2 g-col-md-4 g-col-12 mt-3">
+<h2 class="anchored" data-anchor-id="textural-class">Textural class</h2>
+<p>Textural class (USDA) of the soil fine earth fraction, aggregated over the Effective Root Zone Depth for Maize, mapped at 1km resolution</p>
+<script>
+var mymap = {"center":[.5,35],"zoom":5,layers: [
+  {"name":"gyga_af_agg_erzd_texclss__m_1km","type":"wms","url":"https://maps.isric.org/mapserv?map=%2Fmap%2Fgyga.map"}
+]}
+</script>
+<div id="map" class="mb-3">
+
+</div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+    #map { height: 240px; width:100% }
+    .leaflet-attribution-flag {display:none !important}
+</style>
+<script>
+L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
+    onAdd: function (map) {
+      L.TileLayer.WMS.prototype.onAdd.call(this, map);
+      map.on('click', this.getFeatureInfo, this);
+    },
+    onRemove: function (map) {
+      L.TileLayer.WMS.prototype.onRemove.call(this, map);
+      map.off('click', this.getFeatureInfo, this);
+    },
+    getFeatureInfo: function (evt) {
+      // Make an AJAX request to the server and hope for the best
+      var url = this.getFeatureInfoUrl(evt.latlng),
+          showResults = L.Util.bind(this.showGetFeatureInfo, this);
+      $.ajax({
+        url: url,
+        success: function (data, status, xhr) {
+          var err = typeof data === 'string' ? null : data;
+          showResults(err, evt.latlng, data);
+        },
+        error: function (xhr, status, error) {
+          showResults(error);  
+        }
+      });
+    },
+    getFeatureInfoUrl: function (latlng) {
+      // Construct a GetFeatureInfo request URL given a point
+      var point = this._map.latLngToContainerPoint(latlng, this._map.getZoom()),
+          size = this._map.getSize(),
+          
+          params = {
+            request: 'GetFeatureInfo',
+            service: 'WMS',
+            srs: 'EPSG:4326',
+            styles: this.wmsParams.styles,
+            transparent: this.wmsParams.transparent,
+            version: this.wmsParams.version,      
+            format: this.wmsParams.format,
+            bbox: this._map.getBounds().toBBoxString(),
+            height: size.y,
+            width: size.x,
+            layers: this.wmsParams.layers,
+            query_layers: this.wmsParams.layers,
+            info_format: 'text/html'
+          };
+      params[params.version === '1.3.0' ? 'i' : 'x'] = point.x;
+      params[params.version === '1.3.0' ? 'j' : 'y'] = point.y;
+      var url = this._url + L.Util.getParamString(params, this._url, true);
+    return url;
+    },
+    showGetFeatureInfo: function (err, latlng, content) {
+      if (err) { console.log(err); return; } // do nothing if there's an error
+      
+      // Otherwise show the content in a popup, or something.
+      L.popup({ maxWidth: 800})
+        .setLatLng(latlng)
+        .setContent(content)
+        .openOn(this._map);
+    }
+  });
+  
+  L.tileLayer.betterWms = function (url, options) {
+    return new L.TileLayer.BetterWMS(url, options);  
+  };
+
+var map = L.map('map').setView(mymap.center, mymap.zoom);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+
+mymap.layers.forEach(l => {
+    L.tileLayer.betterWms(l.url, {
+        layers: l.name,
+        transparent: true,
+        format: 'image/png'
+      }).addTo(map)}
+);
+
+</script>
+<ul>
+<li><a href="https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/10aa9a99-1433-11e9-a8fa-a0481ca9e724">Dataset</a></li>
+<li><a href="https://kenya.lsc-hubs.org/map/#start=%7B%22version%22%3A%228.0.0%22%2C%22initSources%22%3A%5B%7B%22stratum%22%3A%22user%22%2C%22models%22%3A%7B%22__User-Added_Data__%22%3A%7B%22isOpen%22%3Atrue%2C%22members%22%3A%5B%22%2Fhttps%3A%2F%2Fwww.yieldgap.org%2Fgeoserver%2Fgyga%2Fwms%3F%26%22%5D%2C%22knownContainerUniqueIds%22%3A%5B%22%2F%22%5D%2C%22type%22%3A%22group%22%7D%2C%22Catalogue-kenya%22%3A%7B%22isOpen%22%3Atrue%2C%22knownContainerUniqueIds%22%3A%5B%22%2F%22%5D%2C%22type%22%3A%22csw-group%22%7D%2C%22%2Fhttps%3A%2F%2Fwww.yieldgap.org%2Fgeoserver%2Fgyga%2Fwms%3F%26%22%3A%7B%22isOpen%22%3Atrue%2C%22url%22%3A%22https%3A%2F%2Fwww.yieldgap.org%2Fgeoserver%2Fgyga%2Fwms%3F%26%22%2C%22knownContainerUniqueIds%22%3A%5B%22__User-Added_Data__%22%5D%2C%22type%22%3A%22wms-group%22%7D%2C%22%2Fhttps%3A%2F%2Fwww.yieldgap.org%2Fgeoserver%2Fgyga%2Fwms%3F%26%2FRainfedMaizeYieldsByClimateZone%22%3A%7B%22isOpenInWorkbench%22%3Atrue%2C%22knownContainerUniqueIds%22%3A%5B%22%2Fhttps%3A%2F%2Fwww.yieldgap.org%2Fgeoserver%2Fgyga%2Fwms%3F%26%22%5D%2C%22type%22%3A%22wms%22%7D%2C%22Catalogue-kenya%2F10aa9a99-1433-11e9-a8fa-a0481ca9e724%22%3A%7B%22opacity%22%3A0.67%2C%22knownContainerUniqueIds%22%3A%5B%22Catalogue-kenya%22%5D%2C%22type%22%3A%22wms%22%7D%2C%22%2F%22%3A%7B%22type%22%3A%22group%22%7D%7D%2C%22workbench%22%3A%5B%22Catalogue-kenya%2F10aa9a99-1433-11e9-a8fa-a0481ca9e724%22%5D%2C%22timeline%22%3A%5B%22Catalogue-kenya%2F10aa9a99-1433-11e9-a8fa-a0481ca9e724%22%5D%2C%22initialCamera%22%3A%7B%22west%22%3A37.034225463867195%2C%22south%22%3A-1.6271459854855517%2C%22east%22%3A37.84858703613282%2C%22north%22%3A-1.1205489227340237%7D%2C%22homeCamera%22%3A%7B%22west%22%3A-20%2C%22south%22%3A-35%2C%22east%22%3A51%2C%22north%22%3A37%7D%2C%22viewerMode%22%3A%222d%22%2C%22showSplitter%22%3Afalse%2C%22splitPosition%22%3A0.4999%2C%22settings%22%3A%7B%22baseMaximumScreenSpaceError%22%3A2%2C%22useNativeResolution%22%3Afalse%2C%22alwaysShowTimeline%22%3Afalse%2C%22baseMapId%22%3A%22basemap-positron%22%2C%22terrainSplitDirection%22%3A0%2C%22depthTestAgainstTerrainEnabled%22%3Afalse%7D%2C%22stories%22%3A%5B%5D%7D%5D%7D">View map</a></li>
+</ul>
 </section>
 <section id="other-resources" class="level2 g-col-md-4 g-col-12 mt-3">
 <h2 class="anchored" data-anchor-id="other-resources">Other resources</h2>

@@ -35,3 +35,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     getRecords('#popular-services .grid','service','bg-dark text-light');
     getRecords('#popular-models .grid','model','bg-white border border-secondary shadow');
   });
+
+
+  
