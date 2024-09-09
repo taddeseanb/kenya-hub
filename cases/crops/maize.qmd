@@ -67,22 +67,14 @@ document.getElementById('list-res').innerHTML = html;
 
 ## Soil and landscape in your area
 
-```{python}
-from ipyleaflet import Map, WMSLayer, basemaps
 
-wms = WMSLayer(
-    url='https://kenya.lsc-hubs.org/ows/clay',
-    layers='clay_mean_0-20cm',
-    format='image/png',
-    transparent=True
-)
 
-m = Map(basemap=basemaps.CartoDB.Positron, center=(0, 38), zoom=6)
-
-m.add(wms)
-
-m
-```
+<script>
+var mymap = { "center":[0,30],"zoom":6,layers: [
+  {"name":"","type":"wms","url":""}
+]}
+</script>
+{{< include ../../includes/_map.qmd >}}
 
 [View full map](https://kenya.lsc-hubs.org/map/)
 
