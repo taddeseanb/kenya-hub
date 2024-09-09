@@ -65,18 +65,21 @@ document.getElementById('list-res').innerHTML = html;
 
 ::: {.g-col-md-4 .g-col-12 .mt-3}
 
-## Soil and landscape in your area
+## Yieldgap Rainfed Maize Yields By ClimateZone
 
+Yield gap analysis results at climate zone level for rainfed maize, as determined by the Global Yield Gap Atlas project.
 
-
+```{=html}
 <script>
-var mymap = { "center":[0,30],"zoom":6,layers: [
-  {"name":"","type":"wms","url":""}
+var mymap = {"center":[.5,35],"zoom":5,layers: [
+  {"name":"RainfedMaizeYieldsByClimateZone","type":"wms","url":"https://www.yieldgap.org/geoserver/gyga/wms"}
 ]}
 </script>
+```
 {{< include ../../includes/_map.qmd >}}
 
-[View full map](https://kenya.lsc-hubs.org/map/)
+- [Dataset](https://kenya.lsc-hubs.org/cat/collections/metadata:main/items/yieldgap-RainfedMaizeYieldsByClimateZone)
+- [View full map](https://shorturl.at/NLSlI)
 
 :::
 
