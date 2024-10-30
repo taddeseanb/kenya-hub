@@ -1,17 +1,17 @@
 project:
   type: website
-  render: 
+  render:
     - "*.md"
     - "*.qmd"
 
 website:
   repo-url: "https://github.com/lsc-hubs/kenya-hub"
-  repo-actions: 
+  repo-actions:
     - edit
     - issue
   page-footer:
-    background: dark 
-    left: 
+    background: dark
+    left:
     - text: <br/>LSC Hubs 2023
       file: https://www.lsc-hubs.org
   title: "Land Soil Crop Hub {{< var country >}}"
@@ -20,13 +20,13 @@ website:
     search: true
     left:
       - text: Data
-        file: "/#data" 
+        file: "/#data"
       - text: Maps
-        file: "/#maps" 
+        file: "/#maps"
       - text: Use cases
         file: "/#use-cases"
       - text: Community
-        file: "/#hub-community" 
+        file: "/#hub-community"
       - text: "Docs"
         file: "/#documentation"
   sidebar:
@@ -34,13 +34,13 @@ website:
       style: "docked"
       background: light
       collapse-level: 2
-      contents: 
+      contents:
         - text: User
           file: docs/user
         - text: Administrator
           file: docs/admin
         - section: Developer
-          contents: 
+          contents:
             - section: Hub components
               contents: docs/developer/*
             - section: Workshop Data
@@ -50,20 +50,6 @@ format:
   html:
     page-layout: full
     theme:
-      - cosmo
-      - custom.scss
+      - ./assets/css/custom.scss
     code-copy: true
     code-overflow: wrap
-    grid:
-      sidebar-width: 250px
-      body-width: 1100px
-      margin-width: 300px
-
-      
-  
-
-
-
-
-
-
