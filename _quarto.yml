@@ -15,11 +15,13 @@ website:
     - text: <br/>LSC Hubs 2023
       file: https://www.lsc-hubs.org
   title: "Land Soil Crop Hub {{< var country >}}"
+  search: false
   navbar:
-    background: white
-    search: true
-    left:
-      - text: Data
+    pinned: true
+    logo: ./assets/images/logo.svg
+    logo-alt: "Logo of Land Soil Crop Hub {{< var country >}}"
+    right:
+      - text: Data and Information
         file: "/#data"
       - text: Maps
         file: "/#maps"
@@ -27,7 +29,7 @@ website:
         file: "/#use-cases"
       - text: Community
         file: "/#hub-community"
-      - text: "Docs"
+      - text: Docs
         file: "/#documentation"
   sidebar:
     - title: "Docs"

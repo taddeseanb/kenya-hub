@@ -54,13 +54,18 @@ $lead-font-weight: 600;
 
 // Colors
 $primary: #10ac59;
-$navbar-fg:	           #000;
-$navbar-hl:             #000;
 $orange: #D26949;
 $warning: #D26949;
 $green: #6DBE93;
 $link-color: #2C393F;
 $dark: #2C393F;
+$white: #fff;
+
+$lsc-gray-light: #e9edf5;
+$lsc-gray-medium: #687182;
+$lsc-gray-medium-rgb: 104,113,130;
+$lsc-gray-dark: #464f60;
+$lsc-gray--border: #3c3c3b;
 
 // Layout
 
@@ -82,7 +87,19 @@ $container-max-widths: (
 
 $content-padding-top: 0; // Quarto
 
+// Navbar
+$navbar-bg: $white; // Quarto
+$navbar-fl: rgba($lsc-gray--border, 0.6); // Quarto
+$navbar-padding-y: 1.25rem;
+
 /*-- scss:rules --*/
+:root {
+  --lsc-gray-light: $lsc-gray-light;
+  --lsc-gray-medium: $lsc-gray-medium;
+  --lsc-gray-medium-rgb: $lsc-gray-medium-rgb;
+  --lsc-gray-dark: $lsc-gray-dark;
+  --lsc-gray--border: $lsc-gray--border;
+}
 
 //
 // Typography
@@ -137,10 +154,6 @@ hr {
     border-color: #285e8e !important; /*set the color you want here*/
 }
 
-.headroom {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
-}
-
 .footer, .footer a {
     color: white;
     background: #2C393F;
@@ -156,15 +169,6 @@ hr {
     radial-gradient(335.41px at 50% calc(100% - 450.00px),#000 99%,#0000 101%) 50% 100%/600px 51% repeat-x,
     radial-gradient(335.41px at 50% calc(100% + 300.00px),#0000 99%,#000 101%) calc(50% - 300px) calc(100% - 150px)/600px calc(51% - 150px) repeat-x;
   }
-
-.navbar-brand-container {
-    background-image: url("https://lsc-hubs.org/images/logo-lsc-hubs.svg");
-    background-size: cover;
-    width: 210px;
-    height: 60px;
-}
-
-.navbar-title { visibility:hidden }
 
 code {
     border: 1px solid gray;
@@ -190,3 +194,5 @@ code {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 12px 20px !important;
 }
+
+@import 'header';
