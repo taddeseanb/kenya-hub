@@ -1,0 +1,31 @@
+//
+// Frontpage
+//
+
+//
+// Typography
+//
+.frontpage h2 {
+  font-size: 2.225rem;
+}
+
+.frontpage h3 {
+  font-size: 1.78rem;
+}
+
+.frontpage h4 {
+  font-size: 1.333rem;
+}
+
+.frontpage p {
+  margin-bottom: 0;
+  max-width: none;
+}
+
+// tried to hide this via Quarto with "title-block-style: none" in frontmatter,
+// but this does not work. Hopefully this works when this issue is resolved:
+// https://github.com/quarto-dev/quarto-cli/issues/9212
+// and this workaround can be removed.
+.frontpage #title-block-header {
+  display: none;
+}

@@ -92,6 +92,10 @@ $navbar-bg: $white; // Quarto
 $navbar-fl: rgba($lsc-gray--border, 0.6); // Quarto
 $navbar-padding-y: 1.25rem;
 
+// LSC variables
+$page-breadcrumbs-height: 21px;
+$page-margin-x: 85px;
+
 /*-- scss:rules --*/
 :root {
   --lsc-gray-light: $lsc-gray-light;
@@ -136,6 +140,31 @@ p {
   max-width: 80ch;
 }
 
+
+//
+// Layout
+//
+main {
+  margin: 0;
+}
+
+body:not(.frontpage) main {
+  margin-bottom: 85px;
+  margin-top: 0;
+}
+
+#title-block-header {
+  margin-bottom: 2rem;
+  margin-top: $page-margin-x;
+
+  &:has(.quarto-page-breadcrumbs) {
+    margin-top: 0;
+  }
+}
+
+.quarto-page-breadcrumbs {
+  margin: #{($page-margin-x - $page-breadcrumbs-height) / 2} 0;
+}
 
 hr {
     border: 0px !important;
@@ -196,3 +225,4 @@ code {
 }
 
 @import 'header';
+@import 'frontpage';

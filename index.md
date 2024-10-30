@@ -1,8 +1,9 @@
 ---
 title: "Land Soil Crop Hub"
 sidebar: false
+body-classes: frontpage
 include-in-header:
-  text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script><style>#title-block-header { display:none; }</style>
+  text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script>
 ---
 
 :::: {.grid}
