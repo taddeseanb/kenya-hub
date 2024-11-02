@@ -39,6 +39,7 @@
 // Uses SCSS variables from:
 // - Bootstrap, see https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
 // - Quarto; these are annotated with Quarto inline comment, see https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+// - Project variables; these are prefixed with 'lsc'.
 
 // Typography
 $font-size-base: 1rem !default;
@@ -68,6 +69,8 @@ $lsc-gray-dark: #464f60;
 $lsc-gray--border: #3c3c3b;
 
 // Layout
+$lsc-page-breadcrumbs-height: 21px;
+$lsc-page-margin-y: 85px;
 
 // Remove XXL breakpoint, so the page does not become too wide for the design
 $grid-breakpoints: (
@@ -91,10 +94,6 @@ $content-padding-top: 0; // Quarto
 $navbar-bg: $white; // Quarto
 $navbar-fl: rgba($lsc-gray--border, 0.6); // Quarto
 $navbar-padding-y: 1.25rem;
-
-// LSC variables
-$page-breadcrumbs-height: 21px;
-$page-margin-x: 85px;
 
 /*-- scss:rules --*/
 :root {
@@ -155,7 +154,7 @@ body:not(.frontpage) main {
 
 #title-block-header {
   margin-bottom: 2rem;
-  margin-top: $page-margin-x;
+  margin-top: $lsc-page-margin-y;
 
   &:has(.quarto-page-breadcrumbs) {
     margin-top: 0;
@@ -163,7 +162,7 @@ body:not(.frontpage) main {
 }
 
 .quarto-page-breadcrumbs {
-  margin: #{($page-margin-x - $page-breadcrumbs-height) / 2} 0;
+  margin: #{($lsc-page-margin-y - $lsc-page-breadcrumbs-height) / 2} 0;
 }
 
 hr {
