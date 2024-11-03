@@ -54,19 +54,27 @@ $lead-font-size: $font-size-base;
 $lead-font-weight: 600;
 
 // Colors
-$primary: #10ac59;
-$orange: #D26949;
-$warning: #D26949;
-$green: #6DBE93;
-$link-color: #2C393F;
-$dark: #2C393F;
-$white: #fff;
-
+$lsc-dark: #2c393f;
 $lsc-gray-light: #e9edf5;
 $lsc-gray-medium: #687182;
 $lsc-gray-medium-rgb: 104,113,130;
 $lsc-gray-dark: #464f60;
 $lsc-gray--border: #3c3c3b;
+$lsc-green: #10ac59;
+$lsc-green-hover: #6dbe93;
+$lsc-red: #d26949;
+$lsc-red-hover: #c9502b;
+$lsc-white: #fff;
+
+$primary: $lsc-green;
+$warning: $lsc-red;
+$green: $lsc-green-hover;
+$dark: $lsc-dark;
+$white: $lsc-white;
+
+// Links
+$link-hover-color: $lsc-green-hover;
+$link-hover-decoration: none;
 
 // Layout
 $lsc-page-breadcrumbs-height: 21px;
@@ -102,6 +110,8 @@ $navbar-padding-y: 1.25rem;
   --lsc-gray-medium-rgb: $lsc-gray-medium-rgb;
   --lsc-gray-dark: $lsc-gray-dark;
   --lsc-gray--border: $lsc-gray--border;
+  --lsc-red: $lsc-red;
+  --lsc-red-hover: $lsc-red-hover;
 }
 
 //
