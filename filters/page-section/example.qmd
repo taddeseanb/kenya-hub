@@ -1,0 +1,31 @@
+---
+title: "Page-section Example"
+filters:
+  - page-section
+---
+
+::: {.page-section id='dashboard'}
+
+This filter creates a HTML markup for a page section.
+\
+\
+This code
+
+```md
+::: {.page-section .text-primary id='dashboard'}
+The content.
+:::
+```
+
+produces:
+
+```html
+<div class="page-section text-primary page-section-dashboard">
+  <div class="page-section-content container page-section-dashboard__content">
+    The content
+  </div>
+</div>
+```
+
+:::
+

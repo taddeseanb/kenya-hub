@@ -56,3 +56,5 @@ format:
       - ./assets/css/custom.scss
     code-copy: true
     code-overflow: wrap
+    filters:
+      - ./filters/page-section/_extensions/page-section/page-section.lua

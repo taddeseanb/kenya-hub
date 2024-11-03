@@ -2,13 +2,15 @@
 title: "Land Soil Crop Hub"
 sidebar: false
 body-classes: frontpage
+page-layout: custom
 include-in-header:
   text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script>
 ---
 
+::: {.page-section}
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-8 .mt-3}
+::::: {.g-col-12 .g-col-md-8 .g-col-}
 
 # {{< var country  >}} Land, Soil and Crop Hub 
 
@@ -20,23 +22,22 @@ The LSC hub promotes improved decision-making for climate-smart agriculture at n
 The LSC hub is being developed as part of the Land, Soil and Crop Information Services (LSC-IS) to support Climate-Smart Agriculture (DeSIRA) project in East Africa. 
 [Read more about the project](https://lsc-hubs.org/).
 
-:::
+:::::
 
-::: {.g-col-12 .g-col-md-4 .mt-3}
-
+::::: {.g-col-12 .g-col-md-4}
 ![](./img/Kenya%20land%20soil%20crop%20data%201.svg)
-
-:::
+:::::
 
 ::::
+:::
 
-::: {.special-section}
+::: {.page-section has_bg_color=true}
 
 ## Data
 
 The LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.
 
-### Datasets {.pb-3}
+### Datasets
 
 Search datasets or browse by category.
 
@@ -48,38 +49,18 @@ Search datasets or browse by category.
 </div>
 </form>
 
-:::: {.columns .pt-2}
-
-::: {.column width="20%"}
+:::: {layout="[1.5,1,1,1,1,1]"}
+**Browse by category**
 
 ![](./img/icon/land.svg) [Land]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land)
 
-:::
-
-::: {.column width="20%"}
-
 ![](./img/icon/soil.svg) [Soil]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil)
-
-:::
-
-::: {.column width="20%"}
 
 ![](./img/icon/crop.svg) [Crop]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop)
 
-:::
-
-::: {.column width="20%"}
-
 ![](./img/icon/climate.svg) [Climate]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate)
 
-:::
-
-::: {.column width="20%"}
-
 ![](./img/icon/water.svg) [Water]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water)
-
-:::
-
 ::::
 
 

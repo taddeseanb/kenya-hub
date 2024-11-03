@@ -5,6 +5,11 @@
 //
 // Typography
 //
+.frontpage #quarto-content section:first-of-type h2:first-of-type,
+.frontpage #quarto-content section:first-of-type .h2:first-of-type {
+	margin-top: 0;
+}
+
 .frontpage h2 {
   font-size: 2.225rem;
 }
