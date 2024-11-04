@@ -5,6 +5,7 @@
 //
 // Typography
 //
+.frontpage h1:first-of-type,
 .frontpage #quarto-content section:first-of-type h2:first-of-type,
 .frontpage #quarto-content section:first-of-type .h2:first-of-type {
 	margin-top: 0;
@@ -23,8 +24,11 @@
 }
 
 .frontpage p {
-  margin-bottom: 0;
   max-width: none;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // tried to hide this via Quarto with "title-block-style: none" in frontmatter,
@@ -33,4 +37,31 @@
 // and this workaround can be removed.
 .frontpage #title-block-header {
   display: none;
+}
+
+//
+// Section Data
+//
+.section-data__form {
+  background-color: $white;
+  border: 1px solid $lsc-gray-medium;
+  border-radius: 1.75rem;
+  margin: 4rem 0;
+
+  @include media-breakpoint-up(lg) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}
+
+.section-data__form__input {
+  border: none;
+  border-radius: 1.75rem 0 0 1.75rem;
+  padding-left: 1.5rem;
+}
+
+.section-data__form__submit {
+  --bs-btn-color: var(--lsc-red-hover);
+  --bs-btn-hover-color: var(--lsc-red-hover);
 }

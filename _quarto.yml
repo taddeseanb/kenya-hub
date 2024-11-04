@@ -58,3 +58,5 @@ format:
     code-overflow: wrap
     filters:
       - ./filters/page-section/_extensions/page-section/page-section.lua
+    shortcodes:
+      - ./shortcodes/icon-link/_extensions/icon-link/icon-link.lua

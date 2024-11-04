@@ -20,3 +20,7 @@ The following filters are available:
 
 - Page section: for use on landing pages in combination with a `page-layout: custom`. Examples: the [page section filter example page](/filters/page-section/example.qmd) or the [home page](/index.md).
 
+### Shortcodes
+The following shortcodes are available:
+
+- `icon-link`: displays an icon in front of a hyperlink. Examples: the [icon-link shortcode example page](/shortcodes/icon-link/example.qmd) or the [home page](/index.md).

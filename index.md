@@ -7,12 +7,12 @@ include-in-header:
   text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script>
 ---
 
-::: {.page-section}
+::: {.page-section section_name='intro'}
 :::: {.grid}
 
-::::: {.g-col-12 .g-col-md-8 .g-col-}
+::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
 
-# {{< var country  >}} Land, Soil and Crop Hub 
+# Land, Soil and Crop Information Hub 
 
 The Land, Soil and Crop (LSC) hub facilitates effective access to land soil and crop information data by making existing resources better findable, accessible, interoperable and reusable.
 
@@ -24,103 +24,58 @@ The LSC hub is being developed as part of the Land, Soil and Crop Information Se
 
 :::::
 
-::::: {.g-col-12 .g-col-md-4}
+::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
 ![](./img/Kenya%20land%20soil%20crop%20data%201.svg)
 :::::
 
 ::::
 :::
 
-::: {.page-section has_bg_color=true}
-
-## Data
-
-The LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.
-
-### Datasets
-
-Search datasets or browse by category.
-
-<form class="pb-2" action="{{< var catalog >}}/collections/metadata:main/items" method=get>
-<div class="input-group mb-3">
-  <input type="text" name="q" class="form-control" >
-  <div><input type=submit class="btn btn-success form-control" type="button" value=Search>
-  </div>
-</div>
-</form>
-
-:::: {layout="[1.5,1,1,1,1,1]"}
-**Browse by category**
-
-![](./img/icon/land.svg) [Land]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land)
-
-![](./img/icon/soil.svg) [Soil]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil)
-
-![](./img/icon/crop.svg) [Crop]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop)
-
-![](./img/icon/climate.svg) [Climate]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate)
-
-![](./img/icon/water.svg) [Water]({{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water)
-::::
-
-
+::: {.page-section has_bg_color=true section_name='data'}
 :::: {.grid}
 
-::: {.g-col-md-6 .g-col-12 .rounded .bg-white .border .px-3 .border-secondary .shadow .mt-3}
+::::: {.g-col-12 .text-center}
+## Data and Information {.mb-0}
+:::::
 
-:::: {.grid .mx-3}
+::::: {.g-col-12}
+The LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.
 
-::: {.g-col-8}
+```{=html}
+<form class="section-data__form d-flex" action="{{< var catalog >}}/collections/metadata:main/items" method="GET">
+  <label class="visually-hidden" for="searchDataCatalogue">
+    Search data catalogue
+  </label>
+  <input
+    type="text"
+    class="section-data__form__input form-control form-control-lg"
+    id="searchDataCatalogue"
+    placeholder="Search data catalogue"
+  >
 
-### Maps
+  <button type="submit" class="section-data__form__submit btn btn-lg">
+    <i class="bi-search"></i>
+  </button>
+</form>
+```
 
-The interactive mapviewer enables direct interaction with data. 
-View existing, reference remote or upload local data.
+:::::: {layout="[1.5,1,1,1,1,1]"}
+**Browse by category**
 
-:::
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land" link_color="black" >}}
 
-::: {.g-col-4}
+{{< icon-link title="Soil" icon_library="lsc" icon="soil" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil" link_color="black" >}}
 
-![](./img/undraw_connected_world_wuay%201.svg){.my-3}
+{{< icon-link title="Crop" icon_library="lsc" icon="crop" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop" link_color="black" >}}
 
-:::
+{{< icon-link title="Climate" icon_library="lsc" icon="climate" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate" link_color="black" >}}
 
-::::
+{{< icon-link title="Water" icon_library="lsc" icon="water" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water" link_color="black" >}}
+::::::
 
-::: {.text-center .pt-3}
-[Open mapviewer]({{< var maps >}}){.btn .btn-warning .rounded-pill} 
-:::
-
-:::
-
-::: {.g-col-md-6 .g-col-12 .rounded .bg-white .px-3 .border .border-secondary .shadow .mt-3}
-
-:::: {.grid .mx-3}
-
-::: {.g-col-8  }
-
-### Documentation
-
-Documentation on how to use the hub, the data api's and other resources.
-
-:::
-
-::: {.g-col-4}
-
-![](./img/Group%20856.svg){.my-3}
-
-:::
+:::::
 
 ::::
-
-::: {.text-center .pt-3}
-[View documents](/docs){.btn .btn-warning .rounded-pill} 
-:::
-
-::::
-
-:::
-
 :::
 
 :::: {.grid}
