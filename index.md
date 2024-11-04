@@ -3,8 +3,6 @@ title: "Land Soil Crop Hub"
 sidebar: false
 body-classes: frontpage
 page-layout: custom
-include-in-header:
-  text: <script>var catalog = '{{< var catalog >}}';</script><script src="./js/index.js"></script>
 ---
 
 ::: {.page-section section_name='intro'}
@@ -30,6 +28,7 @@ The LSC hub is being developed as part of the Land, Soil and Crop Information Se
 
 ::::
 :::
+
 
 ::: {.page-section has_bg_color=true section_name='data'}
 :::: {.grid}
@@ -75,90 +74,19 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 
 :::::
 
-::::
-:::
+::::: {.g-col-12 .g-col-md-6 .mt-md-4 .text-center}
+[Browse Information services]({{< var catalog >}}/collections/metadata:main/items?q=&type=service){.fw-bold}\
+for dedicated information derived from relevant data to a targeted audience.
+:::::
 
-:::: {.grid}
-
-::: {.g-col-md-6 .g-col-12  .mt-3}
-
-## Information services
-
-Information services provide dedicated information derived from relevant data to a targeted audience.
-
-Processing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.
-
-[Browse services]({{< var catalog >}}/collections/metadata:main/items?q=&type=service){.btn .btn-warning .rounded-pill}
-[Read more](./cases/services.md){.btn .btn-success .rounded-pill}
-
-:::
-
-::: {.g-col-12 .g-col-md-6 .mt-3}
-
-![](./img/Land%20soil%20crop%20information%20services%201mobile.svg)
-
-:::
+::::: {.g-col-12 .g-col-md-6 .mt-md-4 .text-center}
+[Browse Predictive modeling]({{< var catalog >}}/collections/metadata:main/items?q=&type=model){.fw-bold}\
+for data-driven analytical approaches that involve the use of statistical or machine learning techniques.
+:::::
 
 ::::
-
-### Popular services {.py-3}
-
-:::: {.grid .text-left}
-
-::: {.g-col .rounded .text-light .bg-dark}
-
-Loading... 
-
 :::
 
-::::
-
-::: {.text-center .mt-5}
-[View all popular services]({{< var catalog >}}/collections/metadata:main/items?q=&type=service){.btn .btn-success .rounded-pill .shadow}
-:::
-
-
-
-::: {.special-section}
-
-:::: {.grid}
-
-::: {.g-col-md-6 .g-col-12 .mt-3}
-
-## Predictive modeling 
-
-Predictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.
-
-[Browse models]({{< var catalog >}}/collections/metadata:main/items?q=&type=model){.btn .btn-warning .rounded-pill .shadow}
-[Read more](./cases/models.md){.btn .btn-success .rounded-pill .shadow}
-
-:::
-
-::: {.g-col-md-6 .g-col-12 .mt-3}
-
-![](./img/undraw_detailed_examination_re_ieui%201modelling.svg)
-
-:::
-
-::::
-
-### Popular Models {.py-3}
-
-:::: {.grid}
-
-::: {.g-col .p-2 .bg-white .rounded .border}
-
-Loading... 
-
-:::
-
-::::
-
-::: {.text-center .mt-5}
-[View all popular models]({{< var catalog >}}/collections/metadata:main/items?sortby=-updated&type=model){.btn .btn-success .rounded-pill}
-:::
-
-:::
 
 ## Use cases
 
