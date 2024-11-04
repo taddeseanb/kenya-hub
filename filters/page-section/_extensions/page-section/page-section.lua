@@ -3,20 +3,20 @@
 function Div(div)
   if div.classes:includes("page-section") then
     local has_bg_color = div.attributes['has_bg_color']
-    local id = div.attributes['id']
+    local name = div.attributes['section_name']
 
     local innerWrapper = pandoc.Div(div.content)
     innerWrapper.classes:extend({'page-section-content container'})
 
-    if id then
-      innerWrapper.classes:extend({'page-section-' .. id .. '__content'})
+    if name then
+      innerWrapper.classes:extend({'page-section-' .. name .. '__content'})
     end
 
     local outerWrapper = pandoc.Div(innerWrapper)
     outerWrapper.classes:extend(div.classes)
 
-    if id then
-      outerWrapper.classes:extend({'page-section-' .. id})
+    if name then
+      outerWrapper.classes:extend({'page-section-' .. name})
     end
 
     if has_bg_color then

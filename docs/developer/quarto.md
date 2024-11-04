@@ -13,3 +13,10 @@ author: Paul van Genuchten
 
 This documentation, as well as the hub website are generated with Quarto. The markdown files are stored on a [git repository](https://github.com/lsc-hubs/hub-core). CI/CD [action](https://github.com/lsc-hubs/hub-core/blob/main/.github/workflows/main.yml) has been set up, so with every push to the git repository, a new set of html pages is created and published to an online environment.
 
+## Theme
+
+### Filters
+The following filters are available:
+
+- Page section: for use on landing pages in combination with a `page-layout: custom`. Examples: the [page section filter example page](/filters/page-section/example.qmd) or the [home page](/index.md).
+
