@@ -3,6 +3,19 @@ title: "Land Soil Crop Hub"
 sidebar: false
 body-classes: frontpage
 page-layout: custom
+include-after-body:
+  text: >
+    <script src="./assets/js/getCatalogRecords.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        getRecords({
+          catalogBaseUrl: '{{< var catalog >}}',
+          qs: '#popular-maps',
+          icon: 'map',
+          itemType: 'dataset',
+        });
+      });
+    </script>
 ---
 
 ::: {.page-section section_name='intro'}
@@ -82,6 +95,33 @@ for dedicated information derived from relevant data to a targeted audience.
 ::::: {.g-col-12 .g-col-md-6 .mt-md-4 .text-center}
 [Browse Predictive modeling]({{< var catalog >}}/collections/metadata:main/items?q=&type=model){.fw-bold}\
 for data-driven analytical approaches that involve the use of statistical or machine learning techniques.
+:::::
+
+::::
+:::
+
+
+::: {.page-section section_name='maps'}
+:::: {.grid}
+
+::::: {.g-col-12 .text-center}
+## Maps
+
+The interactive mapviewer enables direct interaction with data.\
+View existing, reference remote or upload local data.\
+Need help? Find info and documentation [here](/docs/user/index.md#map-viewer).
+
+[Open map viewer]({{< var maps >}}){.btn .btn-primary .my-3}
+:::::
+
+::::: {.g-col-12 .text-center .mt-4}
+**Popular maps**
+:::::
+
+::::: {.g-col-12 }
+:::::: {#popular-maps .grid}
+Loading popular maps...
+::::::
 :::::
 
 ::::
