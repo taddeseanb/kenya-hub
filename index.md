@@ -46,13 +46,13 @@ The LSC hub is being developed as part of the Land, Soil and Crop Information Se
 ::: {.page-section has_bg_color=true section_name='data'}
 :::: {.grid}
 
-::::: {.g-col-12 .text-center}
-## Data and Information {.mb-0}
+::::: {.g-col-12 .text-center .mx-auto}
+## Data and Information
+
+The LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.
 :::::
 
 ::::: {.g-col-12}
-The LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.
-
 ```{=html}
 <form class="section-data__form d-flex" action="{{< var catalog >}}/collections/metadata:main/items" method="GET">
   <label class="visually-hidden" for="searchDataCatalogue">
@@ -71,7 +71,7 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 </form>
 ```
 
-:::::: {layout="[1.5,1,1,1,1,1]"}
+:::::: {layout="[1.5,1,1,1,1,1]" .text-center}
 **Browse by category**
 
 {{< icon-link title="Land" icon_library="lsc" icon="land" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land" link_color="black" >}}
@@ -104,7 +104,7 @@ for data-driven analytical approaches that involve the use of statistical or mac
 ::: {.page-section section_name='maps'}
 :::: {.grid}
 
-::::: {.g-col-12 .text-center}
+::::: {.g-col-12 .text-center .mx-auto}
 ## Maps
 
 The interactive mapviewer enables direct interaction with data.\
@@ -128,56 +128,50 @@ Loading popular maps...
 :::
 
 
-## Use cases
-
-The two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.
-
-
+::: {.page-section has_bg_color=true section_name='user-stories'}
 :::: {.grid}
 
-::: {.g-col-md-6 .g-col-12 .rounded .text-light .bg-dark .mt-3}
+::::: {.g-col-12 .text-center .mx-auto .mb-4}
+## User stories
 
-![](./img/adams-korir-5gzZo_nQBIM-unsplash%201.jpg){.w-100}
+The cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.
+:::::
 
-::: {.px-3 .text-light}
+::::: {.g-col-12 .g-col-md-6 .bg-dark .text-white .me-lg-3 .rounded}
+![](./img/adams-korir-5gzZo_nQBIM.png){.rounded-top}
 
-<div class="border rounded w-25 text-light text-center">USE CASE</div>
-
-### [Soil Fertility Management](./cases/isfm.md){.text-light .text-decoration-none}
+:::::: {.px-5 .pb-5 .pt-1}
+### Soil Fertility Management
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
-::: {.text-center .pt-2}
-[Explore this use case](./cases/isfm.md){.btn .btn-success .rounded-pill}
-:::
+{{< icon-link title="Maize" icon_library="bootstrap" icon="arrow-right" link="./cases/crops/maize.qmd" link_color="white" >}}
 
-:::
+{{< icon-link title="Case #2" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
 
-:::
+{{< icon-link title="Case #3" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+::::::
+:::::
 
-::: {.g-col-md-6 .g-col-12 .rounded .text-light .bg-dark .mt-3}
+::::: {.g-col-12 .g-col-md-6 .bg-dark .text-white .ms-lg-3 .rounded}
+![](./img/martin-yegon-Q8PAVNd36cQ.png){.rounded-top}
 
-![](./img/martin-yegon-Q8PAVNd36cQ-unsplash%201.jpg){.w-100}
-
-::: {.px-3 .text-light}
-
-<div class="border rounded w-25 text-light text-center">USE CASE</div>
-
-### [Soil Water Conservation](./cases/swc.md){.text-light .text-decoration-none}
+:::::: {.px-5 .pb-5 .pt-1}
+### Soil Water Conservation
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
-::: {.text-center .pt-2}
-[Explore this use case](./cases/swc.md){.btn .btn-success .rounded-pill}
-:::
+{{< icon-link title="Soil erosion" icon_library="bootstrap" icon="arrow-right" link="./cases/threats/erosion.md" link_color="white" >}}
 
-:::
+{{< icon-link title="Organic carbon change" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
 
-:::
+{{< icon-link title="Salinisation and sodification" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+::::::
+:::::
 
 ::::
+:::
 
----
 
 :::: {.grid }
 

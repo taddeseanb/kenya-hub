@@ -10,7 +10,7 @@ The icon-link shortcode accepts the following parameters:
   - for Bootstrap: please see [this overview](https://icons.getbootstrap.com/)
 - `title`: the text for the hyperlink
 - `link`: the URL for the hyperlink
-- `link_color` (optional): possible values: `black`. Defaults to standard link color.
+- `link_color` (optional): possible values: `black`, `white`. Defaults to standard link color.
 
 ## Examples
 
