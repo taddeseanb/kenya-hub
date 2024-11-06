@@ -13,6 +13,7 @@ include-after-body:
           qs: '#popular-maps',
           icon: 'map',
           itemType: 'dataset',
+          style: 'g-col-6 g-col-lg-4'
         });
       });
     </script>
@@ -74,15 +75,15 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
 :::::: {layout="[1.5,1,1,1,1,1]" .text-center}
 **Browse by category**
 
-{{< icon-link title="Land" icon_library="lsc" icon="land" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land" link_color="black" >}}
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Land" link_classes="link-dark" >}}
 
-{{< icon-link title="Soil" icon_library="lsc" icon="soil" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil" link_color="black" >}}
+{{< icon-link title="Soil" icon_library="lsc" icon="soil" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Soil" link_classes="link-dark" >}}
 
-{{< icon-link title="Crop" icon_library="lsc" icon="crop" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop" link_color="black" >}}
+{{< icon-link title="Crop" icon_library="lsc" icon="crop" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Crop" link_classes="link-dark" >}}
 
-{{< icon-link title="Climate" icon_library="lsc" icon="climate" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate" link_color="black" >}}
+{{< icon-link title="Climate" icon_library="lsc" icon="climate" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Climate" link_classes="link-dark" >}}
 
-{{< icon-link title="Water" icon_library="lsc" icon="water" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water" link_color="black" >}}
+{{< icon-link title="Water" icon_library="lsc" icon="water" link="{{< var catalog >}}/collections/metadata:main/items?q=&keywords=Water" link_classes="link-dark" >}}
 ::::::
 
 :::::
@@ -114,7 +115,7 @@ Need help? Find info and documentation [here](/docs/user/index.md#map-viewer).
 [Open map viewer]({{< var maps >}}){.btn .btn-primary .my-3}
 :::::
 
-::::: {.g-col-12 .text-center .mt-4}
+::::: {.g-col-12 .mx-auto .mt-4}
 **Popular maps**
 :::::
 
@@ -145,11 +146,11 @@ The cases below are descriptions of key applications for which the LSC hub can b
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
-{{< icon-link title="Maize" icon_library="bootstrap" icon="arrow-right" link="./cases/crops/maize.qmd" link_color="white" >}}
+{{< icon-link title="Maize" icon_library="bootstrap" icon="arrow-right" link="./cases/crops/maize.qmd" link_classes="link-white" >}}
 
-{{< icon-link title="Case #2" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+{{< icon-link title="Case #2" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 
-{{< icon-link title="Case #3" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+{{< icon-link title="Case #3" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 ::::::
 :::::
 
@@ -161,11 +162,11 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
-{{< icon-link title="Soil erosion" icon_library="bootstrap" icon="arrow-right" link="./cases/threats/erosion.md" link_color="white" >}}
+{{< icon-link title="Soil erosion" icon_library="bootstrap" icon="arrow-right" link="./cases/threats/erosion.md" link_classes="link-white" >}}
 
-{{< icon-link title="Organic carbon change" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+{{< icon-link title="Organic carbon change" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 
-{{< icon-link title="Salinisation and sodification" icon_library="bootstrap" icon="arrow-right" link="#" link_color="white" >}}
+{{< icon-link title="Salinisation and sodification" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 ::::::
 :::::
 
@@ -212,6 +213,56 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis, orci 
 
 ::::: {.g-col-12 .mx-auto}
 [View dashboard](https://dashboards.isric.org/superset/dashboard/soils4africa/){.btn .btn-primary .mt-5}
+:::::
+
+::::
+:::
+
+::: {.page-section section_name='documents' has_bg_color=true}
+:::: {.grid}
+
+::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
+## Documents
+
+Navigate and utilize our hub's functionalities, data APIs, and additional resources. Our documentation section is structured into three distinct groups: for Users, for Administrators, and for Developers. Each group focuses on providing detailed instructions, best practices, and insights relevant to your role within our ecosystem.
+
+[View documents](./docs/index.md){.btn .btn-primary .my-3}
+:::::
+
+::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
+![](./img/undraw-add-document.svg)
+:::::
+
+::::: {.g-col-12 .mx-auto .mt-4}
+**Recent documents**
+:::::
+
+::::: {.g-col-12 }
+:::::: {.grid}
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+
+::::::: {.g-col-6 .g-col-lg-4}
+{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
+:::::::
+::::::
 :::::
 
 ::::

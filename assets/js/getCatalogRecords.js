@@ -32,15 +32,17 @@ boxIt = function(res, icon, style, showDescription) {
   let cnt = "";
 
   res.forEach(r => {
-    cnt += `<div class="g-col-6 g-col-lg-4 ${style}">
-            <div class="d-flex flex-colums">`
+    const linkToItem = r.links.filter(link => link.rel === 'self')
+
+    cnt += `<div class="${style}">
+            <div class="d-flex">`
 
     if (icon) {
       cnt += `<i class="bi-${icon} me-2 text-primary"></i>`
     }
 
     cnt += `<div>
-            <a href="https://kenya.lsc-hubs.org/collections/metadata:main/items/${r.id}" class="text-decoration-none">${(r.properties.title||'').substring(0,60)}</a>`
+            <a href="${linkToItem[0].href}" class="text-decoration-none">${(r.properties.title||'').substring(0,60)}</a>`
 
     if (showDescription) {
       cnt += `<p>${(r.properties.description||'').substring(0,150)}</p>`

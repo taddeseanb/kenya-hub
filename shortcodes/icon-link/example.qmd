@@ -10,7 +10,7 @@ The icon-link shortcode accepts the following parameters:
   - for Bootstrap: please see [this overview](https://icons.getbootstrap.com/)
 - `title`: the text for the hyperlink
 - `link`: the URL for the hyperlink
-- `link_color` (optional): possible values: `black`, `white`. Defaults to standard link color.
+- `link_classes` (optional): CSS classes for the hyperlink.
 
 ## Examples
 
@@ -29,9 +29,9 @@ renders to:
 
 This shortcode:
 ```{shortcodes=false}
-{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_color="black" >}}
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_classes="link-dark" >}}
 ```
 
 renders to:
-{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_color="black" >}}
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_classes="link-dark" >}}
 

@@ -4,8 +4,7 @@ return {
     local iconClasses = 'text-primary me-2'
     local iconLibrary = pandoc.utils.stringify(kwargs['icon_library'])
     local link = pandoc.utils.stringify(kwargs['link'])
-    local linkColor = pandoc.utils.stringify(kwargs['link_color'])
-    local linkColorClass = ''
+    local linkClasses = pandoc.utils.stringify(kwargs['link_classes'])
     local title = pandoc.utils.stringify(kwargs['title'])
 
     if iconLibrary == 'bootstrap' then
@@ -21,23 +20,18 @@ return {
       />'
     end
 
-    if linkColor == 'black' then
-      linkColorClass = 'link-dark'
-    end
-
-    if linkColor == 'white' then
-      linkColorClass = 'link-white'
-    end
-
     local iconLink = pandoc.RawInline(
       'html',
-      '<a \
-        class="' .. linkColorClass .. '"\
-        href="' .. link .. '"\
-        target="_blank"\
-      >\
-        ' .. icon .. title .. '\
-      </a>'
+      '<div class="d-flex">\
+        ' .. icon .. '\
+        <a \
+          class="' .. linkClasses .. '"\
+          href="' .. link .. '"\
+          target="_blank"\
+        >\
+          ' .. title .. '\
+        </a>\
+      </div>'
     )
 
     return iconLink
