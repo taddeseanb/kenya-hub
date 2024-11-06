@@ -16,7 +16,7 @@ return {
 
     if iconLibrary == 'lsc' then
       icon = '<img \
-        class="align-top "' .. iconClasses .. '\
+        class="align-top ' .. iconClasses .. '"\
         src="/assets/icons/' .. pandoc.utils.stringify(kwargs['icon']) .. '.svg"\
       />'
     end
