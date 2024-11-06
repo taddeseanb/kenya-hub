@@ -6,14 +6,13 @@ project:
 
 website:
   favicon: ./assets/images/favicon.svg
-  repo-url: "https://github.com/lsc-hubs/kenya-hub"
+  repo-url: https://github.com/KalroDevs/lschub-cms
   repo-actions:
     - edit
     - issue
   page-footer:
-    background: dark
     left:
-    - text: <br/>LSC Hubs 2023
+    - text: LSC Hubs 2024
       file: https://www.lsc-hubs.org
   title: "Land Soil Crop Hub {{< var country >}}"
   search: false
