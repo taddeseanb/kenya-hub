@@ -31,8 +31,9 @@ Search for data and knowledge in the hub in various ways:
 - When you click on submit, the available records will appear.
 - On a search result, further limit the results by filters in the sidebar
 
-![Hub catalogue overview](./img/cataloguerecords.PNG){.w-50}
-
+::: {layout-ncol=2}
+![Hub catalogue overview](/docs/user/img/cataloguerecords.PNG){.shadow}
+:::
 
 The catalogue allows the filtering of keywords. The 3 main keywords are: 
 
@@ -46,8 +47,9 @@ Second, any other keyword linked to the resource can be used to search in the ca
 Try the keywords. Type in the search bar various keywords, such as _soil or Land use_ or click on the keywords on the side.
 :::
 
-![Filter by keyword](./img/cataloguesearch.png){.w-50}
-
+::: {layout-ncol=2}
+![Filter by keyword](/docs/user/img/cataloguesearch.png){.shadow}
+:::
 
 For each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.
 
@@ -57,7 +59,9 @@ Some records link directly to the [map viewer](#map-viewer) component. Under the
 Explore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records
 :::
 
-![Hub catalogue record](./img/cataloguepHrecord.PNG){.w-50 .border .shadow} 
+::: {layout-ncol=2}
+![Hub catalogue record](/docs/user/img/cataloguepHrecord.PNG){.shadow} 
+:::
 
 If a mapping link is available on the record, a button will appear under the map to preview the data in a map viewer.
 

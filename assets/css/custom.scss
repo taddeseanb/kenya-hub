@@ -70,7 +70,8 @@ $lsc-white: #fff;
 
 $primary: $lsc-green;
 $warning: $lsc-red;
-$green: $lsc-green-hover;
+$green: $lsc-green-hover; // used a.o for quarto callouts, see https://quarto.org/docs/output-formats/html-themes.html#callouts
+$orange: $lsc-red; // used a.o for quarto callouts,
 $dark: $lsc-dark;
 $white: $lsc-white;
 
