@@ -262,23 +262,15 @@ body:not(.frontpage).nav-sidebar main {
   --bs-btn-hover-border-color: var(--bs-border-color);
 }
 
-// hr {
-//     border: 0px !important;
-//     display: block;
-//     background-size: cover;
-//     background-image: url(./img/wave.svg);
-//     height: 150px !important;
-//     background-color: white !important;
-//     margin: 25px -500px 25px -500px !important;
-//     padding: 25px 500px 25px 500px;
-// }
-
 .footer, .footer a {
     color: white;
     background: #2C393F;
     box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
 }
 
+//
+// Code
+//
 pre {
   background-color: $lsc-bg-off-white;
   padding: 0.5rem;

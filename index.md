@@ -305,35 +305,24 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 ::::
 :::
 
+<svg viewBox="0 0 1280 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1280 54V30.3881C1188.02 17.4599 1084.37 18.4201 907.901 35.3629C657.228 59.4303 741.506 1.0769 354.442 0.00471593C141.547 -0.583229 0 54 0 54" fill="rgba(245,239,228,.6)"/>
+</svg>
+::: {.page-section section_name='newsletter' has_bg_color=true}
+:::: {.grid .bg-dark .rounded .p-5}
 
-::: {.special-section}
-
-::: {.text-light .bg-dark .px-3 .rounded}
-
-:::: {.grid }
-
-::: {.g-col-md-6 .g-col-12 .px-3 }
-
-
-## Join our newsletter {.text-light}
-
+::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
+```{=html}
+<h2 class="mt-0 text-success">Join our newsletter</h2>
+```
 Subscribe to our newsletter and be the first to receive the latest data updates and community news about the {{< var country >}} Land Soil and Crop hub.
 
-::: {.text-center .mt-2}
-[Subscribe now](https://capacity4dev.europa.eu/join-community_en){.btn .btn-success .rounded-pill}
-:::
+[Subscribe now](https://capacity4dev.europa.eu/join-community_en){.btn .btn-primary .my-3}
+:::::
 
-::: 
-
-::: {.g-col-md-6 .g-col-12 .mt-2}
-
-![](./img/undraw_content_creator_re_pt5b%201.svg)
-
-:::
+::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
+![](./img/undraw-content-creator.svg)
+:::::
 
 ::::
-
 :::
-
-:::
-
