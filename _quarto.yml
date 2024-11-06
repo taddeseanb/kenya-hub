@@ -22,15 +22,15 @@ website:
     logo-alt: "Logo of Land Soil Crop Hub {{< var country >}}"
     right:
       - text: Data and Information
-        file: "/#data"
+        file: "/#data-and-information"
       - text: Maps
         file: "/#maps"
-      - text: Use cases
-        file: "/#use-cases"
+      - text: User stories
+        file: "/#user-stories"
       - text: Community
         file: "/#hub-community"
       - text: Docs
-        file: "/#documentation"
+        file: "/#documents"
   sidebar:
     - title: "Docs"
       style: "docked"
