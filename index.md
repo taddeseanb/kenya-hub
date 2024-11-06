@@ -269,31 +269,42 @@ Navigate and utilize our hub's functionalities, data APIs, and additional resour
 :::
 
 
-:::: {.grid }
+::: {.page-section section_name='community'}
+:::: {.grid}
 
-::: {.g-col-md-6 .g-col-12 .mt-3}
-
-
-
+::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
 ## Hub community
 
 The heart of the knowledge hub. Here, you’ll find like-minded participants who share a passion for learning and knowledge exchange.
 
 Join our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect,  contribute and make the hub grow.
 
-::: {.text-center .mt-2}
-[Visit community]({{< var github >}}){.btn .btn-success .rounded-pill}
-:::
+[Visit community]({{< var github >}}){.btn .btn-primary .my-3}
+:::::
 
-:::
+::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
+![](./img/lsc-hub-community.svg)
+:::::
 
-::: {.g-col-md-6 .g-col-12 .mt-3}
+::::: {.g-col-12 }
+:::::: {.grid}
+::::::: {.g-col-12 .g-col-md-6 .text-center}
+#### Popular discussions
 
-![](./img/land%20soil%20crop%20hub%20community%201.svg)
+![](./img/lsc-popular-discussions.svg){.mt-2}
+:::::::
 
-:::
+::::::: {.g-col-12 .g-col-md-6 .text-center}
+#### Upcoming events
+
+![](./img/lsc-upcoming-events.svg){.mt-2}
+:::::::
+::::::
+:::::
 
 ::::
+:::
+
 
 ::: {.special-section}
 
