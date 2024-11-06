@@ -173,6 +173,51 @@ Soil erosion threatens sustainability, climate, and food security in hilly regio
 :::
 
 
+::: {.page-section section_name='dashboard'}
+:::: {.grid}
+
+::::: {.g-col-12 .text-center .mx-auto}
+## Dashboard
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis, orci sit amet ornare mattis, libero nunc malesuada enim, a viverra ante metus ac ipsum.
+:::::
+
+::::: {.g-col-12 .mt-4}
+:::::: {.grid}
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+### Obstruction depth reason {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/eMPrE19or6D/?standalone=1&height=400"
+></iframe>
+:::::::
+
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+### Reason not used for agriculture {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/KlVYWOyZYEk/?standalone=1&height=400"
+></iframe>
+:::::::
+
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+### Security concerns {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/w1nRjP9KYEz/?standalone=1&height=400"
+></iframe>
+:::::::
+::::::
+:::::
+
+::::: {.g-col-12 .mx-auto}
+[View dashboard](https://dashboards.isric.org/superset/dashboard/soils4africa/){.btn .btn-primary .mt-5}
+:::::
+
+::::
+:::
+
+
 :::: {.grid }
 
 ::: {.g-col-md-6 .g-col-12 .mt-3}
