@@ -188,6 +188,13 @@ ol, p, ul {
 }
 
 //
+// Breadcrumbs
+//
+.quarto-title-breadcrumbs .breadcrumb li a {
+  color: var(--bs-dark);
+}
+
+//
 // Layout
 //
 main {
