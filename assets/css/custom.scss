@@ -168,6 +168,32 @@ h3, .h3 {
   margin-bottom: 0.75rem;
 }
 
+// This assumes that the custom page layout is only used in combination
+// with the page-section filter.
+.page-layout-custom h1:first-of-type,
+#quarto-content.page-layout-custom section:first-of-type h2:first-of-type,
+#quarto-content.page-layout-custom section:first-of-type .h2:first-of-type {
+	margin-top: 0;
+}
+
+.page-layout-custom h2 {
+  font-size: 2.225rem;
+}
+
+.page-layout-custom h3 {
+  font-size: 1.78rem;
+}
+
+.page-layout-custom h4 {
+  font-size: 1.333rem;
+}
+
+.page-layout-custom p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .lead {
   color: var(--bs-primary);
   margin-bottom: 2rem;
@@ -201,7 +227,7 @@ main {
   margin: 0;
 }
 
-body:not(.frontpage) main {
+body:not(.page-layout-custom) main {
   // vertically align content with header
   @extend .container;
 
@@ -209,7 +235,7 @@ body:not(.frontpage) main {
   margin-top: 0;
 }
 
-body:not(.frontpage).nav-sidebar main {
+body:not(.page-layout-custom).nav-sidebar main {
   --bs-gutter-x: 0; // vertically align content with header
 }
 
@@ -220,6 +246,14 @@ body:not(.frontpage).nav-sidebar main {
   &:has(.quarto-page-breadcrumbs) {
     margin-top: 0;
   }
+}
+
+// tried to hide this via Quarto with "title-block-style: none" in frontmatter,
+// but this does not work. Hopefully this works when this issue is resolved:
+// https://github.com/quarto-dev/quarto-cli/issues/9212
+// and this workaround can be removed.
+.page-layout-custom #title-block-header {
+  display: none;
 }
 
 .quarto-page-breadcrumbs {

@@ -3,41 +3,6 @@
 //
 
 //
-// Typography
-//
-.frontpage h1:first-of-type,
-.frontpage #quarto-content section:first-of-type h2:first-of-type,
-.frontpage #quarto-content section:first-of-type .h2:first-of-type {
-	margin-top: 0;
-}
-
-.frontpage h2 {
-  font-size: 2.225rem;
-}
-
-.frontpage h3 {
-  font-size: 1.78rem;
-}
-
-.frontpage h4 {
-  font-size: 1.333rem;
-}
-
-.frontpage p {
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-// tried to hide this via Quarto with "title-block-style: none" in frontmatter,
-// but this does not work. Hopefully this works when this issue is resolved:
-// https://github.com/quarto-dev/quarto-cli/issues/9212
-// and this workaround can be removed.
-.frontpage #title-block-header {
-  display: none;
-}
-
-//
 // Section Data
 //
 .section-data__form {
