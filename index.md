@@ -146,11 +146,10 @@ The cases below are descriptions of key applications for which the LSC hub can b
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
+{{< icon-link title="Soil Fertility Management" icon_library="bootstrap" icon="arrow-right" link="./cases/isfm.md" link_classes="link-white" >}}
 {{< icon-link title="Maize" icon_library="bootstrap" icon="arrow-right" link="./cases/crops/maize.qmd" link_classes="link-white" >}}
 
-{{< icon-link title="Case #2" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 
-{{< icon-link title="Case #3" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 ::::::
 :::::
 
@@ -162,11 +161,11 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
+{{< icon-link title="Soil water conservation" icon_library="bootstrap" icon="arrow-right" link="./cases/swc.md" link_classes="link-white" >}}
+
 {{< icon-link title="Soil erosion" icon_library="bootstrap" icon="arrow-right" link="./cases/threats/erosion.md" link_classes="link-white" >}}
 
-{{< icon-link title="Organic carbon change" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 
-{{< icon-link title="Salinisation and sodification" icon_library="bootstrap" icon="arrow-right" link="#" link_classes="link-white" >}}
 ::::::
 :::::
 
@@ -174,51 +173,8 @@ Soil erosion threatens sustainability, climate, and food security in hilly regio
 :::
 
 
-::: {.page-section section_name='dashboard'}
-:::: {.grid}
 
-::::: {.g-col-12 .text-center .mx-auto}
-## Dashboard
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis, orci sit amet ornare mattis, libero nunc malesuada enim, a viverra ante metus ac ipsum.
-:::::
-
-::::: {.g-col-12 .mt-4}
-:::::: {.grid}
-::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
-### Obstruction depth reason {.fs-6 .fw-bold}
-
-<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
-  src="https://dashboards.isric.org/superset/explore/p/eMPrE19or6D/?standalone=1&height=400"
-></iframe>
-:::::::
-
-::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
-### Reason not used for agriculture {.fs-6 .fw-bold}
-
-<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
-  src="https://dashboards.isric.org/superset/explore/p/KlVYWOyZYEk/?standalone=1&height=400"
-></iframe>
-:::::::
-
-::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
-### Security concerns {.fs-6 .fw-bold}
-
-<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
-  src="https://dashboards.isric.org/superset/explore/p/w1nRjP9KYEz/?standalone=1&height=400"
-></iframe>
-:::::::
-::::::
-:::::
-
-::::: {.g-col-12 .mx-auto}
-[View dashboard](https://dashboards.isric.org/superset/dashboard/soils4africa/){.btn .btn-primary .mt-5}
-:::::
-
-::::
-:::
-
-::: {.page-section section_name='documents' has_bg_color=true}
+::: {.page-section section_name='documents'}
 :::: {.grid}
 
 ::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
@@ -231,38 +187,6 @@ Navigate and utilize our hub's functionalities, data APIs, and additional resour
 
 ::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
 ![](./img/undraw-add-document.svg)
-:::::
-
-::::: {.g-col-12 .mx-auto .mt-4}
-**Recent documents**
-:::::
-
-::::: {.g-col-12 }
-:::::: {.grid}
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-
-::::::: {.g-col-6 .g-col-lg-4}
-{{< icon-link title="Lorum ipsum dolor sit amet, consectetur adipisching elit" icon_library="bootstrap" icon="file-richtext" link="#" link_classes="text-decoration-none">}}
-:::::::
-::::::
 :::::
 
 ::::
@@ -284,22 +208,6 @@ Join our diverse community of learners, experts, and enthusiasts to engage in di
 
 ::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
 ![](./img/lsc-hub-community.svg)
-:::::
-
-::::: {.g-col-12 }
-:::::: {.grid}
-::::::: {.g-col-12 .g-col-md-6 .text-center}
-#### Popular discussions
-
-![](./img/lsc-popular-discussions.svg){.mt-2}
-:::::::
-
-::::::: {.g-col-12 .g-col-md-6 .text-center}
-#### Upcoming events
-
-![](./img/lsc-upcoming-events.svg){.mt-2}
-:::::::
-::::::
 :::::
 
 ::::
