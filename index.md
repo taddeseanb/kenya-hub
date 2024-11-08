@@ -173,8 +173,52 @@ Soil erosion threatens sustainability, climate, and food security in hilly regio
 :::
 
 
+::: {.page-section section_name='dashboard'}
+:::: {.grid}
 
-::: {.page-section section_name='documents'}
+::::: {.g-col-12 .text-center .mx-auto}
+## Dashboard
+
+The diagrams in this section show various components of the LSC Hub catalogue
+:::::
+
+::::: {.g-col-12 .mt-4}
+:::::: {.grid}
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+### Spatial scope {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" height="400" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/mg9YXvPARLJ/?standalone=1&height=400"></iframe>
+
+
+:::::::
+
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+### Category {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/BXAQzadDYkg/?standalone=1&height=400"
+></iframe>
+:::::::
+
+::::::: {.g-col-12 .g-col-md-4 .shadow .px-4 .pb-3}
+###  Tag {.fs-6 .fw-bold}
+
+<iframe class="section-dashboard__iframe" width="100%" seamless frameBorder="0" scrolling="no"
+  src="https://dashboards.isric.org/superset/explore/p/LPpYboZwQvB/?standalone=1&height=400"
+></iframe>
+:::::::
+::::::
+:::::
+
+::::: {.g-col-12 .mx-auto}
+[View dashboard](https://dashboards.isric.org/superset/dashboard/28){.btn .btn-primary .mt-5}
+:::::
+
+::::
+:::
+
+::: {.page-section section_name='documents' has_bg_color=true}
 :::: {.grid}
 
 ::::: {.g-col-12 .g-col-md-7 .g-col-lg-6}
