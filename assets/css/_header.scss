@@ -1,0 +1,34 @@
+//
+// Header
+//
+.navbar {
+  border-bottom: 1px solid rgba(var(--bs-black-rgb), 0.1);
+}
+
+.navbar-container {
+  // Quarto does not provide access to header template(?),
+  // so extending with SCSS to set max-widths for all breakpoints
+  @extend .container;
+}
+
+.navbar-brand {
+  line-height: 1;
+}
+
+.navbar-logo {
+  max-height: 45px;
+  padding-right: 10px;
+}
+
+.navbar-brand:has(.navbar-title) {
+  @include visually-hidden;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: var(--bs-primary);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 0.85rem;
+  padding: 0 1rem;
+}

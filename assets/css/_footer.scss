@@ -1,0 +1,47 @@
+//
+// Footer
+//
+.footer {
+  background-color: var(--bs-dark);
+}
+
+footer.footer .nav-footer {
+  // vertically align content with header
+  @extend .container;
+
+  background-color: var(--bs-dark);
+  border: none;
+  padding-top: 2rem;
+  padding-right: calc(var(--bs-gutter-x)*.5);
+  padding-left: calc(var(--bs-gutter-x)*.5);
+}
+
+.nav-footer {
+  align-items: start;
+}
+
+.nav-footer a {
+  color: var(--bs-white);
+
+  &:hover,
+  &:focus {
+    color: var(--bs-white);
+  }
+}
+
+.nav-footer-center {
+  @include media-breakpoint-up(md) {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 250px;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.nav-footer .toc-actions {
+  padding: 2rem 0;
+}

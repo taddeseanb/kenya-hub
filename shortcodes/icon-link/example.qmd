@@ -1,0 +1,37 @@
+---
+title: "Icon-link Example"
+---
+
+The icon-link shortcode accepts the following parameters:
+
+- `icon_library`: `lsc` or `bootstrap`.
+- `icon`: the name of the icon.
+  - for LSC: `climate`, `crop`, `land`, `soil` or `water`
+  - for Bootstrap: please see [this overview](https://icons.getbootstrap.com/)
+- `title`: the text for the hyperlink
+- `link`: the URL for the hyperlink
+- `link_classes` (optional): CSS classes for the hyperlink.
+
+## Examples
+
+### Bootstrap icon
+
+This shortcode:
+```{shortcodes=false}
+{{< icon-link title="Visit this website" icon_library="bootstrap" icon="box-arrow-up-right" link="https://www.lsc-hubs.org" >}}
+```
+
+renders to:
+
+{{< icon-link title="Visit this website" icon_library="bootstrap" icon="box-arrow-up-right" link="https://www.lsc-hubs.org" >}}
+
+### LSC icon
+
+This shortcode:
+```{shortcodes=false}
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_classes="link-dark" >}}
+```
+
+renders to:
+{{< icon-link title="Land" icon_library="lsc" icon="land" link="https://www.lsc-hubs.org" link_classes="link-dark" >}}
+

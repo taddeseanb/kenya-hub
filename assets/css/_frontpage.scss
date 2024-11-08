@@ -1,0 +1,46 @@
+//
+// Frontpage
+//
+
+//
+// Section Data
+//
+.section-data__form {
+  background-color: $white;
+  border: 1px solid $lsc-gray-medium;
+  border-radius: 1.75rem;
+  margin: 4rem 0;
+
+  @include media-breakpoint-up(lg) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}
+
+.section-data__form__input {
+  border: none;
+  border-radius: 1.75rem 0 0 1.75rem;
+  padding-left: 1.5rem;
+}
+
+.section-data__form__submit {
+  --bs-btn-color: var(--lsc-red-hover);
+  --bs-btn-hover-color: var(--lsc-red-hover);
+}
+
+//
+// Dashboard
+//
+.section-dashboard__iframe {
+  height: 250px;
+  margin-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+      height: 175px;
+  }
+
+  @include media-breakpoint-up(lg) {
+      height: 250px;
+  }
+}
