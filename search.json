@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "cases/crops/maize.html",
-    "href": "cases/crops/maize.html",
-    "title": "Maize",
-    "section": "",
-    "text": "Maize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management\n\nRead more at keep.kalro.org\n\n\n\n![](../../img/crops/maize.jpg)"
-  },
-  {
-    "objectID": "cases/crops/maize.html#lsc-resources",
-    "href": "cases/crops/maize.html#lsc-resources",
-    "title": "Maize",
-    "section": "LSC resources",
-    "text": "LSC resources\nRelevant resources about maize in the LSC hub"
-  },
-  {
     "objectID": "cases/crops/maize.html#yieldgap-rainfed-maize-yields-by-climatezone",
     "href": "cases/crops/maize.html#yieldgap-rainfed-maize-yields-by-climatezone",
     "title": "Maize",
     "section": "Yieldgap Rainfed Maize Yields By ClimateZone",
-    "text": "Yieldgap Rainfed Maize Yields By ClimateZone\nYield gap analysis results at climate zone level for rainfed maize, as determined by the Global Yield Gap Atlas project.\n\n\n\n\n\n\n\n\n\nDataset\nView full map"
+    "text": "Yieldgap Rainfed Maize Yields By ClimateZone\nYield gap analysis results at climate zone level for rainfed maize, as determined by the Global Yield Gap Atlas project.\n\n        \n        \n          Dataset\n        \n      \n\n        \n        \n          View full map"
   },
   {
-    "objectID": "cases/crops/maize.html#other-resources",
-    "href": "cases/crops/maize.html#other-resources",
+    "objectID": "cases/crops/maize.html#resources",
+    "href": "cases/crops/maize.html#resources",
     "title": "Maize",
-    "section": "Other resources",
-    "text": "Other resources\n\nMaize Crop Calendar (FAO)\nManagement practices (Wocat)\nHigher maize yields, a guide to good agronomic practices in smallholder systems (APNI)\nMaize crop nutrient input requirements for food security in sub-Saharan Africa (Wageningen University)"
+    "section": "Resources",
+    "text": "Resources\nRelevant resources about maize in the LSC hub\n\nLoading relevant resources…"
+  },
+  {
+    "objectID": "cases/crops/maize.html#discussion",
+    "href": "cases/crops/maize.html#discussion",
+    "title": "Maize",
+    "section": "Discussion",
+    "text": "Discussion"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/index.html",
+    "href": "docs/developer/tutorial-data-management/slides/index.html",
+    "title": "Slides training on spatial data flows",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 15, 2023\n\n\n1.1 Training Overview\n\n\nPaul van Genuchten\n\n\n\n\nSep 15, 2023\n\n\n1.2 FAIR data\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n1.3 Tools\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n2.1 Collect and Publish metadata\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.1 Data services\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.2 Service Quality\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n4.1 Soil Profile Datamanagement\n\n\nPaul van Genuchten\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#history",
@@ -263,14 +263,14 @@
     "href": "docs/index.html",
     "title": "LSC Hubs documentation",
     "section": "",
-    "text": "Documentation of this hub has been split up in 3 groups, for users, for administrators and for developers.\n\n\n\nUser documentation\nAdministrator documentation\nDeveloper documentation"
+    "text": "Documentation of this hub has been split up in 3 groups, for users, for administrators and for developers."
   },
   {
     "objectID": "docs/index.html#contents",
     "href": "docs/index.html#contents",
     "title": "LSC Hubs documentation",
-    "section": "",
-    "text": "User documentation\nAdministrator documentation\nDeveloper documentation"
+    "section": "Contents",
+    "text": "Contents\n\nUser documentation\nAdministrator documentation\nDeveloper documentation"
   },
   {
     "objectID": "docs/developer/tutorial-data-management/9-advanced-options.html",
@@ -835,7 +835,7 @@
     "href": "cases/threats/erosion.html#textural-class",
     "title": "Soil erosion",
     "section": "Textural class",
-    "text": "Textural class\nTextural class (USDA) of the soil fine earth fraction, aggregated over the Effective Root Zone Depth for Maize, mapped at 1km resolution\n\n\n\n\n\n\n\n\n\nDataset\nView map"
+    "text": "Textural class\nTextural class (USDA) of the soil fine earth fraction, aggregated over the Effective Root Zone Depth for Maize, mapped at 1km resolution\n\n\n\n\n\n\n\n\n\n\n\nDataset\nView map"
   },
   {
     "objectID": "cases/threats/erosion.html#other-resources",
@@ -935,6 +935,18 @@
     "title": "quarto",
     "section": "Quarto in LSC-hubs",
     "text": "Quarto in LSC-hubs\nThis documentation, as well as the hub website are generated with Quarto. The markdown files are stored on a git repository. CI/CD action has been set up, so with every push to the git repository, a new set of html pages is created and published to an online environment.",
+    "crumbs": [
+      "Developer",
+      "Hub components",
+      "quarto"
+    ]
+  },
+  {
+    "objectID": "docs/developer/quarto.html#theme",
+    "href": "docs/developer/quarto.html#theme",
+    "title": "quarto",
+    "section": "Theme",
+    "text": "Theme\n\nFilters\nThe following filters are available:\n\nPage section: for use on landing pages in combination with a page-layout: custom. Examples: the page section filter example page or the home page.\n\n\n\nShortcodes\nThe following shortcodes are available:\n\nicon-link: displays an icon in front of a hyperlink. Examples: the icon-link shortcode example page or the home page.",
     "crumbs": [
       "Developer",
       "Hub components",
@@ -1283,7 +1295,7 @@
     "href": "docs/user/index.html#find-data",
     "title": "User Guideline LSC Hubs",
     "section": "Find data",
-    "text": "Find data\nSearch for data and knowledge in the hub in various ways:\n\nSearch by keyword or organisation\nWhen you click on submit, the available records will appear.\nOn a search result, further limit the results by filters in the sidebar\n\n\n\n\nHub catalogue overview\n\n\nThe catalogue allows the filtering of keywords. The 3 main keywords are:\n\ncategory ( such as soil, crop, etc.),\nspatial scope (such as Global, National, district, etc. ),\nthe type (such as dataset, software, etc).\n\nSecond, any other keyword linked to the resource can be used to search in the catalogue, for example, land use or crop yield. This depends on which keywords are given to the resources.\n\n\n\n\n\n\nTip\n\n\n\nTry the keywords. Type in the search bar various keywords, such as soil or Land use or click on the keywords on the side.\n\n\n\n\n\nFilter by keyword\n\n\nFor each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.\nSome records link directly to the map viewer component. Under the image, it will say: Open record in the LSC map and you will be directed to the map viewer.\n\n\n\n\n\n\nTip\n\n\n\nExplore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records\n\n\n\n\n\nHub catalogue record\n\n\nIf a mapping link is available on the record, a button will appear under the map to preview the data in a map viewer."
+    "text": "Find data\nSearch for data and knowledge in the hub in various ways:\n\nSearch by keyword or organisation\nWhen you click on submit, the available records will appear.\nOn a search result, further limit the results by filters in the sidebar\n\n\n\n\n\n\n\n\n\n\nHub catalogue overview\n\n\n\n\n\nThe catalogue allows the filtering of keywords. The 3 main keywords are:\n\ncategory ( such as soil, crop, etc.),\nspatial scope (such as Global, National, district, etc. ),\nthe type (such as dataset, software, etc).\n\nSecond, any other keyword linked to the resource can be used to search in the catalogue, for example, land use or crop yield. This depends on which keywords are given to the resources.\n\n\n\n\n\n\nTip\n\n\n\nTry the keywords. Type in the search bar various keywords, such as soil or Land use or click on the keywords on the side.\n\n\n\n\n\n\n\n\n\n\n\nFilter by keyword\n\n\n\n\n\nFor each record, a number of metadata properties are provided, such as abstract, used datasets, keywords, usage constraints, and contact information.\nSome records link directly to the map viewer component. Under the image, it will say: Open record in the LSC map and you will be directed to the map viewer.\n\n\n\n\n\n\nTip\n\n\n\nExplore the records. Click, after searching on keywords, on one of the appeared records and explore the provided information. Click on the links in the records\n\n\n\n\n\n\n\n\n\n\n\nHub catalogue record\n\n\n\n\n\nIf a mapping link is available on the record, a button will appear under the map to preview the data in a map viewer."
   },
   {
     "objectID": "docs/user/index.html#map-viewer",
@@ -1300,53 +1312,46 @@
     "text": "Hub community\nWe welcome you to contribute to the development of the hub. The contents of the hub is maintained via a co-creation platform called github.com. You can either directly contribute via the github platform, but a feed back mechanism is also provided on each of the hub resources.\nProviding your feedback is crucial for several reasons:\n\nFirstly, incorporating diverse perspectives from stakeholders involved in working with and benefiting from land, soil, and crop information ensures that the LSC hub caters to the actual needs and demands of its users (Data providers/Users). This feedback allows for the fine-tuning of the hub’s functionalities, making it more user-friendly and effective in serving the specific requirements of different user groups.\nSecondly, gathering feedback facilitates continuous improvement. It provides an opportunity to identify potential shortcomings or areas needing enhancement within the LSC hubs. Insights from stakeholders enable the developers and administrators of the hub to address any challenges faced by users, thereby refining the system to better align with the expectations and requirements of its intended beneficiaries.\nMoreover, involving stakeholders in providing feedback fosters a sense of ownership and collaboration. When users feel heard and their inputs valued, it encourages their active participation and engagement with the LSC hub. This collaborative approach promotes a sense of ownership among stakeholders, leading to increased utilization and sustained support for the system in the long term.\nUltimately, the feedback obtained from diverse stakeholders during the workshop plays a pivotal role in ensuring that the LSC hub evolves as a valuable, user-centric platform, effectively supporting decision-making processes related to land, soil, and crop information in the agricultural landscape.\n\nEvery page or resource on the hub provides an option to provide feedback and/or ask a question related to the content. In these sections, you can provide feedback about the page and what you would like to be adjusted.\n\n\n\nfeedback discussion\n\n\nContributions to the hub require a Github login. A GIThub account is easily made by pressing on sign in with GIThub, then click on New to GIThub? Create an account.\nYou only need to decide on a username, and password and enter your email address.\n\n\n\nfeedback github\n\n\nOnce logged in, you can now comment below the pages. If you have an account, You can provide feedback by contributing to hub discussions at the github repository. To get started, you can create a new discussion.\n\n\n\n\n\n\nTip\n\n\n\nLogin to Github or create a Github account and start a discussion about an aspect of the LSC-hub you are surprised about."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#data-and-information",
+    "href": "index.html#data-and-information",
     "title": "Land Soil Crop Hub",
-    "section": "",
-    "text": "The Land, Soil and Crop (LSC) hub facilitates effective access to land soil and crop information data by making existing resources better findable, accessible, interoperable and reusable.\nThe LSC hub promotes improved decision-making for climate-smart agriculture at national, regional and local levels. It can be utilised, for example, for soil fertility management and soil water conservation\nThe LSC hub is being developed as part of the Land, Soil and Crop Information Services (LSC-IS) to support Climate-Smart Agriculture (DeSIRA) project in East Africa. Read more about the project."
+    "section": "Data and Information",
+    "text": "Data and Information\nThe LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics."
   },
   {
-    "objectID": "index.html#data",
-    "href": "index.html#data",
+    "objectID": "index.html#maps",
+    "href": "index.html#maps",
     "title": "Land Soil Crop Hub",
-    "section": "Data",
-    "text": "Data\nThe LSC hub offers a diverse range of datasets, maps and documents, including observational data from field studies (e.g., soil and water samples, crop yields), aerial and space observations, administrative boundaries, economic data (price development), predictive model outputs (soil, weather, yields), and population statistics.\n\nDatasets\nSearch datasets or browse by category.\n\n\n  \n  \n  \n\n\n\n\n Land\n\n Soil\n\n Crop\n\n Climate\n\n Water\n\n\n\n\n\n\n\nMaps\nThe interactive mapviewer enables direct interaction with data. View existing, reference remote or upload local data.\n\n\n\n\n\n\nOpen mapviewer\n\n\n\n\n\nDocumentation\nDocumentation on how to use the hub, the data api’s and other resources.\n\n\n\n\n\n\nView documents"
+    "section": "Maps",
+    "text": "Maps\nThe interactive mapviewer enables direct interaction with data.\nView existing, reference remote or upload local data.\nNeed help? Find info and documentation here.\nOpen map viewer"
   },
   {
-    "objectID": "index.html#information-services",
-    "href": "index.html#information-services",
+    "objectID": "index.html#user-stories",
+    "href": "index.html#user-stories",
     "title": "Land Soil Crop Hub",
-    "section": "Information services",
-    "text": "Information services\nInformation services provide dedicated information derived from relevant data to a targeted audience.\nProcessing raw data in many cases requires expert knowledge. To bring the value of the data to a wider audience, it is of interest to set up information services derived from that data to targeted audiences.\nBrowse services Read more"
+    "section": "User stories",
+    "text": "User stories\nThe cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making."
   },
   {
-    "objectID": "index.html#predictive-modeling",
-    "href": "index.html#predictive-modeling",
+    "objectID": "index.html#dashboard",
+    "href": "index.html#dashboard",
     "title": "Land Soil Crop Hub",
-    "section": "Predictive modeling",
-    "text": "Predictive modeling\nPredictive modeling in the LSC hub focuses on Soil Fertility and Soil Water Conservation and is a data-driven analytical approach that involves the use of statistical or machine learning techniques to create models that can make predictions about future events or outcomes based on historical data.\nBrowse models Read more"
+    "section": "Dashboard",
+    "text": "Dashboard\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis, orci sit amet ornare mattis, libero nunc malesuada enim, a viverra ante metus ac ipsum."
   },
   {
-    "objectID": "index.html#use-cases",
-    "href": "index.html#use-cases",
+    "objectID": "index.html#documents",
+    "href": "index.html#documents",
     "title": "Land Soil Crop Hub",
-    "section": "Use cases",
-    "text": "Use cases\nThe two cases below are descriptions of key applications for which the LSC hub can be used, including the main stakeholders, the main issues and the models through which ‘LSC data’ is converted into information services that support informed decision making.\n\n\n\n\n\nUSE CASE\n\n\nSoil Fertility Management\nCurrent fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.\n\nExplore this use case\n\n\n\n\n\n\n\n\nUSE CASE\n\n\nSoil Water Conservation\nSoil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.\n\nExplore this use case"
+    "section": "Documents",
+    "text": "Documents\nNavigate and utilize our hub’s functionalities, data APIs, and additional resources. Our documentation section is structured into three distinct groups: for Users, for Administrators, and for Developers. Each group focuses on providing detailed instructions, best practices, and insights relevant to your role within our ecosystem.\nView documents"
   },
   {
     "objectID": "index.html#hub-community",
     "href": "index.html#hub-community",
     "title": "Land Soil Crop Hub",
     "section": "Hub community",
-    "text": "Hub community\nThe heart of the knowledge hub. Here, you’ll find like-minded participants who share a passion for learning and knowledge exchange.\nJoin our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect, contribute and make the hub grow.\n\nVisit community"
-  },
-  {
-    "objectID": "index.html#join-our-newsletter",
-    "href": "index.html#join-our-newsletter",
-    "title": "Land Soil Crop Hub",
-    "section": "Join our newsletter",
-    "text": "Join our newsletter\nSubscribe to our newsletter and be the first to receive the latest data updates and community news about the Kenya Land Soil and Crop hub.\n\nSubscribe now"
+    "text": "Hub community\nThe heart of the knowledge hub. Here, you’ll find like-minded participants who share a passion for learning and knowledge exchange.\nJoin our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect, contribute and make the hub grow.\nVisit community"
   },
   {
     "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistent-identification",
@@ -1524,10 +1529,31 @@
     "text": "Tools\n\nCheck local IT to understand which tools are offered\nGeohealthcheck is a tool to check availability and complience\nAWStats is a basic tool to evaluate access logs\npingdom & uptimerobot are saas providers offering availability testing\n\n\n\n\n\nWorkshop on effective spatial data management"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/index.html",
-    "href": "docs/developer/tutorial-data-management/slides/index.html",
-    "title": "Slides training on spatial data flows",
+    "objectID": "filters/page-section/example.html",
+    "href": "filters/page-section/example.html",
+    "title": "Page-section Example",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 15, 2023\n\n\n1.1 Training Overview\n\n\nPaul van Genuchten\n\n\n\n\nSep 15, 2023\n\n\n1.2 FAIR data\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n1.3 Tools\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n2.1 Collect and Publish metadata\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.1 Data services\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.2 Service Quality\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n4.1 Soil Profile Datamanagement\n\n\nPaul van Genuchten\n\n\n\n\n\nNo matching items"
+    "text": "This filter creates a HTML markup for a page section.\n\nThis code\nproduces:"
+  },
+  {
+    "objectID": "filters/page-section/example.html#options",
+    "href": "filters/page-section/example.html#options",
+    "title": "Page-section Example",
+    "section": "Options",
+    "text": "Options\n\nhas_bg_color (boolean): adds a background color, e.g. has_bg_color=true\nsection_name (string): adds a CSS class to the page-section and page-section-content div."
+  },
+  {
+    "objectID": "shortcodes/icon-link/example.html",
+    "href": "shortcodes/icon-link/example.html",
+    "title": "Icon-link Example",
+    "section": "",
+    "text": "The icon-link shortcode accepts the following parameters:"
+  },
+  {
+    "objectID": "shortcodes/icon-link/example.html#examples",
+    "href": "shortcodes/icon-link/example.html#examples",
+    "title": "Icon-link Example",
+    "section": "Examples",
+    "text": "Examples\n\nBootstrap icon\nThis shortcode:\n{{&lt; icon-link title=\"Visit this website\" icon_library=\"bootstrap\" icon=\"box-arrow-up-right\" link=\"https://www.lsc-hubs.org\" &gt;}}\nrenders to:\n\n        \n        \n          Visit this website\n        \n      \n\n\nLSC icon\nThis shortcode:\n{{&lt; icon-link title=\"Land\" icon_library=\"lsc\" icon=\"land\" link=\"https://www.lsc-hubs.org\" link_classes=\"link-dark\" &gt;}}\nrenders to:\n\n        \n        \n          Land"
   }
 ]
