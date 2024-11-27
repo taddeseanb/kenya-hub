@@ -1,5 +1,201 @@
 [
   {
+    "objectID": "shortcodes/icon-link/example.html",
+    "href": "shortcodes/icon-link/example.html",
+    "title": "Icon-link Example",
+    "section": "",
+    "text": "The icon-link shortcode accepts the following parameters:"
+  },
+  {
+    "objectID": "shortcodes/icon-link/example.html#examples",
+    "href": "shortcodes/icon-link/example.html#examples",
+    "title": "Icon-link Example",
+    "section": "Examples",
+    "text": "Examples\n\nBootstrap icon\nThis shortcode:\n{{&lt; icon-link title=\"Visit this website\" icon_library=\"bootstrap\" icon=\"box-arrow-up-right\" link=\"https://www.lsc-hubs.org\" &gt;}}\nrenders to:\n\n        \n        \n          Visit this website\n        \n      \n\n\nLSC icon\nThis shortcode:\n{{&lt; icon-link title=\"Land\" icon_library=\"lsc\" icon=\"land\" link=\"https://www.lsc-hubs.org\" link_classes=\"link-dark\" &gt;}}\nrenders to:\n\n        \n        \n          Land"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/index.html",
+    "href": "docs/developer/tutorial-data-management/slides/index.html",
+    "title": "Slides training on spatial data flows",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 15, 2023\n\n\n1.1 Training Overview\n\n\nPaul van Genuchten\n\n\n\n\nSep 15, 2023\n\n\n1.2 FAIR data\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n1.3 Tools\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n2.1 Collect and Publish metadata\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.1 Data services\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.2 Service Quality\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n4.1 Soil Profile Datamanagement\n\n\nPaul van Genuchten\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#service-quality",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#service-quality",
+    "title": "3.2 Service Quality",
+    "section": "Service quality",
+    "text": "Service quality\n\nMonitor the quality of data services is a driver for improvement\nCreate a monthly report with various statistics"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#usage",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#usage",
+    "title": "3.2 Service Quality",
+    "section": "Usage",
+    "text": "Usage\n\nAggregate and display access logs\nHow are people using the services\nWhich aspects are popular\nWhich components have a bad performance"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#availability",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#availability",
+    "title": "3.2 Service Quality",
+    "section": "Availability",
+    "text": "Availability\n\nHow often are our services available\nReceive a notification if a service is not available"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#complience",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#complience",
+    "title": "3.2 Service Quality",
+    "section": "Complience",
+    "text": "Complience\n\nDo services comply with the indicated standards (wms, wfs)"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#security-incidents-log",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#security-incidents-log",
+    "title": "3.2 Service Quality",
+    "section": "Security incidents log",
+    "text": "Security incidents log\n\nFraudulent email received\nMany requests from certain IP\nLow quality password detected\nBackup restored due to failing disk"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#search-engine-optimisation-sso",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#search-engine-optimisation-sso",
+    "title": "3.2 Service Quality",
+    "section": "Search engine optimisation (SSO)",
+    "text": "Search engine optimisation (SSO)\n\nCan users find our materials on Search Engines?\nGoogle/Bing offers a SSO Console where you can view crawling and usage statistics"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#tools",
+    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#tools",
+    "title": "3.2 Service Quality",
+    "section": "Tools",
+    "text": "Tools\n\nCheck local IT to understand which tools are offered\nGeohealthcheck is a tool to check availability and complience\nAWStats is a basic tool to evaluate access logs\npingdom & uptimerobot are saas providers offering availability testing"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#organisations-organise-their-data-in-file-repositories-or-databases",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#organisations-organise-their-data-in-file-repositories-or-databases",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "Organisations organise their data in file repositories or databases",
+    "text": "Organisations organise their data in file repositories or databases\n\nFile hierarchy"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#a-readme-in-each-folder",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#a-readme-in-each-folder",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "A readme in each folder",
+    "text": "A readme in each folder\n\nAdd a readme to describe the resources in a folder\nWhy not structure the content in the readme, so also machines can read it?"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#metadata-control-file",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#metadata-control-file",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "Metadata Control File",
+    "text": "Metadata Control File\n\nA convention of the pygeometa community (Meteo Canada)\nYAML, easy to read by humans and machines\nA subset of the ISO19115 standard for metadata\n\n\nMCF"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pygeometa-library",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pygeometa-library",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "pygeometa library",
+    "text": "pygeometa library\n\na library to work with MCF\nexports MCF to various metadata models (iso, dcat, stac)\nhttps://github.com/geopython/pygeometa"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#the-geodatacrawler-tool",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#the-geodatacrawler-tool",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "The geodatacrawler tool",
+    "text": "The geodatacrawler tool\n\nDeveloped at ISRIC in the last year\nOn the shoulders of giants; GDAL, pygeometa, pandas\nGenerates MCF files for a file repository\nImports metadata from external sources\nExtracts MCF files from a repository to load it into a catalogue\nCreates map services configuration for files in the repository"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pycsw-catalogue",
+    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pycsw-catalogue",
+    "title": "2.1 Collect and Publish metadata",
+    "section": "pycsw catalogue",
+    "text": "pycsw catalogue\n\nA catalogue implementation in python\nLimited funtionality, easy maintenance\nWide range of supported catalogue standards, serves many communities\nDatabase backend\nSkin customisable with jinja templates"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistent-identification",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistent-identification",
+    "title": "1.2 FAIR data",
+    "section": "Persistent identification",
+    "text": "Persistent identification\nPersistent identification, for continued findability\n\nConsider that a proper id can outlive a project (or organisation)\nChoice of domain and path (owned, authoritative, neutral, prevent names)\nSet up an identification proxy (doi.org/w3id.org)"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#metadata",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#metadata",
+    "title": "1.2 FAIR data",
+    "section": "Metadata",
+    "text": "Metadata\n\nMetadata describes title, abstract, author of a resource\nFacilitate findability and understand if a resource is relevant\nCan organize resources in groups by tagging"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#standards-for-metadata-exchange",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#standards-for-metadata-exchange",
+    "title": "1.2 FAIR data",
+    "section": "Standards for metadata exchange",
+    "text": "Standards for metadata exchange\n\nFacilitate the exchange of resources between communities\nProtocols to exchange metadata:\n\n\n\n\nCommunity\nStandard\nProtocol\n\n\n\n\nOpen data/Sematic web\nDCAT\nSPARQL\n\n\nScience\nDatacite\nOAI-PMH\n\n\nGeospatial\niso19115\nCSW\n\n\nEarth observation\nSTAC\nSTAC\n\n\nSearch engines\nSchema.org\njson-ld/microdata\n\n\nEcology\nEML"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#catalogue",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#catalogue",
+    "title": "1.2 FAIR data",
+    "section": "Catalogue",
+    "text": "Catalogue\n\nRecords are brought into a catalogue, where they can be searched and assessed\nCatalogues can exchange records to increase discoverability\nCatalogues can cross borders between communities by transforming metadata to relevant community standards and protocols"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#search-engines",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#search-engines",
+    "title": "1.2 FAIR data",
+    "section": "Search engines",
+    "text": "Search engines\n\nSearch engines crawl the content of catalogues\nIf a catalogue supports schema.org annotations, the content can also be extracted in a structured way\nExample"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistence",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistence",
+    "title": "1.2 FAIR data",
+    "section": "Persistence",
+    "text": "Persistence\n\nMove the resource to a shared environment (backup)\nConsider a URL strategy\nUse a facade identifier (DOI)"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#data-lifecycle",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#data-lifecycle",
+    "title": "1.2 FAIR data",
+    "section": "Data lifecycle",
+    "text": "Data lifecycle\n\nConsider upfront when to remove a resource (10 yrs?)\nWhat happens to the URI of a resource which is archived?\nMetadata should stay available, even if the data are no longer"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#repository-software",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#repository-software",
+    "title": "1.2 FAIR data",
+    "section": "Repository software",
+    "text": "Repository software\n\nWebdav (or webserver software)\nZenodo, Dataverse\nDocument Management Systems (DMS)\nCloud storage (google drive, dropbox, Amazon, Sharepoint)"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#testing-tools",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#testing-tools",
+    "title": "1.2 FAIR data",
+    "section": "testing tools",
+    "text": "testing tools\n\nAutomated link checking\nUsage logs filter on status 404 & referer\nGoogle Search Console notifies broken links"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#universal-formats",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#universal-formats",
+    "title": "1.2 FAIR data",
+    "section": "Universal formats",
+    "text": "Universal formats\nFacilitates accessing a resource with commonly available tooling, or be refactored if a software is abandoned\n\nProprietary vs Open (eg. ecw vs tiff)\nDe facto vs Formalised (eg. YAML vs XML)\nBinary vs text based (eg. shapefile vs GeoJSON)\nCloud optimised vs Cloud native vs traditional (eg. COG vs GeoZarr vs GeoTiff)\nEmbedded metadata"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#adopt-common-vocabularies",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#adopt-common-vocabularies",
+    "title": "1.2 FAIR data",
+    "section": "Adopt common vocabularies",
+    "text": "Adopt common vocabularies\nAdopting a standardised model enables aggregation of data.\n\nRelational models\nUML/GML models\nSemantic web ontologies"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#relevant-vocabularies",
+    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#relevant-vocabularies",
+    "title": "1.2 FAIR data",
+    "section": "Relevant vocabularies",
+    "text": "Relevant vocabularies\n\nISO28258 / INSPIRE / GLOSIS Web Ontology\nAgrovoc\nWRB / FAO Soil Classification Guidelines"
+  },
+  {
     "objectID": "cases/crops/maize.html#yieldgap-rainfed-maize-yields-by-climatezone",
     "href": "cases/crops/maize.html#yieldgap-rainfed-maize-yields-by-climatezone",
     "title": "Maize",
@@ -19,209 +215,6 @@
     "title": "Maize",
     "section": "Discussion",
     "text": "Discussion"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/index.html",
-    "href": "docs/developer/tutorial-data-management/slides/index.html",
-    "title": "Slides training on spatial data flows",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 15, 2023\n\n\n1.1 Training Overview\n\n\nPaul van Genuchten\n\n\n\n\nSep 15, 2023\n\n\n1.2 FAIR data\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n1.3 Tools\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n2.1 Collect and Publish metadata\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.1 Data services\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n3.2 Service Quality\n\n\nPaul van Genuchten\n\n\n\n\nMay 9, 2023\n\n\n4.1 Soil Profile Datamanagement\n\n\nPaul van Genuchten\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#history",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#history",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "History",
-    "text": "History\nVarious efforts have been made to harmonise Soil Profile data\n\nGlobalSoilMap\ne-SOTER\nISO28258\nGLOSIS Web ontology"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#e-soter",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#e-soter",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "e-SOTER",
-    "text": "e-SOTER\n\nRelational database model, usually in Microsoft Access\nKenya\nSouthern Africa\nSenegal and Gambia"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#ken-soter",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#ken-soter",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "KEN-SOTER",
-    "text": "KEN-SOTER\n\n\n\n\n\nKEN SOTER map\n\n\n\n\n\n\nKEN SOTER model"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "ISO28258",
-    "text": "ISO28258\n\n\n\nISO28258 is based on Observations and measurements\nevery field observation and laboratory analysis as a sensor observation\n\n\n\n\n\nO&M model"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-in-gml",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-in-gml",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "ISO28258 in GML",
-    "text": "ISO28258 in GML\n\nSerialisation of ISO28258 in GML (app schema)\nQuite complex implementation and low support in tooling\nINSPIRE Soil (Europe)\n\nANZSoilML (Australia)\nAlternative is a serialisation in JSON using Sensorthings API."
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-as-relational-database",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-as-relational-database",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "ISO28258 as relational database",
-    "text": "ISO28258 as relational database\n\nA relational model is available according to ISO28258\nEither as PostGreSQL or GeoPackage (SQLite)\nRead more at https://iso28258.isric.org"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#glosis-web-ontology",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#glosis-web-ontology",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "GLOSIS Web Ontology",
-    "text": "GLOSIS Web Ontology\n\nGLOSIS Web Ontology has expressed ISO28258 using common web ontologys (SOSA, VCARD)\nIncludes codelists for soil properties and procedures"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#harmonisation-of-field-lab-and-legacy-data",
-    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#harmonisation-of-field-lab-and-legacy-data",
-    "title": "4.1 Soil Profile Datamanagement",
-    "section": "Harmonisation of field, lab and legacy data",
-    "text": "Harmonisation of field, lab and legacy data\n\nUse common codelists to identify properties, methods, units\nHale Studio and FME are tools for data harmonisation\nAlso SQL scripts are often used to harmonise data\nSemantic web community offers harmonisation tools (rml, tarql, csv-ld)\n\n\n\n\n\nWorkshop on effective spatial data management"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#what-is-ogc",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#what-is-ogc",
-    "title": "3.1 Data services",
-    "section": "What is OGC?",
-    "text": "What is OGC?\n\nOpen Geospatial Consortium defines standards for the geospatial industry\nMembers are software companies, universities and government\nSuch as WMS, GML, OGCAPI, EPSG, GeoSPARQL\nRead more at https://opengeospatial.org"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api",
-    "title": "3.1 Data services",
-    "section": "OWS vs OGC API",
-    "text": "OWS vs OGC API\n\nThe GML and OWS standards are defined on 20**\nSince then the internet moved away from xml\nin 2017 started spatial data on the web experiment with W3C, leading to OGC API\nCurrently under development\nBasic support in new and existing products\nThe browser as a tool to browse spatial data"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api-1",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api-1",
-    "title": "3.1 Data services",
-    "section": "OWS vs OGC API",
-    "text": "OWS vs OGC API\n\nGML - GeoJSON (json-fg) & HTML\nLong querystrings - Rest api (path parameters)\nGetCapabilities - Open API Specification\nFormat=xxx - Content negotiation (accept:text/html)\nFull featured - Minimal standard with extensions"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wfs-and-ogc-api---features",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wfs-and-ogc-api---features",
-    "title": "3.1 Data services",
-    "section": "WFS and OGC API - Features",
-    "text": "WFS and OGC API - Features\n\nProvides access to vector features.\nFilter, sorting and pagination options\n\n\nwms"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wms-and-ogc-api---maps",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wms-and-ogc-api---maps",
-    "title": "3.1 Data services",
-    "section": "WMS and OGC API - Maps",
-    "text": "WMS and OGC API - Maps\n\nImage rendering of subsets of the data using some styling rules\n\n\nwms"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wmts-tms-and-ogc-api---tiles",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wmts-tms-and-ogc-api---tiles",
-    "title": "3.1 Data services",
-    "section": "WMTS, TMS and OGC API - Tiles",
-    "text": "WMTS, TMS and OGC API - Tiles\n\nImage or vector representation in tiles on a grid\n\n\nwms"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wcs-and-ogc-api---coverages",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wcs-and-ogc-api---coverages",
-    "title": "3.1 Data services",
-    "section": "WCS and OGC API - Coverages",
-    "text": "WCS and OGC API - Coverages\n\nGrid extracts and calculations\n\n\nwms"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#csw-ogc-api---records-and-stac",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#csw-ogc-api---records-and-stac",
-    "title": "3.1 Data services",
-    "section": "CSW, OGC API - Records and STAC",
-    "text": "CSW, OGC API - Records and STAC\n\nCatalogue records\nSTAC and OGC API - Records both based on OGC API - Features"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapserver",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapserver",
-    "title": "3.1 Data services",
-    "section": "Mapserver",
-    "text": "Mapserver\n\nRecent versions of Mapserver support the old and new standards\nFeatures and Maps\nNo tiles (mapproxy), No coverages yet\nNo records/stac, by design"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapfile",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapfile",
-    "title": "3.1 Data services",
-    "section": "Mapfile",
-    "text": "Mapfile\n\nConfiguration via a mapfile\nAll gdal formats supported\nCreate mapfiles using QGIS with geocat bridge\n\n\nwms"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sensorthings-api",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sensorthings-api",
-    "title": "3.1 Data services",
-    "section": "Sensorthings API",
-    "text": "Sensorthings API\n\nSoil profile data is observation oriented (iso28258)\nSensorthings API (STA) is an OGC specification for sensor data exchange\nFrost server is an implementation of STA\nLimited availability of clients for STA, Qgis has a STA plugin"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#cloud-optimised",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#cloud-optimised",
-    "title": "3.1 Data services",
-    "section": "Cloud optimised",
-    "text": "Cloud optimised\n\nRecent interest in cloud optimised and cloud native formats\nLarge data files are places in a cloud bucket, users request subsets of the file using range requests\nFor grids, Cloud Optimised GeoTiff (COG) and GeoZarr (cloud native)\nFor vector, GeoParquet"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sematic-web",
-    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sematic-web",
-    "title": "3.1 Data services",
-    "section": "Sematic web",
-    "text": "Sematic web\n\nTo integrate spatial data in the web of knowledge, semantic web standards are relevant\nDCAT for metadata\nGeoSPARQL to define geometries\nSOSA for sensor data\nGLOSIS Web Ontology is a soil ontology based on SOSA and GeoSPARQL\n\n\n\n\n\nWorkshop on effective spatial data management"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#github",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#github",
-    "title": "1.3 Tools",
-    "section": "Github",
-    "text": "Github\nService to facilitate co-creation\n\nversion history of contributions\nauthentication\nissue management\nrelease management\nContinuous integration\n\nRelated software; Git, Gitlab, Bitbucket, Codeberg"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#quarto",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#quarto",
-    "title": "1.3 Tools",
-    "section": "Quarto",
-    "text": "Quarto\nA content management system to create websites, documentation, slides, etc.\nRelated software; Hugo, mkdocs, Jekyll, Wordpress, Drupal"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pygeometa-geodatacrawler",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pygeometa-geodatacrawler",
-    "title": "1.3 Tools",
-    "section": "pygeometa / geodatacrawler",
-    "text": "pygeometa / geodatacrawler\nScripting libraries which support data management of a file repository\n\nGenerate metadata from existing data\nImport remote metadata\nIngest metadata from a file repository\nCreate mapservices (APIs) for existing data"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pycsw",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pycsw",
-    "title": "1.3 Tools",
-    "section": "pycsw",
-    "text": "pycsw\nA catalogue server application providing support for multiple metadata schemes and metadata exchange standards\nRelated products; GeoNetwork, CKAN, Dataverse"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#mapserver",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#mapserver",
-    "title": "1.3 Tools",
-    "section": "Mapserver",
-    "text": "Mapserver\nA server application providing OGC services (WMS, WFS, WCS) on various data formats\nRelated products; Geoserver, ArcGIS server, deegree, pygeoapi, QGIS server"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#terriajs",
-    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#terriajs",
-    "title": "1.3 Tools",
-    "section": "TerriaJS",
-    "text": "TerriaJS\nA WebGIS application including Leaflet library\ndemo\nRelated products; GeoNode, GeoMoose, MapBender, Oskari, GisQuick\n\n\n\n\nWorkshop on effective spatial data management"
-  },
-  {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.1-overview.html#agenda",
-    "href": "docs/developer/tutorial-data-management/slides/1.1-overview.html#agenda",
-    "title": "1.1 Training Overview",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nDay\nTopic\n\n\n\n\nDay 1\nFAIR principlesMetadata management\n\n\nDay 2\nMetadata publication\n\n\nDay 3\nData publicationQuality of Service\n\n\nDay 4\nCases\n\n\n\n\n\n\n\nWorkshop on effective spatial data management"
   },
   {
     "objectID": "docs/user/ows-in-qgis.html",
@@ -1354,179 +1347,200 @@
     "text": "Hub community\nThe heart of the knowledge hub. Here, you’ll find like-minded participants who share a passion for learning and knowledge exchange.\nJoin our diverse community of learners, experts, and enthusiasts to engage in discussions, share insights, and collaborate on soil fertility and soil water conservation topics. Explore, connect, contribute and make the hub grow.\nVisit community"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistent-identification",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistent-identification",
-    "title": "1.2 FAIR data",
-    "section": "Persistent identification",
-    "text": "Persistent identification\nPersistent identification, for continued findability\n\nConsider that a proper id can outlive a project (or organisation)\nChoice of domain and path (owned, authoritative, neutral, prevent names)\nSet up an identification proxy (doi.org/w3id.org)"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.1-overview.html#agenda",
+    "href": "docs/developer/tutorial-data-management/slides/1.1-overview.html#agenda",
+    "title": "1.1 Training Overview",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\nDay\nTopic\n\n\n\n\nDay 1\nFAIR principlesMetadata management\n\n\nDay 2\nMetadata publication\n\n\nDay 3\nData publicationQuality of Service\n\n\nDay 4\nCases"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#metadata",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#metadata",
-    "title": "1.2 FAIR data",
-    "section": "Metadata",
-    "text": "Metadata\n\nMetadata describes title, abstract, author of a resource\nFacilitate findability and understand if a resource is relevant\nCan organize resources in groups by tagging"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#github",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#github",
+    "title": "1.3 Tools",
+    "section": "Github",
+    "text": "Github\nService to facilitate co-creation\n\nversion history of contributions\nauthentication\nissue management\nrelease management\nContinuous integration\n\nRelated software; Git, Gitlab, Bitbucket, Codeberg"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#standards-for-metadata-exchange",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#standards-for-metadata-exchange",
-    "title": "1.2 FAIR data",
-    "section": "Standards for metadata exchange",
-    "text": "Standards for metadata exchange\n\nFacilitate the exchange of resources between communities\nProtocols to exchange metadata:\n\n\n\n\nCommunity\nStandard\nProtocol\n\n\n\n\nOpen data/Sematic web\nDCAT\nSPARQL\n\n\nScience\nDatacite\nOAI-PMH\n\n\nGeospatial\niso19115\nCSW\n\n\nEarth observation\nSTAC\nSTAC\n\n\nSearch engines\nSchema.org\njson-ld/microdata\n\n\nEcology\nEML"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#quarto",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#quarto",
+    "title": "1.3 Tools",
+    "section": "Quarto",
+    "text": "Quarto\nA content management system to create websites, documentation, slides, etc.\nRelated software; Hugo, mkdocs, Jekyll, Wordpress, Drupal"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#catalogue",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#catalogue",
-    "title": "1.2 FAIR data",
-    "section": "Catalogue",
-    "text": "Catalogue\n\nRecords are brought into a catalogue, where they can be searched and assessed\nCatalogues can exchange records to increase discoverability\nCatalogues can cross borders between communities by transforming metadata to relevant community standards and protocols"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pygeometa-geodatacrawler",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pygeometa-geodatacrawler",
+    "title": "1.3 Tools",
+    "section": "pygeometa / geodatacrawler",
+    "text": "pygeometa / geodatacrawler\nScripting libraries which support data management of a file repository\n\nGenerate metadata from existing data\nImport remote metadata\nIngest metadata from a file repository\nCreate mapservices (APIs) for existing data"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#search-engines",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#search-engines",
-    "title": "1.2 FAIR data",
-    "section": "Search engines",
-    "text": "Search engines\n\nSearch engines crawl the content of catalogues\nIf a catalogue supports schema.org annotations, the content can also be extracted in a structured way\nExample"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pycsw",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#pycsw",
+    "title": "1.3 Tools",
+    "section": "pycsw",
+    "text": "pycsw\nA catalogue server application providing support for multiple metadata schemes and metadata exchange standards\nRelated products; GeoNetwork, CKAN, Dataverse"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistence",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#persistence",
-    "title": "1.2 FAIR data",
-    "section": "Persistence",
-    "text": "Persistence\n\nMove the resource to a shared environment (backup)\nConsider a URL strategy\nUse a facade identifier (DOI)"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#mapserver",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#mapserver",
+    "title": "1.3 Tools",
+    "section": "Mapserver",
+    "text": "Mapserver\nA server application providing OGC services (WMS, WFS, WCS) on various data formats\nRelated products; Geoserver, ArcGIS server, deegree, pygeoapi, QGIS server"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#data-lifecycle",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#data-lifecycle",
-    "title": "1.2 FAIR data",
-    "section": "Data lifecycle",
-    "text": "Data lifecycle\n\nConsider upfront when to remove a resource (10 yrs?)\nWhat happens to the URI of a resource which is archived?\nMetadata should stay available, even if the data are no longer"
+    "objectID": "docs/developer/tutorial-data-management/slides/1.3-tools.html#terriajs",
+    "href": "docs/developer/tutorial-data-management/slides/1.3-tools.html#terriajs",
+    "title": "1.3 Tools",
+    "section": "TerriaJS",
+    "text": "TerriaJS\nA WebGIS application including Leaflet library\ndemo\nRelated products; GeoNode, GeoMoose, MapBender, Oskari, GisQuick"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#repository-software",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#repository-software",
-    "title": "1.2 FAIR data",
-    "section": "Repository software",
-    "text": "Repository software\n\nWebdav (or webserver software)\nZenodo, Dataverse\nDocument Management Systems (DMS)\nCloud storage (google drive, dropbox, Amazon, Sharepoint)"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#what-is-ogc",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#what-is-ogc",
+    "title": "3.1 Data services",
+    "section": "What is OGC?",
+    "text": "What is OGC?\n\nOpen Geospatial Consortium defines standards for the geospatial industry\nMembers are software companies, universities and government\nSuch as WMS, GML, OGCAPI, EPSG, GeoSPARQL\nRead more at https://opengeospatial.org"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#testing-tools",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#testing-tools",
-    "title": "1.2 FAIR data",
-    "section": "testing tools",
-    "text": "testing tools\n\nAutomated link checking\nUsage logs filter on status 404 & referer\nGoogle Search Console notifies broken links"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api",
+    "title": "3.1 Data services",
+    "section": "OWS vs OGC API",
+    "text": "OWS vs OGC API\n\nThe GML and OWS standards are defined on 20**\nSince then the internet moved away from xml\nin 2017 started spatial data on the web experiment with W3C, leading to OGC API\nCurrently under development\nBasic support in new and existing products\nThe browser as a tool to browse spatial data"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#universal-formats",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#universal-formats",
-    "title": "1.2 FAIR data",
-    "section": "Universal formats",
-    "text": "Universal formats\nFacilitates accessing a resource with commonly available tooling, or be refactored if a software is abandoned\n\nProprietary vs Open (eg. ecw vs tiff)\nDe facto vs Formalised (eg. YAML vs XML)\nBinary vs text based (eg. shapefile vs GeoJSON)\nCloud optimised vs Cloud native vs traditional (eg. COG vs GeoZarr vs GeoTiff)\nEmbedded metadata"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api-1",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#ows-vs-ogc-api-1",
+    "title": "3.1 Data services",
+    "section": "OWS vs OGC API",
+    "text": "OWS vs OGC API\n\nGML - GeoJSON (json-fg) & HTML\nLong querystrings - Rest api (path parameters)\nGetCapabilities - Open API Specification\nFormat=xxx - Content negotiation (accept:text/html)\nFull featured - Minimal standard with extensions"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#adopt-common-vocabularies",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#adopt-common-vocabularies",
-    "title": "1.2 FAIR data",
-    "section": "Adopt common vocabularies",
-    "text": "Adopt common vocabularies\nAdopting a standardised model enables aggregation of data.\n\nRelational models\nUML/GML models\nSemantic web ontologies"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wfs-and-ogc-api---features",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wfs-and-ogc-api---features",
+    "title": "3.1 Data services",
+    "section": "WFS and OGC API - Features",
+    "text": "WFS and OGC API - Features\n\nProvides access to vector features.\nFilter, sorting and pagination options\n\n\nwms"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/1.2-fair.html#relevant-vocabularies",
-    "href": "docs/developer/tutorial-data-management/slides/1.2-fair.html#relevant-vocabularies",
-    "title": "1.2 FAIR data",
-    "section": "Relevant vocabularies",
-    "text": "Relevant vocabularies\n\nISO28258 / INSPIRE / GLOSIS Web Ontology\nAgrovoc\nWRB / FAO Soil Classification Guidelines"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wms-and-ogc-api---maps",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wms-and-ogc-api---maps",
+    "title": "3.1 Data services",
+    "section": "WMS and OGC API - Maps",
+    "text": "WMS and OGC API - Maps\n\nImage rendering of subsets of the data using some styling rules\n\n\nwms"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#organisations-organise-their-data-in-file-repositories-or-databases",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#organisations-organise-their-data-in-file-repositories-or-databases",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "Organisations organise their data in file repositories or databases",
-    "text": "Organisations organise their data in file repositories or databases\n\nFile hierarchy"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wmts-tms-and-ogc-api---tiles",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wmts-tms-and-ogc-api---tiles",
+    "title": "3.1 Data services",
+    "section": "WMTS, TMS and OGC API - Tiles",
+    "text": "WMTS, TMS and OGC API - Tiles\n\nImage or vector representation in tiles on a grid\n\n\nwms"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#a-readme-in-each-folder",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#a-readme-in-each-folder",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "A readme in each folder",
-    "text": "A readme in each folder\n\nAdd a readme to describe the resources in a folder\nWhy not structure the content in the readme, so also machines can read it?"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wcs-and-ogc-api---coverages",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#wcs-and-ogc-api---coverages",
+    "title": "3.1 Data services",
+    "section": "WCS and OGC API - Coverages",
+    "text": "WCS and OGC API - Coverages\n\nGrid extracts and calculations\n\n\nwms"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#metadata-control-file",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#metadata-control-file",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "Metadata Control File",
-    "text": "Metadata Control File\n\nA convention of the pygeometa community (Meteo Canada)\nYAML, easy to read by humans and machines\nA subset of the ISO19115 standard for metadata\n\n\nMCF"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#csw-ogc-api---records-and-stac",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#csw-ogc-api---records-and-stac",
+    "title": "3.1 Data services",
+    "section": "CSW, OGC API - Records and STAC",
+    "text": "CSW, OGC API - Records and STAC\n\nCatalogue records\nSTAC and OGC API - Records both based on OGC API - Features"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pygeometa-library",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pygeometa-library",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "pygeometa library",
-    "text": "pygeometa library\n\na library to work with MCF\nexports MCF to various metadata models (iso, dcat, stac)\nhttps://github.com/geopython/pygeometa"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapserver",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapserver",
+    "title": "3.1 Data services",
+    "section": "Mapserver",
+    "text": "Mapserver\n\nRecent versions of Mapserver support the old and new standards\nFeatures and Maps\nNo tiles (mapproxy), No coverages yet\nNo records/stac, by design"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#the-geodatacrawler-tool",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#the-geodatacrawler-tool",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "The geodatacrawler tool",
-    "text": "The geodatacrawler tool\n\nDeveloped at ISRIC in the last year\nOn the shoulders of giants; GDAL, pygeometa, pandas\nGenerates MCF files for a file repository\nImports metadata from external sources\nExtracts MCF files from a repository to load it into a catalogue\nCreates map services configuration for files in the repository"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapfile",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#mapfile",
+    "title": "3.1 Data services",
+    "section": "Mapfile",
+    "text": "Mapfile\n\nConfiguration via a mapfile\nAll gdal formats supported\nCreate mapfiles using QGIS with geocat bridge\n\n\nwms"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pycsw-catalogue",
-    "href": "docs/developer/tutorial-data-management/slides/2.1-collect-publish-metadata.html#pycsw-catalogue",
-    "title": "2.1 Collect and Publish metadata",
-    "section": "pycsw catalogue",
-    "text": "pycsw catalogue\n\nA catalogue implementation in python\nLimited funtionality, easy maintenance\nWide range of supported catalogue standards, serves many communities\nDatabase backend\nSkin customisable with jinja templates\n\n\n\n\n\nWorkshop on effective spatial data management"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sensorthings-api",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sensorthings-api",
+    "title": "3.1 Data services",
+    "section": "Sensorthings API",
+    "text": "Sensorthings API\n\nSoil profile data is observation oriented (iso28258)\nSensorthings API (STA) is an OGC specification for sensor data exchange\nFrost server is an implementation of STA\nLimited availability of clients for STA, Qgis has a STA plugin"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#service-quality",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#service-quality",
-    "title": "3.2 Service Quality",
-    "section": "Service quality",
-    "text": "Service quality\n\nMonitor the quality of data services is a driver for improvement\nCreate a monthly report with various statistics"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#cloud-optimised",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#cloud-optimised",
+    "title": "3.1 Data services",
+    "section": "Cloud optimised",
+    "text": "Cloud optimised\n\nRecent interest in cloud optimised and cloud native formats\nLarge data files are places in a cloud bucket, users request subsets of the file using range requests\nFor grids, Cloud Optimised GeoTiff (COG) and GeoZarr (cloud native)\nFor vector, GeoParquet"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#usage",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#usage",
-    "title": "3.2 Service Quality",
-    "section": "Usage",
-    "text": "Usage\n\nAggregate and display access logs\nHow are people using the services\nWhich aspects are popular\nWhich components have a bad performance"
+    "objectID": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sematic-web",
+    "href": "docs/developer/tutorial-data-management/slides/3.1-ogc-data-services.html#sematic-web",
+    "title": "3.1 Data services",
+    "section": "Sematic web",
+    "text": "Sematic web\n\nTo integrate spatial data in the web of knowledge, semantic web standards are relevant\nDCAT for metadata\nGeoSPARQL to define geometries\nSOSA for sensor data\nGLOSIS Web Ontology is a soil ontology based on SOSA and GeoSPARQL"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#availability",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#availability",
-    "title": "3.2 Service Quality",
-    "section": "Availability",
-    "text": "Availability\n\nHow often are our services available\nReceive a notification if a service is not available"
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#history",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#history",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "History",
+    "text": "History\nVarious efforts have been made to harmonise Soil Profile data\n\nGlobalSoilMap\ne-SOTER\nISO28258\nGLOSIS Web ontology"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#complience",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#complience",
-    "title": "3.2 Service Quality",
-    "section": "Complience",
-    "text": "Complience\n\nDo services comply with the indicated standards (wms, wfs)"
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#e-soter",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#e-soter",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "e-SOTER",
+    "text": "e-SOTER\n\nRelational database model, usually in Microsoft Access\nKenya\nSouthern Africa\nSenegal and Gambia"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#security-incidents-log",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#security-incidents-log",
-    "title": "3.2 Service Quality",
-    "section": "Security incidents log",
-    "text": "Security incidents log\n\nFraudulent email received\nMany requests from certain IP\nLow quality password detected\nBackup restored due to failing disk"
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#ken-soter",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#ken-soter",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "KEN-SOTER",
+    "text": "KEN-SOTER\n\n\n\n\n\nKEN SOTER map\n\n\n\n\n\n\nKEN SOTER model"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#search-engine-optimisation-sso",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#search-engine-optimisation-sso",
-    "title": "3.2 Service Quality",
-    "section": "Search engine optimisation (SSO)",
-    "text": "Search engine optimisation (SSO)\n\nCan users find our materials on Search Engines?\nGoogle/Bing offers a SSO Console where you can view crawling and usage statistics"
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "ISO28258",
+    "text": "ISO28258\n\n\n\nISO28258 is based on Observations and measurements\nevery field observation and laboratory analysis as a sensor observation\n\n\n\n\n\nO&M model"
   },
   {
-    "objectID": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#tools",
-    "href": "docs/developer/tutorial-data-management/slides/3.2-service-quality.html#tools",
-    "title": "3.2 Service Quality",
-    "section": "Tools",
-    "text": "Tools\n\nCheck local IT to understand which tools are offered\nGeohealthcheck is a tool to check availability and complience\nAWStats is a basic tool to evaluate access logs\npingdom & uptimerobot are saas providers offering availability testing\n\n\n\n\n\nWorkshop on effective spatial data management"
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-in-gml",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-in-gml",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "ISO28258 in GML",
+    "text": "ISO28258 in GML\n\nSerialisation of ISO28258 in GML (app schema)\nQuite complex implementation and low support in tooling\nINSPIRE Soil (Europe)\n\nANZSoilML (Australia)\nAlternative is a serialisation in JSON using Sensorthings API."
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-as-relational-database",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#iso28258-as-relational-database",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "ISO28258 as relational database",
+    "text": "ISO28258 as relational database\n\nA relational model is available according to ISO28258\nEither as PostGreSQL or GeoPackage (SQLite)\nRead more at https://iso28258.isric.org"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#glosis-web-ontology",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#glosis-web-ontology",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "GLOSIS Web Ontology",
+    "text": "GLOSIS Web Ontology\n\nGLOSIS Web Ontology has expressed ISO28258 using common web ontologys (SOSA, VCARD)\nIncludes codelists for soil properties and procedures"
+  },
+  {
+    "objectID": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#harmonisation-of-field-lab-and-legacy-data",
+    "href": "docs/developer/tutorial-data-management/slides/4.1-soil-profile-data-management.html#harmonisation-of-field-lab-and-legacy-data",
+    "title": "4.1 Soil Profile Datamanagement",
+    "section": "Harmonisation of field, lab and legacy data",
+    "text": "Harmonisation of field, lab and legacy data\n\nUse common codelists to identify properties, methods, units\nHale Studio and FME are tools for data harmonisation\nAlso SQL scripts are often used to harmonise data\nSemantic web community offers harmonisation tools (rml, tarql, csv-ld)"
   },
   {
     "objectID": "filters/page-section/example.html",
@@ -1541,19 +1555,5 @@
     "title": "Page-section Example",
     "section": "Options",
     "text": "Options\n\nhas_bg_color (boolean): adds a background color, e.g. has_bg_color=true\nsection_name (string): adds a CSS class to the page-section and page-section-content div."
-  },
-  {
-    "objectID": "shortcodes/icon-link/example.html",
-    "href": "shortcodes/icon-link/example.html",
-    "title": "Icon-link Example",
-    "section": "",
-    "text": "The icon-link shortcode accepts the following parameters:"
-  },
-  {
-    "objectID": "shortcodes/icon-link/example.html#examples",
-    "href": "shortcodes/icon-link/example.html#examples",
-    "title": "Icon-link Example",
-    "section": "Examples",
-    "text": "Examples\n\nBootstrap icon\nThis shortcode:\n{{&lt; icon-link title=\"Visit this website\" icon_library=\"bootstrap\" icon=\"box-arrow-up-right\" link=\"https://www.lsc-hubs.org\" &gt;}}\nrenders to:\n\n        \n        \n          Visit this website\n        \n      \n\n\nLSC icon\nThis shortcode:\n{{&lt; icon-link title=\"Land\" icon_library=\"lsc\" icon=\"land\" link=\"https://www.lsc-hubs.org\" link_classes=\"link-dark\" &gt;}}\nrenders to:\n\n        \n        \n          Land"
   }
 ]
