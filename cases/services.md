@@ -38,6 +38,13 @@ The LSC Catalogue includes a range of information services.
 
 ::::
 
+![](../img/detailed-examination.svg)
+![](../img/logo-ministry-of-foreign-affairs.svg)
+![](../img/logo-eu.svg)
+![](../img/logo-desira.svg)
+![](../img/logo.svg)
+![](../img/logo-isric.svg)
+![](../img/favicon.svg)
 
 ---
 
